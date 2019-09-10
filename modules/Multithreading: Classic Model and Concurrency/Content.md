@@ -12,7 +12,7 @@ Documentation: 
 [En] <https://docs.oracle.com/javase/tutorial/essential/concurrency/> 
 
 
-Reading: 
+References: 
 =======================
 
 [[Ru] JMM от Шипилева](https://shipilev.net/blog/2014/jmm-pragmatics/) 
