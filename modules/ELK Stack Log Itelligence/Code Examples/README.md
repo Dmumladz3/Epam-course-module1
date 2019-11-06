@@ -1,6 +1,6 @@
 # ELK Stack Log Intelligence Practical Task Solution
 
-Task description : [PRACTICAL_TASK.md](./PRACTICAL_TASK.md)
+Task description : [PRACTICAL_TASK.md](PRACTICAL_TASK.md)
 
 ### Prerequisites
 | Artifact  | Version  | Location  |
