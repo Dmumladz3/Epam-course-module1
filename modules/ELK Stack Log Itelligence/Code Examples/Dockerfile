@@ -21,6 +21,6 @@ WORKDIR $SERVICE_LOCATION
 
 RUN cd $SERVICE_LOCATION
 
-ADD event-service-rest/target/event-service-rest-8.0.0-SNAPSHOT.jar $SERVICE_LOCATION
+ADD event-service-rest $SERVICE_LOCATION
 
 ENTRYPOINT ["java", "-jar", "event-service-rest-8.0.0-SNAPSHOT.jar"]
