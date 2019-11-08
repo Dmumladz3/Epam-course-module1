@@ -1,0 +1,12 @@
+/.idea
+.vagrant/
+*.iml
+*.pyc
+*.retry
+*.jar
+*.war
+*.db
+target/
+.settings/
+.classpath
+.project
