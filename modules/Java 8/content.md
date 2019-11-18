@@ -12,8 +12,13 @@ Documentation: 
 
 Additional EPAM Content: 
 =======================
-[[RU] Java 8 New Features](https://videoportal.epam.com/video/Lo95v5oD
+[[RU] Java 8 New Features](https://videoportal.epam.com/video/Lo95v5oD)
 
+
+Additional Advanced Content: 
+=======================
+[[RU] Тагир Валеев — Stream API: рекомендации лучших собаководов](https://www.youtube.com/watch?v=vxikpWnnnCU)
+[[RU] Тагир Валеев — Странности Stream API](https://www.youtube.com/watch?v=TPHMyVyktsw)
 
 Books: 
 =======================
