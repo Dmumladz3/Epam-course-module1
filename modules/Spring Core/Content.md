@@ -1,4 +1,4 @@
-Lectures: 
+**Lectures:** 
 =======================
 
 
@@ -6,7 +6,7 @@ Lectures: 
 
 
 
-**Code Examples / Workshop: **
+**Code Examples / Workshop:**
 =======================
 
 
@@ -33,7 +33,7 @@ Sites:
 [Spring Reference](https://docs.spring.io/spring/docs/4.0.x/spring-framework-reference/html/)
 [Spring Logging](https://docs.spring.io/spring/docs/3.0.x/spring-framework-reference/htmlsingle/spring-framework-reference.html#d0e743)
 
-**Additional links to conference presentation or popular education videos: **
+**Additional links to conference presentation or popular education videos:**
 =======================
 [Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-Springintroduction)
 
