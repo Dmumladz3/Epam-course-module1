@@ -2,7 +2,7 @@
 =======================
 
 
-* [Introduce to Spring:] (https://videoportal.epam.com/video/ERrGvWJ4) 
+* [Introduce to Spring](https://videoportal.epam.com/video/ERrGvWJ4) 
 
 
 
