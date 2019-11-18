@@ -1,16 +1,15 @@
-Spring Introduction
+**Spring Introduction**
 
 Create Spring based module, which handles event tickets booking.
 
 Based on attached source code model:
 
-1. Implement three service classes
 
-· UserService
+1. Implement thre e service classes
 
-· EventService
-
-· TicketService
+* UserService
+* EventService
+* TicketService
 
 which should contain user, event and booking related functionality accordingly. Create implementation of BookingFacade interface which should delegate method calls to services mentioned above. (1 point)
 
