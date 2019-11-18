@@ -28,12 +28,13 @@ Documentation: 
 * Pro Spring (Harrop Rob, Ho Clarence)
 
 
-Sites:
-[Inversion of Control](https://martinfowler.com/articles/injection.html)
-[Spring Reference](https://docs.spring.io/spring/docs/4.0.x/spring-framework-reference/html/)
-[Spring Logging](https://docs.spring.io/spring/docs/3.0.x/spring-framework-reference/htmlsingle/spring-framework-reference.html#d0e743)
+**Sites:**
+
+* [Inversion of Control](https://martinfowler.com/articles/injection.html)
+* [Spring Reference](https://docs.spring.io/spring/docs/4.0.x/spring-framework-reference/html/)
+* [Spring Logging](https://docs.spring.io/spring/docs/3.0.x/spring-framework-reference/htmlsingle/spring-framework-reference.html#d0e743)
 
 **Additional links to conference presentation or popular education videos:**
 =======================
-[Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-Springintroduction)
+* [Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-Springintroduction)
 
