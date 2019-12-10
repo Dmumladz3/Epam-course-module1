@@ -1,4 +1,4 @@
-This document contains homework tasks for module `Multithreading: Classic Model and Concurrency`.
+This document contains homework tasks for module `Multithreading and Concurrency`.
 
 
 

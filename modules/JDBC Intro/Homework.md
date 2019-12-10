@@ -1,4 +1,4 @@
-This document contains homework tasks for `JDBC Advanced Techniques (+ Spring JDBC)`.
+This document contains homework tasks for `JDBC Intro`.
 
 
 Task 1 - JDBC-based Social Network
