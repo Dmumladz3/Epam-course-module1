@@ -1,3 +1,2 @@
-Maksym Oleshchuk
-Oleksandr Ponikarov
 Viacheslav Kolbasin
+Dmytro Mikhieiev

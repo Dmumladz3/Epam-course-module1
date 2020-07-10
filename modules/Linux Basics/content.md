@@ -4,6 +4,8 @@ Lectures: 
 * [[RU] Linux fudamentals 2/3](https://videoportal.epam.com/video/na2kekoY)
 * [[RU] Linux fudamentals 3/3](https://videoportal.epam.com/video/VRg39GR2)
 
+Course Links 
+* [Learning Linux Command Line] (https://learn.epam.com/detailsPage?id=68551049-e80d-4b6f-88e9-53503244fe7b)
 
 Documentation: 
 =======================
@@ -12,6 +14,7 @@ Documentation: 
 * [[En] Must Know Linux Commands For Java Developers](http://www.techpages.org/java/linux-commands-java/2729/)
 * [[En] UNIX / LINUX Tutorial](http://www.tutorialspoint.com/unix/)
 * [[En] Linux Tutorial](https://ryanstutorials.net/linuxtutorial/)
+* [[En]Ryans Linux Tutorial](https://ryanstutorials.net/linuxtutorial/) 
 
 
 Additional Content: 
@@ -28,3 +31,4 @@ Books: 
 * Командная строка Linux. Уильям Шоттс.
 * Ubuntu и Debian Linux для продвинутых. Кристофер Негус, Франсуа Каэн.
 * Linux from Scratch. Gerard Beekmans
+* Linux. Установка, настройка, администрирование (М. Кофлер) 
