@@ -1,8 +1,10 @@
 **Lectures:** 
 =======================
 
-
-* [Spring WEB](https://videoportal.epam.com/video/Koeg8yJq) 
+** Course Links** 
+=======================
+* [Spring MVC](https://learn.epam.com/detailsPage?id=ad8811ba-d538-45f9-825e-0d5ffa6cc66a) 
+* [Testing](https://learn.epam.com/detailsPage?id=4e3bf752-9800-4cd1-a36f-34bf61799ad8) 
 
 
 
@@ -23,19 +25,20 @@ Documentation: 
 
 **Books**
 
-* Spring in Action, Fourth Edition (Craig Walls)
+* Spring in Action, Fifth Edition (Craig Walls)
 * Spring in Practice (Willie Wheeler, Joshua White)
 * Pro Spring (Harrop Rob, Ho Clarence)
-
+* Getting started with Spring Framework: a hands-on guide to begin developing applications using Spring Framework 3rd Edition (J Sharma, Ashish Sarin)
+* Just Spring: A Lightweight Introduction to the Spring Framework (Madhusudhan Konda) 
 
 **Sites:**
 
-* [Spring MVC Reference](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
-* [Exception handling in Spring MVC](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
-* [Spring MVC articles](http://www.javacodebook.com/category/spring/spring-mvc/)
-* [Apache Velocity Intro](https://www.javaworld.com/article/2075966/core-java/start-up-the-velocity-template-engine.html)
-
+* [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc) 
+* [Marshalling XML](https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#oxm) 
+* [Exception handling in Spring MVC](https://www.baeldung.com/exception-handling-for-rest-with-spring, https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc) 
+* [Spring Integration Testing](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#testing)
+  
 **Additional links to conference presentation or popular education videos:**
 =======================
-* [Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-SpringWEB)
+
 

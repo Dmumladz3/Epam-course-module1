@@ -1,19 +1,21 @@
 **Lectures:** 
+
+**Lectures:** 
 =======================
 
-
-* [Introduce to Spring](https://videoportal.epam.com/video/ERrGvWJ4) 
-
+** Course Links** 
+=======================
+* [Spring core](https://www.linkedin.com/learning/spring-framework-in-depth-2/building-blocks-of-spring?u=2113185) 
+* [New in Spring 5.0](https://learn.epam.com/detailsPage?id=1a5d6b23-b4b9-4942-bf64-a8e758d3ef01) 
+* [Testing](https://learn.epam.com/detailsPage?id=4e3bf752-9800-4cd1-a36f-34bf61799ad8) 
 
 
 **Code Examples / Workshop:**
 =======================
 
 
-
 Documentation: 
 =======================
-
 
 
 
@@ -23,18 +25,25 @@ Documentation: 
 
 **Books**
 
-* Spring in Action, Fourth Edition (Craig Walls)
+* Spring in Action, Fifth Edition (Craig Walls)
 * Spring in Practice (Willie Wheeler, Joshua White)
 * Pro Spring (Harrop Rob, Ho Clarence)
-
+* Getting started with Spring Framework: a hands-on guide to begin developing applications using Spring Framework 3rd Edition (J Sharma, Ashish Sarin)
+* Just Spring: A Lightweight Introduction to the Spring Framework (Madhusudhan Konda) 
 
 **Sites:**
 
-* [Inversion of Control](https://martinfowler.com/articles/injection.html)
-* [Spring Reference](https://docs.spring.io/spring/docs/4.0.x/spring-framework-reference/html/)
-* [Spring Logging](https://docs.spring.io/spring/docs/3.0.x/spring-framework-reference/htmlsingle/spring-framework-reference.html#d0e743)
+* [Core Technologies](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#spring-core) 
+* [Inversion of Control and Dependency Injection] (https://martinfowler.com/articles/injection.html) 
+* [Testing](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#testing) 
+* [Logging](https://docs.spring.io/spring/docs/5.0.0.RC3/spring-framework-reference/overview.html#overview-logging) 
+* [Logging tutorial](https://www.tutorialspoint.com/spring/logging_with_log4j.htm) 
 
 **Additional links to conference presentation or popular education videos:**
 =======================
-* [Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-Springintroduction)
 
+
+ 
+
+
+    

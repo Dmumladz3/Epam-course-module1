@@ -1,0 +1,106 @@
+1 GIT Advanced 
+
+1.1 Pulling commits from the middle of git history. For this task you need your Groovy calculator task. Please clone it to your current branch. 
+
+1.1.1 Checkout to branch “task${number}-feature”. 
+
+1.1.2 Add these features to your calculator sequentially in different commits: 
+
+1.1.2.1 Support large numbers in math operations (use BigInteger instead of Integer/int type) 
+
+1.1.2.2 Add Intermediate logging of math operation results. 
+Example of console output for “2+2*(5-7)”: 
+5-7=-2 
+2*(-2)=-4 
+2+(-4)=-2 
+result: -2 
+
+1.1.3 Now let’s imagine that customer wants changes regarding allowing large number (BigInteger support) in nearest patch. Try to pull these changes to the main branch of this task “task${number}” using git cherry-pick and git rebase commands. 
+
+1.2 Investigate changes in files in GIT repository by git blame command. 
+
+1.3 Max mark for this part – 2 points 
+
+1.4 Extra mile: 1 point  
+
+1.4.1 Git hooks 
+
+1.4.1.1 Specify template of commit message and provide it for developer. 
+
+1.4.1.2 Check that build of new version is successful before committing changes. 
+
+1.4.1.3 Before pushing change to remote repository – check that there are no uncommitted changes. 
+
+1.4.2 Copy task folder to brand new repository with saving git history 
+
+2.CI/CD using Jenkins Home Work 
+
+2.1 Setup Jenkins locally 
+
+2.2 For CI/CD you should use project from build tools home work 
+
+2.3 Use names for job described in brackets (name: $nameOfJob) 
+
+2.4 Create build job (name: release) - 0.5 points 
+
+2.4.1 Should build when SCM has changes 
+
+2.4.2 Job should be parameterized with maven or grade (user should be able to choose it in job parameter) 
+
+2.4.3 Use promotion plugin. Should be available two promo stars 
+
+2.4.3.1 First stars should be applied automatically to successful build (QA) 
+
+        2.4.3.2 Second stars should be applied manually (Prod) 
+
+   2.5 Create continuous Job (name: continuous) - 0.5 points 
+
+2.5.1 Should build every night at 2:00 AM 
+
+   2.6 Create Deploy Job (name: deploy) - 0.5 points 
+
+ 2.6.1 Should be parameterized with artifacts prompted with QA star 
+
+2.6.2 Use Container Deploy plugin 
+
+2.7 Setup machine on cloud.epam.com - 0.5 points 
+
+2.7.1 Setup additional user for Jenkins 
+
+2.7.2.    Setup tomcat 
+
+2.7.3.    Setup cloud machine as slave on Jenkins 
+
+2.8. Create deploy job (name: deploy_cloud) - 0.5 points 
+
+2.8.1.    Should deploy on cloud machine 
+
+2.8.2.    Should be parameterized with artifacts promoted with Prod star 
+
+2.8.3.    Use Container Deploy plugin 
+
+2.9. Create PipeLine (delivery_pipeline) - 0.5 points 
+
+2.9.1.    Job should be parameterized with maven or gradle (user should be able to choose it in job parameter) 
+
+2.9.2.    Step Build according to parameter (release) 
+
+2.9.3.    Step Deploy on test (deploy job)  
+
+2.9.4.    Check using curl that deployment is successful (https://curl.haxx.se/download.html) if deployment is successful deploy on cloud (deploy_cloud) 
+
+ 2.10. Extra mile: 1 point 
+
+2.10.1. Customize version generation in following way 
+
+2.10.1.1. Running Build job should increment minorVersion in GIT after successful build. 
+
+2.10.1.2. Use Git tags for each version. 
+
+2.10.1.3. Configure job to check if version should be incremented (e.g. changes in source/test code presented after last increment) 
+
+2.10.2. Send email notification about failed builds/deploys to you and your mentor. Email notification should have a link to this failed Jenkins job; 
+
+ 
+
+Total mark is 7.    5 points for regular homework and 2 points for extra mile. 
