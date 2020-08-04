@@ -6,5 +6,5 @@ public class Quarterly implements Membership {
 	public void payment() {
 		System.out.println("Quarterly membership fee will be 200$");
 	}
-	
+
 }
