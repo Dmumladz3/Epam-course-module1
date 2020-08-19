@@ -1,18 +1,18 @@
-Module description: 
+Module description:  [Required]
 =======================
 <!--- Short module overview. -->
 
 
-Module agenda:
+Module agenda:  [Required]
 =======================
 <!--- What main topics will be covered/learned in module -->
 
 
-Courses: 
+Courses:  [Either Courses or Videos is Required]
 =======================
 
 
-Videos: 
+Videos: [Either Courses or Videos is Required]
 =======================
 
 
@@ -25,10 +25,10 @@ Code Examples / Workshop: 
 Documentation: 
 =======================
 
-Books: 
+Books: [Required]
 =======================
 
-References: 
+References:  [Required]
 =======================
 
 
