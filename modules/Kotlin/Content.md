@@ -1,38 +1,39 @@
-Module description:  [Required]
+Module description: 
 =======================
-TBD
+This module is intended for learning the Kotlin programming language.
+Kotlin documentation always contains up-to-date information regarding
+the language, is well structured and self-sufficient for learning Kotlin,
+therefore the agenda consists of links to official documentation.
 
 
-Module agenda:  [Required]
+Module agenda:
 =======================
-TBD
-
-
-Courses:
-=======================
-- Coursera [Kotlin for Java developers](https://www.coursera.org/learn/kotlin-for-java-developers).
-- Coursera [Basic Kotlin on russian](https://www.coursera.org/learn/vvedenie-v-yazyk-kotlin).
-
-Videos:
-=======================
-
-
-
-Code Examples / Workshop: 
-=======================
-
+- [Basics](https://kotlinlang.org/docs/reference/basic-types.html)
+- [Classes & Objects](https://kotlinlang.org/docs/reference/classes.html)
+- [Functions & Lambdas](https://kotlinlang.org/docs/reference/functions.html)
+- [Collections](https://kotlinlang.org/docs/reference/collections-overview.html)
+- [More language constructs](https://kotlinlang.org/docs/reference/multi-declarations.html)
+- [FAQ](https://kotlinlang.org/docs/reference/faq.html)
+- [Comparison to Java (for Java Devs)](https://kotlinlang.org/docs/reference/comparison-to-java.html)
 
 
 Documentation: 
 =======================
 - [JetBrains Kotlin documentation](https://kotlinlang.org/docs/reference/) - Official docs and references.
-- [Spek](https://www.spekframework.org/) - Kotlin test framework
 
-Books:
-=======================
-- Alexey Soshin "Hands-on Design patterns with Kotlin"
-- Dmitry Jemerov and Svetlana Isakova "Kotlin in Action"
 
-Additional links to conference presentation or popular education videos: 
+Useful information/links: 
 =======================
-- [KotlinConf Puzzlers talk](https://youtu.be/_AM5VbPTKeg?list=PLQ176FUIyIUY6SKGl3Cj9yeYibBuRr3Hl)
+**Books**
+- [EN] Alexey Soshin "Hands-on Design patterns with Kotlin"
+- [EN] Dmitry Jemerov and Svetlana Isakova "Kotlin in Action"
+
+**Courses**
+- [[EN] Kotlin for Java developers](https://www.coursera.org/learn/kotlin-for-java-developers).
+- [[RU] Basic Kotlin](https://www.coursera.org/learn/vvedenie-v-yazyk-kotlin).
+
+**Video**
+- [[EN] KotlinConf Puzzlers talk](https://youtu.be/_AM5VbPTKeg?list=PLQ176FUIyIUY6SKGl3Cj9yeYibBuRr3Hl)
+
+**Practice**
+- [Kotlin koans](https://play.kotlinlang.org/koans/overview)
