@@ -1,3 +1,18 @@
+Module description:
+=======================
+
+This module provides a basic understanding of UNIX-based systems mainly focusing on practical tasks
+which would be most likely encountered by any Linux novice right at the beginning
+
+Module agenda:
+=======================
+
+After completing the module the following knowledge is expected to occur:
+- display system information like current path, date, time, etc.
+- create, rename, move, delete files and directories via terminal
+- manage users, security groups, file permissions
+- analyze CPU and memory usage
+
 Lectures: 
 =======================
 * [[RU] Linux fudamentals 1/3](https://videoportal.epam.com/video/PJ6rKLJX)
@@ -5,6 +20,7 @@ Lectures: 
 * [[RU] Linux fudamentals 3/3](https://videoportal.epam.com/video/VRg39GR2)
 
 Course Links 
+=======================
 * [Learning Linux Command Line] (https://learn.epam.com/detailsPage?id=68551049-e80d-4b6f-88e9-53503244fe7b)
 
 Documentation: 
@@ -13,7 +29,6 @@ Documentation: 
 * [[En] 30 Essential Linux Basic Commands You Must Know](https://www.fromdev.com/2013/06/linux-basic-commands.html)
 * [[En] Must Know Linux Commands For Java Developers](http://www.techpages.org/java/linux-commands-java/2729/)
 * [[En] UNIX / LINUX Tutorial](http://www.tutorialspoint.com/unix/)
-* [[En] Linux Tutorial](https://ryanstutorials.net/linuxtutorial/)
 * [[En]Ryans Linux Tutorial](https://ryanstutorials.net/linuxtutorial/) 
 
 
