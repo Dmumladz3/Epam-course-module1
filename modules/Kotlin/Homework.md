@@ -19,7 +19,7 @@ Extra mile:
 
 or
 
-* Use Kotest test framework – 2
+* Use Spek test framework – 2
 
 *Max mark is 14*
 
