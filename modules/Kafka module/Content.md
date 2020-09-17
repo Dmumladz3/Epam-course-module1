@@ -8,31 +8,26 @@ Module agenda:  [Required]
 <!--- What main topics will be covered/learned in module -->
 
 
-Courses:  [Either Courses or Videos is Required]
+Courses:  
 =======================
 
 [Learn Apache Kafka for Beginners] https://www.linkedin.com/learning/learn-apache-kafka-for-beginners/intro-to-apache-kafka
 
-Videos: [Either Courses or Videos is Required]
+Videos:
 =======================
 
-
-
-Code Examples / Workshop: 
-=======================
-
-
+[Apache Kafka vs. Integration Middleware (MQ, ETL, ESB) - Friends, Enemies or Frenemies?] https://www.youtube.com/watch?v=6yG2myKcMQE
 
 Documentation: 
 =======================
+[The Apache Software Foundation]
+https://kafka.apache.org/documentation/
 
-Books: [Required]
+Books: 
 =======================
+
+https://kafka.apache.org/books-and-papers
 
 References:  [Required]
 =======================
 
-
-
-Additional links to conference presentation or popular education videos: 
-=======================
