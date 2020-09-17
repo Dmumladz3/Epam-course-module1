@@ -18,16 +18,6 @@ After completing the module the following knowledge is expected to occur:
 - Starting Kafka using binaries, Docker, and remote machines
 
 
-Courses:  
-=======================
-
-[Learn Apache Kafka for Beginners] https://www.linkedin.com/learning/learn-apache-kafka-for-beginners/intro-to-apache-kafka
-
-[Testing Kafka based applications] https://medium.com/test-kafka-based-applications/https-medium-com-testing-kafka-based-applications-85d8951cec43
-
-[Spring Boot and Kafka – Practical Example] https://thepracticaldeveloper.com/spring-boot-kafka-config/
-
-
 Videos:
 =======================
 
