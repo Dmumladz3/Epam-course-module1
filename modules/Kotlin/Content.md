@@ -5,8 +5,7 @@ Kotlin documentation always contains up-to-date information regarding
 the language, is well structured and self-sufficient for learning Kotlin,
 therefore the agenda consists of links to official documentation.
 
-
-Module agenda:
+Module agenda: 
 =======================
 - [Basics](https://kotlinlang.org/docs/reference/basic-types.html)
 - [Classes & Objects](https://kotlinlang.org/docs/reference/classes.html)
@@ -16,14 +15,16 @@ Module agenda:
 - [FAQ](https://kotlinlang.org/docs/reference/faq.html)
 - [Comparison to Java (for Java Devs)](https://kotlinlang.org/docs/reference/comparison-to-java.html)
 
-
-Documentation: 
+Practice work: 
 =======================
-- [JetBrains Kotlin documentation](https://kotlinlang.org/docs/reference/) - Official docs and references.
-
+1. [Homework](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/blob/master/modules/Kotlin/Homework.md)
+2. [[EN] Kotlin koans](https://play.kotlinlang.org/koans/overview) - self check
 
 Useful information/links: 
 =======================
+**Documentation**
+- [[EN] JetBrains Kotlin documentation](https://kotlinlang.org/docs/reference/) - Official docs and references.
+
 **Books**
 - [EN] Alexey Soshin "Hands-on Design patterns with Kotlin"
 - [EN] Dmitry Jemerov and Svetlana Isakova "Kotlin in Action"
@@ -34,6 +35,3 @@ Useful information/links: 
 
 **Video**
 - [[EN] KotlinConf Puzzlers talk](https://youtu.be/_AM5VbPTKeg?list=PLQ176FUIyIUY6SKGl3Cj9yeYibBuRr3Hl)
-
-**Practice**
-- [Kotlin koans](https://play.kotlinlang.org/koans/overview)
