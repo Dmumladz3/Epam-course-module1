@@ -1,6 +1,11 @@
 
 Crational Design Patterns
-  They are the design patterns that deal with the object creation mechanism, trying to create objects in a manner suitable to the situation.
+  They are the design patterns that deal with the object creation mechanism, 
+  trying to create objects in a manner suitable to the situation.
+  
+  Creational patterns provide various object creation mechanisms, 
+  which increase flexibility and reuse of existing code.
+  
   
   
   
