@@ -1,8 +1,8 @@
 **Lectures:** 
 =======================
 
-* [Git First Steps](https://videoportal.epam.com/video/9oX72qaw) 
-* [Git For Developers](https://www.youtube.com/watch?v=iJm0xflVz_8&feature=youtu.be&t=4) 
+* [Version Control with Git](https://elearn.epam.com/login?next=/courses/course-v1%3AEPAM%2BVCG%2BENG/course/)
+* [Git Intermediate Techniques](https://learn.epam.com/detailsPage?id=c0ecb185-f30d-417f-910d-e99a0a1c2690)
 
 **References:**
 =======================
@@ -16,5 +16,5 @@
 **Sites:**
 
 * [Atlassian Git Tutorial](https://www.atlassian.com/git)
-* [[RU] Git Howto](https://githowto.com/ru)
 * [Learn Git Branching](https://learngitbranching.js.org/)
+* [A Branching Strategy Simpler than GitFlow: Three-Flow](https://www.nomachetejuggling.com/2017/04/09/a-different-branching-strategy/)
