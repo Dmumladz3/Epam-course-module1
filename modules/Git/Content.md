@@ -1,7 +1,7 @@
 **Lectures:** 
 =======================
 
-* [Version Control with Git](https://elearn.epam.com/login?next=/courses/course-v1%3AEPAM%2BVCG%2BENG/course/)
+* [Version Control with Git](https://elearn.epam.com/courses/course-v1:EPAM+VCG+ENG/course/)
 * [Git Intermediate Techniques](https://learn.epam.com/detailsPage?id=c0ecb185-f30d-417f-910d-e99a0a1c2690)
 
 **References:**
