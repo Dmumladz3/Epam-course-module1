@@ -1,0 +1,7 @@
+Use of Bridge pattern via following example in which a circle can be drawn in different colors using same abstract class
+ method but different bridge implementer classes.
+
+Hints to implement:
+
+Write a DrawAPI interface which is acting as a bridge implementer and concrete classes RedCircle, GreenCircle implementing the DrawAPI interface. 
+Shape is an abstract class and will use object of DrawAPI. BridgePatternDemo, our demo class will use Shape class to draw different colored circle.

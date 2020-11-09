@@ -1,0 +1,6 @@
+Suppose you have a Bird class with fly() , and makeSound()methods. And also a ToyDuck class with squeak() method. 
+Let’s assume that you are short on ToyDuck objects and you would like to use Bird objects in their place. 
+Birds have some similar functionality but implement a different interface, so we can’t use them directly. 
+So we will use adapter pattern. Here our client would be ToyDuck and adaptee would be Bird.
+
+

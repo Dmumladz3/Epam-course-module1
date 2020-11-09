@@ -1,0 +1,20 @@
+Adpater Pattern :
+    The adapter design pattern is a structural design pattern that allows two unrelated/uncommon interfaces to work together. 
+ In other words, the adapter pattern makes two incompatible interfaces compatible without changing their existing code.
+ 
+ If we take a real world example, we cant insert a pendrive into a mobile device. And for that we use external device, OTG. OTG works as "adapter" which helps in read or write the data from the mobile.
+ 
+ In the same manner, Adapter patterns use a single class (the adapter class) to join functionalities of independent or incompatible interfaces/classes.
+ 
+ Interfaces may be incompatible, but the inner functionality should match the requirement.
+ 
+The adapter pattern is often used to make existing classes work with others without modifying their source code.
+
+Suppose we have a project of drawing, in which we are required to develop different kinds 
+of geometric shapes that will be used in the Drawing via a common interface called  Shape.
+
+
+Difference Between Adapter and Decorator Pattern:
+Adapter pattern makes a wrapper (Adapter) to create compatibility/conversion from one interface to the other interface which are incompatible. Wrapper (Adapter) works on two incompatible interfaces/classes.
+
+Decorator Pattern makes a wrapper (Decorator) to add/modify functionalities in the interface/class without changing the original code of the class. We use Abstract wrapper to implement this pattern, in general. Wrapper (Decorator) works on single interface/class.
