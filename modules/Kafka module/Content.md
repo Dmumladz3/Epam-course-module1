@@ -1,10 +1,10 @@
-Module description:  [Required]
+Module description:
 =======================
 This module provides a basic understanding of Apache Kafka is an open-source stream-processing software mainly focusing on practical tasks
 which would be most likely encountered by any Apache Kafka novice right at the beginning
 
 
-Module agenda:  [Required]
+Module agenda:
 =======================
 After completing the module the following knowledge is expected to occur:
 - Kafka theory and architecture
