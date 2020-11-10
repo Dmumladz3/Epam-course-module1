@@ -18,6 +18,11 @@ After completing the module the following knowledge is expected to occur:
 - Starting Kafka using binaries, Docker, and remote machines
 
 
+Courses:  
+=======================
+
+[Learn Apache Kafka for Beginners] https://www.linkedin.com/learning/learn-apache-kafka-for-beginners/intro-to-apache-kafka
+
 Videos:
 =======================
 
