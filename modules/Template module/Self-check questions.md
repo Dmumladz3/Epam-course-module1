@@ -1,3 +1,1 @@
-This document contains open self check questions for student to understand how deep topic was learned.
-
-
+https://assets.confluent.io/m/1eb934ef619a0ccc/original/20200331-Developer_Certification_Sample_Questions.pdf?_ga=2.35029473.1968628928.1600350687-89440409.1600245349
