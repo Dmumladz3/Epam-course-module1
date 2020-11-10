@@ -1,10 +1,10 @@
-Module description:
+Module description:  [Required]
 =======================
-This module provides a basic understanding of Apache Kafka is an open-source stream-processing software mainly focusing on practical tasks
-which would be most likely encountered by any Apache Kafka novice right at the beginning
+This module provides a basic understanding of Apache Kafka
 
+Apache Kafka is an open-source stream-processing software platform developed by the Apache Software Foundation, written in Scala and Java. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds. Kafka can connect to external systems (for data import/export) via Kafka Connect and provides Kafka Streams, a Java stream processing library. Kafka uses a binary TCP-based protocol that is optimized for efficiency and relies on a "message set" abstraction that naturally groups messages together to reduce the overhead of the network roundtrip.
 
-Module agenda:
+Module agenda:  [Required]
 =======================
 After completing the module the following knowledge is expected to occur:
 - Kafka theory and architecture
@@ -34,6 +34,7 @@ Documentation: 
 
 [Spring for Apache Kafka documentaion] https://spring.io/projects/spring-kafka#overview
 
+[Intro to Apache Kafka with Spring] https://www.baeldung.com/spring-kafka
 [Kafka Containers] https://www.testcontainers.org/modules/kafka/
 
 Books: 
