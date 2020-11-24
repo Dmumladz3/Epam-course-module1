@@ -1,7 +1,7 @@
-This document contains homework tasks for [Module name] module
+This document contains homework tasks for Apache Kafka module
 
 Task description
-And evaluation criteria
+See HW.pdf
 
 
 
