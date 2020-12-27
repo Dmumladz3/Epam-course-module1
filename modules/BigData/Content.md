@@ -1,13 +1,13 @@
 Lectures: 
 =======================
 
-[Основы Hadoop, MapReduce, HDFS на JVM](https://www.youtube.com/watch?v=TtsBOBXJnyE) 
+[Основы Hadoop, MapReduce, HDFS на JVM](https://www.youtube.com/watch?v=TtsBOBXJnyE) -- Translate
 
-[Architecture of High-Load/BigData Projects: Вебинар 1](https://videoportal.epam.com/video/AR58lMo4)
+[Architecture of High-Load/BigData Projects: Вебинар 1](https://videoportal.epam.com/video/AR58lMo4) -- Translate
 
-[Architecture of High-Load/BigData Projects: Вебинар 2](https://videoportal.epam.com/video/BR08XQRl)
+[Architecture of High-Load/BigData Projects: Вебинар 2](https://videoportal.epam.com/video/BR08XQRl) -- Translate
 
-[Spark Tutorial (Core, SQL, RDD, DataFrame, Tungsten)](https://www.youtube.com/playlist?list=PL972if8tX2vrEdnmGJVsLP0SZawmVQVzb)
+[Spark Tutorial (Core, SQL, RDD, DataFrame, Tungsten)](https://www.youtube.com/playlist?list=PL972if8tX2vrEdnmGJVsLP0SZawmVQVzb) -- Translate
 
 
 Documentation: 
@@ -28,6 +28,7 @@ References: 
 
 [En] [Installing Hadoop Cluster (Multi Node regime)](https://zaleslaw.blogspot.com/2015/01/installing-hadoop-cluster-multi-node.html)
 
+ -- Translate
 [Ru] [Установка Spark](https://zaleslaw.gitbooks.io/data-processing-book/content/%D0%BA%D0%B0%D0%BA-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE-%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83-%D1%81%D0%BE-spark.html) 
 
 [Ru] [Dataset API в Spark за 5 минут](https://zaleslaw.gitbooks.io/data-processing-book/content/intro-dataset-api-za-30-minut.html) 
