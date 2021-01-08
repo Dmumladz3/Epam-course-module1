@@ -4,27 +4,29 @@ Reference :
 Lectures: 
 =======================
 
-[[RU] Design Patterns](https://videoportal.epam.com/video/AR5wA8a4)
+Java Design Patterns
+
+(https://www.linkedin.com/learning/interaction-design-design-patterns-as-building-blocks/using-design-patterns?u=2113185)
+(https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1/improve-code-quality-with-behavioral-design-patterns?u=2113185)
+(https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1/improve-code-quality-with-behavioral-design-patterns?u=2113185)
+
 
 
 Documentation: 
 =======================
 
-https://programmingline.com
-https://examples.javacodegeeks.com
-https://refactoring.guru/design-patterns
-https://howtodoinjava.com/design-patterns
+https://www.javatpoint.com/design-patterns-in-java
+https://www.javacodegeeks.com/2015/09/java-design-patterns.html
 
 
 Additional EPAM Content: 
 =======================
-[[RU] Design Patterns](https://videoportal.epam.com/video/xazzlnaG
-https://videoportal.epam.com/video/AR5wA8a4)
+https://learn.epam.com/explore?filter=~(search~%27Java*20design*20patterns)&search=Java%20design%20patterns&sorting=~(~(field~%27createdAtForSorting~direction~%27DESC))&tab=materials
 
 
 
 Books: 
 =======================
-[Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/)
+Head First Design Patterns
 
-[Design Patterns CD: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
+Design Patterns CD: Elements of Reusable Object-Oriented Software
