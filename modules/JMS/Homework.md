@@ -26,12 +26,8 @@ Third application to log summary about accepted and rejected orders into some fi
 
 Tasks to be implemented
 
-1. Implement the full flow described above – 5 points.
-
-2. Use message selectors to split orders for liquids and countable items – 2 points.
-
-3. Use topics to implement message exchange – 1 points.
-
-4. Show transactions in message processing – 2 points.
-
+1. Implement the full flow described above
+2. Use message selectors to split orders for liquids and countable items
+3. Use topics to implement message exchange
+4. Show transactions in message processing
 5. Show usage of durable topics – extra 2 point.

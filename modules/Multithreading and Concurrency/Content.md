@@ -1,9 +1,27 @@
+Topics:
+=======================
+- What is concurrency
+- Thread API
+- Java memory model
+- Semaphore, CountDownLatch, CyclicBarrier
+- Completable future, parallel streams 
+- Anatomy of Synchronization
+- Locks
+- Atomics
+- Thread pools
+- Concurrent collections
+
+**Required time for the course:** 
+=======================
+Lectures: ~10h
+Tasks: ~15h mandatory
+
 Lectures: 
 =======================
 
-[Вебинар 1](https://videoportal.epam.com/video/Lo95BkoD) 
+[Вебинар 1](https://videoportal.epam.com/video/Lo95BkoD) 2h 00m
 
-[Вебинар 2](https://videoportal.epam.com/video/nRmp1bo9)
+[Вебинар 2](https://videoportal.epam.com/video/nRmp1bo9) 2h 10m
  
 
 Documentation: 

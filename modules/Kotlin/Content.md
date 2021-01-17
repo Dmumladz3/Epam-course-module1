@@ -1,9 +1,15 @@
-Module description: 
+Topics: 
 =======================
 This module is intended for learning the Kotlin programming language.
 Kotlin documentation always contains up-to-date information regarding
 the language, is well structured and self-sufficient for learning Kotlin,
 therefore the agenda consists of links to official documentation.
+
+**Required time for the course:** 
+=======================
+Lectures: ~20h
+Tasks: ~10h mandatory
+
 
 Module agenda: 
 =======================

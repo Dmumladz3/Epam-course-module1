@@ -7,7 +7,7 @@ This document contains homework tasks for `BigData`.
 Task 1 - Single-node Hadoop
 ===========================
 
-**Cost**: 10 points.
+**Cost**: 1 point.
 
 1. Download latest Hadoop release and set it up manually.
 2. Run Hadoop in Single Node regime.
@@ -19,7 +19,7 @@ Task 1 - Single-node Hadoop
 Task 2 - Multi-node Hadoop
 ==========================
 
-**Cost**: 15 points.
+**Cost**: 1 point.
 
 1. Configure cluster with 4 machines with the same Hadoop version.
 2. Run Hadoop on 4 machines in Multi-Node regime.
@@ -28,10 +28,10 @@ Task 2 - Multi-node Hadoop
 
 
 
-Task 3 - Hadoop WordCount with Optimizations
+Task 3 (Optional) - Hadoop WordCount with Optimizations
 ============================================
 
-**Cost**: 20 points.
+**Cost**: 2 points.
 
 1. Find your favorite Shakespeare poem and put it into HDFS.
 2. Write MapReduce WordCount **\*** program, make JAR and run it via Hadoop (Single Node or cluster, your choice).
@@ -48,10 +48,10 @@ P.S. Look [at this](https://github.com/zaleslaw/Spark-Tutorial/tree/master/Hadoo
 
 
 
-Task 4 - Spark WordCount
+Task 4 (Optional) - Spark WordCount
 ========================
 
-**Cost**: 30 points.
+**Cost**: 2 points.
 
 Write Spark program in Java or Scala for WordCount problem from the previous task.
 
@@ -73,7 +73,7 @@ Each solution should:
 Task 5 - Spark and SMS
 ======================
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 Find top 5 spam words are not contained in ham messages (use [smsData.txt](smsData.txt)).
 Implement your solution via one of approaches (RDD/DataFrames/SparkSQL). Java or Scala as you wish.
@@ -85,7 +85,7 @@ Implement your solution via one of approaches (RDD/DataFrames/SparkSQL). Java or
 Task 6 - Kafka
 ==============
 
-**Cost**: 20 points.
+**Cost**: 2 points.
 
 1. Install Kafka.
 2. Create topic `EPAM Secret Messages`.
@@ -93,12 +93,3 @@ Task 6 - Kafka
 4. Add a Producer that generates and sends 1 message every `100 ms` to the topic.
 5. Add a Consumer that reads messages every `500 ms`, aggregates them (as you wish) and writes the result into the database via JDBC connection.
 6. Run a few consumers. What has happened in Kafka cluster? Discuss with mentor.
-
-
-
-Penalties
-=========
-
-* `-3` points for each task if mentee ignores Java Code Conventions.
-* `-4` points for each missed first-level feature;
-* `-2` points for each missed second-level feature.

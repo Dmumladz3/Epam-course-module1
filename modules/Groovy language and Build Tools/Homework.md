@@ -1,21 +1,21 @@
-1. Groovy language 
+1. Groovy language 3 points
 
  1.1 Implement Calculator Using Groovy programming language. 
   Input Parameter: String to be calculated. It contains numbers, operators and parentheses. 
 
-1.1.1 Support operations +,- with unlimited arguments (1+2) – 0,5 point 
+1.1.1 Support operations +,- with unlimited arguments (1+2)
 
-1.1.2 Support *,/ (don’t forget about operations priority) – 0,5 point 
+1.1.2 Support *,/ (don’t forget about operations priority) 
 
-1.1.3 Support bracket operation (“(2+2)*3”) – 0,5 point 
+1.1.3 Support bracket operation (“(2+2)*3”)
 
-1.1.4 Use GString, Groovy Operator Overloading, Groovy closures - 0.5 point 
+1.1.4 Use GString, Groovy Operator Overloading, Groovy closures
 
-1.1.5 Use at least two Groovy specific operators (**|?.|&. etc..) 0.5 point
+1.1.5 Use at least two Groovy specific operators (**|?.|&. etc..) 
 
 Input data can be integer and without spaces (For example: “2+2*(5-7)”) 
 
-2. Build tools 
+2. Build tools 2 points
 
 2.1 Download archive with sources of multi module project with the following structure: 
 jar <-- admin \ 

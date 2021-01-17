@@ -19,17 +19,15 @@ If you run tests, you will see a lot of red. “What tests…?” , you may wond
 Evaluation
 =======================
 
-1. Java7Aggregator – 4 points
+1. Java7Aggregator – 1 points 
 
-2. Java8Aggregator – 4 points
+2. Java8Aggregator – 1 points
 
-3. Java8ParallelAggregator – 1 point
+3. Java8ParallelAggregator – 2 point
 
 4. Java7ParallelAggregator – 1 point (extra mile)
 
 5. Implement small performance tests and measure the average time each aggregator runs (tip: use larger data sets, than those used in my tests) Decide, which implementation is better (e.g. you may add small txt file with your conclusions) – 1 point (extra extra mile).
-
-Total: 9 + 2 (extra miles) = 11 (points).
 
 How to run tests
 =======================

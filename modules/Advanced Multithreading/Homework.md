@@ -2,10 +2,10 @@ This document contains homework tasks for `Advanced Multithreading: Fork-Join Po
 
 
 
-Task 1 - Factorial via FJP
+Task 1 (Optional) - Factorial via FJP
 ==========================
 
-**Cost**: 15 points.
+**Cost**: 1 point.
 
 Use FJP to calculate factorial. Compare with the sequential implementation. Use `BigInteger` to keep values.
 
@@ -14,7 +14,7 @@ Use FJP to calculate factorial. Compare with the sequential implementation. Use 
 Task 2 - Multithreading Sorting via FJP
 =======================================
 
-**Cost**: 15 points.
+**Cost**: 1 points.
 
 Implement Merge Sort or Quick Sort algorithm that sorts huge array of integers in parallel using Fork/Join framework.
 
@@ -23,7 +23,7 @@ Implement Merge Sort or Quick Sort algorithm that sorts huge array of integers i
 Task 3 - File Scanner via FJP
 =============================
 
-**Cost**: 25 points.
+**Cost**: 1 points.
 
 Create CLI application that scans a specified folder and provides detailed statistics:
 
@@ -41,7 +41,7 @@ Of course, use Fork-Join Framework for implementation parallel scanning.
 Task 4 - Completable Future Helps to Build Open Salary Society
 ==============================================================
 
-**Cost**: 20 points.
+**Cost**: 2 points.
 
 Assume, we have REST endpoint that returns a list of hired `Employee`s.
 
@@ -57,10 +57,10 @@ Why does the CF usage improve performance here in comparison with synchronous ap
 
 
 
-Task 5 - PC Assembly Line with Akka
+Task 5 (Optional) - PC Assembly Line with Akka
 ===================================
 
-**Cost**: 40 points + 15 points for bonus tasks.
+**Cost**: 3 points + 1 points for bonus tasks.
 
 Automatize PC assembly line with Akka Framework (use Java API).
 

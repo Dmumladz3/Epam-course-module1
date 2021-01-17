@@ -1,27 +1,25 @@
 **Calculator on Kotlin**
 
-Implement Calculator Using Kotlin programming language. 
+Implement Calculator Using Kotlin programming language. - 5 points 
 
 **Input Parameter**: String to be calculated. It contains numbers, operators and parentheses.
-* Support operations +,- with two arguments `1+2` – 1 point 
-* Support +,- with unlimited arguments  – 2 point 
-* Support *,/ (don’t forget about operations priority)  - 2 point 
-* Support bracket operation `(2+2)*3` – 2 point 
-* Use String templates  - 1 point  
-* Use Operator Overloading – 1 point 
-* Use Lambdas – 1 point 
-* Use Extensions – 1 point 
-* Use Data classes – 1 point 
+* Support operations +,- with two arguments `1+2`
+* Support +,- with unlimited arguments  
+* Support *,/ (don’t forget about operations priority)   
+* Support bracket operation `(2+2)*3`  
+* Use String templates
+* Use Operator Overloading 
+* Use Lambdas
+* Use Extensions 
+* Use Data classes 
 
-Business logic should be covered by unit tests on Kotlin with 100%. (-5 point if not covered) 
+Business logic should be covered by unit tests on Kotlin with 100%. 
 Extra mile: 
-* Use Kotest test framework – 2
+* Use Kotest test framework 
 
 or
 
-* Use Spek test framework – 2
-
-*Max mark is 14*
+* Use Spek test framework 
 
 Other comments: 
 * Input data can be integer and without spaces (For example: `2+2*(5-7)`)

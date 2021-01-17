@@ -4,7 +4,7 @@ NOTE: Don't forget using try-with-resources for all home tasks.
 Task 1 - Serialization
 ========================================
 
-**Cost**: 10 points.
+**Cost**: 1 point.
 
 Add the ability to serialize / deserialize for the hierarchy of objects from another homework. 
 However, all numerical fields should not be serialized.
@@ -15,7 +15,7 @@ the serialization/deserialization operation.
 Task 2 - DiskAnalyzer
 ======================================
 
-**Cost**: 20 points.
+**Cost**: 1 point.
 
 Write the DiskAnalyzer utility command line, which accepts a path to the input (for example, C: \) and a function number, 
 correctly processes incorrect paths or function numbers. 
@@ -33,7 +33,7 @@ Required functionality:
 Task 3 - FastFileMover
 ===================================
 
-**Cost**: 30 points.
+**Cost**: 1 point.
 
 Write several versions of the FastFileMover utility, which moves a file from one directory to another directory. 
 It takes both file paths as a command line parameters. 
@@ -57,16 +57,16 @@ On each file, run 1000 times, get the average time.
 Task 4 - Play the Game with DBUnit
 ==================================
 
-**Cost**: 10 points.
+**Cost**: 1 point.
 
 Add five DBUnit tests to appropriate project (pet project) or another. Prepare test datasets if it is required.
 
 
 
-Task 6 - Stored Procedure
+Task 6 (Optional) - Stored Procedure
 =========================
 
-**Cost**: 20 points.
+**Cost**: 1 point.
 
 1. Take the existing (or write from zero) JDBC solution with a few CRUD operations and more complex SQL (for simple report generation) and migrate it to stored procedures. **\***
 2. Write SQL script to create those stored procedures with Java style parameters and specific external names. **\*\***
@@ -80,10 +80,10 @@ Task 6 - Stored Procedure
 
 
 
-Task 7 - Pre-defined Stored Procedure
+Task 7 (Optional) - Pre-defined Stored Procedure
 =====================================
 
-**Cost**: 5 points.
+**Cost**: 1 points.
 
 If your database **\*** has pre-defined storage procedure, use a few of them to print out
 interesting information or maintain something in the database.

@@ -1,9 +1,19 @@
+Topics:
+=======================
+- TDD for Java with JUnit
+
+**Required time for the course:** 
+=======================
+Lectures: ~6h
+Tasks: ~4h mandatory + 2h optional
+
+
 **Lectures:** 
 =======================
 
 **Course Links:**
 ======================= 
-* [Practical Test-Driven Development for Java Programmers:](https://learn.epam.com/detailsPage?id=ba8efca6-d894-4efb-826f-0b2c762971a3 ) 
+* [Practical Test-Driven Development for Java Programmers:](https://learn.epam.com/detailsPage?id=ba8efca6-d894-4efb-826f-0b2c762971a3 ) 4h 00m
 
 
 

@@ -1,11 +1,23 @@
+**Topics:** 
+=======================
+- JDBC queries, parameters, exceptions
+- Connection polling, transactions, batches and properties of driver
+- Mapping results, logging
+- Spring with JDBC
+
+**Required time for the course:** 
+=======================
+Lectures: ~6h
+Tasks: ~12h mandatory
+
 Lectures: 
 =======================
 
-[JDBC Intro](https://videoportal.epam.com/video/PJ687eoX) 
+[JDBC Intro](https://videoportal.epam.com/video/PJ687eoX) 2h 00m
 
-[JDBC Basic](https://videoportal.epam.com/playlist/g6Rnenor/play/gRNEN9ob)
+[JDBC Basic](https://videoportal.epam.com/playlist/g6Rnenor/play/gRNEN9ob) 1h 30m
 
-[JDBC Advanced](https://videoportal.epam.com/playlist/g6Rnenor/play/noZpw9Jq)
+[JDBC Advanced](https://videoportal.epam.com/playlist/g6Rnenor/play/noZpw9Jq) 1h 30m
 
 
 Code Examples / Workshop: 

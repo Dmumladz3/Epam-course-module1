@@ -1,10 +1,19 @@
+Topics:
+=======================
+- TDD, TestNG, JUnit
+
+**Required time for the course:** 
+=======================
+Lectures: ~6h
+Tasks: ~4h mandatory
+
 **Lectures:** 
 =======================
 
 
-* [Automation testing approaches:](https://videoportal.epam.com/video/Koe60ERq) 
-* [TDD advanced:](https://videoportal.epam.com/video/9o3PEqRl)
-* [TestNG/JUnit:](https://videoportal.epam.com/video/3a1AkKa9)
+* [Automation testing approaches:](https://videoportal.epam.com/video/Koe60ERq) 1h 00m
+* [TDD advanced:](https://videoportal.epam.com/video/9o3PEqRl) 1h 10m
+* [TestNG/JUnit:](https://videoportal.epam.com/video/3a1AkKa9) 2h 10m
 
 
 

@@ -5,7 +5,7 @@ This document contains homework tasks for module `Multithreading and Concurrency
 Task 1 - Das Experiment
 =======================
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 Create `HashMap<Integer, Integer>`.
 The first thread adds elements into the map, the other go along the given map and sum the values.
@@ -21,7 +21,7 @@ Provide a simple report to your mentor.
 Task 2 - Deadlocks
 ==================
 
-**Cost**: 15 points.
+**Cost**: 1 points.
 
 Create three threads:
 
@@ -36,7 +36,7 @@ Make these calculations thread-safe using synchronization block. Fix the possibl
 Task 3 - Where’s Your Bus, Dude?
 ================================
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 Implement message bus using Producer-Consumer pattern.
 
@@ -50,7 +50,7 @@ Implement message bus using Producer-Consumer pattern.
 Task 4
 ======
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 Create simple object pool with support for multithreaded environment.
 No any extra inheritance, polymorphism or generics needed here, just implementation of simple class:
@@ -98,7 +98,7 @@ Use any blocking approach you like.
 Task 5
 ======
 
-**Cost**: 30 points.
+**Cost**: 1 points.
 
 Make an application that contains business logic for making exchange operations between different currencies.
 
@@ -115,10 +115,10 @@ Make an application that contains business logic for making exchange operations 
 
 
 
-Task 6
+Task 6 (Optional)
 ======
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 Create a multi-threading console application that starts two threads for producer and consumer respectively.
 It does not matter what kind of data it produces/consumes (e.g. producer could generate random numbers and consumer could calculate their total average).

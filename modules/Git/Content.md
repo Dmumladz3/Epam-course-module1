@@ -1,8 +1,19 @@
+**Topics:** 
+=======================
+- Git storage
+- Git branching strategies
+- Git basic commands
+
+**Required time for the course:** 
+=======================
+Lectures: ~6h
+Tasks: ~4h mandatory
+
 **Lectures:** 
 =======================
 
 * [Version Control with Git](https://elearn.epam.com/courses/course-v1:EPAM+VCG+ENG/course/)
-* [Git Intermediate Techniques](https://learn.epam.com/detailsPage?id=c0ecb185-f30d-417f-910d-e99a0a1c2690)
+* [Git Intermediate Techniques](https://learn.epam.com/detailsPage?id=c0ecb185-f30d-417f-910d-e99a0a1c2690) 2h 54m
 
 **References:**
 =======================

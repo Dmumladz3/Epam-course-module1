@@ -1,8 +1,18 @@
+Topics:
+=======================
+- Spring MVC
+- Spring test
+
+**Required time for the course:** 
+=======================
+Lectures: ~10h
+Tasks: ~8h mandatory
+
 **Lectures:** 
 =======================
 
 
-* [Spring WEB](https://videoportal.epam.com/video/PaKXEGo0) 
+* [Spring WEB](https://videoportal.epam.com/video/PaKXEGo0) 8h 00m
 
 
 

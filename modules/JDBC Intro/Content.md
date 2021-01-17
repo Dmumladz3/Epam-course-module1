@@ -1,7 +1,17 @@
+**Topics:** 
+=======================
+- JDBC queries, parameters, exceptions
+- Mapping results, logging
+
+**Required time for the course:** 
+=======================
+Lectures: ~3h
+Tasks: ~5h mandatory
+
 Lectures: 
 =======================
 
-[JDBC Intro](https://videoportal.epam.com/video/PJ687eoX) 
+[JDBC Intro](https://videoportal.epam.com/video/PJ687eoX) 2h 00m
 
 
 Code Examples / Workshop: 

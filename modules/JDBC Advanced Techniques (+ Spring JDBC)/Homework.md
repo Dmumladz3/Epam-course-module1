@@ -4,7 +4,7 @@ This document contains homework tasks for `JDBC Advanced Techniques (+ Spring JD
 Task 1 - SpringJDBC-based Social Network
 ========================================
 
-**Cost**: 20 points.
+**Cost**: 1 point
 
 1. Create simple database with tables
     * `Users (id, name, surname, birthdate)`
@@ -21,7 +21,7 @@ Task 1 - SpringJDBC-based Social Network
 Task 2 - Highload Writing Console Tool
 ======================================
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 Create a Highload Writing Console Tool that populates the database (URL/Name are configuration settings).
 
@@ -36,10 +36,10 @@ Discuss with mentor how to improve performance of suggested solution.
 
 
 
-Task 3 - Database Copy Console Tool
+Task 3 (Optional) - Database Copy Console Tool
 ===================================
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 Create a Database Copy Console Tool that copies the database (URL/Name are command line parameters) step-by-step (table by table).
 
@@ -54,19 +54,19 @@ Required functionality:
 
 
 
-Task 4 - Play the Game with DBUnit
+Task 4 (Optional)- Play the Game with DBUnit
 ==================================
 
-**Cost**: 10 points.
+**Cost**: 1 point.
 
 Add five DBUnit tests to appropriate project (pet project) or another. Prepare test datasets if it is required.
 
 
 
-Task 6 - Stored Procedure
+Task 5 - Stored Procedure
 =========================
 
-**Cost**: 20 points.
+**Cost**: 1 points.
 
 1. Take the existing (or write from zero) JDBC solution with a few CRUD operations and more complex SQL (for simple report generation) and migrate it to stored procedures. **\***
 2. Write SQL script to create those stored procedures with Java style parameters and specific external names. **\*\***
@@ -80,7 +80,7 @@ Task 6 - Stored Procedure
 
 
 
-Task 7 - Pre-defined Stored Procedure
+Task 6 (Optional) - Pre-defined Stored Procedure
 =====================================
 
 **Cost**: 5 points.
@@ -95,7 +95,7 @@ interesting information or maintain something in the database.
 Task 8 - File Sharing
 =====================
 
-**Cost**: 30 points.
+**Cost**: 1 point.
 
 Implement the next use cases of File Share application:
 
@@ -121,10 +121,10 @@ Make demo via console interface or via special main method.
 
 
 
-Task 9 - JabaORM
+Task 9 (Optional) - JabaORM
 ================
 
-**Cost**: 30 points.
+**Cost**: 1 points.
 
 Write your own annotation-based or XML-based JabaORM that parses specific class and
 generates SQL-queries for CRUD (or SCRUD) operations.
@@ -140,16 +140,3 @@ class passed as a parameter in
 methods.
 
 Implement all actions via `RowSet` if it is possible.
-
-**Bonus**: inheritance support will be a plus (+5 points).
-
-
-
-Penalties
-=========
-
-* `-5` points for the missed subtask;
-* `-5` points if table populating algorithm is trivial and ugly (using simple counters without the fantasy flight);
-* `-3` points if mentee doesn't use `try-with-resources` if it's possible;
-* `-2` points if connection parameters are not stored in property file;
-* `-5` points for each task if mentee ignores Java Code Conventions.

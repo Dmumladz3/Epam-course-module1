@@ -1,3 +1,17 @@
+**Topics:** 
+=======================
+- What is Big in Data
+- Hadoop, Spark
+- MapReduce, HDFS
+- Solution design examples
+- Processing huge load with Kafka
+
+**Required time for the course:** 
+=======================
+Lectures: ~11h
+Tasks: ~10h mandatory + ~6h optional
+
+
 Lectures: 
 =======================
 

@@ -1,22 +1,20 @@
 **Calculator on Groovy**
 
-1. Implement Calculator Using Groovy programming language. 
+1. Implement Calculator Using Groovy programming language.  (4 points)
 
 **Input Parameter**: String to be calculated. It contains numbers, operators and parentheses.
-* Support operations +,- with two arguments (1+2) – 1 point 
-* Support +,- with unlimited arguments  – 2 point 
-* Support *,/ (don’t forget about operations priority)  - 2 point 
-* Support bracket operation (“(2+2)*3”) – 2 point 
-* Use GString  - 0.5 point 
-* Use at least two Groovy specific operators (**|?.|&. etc..) 0.5 point 
-* Use Groovy Operator Overloading – 1 point 
-* Use Groovy closures – 1 point 
+* Support operations +,- with two arguments (1+2) 
+* Support +,- with unlimited arguments 
+* Support *,/ (don’t forget about operations priority) 
+* Support bracket operation (“(2+2)*3”) 
+* Use GString  
+* Use at least two Groovy specific operators (**|?.|&. etc..) 
+* Use Groovy Operator Overloading 
+* Use Groovy closures 
 
-Business logic should be covered by unit tests on groovy with 100%. (-5 point if not covered) 
-Extra mile: 
-* Use Spock test framework – 2 
-
-*Max mark is 12*
+Business logic should be covered by unit tests on groovy with 100%. 
+Extra mile (1 point): 
+* Use Spock test framework 
 
 Other comments: 
 * Input data can be integer and without spaces (For example: “2+2*(5-7)”) 

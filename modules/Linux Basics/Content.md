@@ -4,20 +4,24 @@ Module description:
 This module provides a basic understanding of UNIX-based systems mainly focusing on practical tasks
 which would be most likely encountered by any Linux novice right at the beginning
 
-Module agenda:
+Topics:
 =======================
-
 After completing the module the following knowledge is expected to occur:
 - display system information like current path, date, time, etc.
 - create, rename, move, delete files and directories via terminal
 - manage users, security groups, file permissions
 - analyze CPU and memory usage
 
+**Required time for the course:** 
+=======================
+Lectures: ~7h
+Tasks: ~4h mandatory
+
 Lectures: 
 =======================
-* [[RU] Linux fudamentals 1/3](https://videoportal.epam.com/video/PJ6rKLJX)
-* [[RU] Linux fudamentals 2/3](https://videoportal.epam.com/video/na2kekoY)
-* [[RU] Linux fudamentals 3/3](https://videoportal.epam.com/video/VRg39GR2)
+* [[RU] Linux fudamentals 1/3](https://videoportal.epam.com/video/PJ6rKLJX) 1h 40m
+* [[RU] Linux fudamentals 2/3](https://videoportal.epam.com/video/na2kekoY) 1h 45m
+* [[RU] Linux fudamentals 3/3](https://videoportal.epam.com/video/VRg39GR2) 1h 10m
 
 Course Links 
 =======================

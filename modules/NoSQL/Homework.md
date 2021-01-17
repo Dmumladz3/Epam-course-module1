@@ -7,7 +7,7 @@ This document contains homework tasks for `NoSQL`.
 Task 1 - Backend Database Migration
 ===================================
 
-**Cost**: 20 points + 20 bonus points.
+**Cost**: 1 point.
 
 Move one of your pet application/mentoring projects with DAO and simple CRUD to MongoDB.
 
@@ -25,7 +25,7 @@ Install MongoDB and use corresponding Java driver.
 Task 2 - Task Manager with Mongo DB
 ===================================
 
-**Cost**: 30 points + 10 bonus points.
+**Cost**: 2 points.
 
 Install MongoDB and use corresponding Java driver.
 
@@ -55,7 +55,7 @@ For highest mark, you can try implement DAO with any ORM solution for Mongo (+10
 Task 3 - the Cassandra Ring
 ===========================
 
-**Cost**: 30 points.
+**Cost**: 2 points.
 
 1. Install Cassandra and use corresponding Java driver.
 2. Build Cassandra cluster with 4 nodes.
@@ -69,10 +69,10 @@ Task 3 - the Cassandra Ring
 
 
 
-Task 4 - Social Network with Mongo
+Task 4 (Optional)- Social Network with Mongo
 ==================================
 
-**Cost**: 25 points + 15 bonus points.
+**Cost**: 1 point.
 
 Write simple app with a few classes reflected typical Social Network (Users, Messages, Movies, Audio tracks, Friendships etc.).
 Keep more than `10^9` instances for each class into Mongo database using Mongo DB driver.
@@ -90,10 +90,10 @@ Optionally (+10 bonus points) make a replica-set with 1 primary and 2 secondary 
 
 
 
-Task 5 - Social Network with Cassandra
+Task 5 (Optional) - Social Network with Cassandra
 ======================================
 
-**Cost**: 25 points + 25 bonus points.
+**Cost**: 1 point.
 
 Take the model and data from the previous task and implement backend with Cassandra (build separate tables for each kind of report).
 Could we use Spring solution to reduce copy-paste and light-switching of NoSQL database from Mongo to Cassandra?

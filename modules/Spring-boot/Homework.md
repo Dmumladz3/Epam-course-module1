@@ -5,7 +5,7 @@ This document contains homework tasks for `Spring-boot`.
 Task 1 - Hello-world application
 ==========================
 
-**Cost**: ? points.
+**Cost**: 1 points.
 
 * Using https://start.spring.io create a Spring-boot app.
 * Create CommandLineRunner and output 'hello world'.
@@ -16,7 +16,7 @@ Task 1 - Hello-world application
 Task 2 - CRUD REST application
 ==========================
 
-**Cost**: ? points.
+**Cost**: 1 points.
 
 * Create app that should support create, read, update and delete operations for some entity
 * Use Spring Data module
@@ -25,17 +25,17 @@ Task 2 - CRUD REST application
 Task 3 - CRUD application: security
 ==========================
 
-**Cost**: ? points.
+**Cost**: 1 points.
 
 * Implement authentication and authorization mechanism
 * OAuth2 should be used
 * JWT Token should be used
 
 
-Task 4 - CRUD application: externalized configuration
+Task 4 (Optional) - CRUD application: externalized configuration
 ==========================
 
-**Cost**: ? points.
+**Cost**: 1 points.
 
 * Should support different environments - local, dev, stg, prod
 * Spring profiles
@@ -45,15 +45,15 @@ Task 4 - CRUD application: externalized configuration
 Task 5 - CRUD application: data migrating
 ==========================
 
-**Cost**: ? points.
+**Cost**: 1 points.
 
 * Add tool for migrating data
 * Flyway or Liquibase
 
-Task 6 - CRUD application: actuator
+Task 6 (Optional) - CRUD application: actuator
 ==========================
 
-**Cost**: ? points.
+**Cost**: 1 points.
 
 * Enable actuator
 * Implement a few custom health indicators

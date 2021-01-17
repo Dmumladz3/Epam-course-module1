@@ -4,7 +4,7 @@ This document contains homework tasks for `JDBC Intro`.
 Task 1 - JDBC-based Social Network
 ========================================
 
-**Cost**: 40 points.
+**Cost**: 3 point.
 
 1. Create simple database with tables
     * `Users (id, name, surname, birthdate)`
@@ -20,7 +20,7 @@ Task 1 - JDBC-based Social Network
 Task 2 - Database Copy Console Tool
 ===================================
 
-**Cost**: 30 points.
+**Cost**: 2 point.
 
 Create a Database Copy Console Tool that copies the database (URL/Name are command line parameters) step-by-step (table by table).
 
@@ -32,13 +32,3 @@ Required functionality:
 4. The solution is delivered with a test database (populated with a huge volume of data).
 
 **\*** `10 GB` sample database could be generated via Highload Writing Tool.
-
-
-Penalties
-=========
-
-* `-5` points for the missed subtask;
-* `-5` points if table populating algorithm is trivial and ugly (using simple counters without the fantasy flight);
-* `-3` points if mentee doesn't use `try-with-resources` if it's possible;
-* `-2` points if connection parameters are not stored in property file;
-* `-5` points for each task if mentee ignores Java Code Conventions.

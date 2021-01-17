@@ -30,7 +30,7 @@ Task details:
 
  
 
-You can get 5 points for this part (1,75 by each build tools script)  
+You can get 4 points for this part  
 
  
 
@@ -38,7 +38,7 @@ Task will not be accepted if you generate scripts by any generation tools (for e
 
  
 
-Part 2. CI/CD using Jenkins Home Work 
+Part 2 (Optional). CI/CD using Jenkins Home Work 
 
 Setup Jenkins locally 
 
@@ -46,7 +46,7 @@ For CI/CD you should use project from build tools home work
 
 Use names for job described in brackets (name: $nameOfJob) 
 
-Create continuous Job (name: continuous) – 1 point 
+Create continuous Job (name: continuous)
 
 Should build when SCM has changes 
 
@@ -60,13 +60,13 @@ First stars should be applied automatically to successful build (QA)
 
 Second stars should be applied manually (Prod) 
 
-Create Deploy Job (name: deploy) – 1 point 
+Create Deploy Job (name: deploy)
 
 Should be parameterized with artifacts prompted with QA star 
 
  Use Container Deploy plugin  
 
-Setup machine on cloud.epam.com – 1 point 
+Setup machine on cloud.epam.com
 
 Setup additional user for Jenkins  
 
@@ -74,7 +74,7 @@ Setup tomcat
 
 Setup cloud machine as slave on Jenkins 
 
-Create deploy job (name: deploy_cloud) – 1 point 
+Create deploy job (name: deploy_cloud)
 
 Should deploy on clod machine 
 
@@ -82,7 +82,7 @@ Should be parameterized with artifacts promoted with Prod star
 
 Use Container Deploy plugin 
 
-Create PipeLine (delivery_pipeline) – 1 point 
+Create PipeLine (delivery_pipeline)
 
  Job should be parameterized with maven or grade (user should be able to choose it in job parameter)   
 
@@ -94,4 +94,4 @@ Create PipeLine (delivery_pipeline) – 1 point
 
  If deployment is successful  deploy on cloud (deploy_cloud) 
 
- 
+ You can get 3 points for this part  

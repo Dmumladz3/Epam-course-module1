@@ -1,13 +1,24 @@
+Topics:
+=======================
+- Basic principles of NoSQL
+- Mongo, Cassandra
+
+**Required time for the course:** 
+=======================
+Lectures: ~8h
+Tasks: ~15h mandatory
+
+
 Lectures: 
 =======================
 
-[Вебинар 1](https://videoportal.epam.com/video/qaym4kal) 
+[Вебинар 1](https://videoportal.epam.com/video/qaym4kal) 2h 00m
 
-[Вебинар 2](https://videoportal.epam.com/video/AR5n7wJ4)
+[Вебинар 2](https://videoportal.epam.com/video/AR5n7wJ4) 1h 40m
 
-[Cassandra in Action](https://videoportal.epam.com/video/Gob4NeJy)
+[Cassandra in Action](https://videoportal.epam.com/video/Gob4NeJy) 2h 00m
 
-[Воркшоп по Mongo](https://videoportal.epam.com/video/8JOyVYoG)
+[Воркшоп по Mongo](https://videoportal.epam.com/video/8JOyVYoG) 30m
  
 
 Documentation: 

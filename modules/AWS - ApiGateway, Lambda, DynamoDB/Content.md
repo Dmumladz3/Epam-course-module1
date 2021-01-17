@@ -1,9 +1,22 @@
+**Topics:** 
+=======================
+- Basics of AWS (VPC, IAM, EC2)
+- AWS Gateway
+- Serverless with Lambdas
+- RDS with DynamoDB, PostgreSQL
+
+**Required time for the course:** 
+=======================
+Lectures: ~12h
+Tasks: ~h mandatory + ~0h optional
+
+
 **Lectures:** 
 =======================
 
 **Course Links:**
 ======================= 
-* [AWS Essential Training for Developers ](https://learn.epam.com/detailsPage?id=1841e875-a3a7-4809-9852-6c13d466c523) 
+* [AWS Essential Training for Developers ](https://learn.epam.com/detailsPage?id=1841e875-a3a7-4809-9852-6c13d466c523) 3h 17m
 
 
 
@@ -30,11 +43,11 @@ Documentation: 
 **Sites:**
 * [AWS Documentation](https://docs.aws.amazon.com/) 
 * [Collection of short tutorials for specific topics] (https://aws.amazon.com/getting-started/hands-on/)  
-* [IAM user guide] (https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html?icmpid=docs_iam_console) 
-* [VPC user guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) 
-* [EC2 user guide] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) 
-* [RDS user guide] (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
-* [Create and connect to PostgreSQL DB] (https://aws.amazon.com/getting-started/tutorials/create-connect-postgresql-db/) 
+* [IAM user guide] (https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html?icmpid=docs_iam_console) 2h
+* [VPC user guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) 2h
+* [EC2 user guide] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) 1h
+* [RDS user guide] (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) 2h
+* [Create and connect to PostgreSQL DB] (https://aws.amazon.com/getting-started/tutorials/create-connect-postgresql-db/)  1h
 
 
 

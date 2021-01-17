@@ -1,3 +1,12 @@
+Topics:
+=======================
+- Spring Boot
+
+**Required time for the course:** 
+=======================
+Lectures: ~15h
+Tasks: ~8h mandatory
+
 Spring-boot magic - how auto-configuration works: 
 =======================
 

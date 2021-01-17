@@ -1,6 +1,6 @@
 **GIT task**
 
-*Part 1. Basic (4 points)*
+*Part 1. Basic (2 points)*
 1. Change your system, global and repository config (add some values). Inspect how it is override.
 2. Add some aliases in your own opinion.
 3. Make init commit.
@@ -19,7 +19,7 @@
 16. Try to inspect your repository with git log command. Use different options with this command (git log --help)
 17. Push all your changes with all your branches to remote repository.
 
-*Part 2. Advanced (6 points)*
+*Part 2. Advanced (3 points)*
 1. Checkout to master branch. Commit README document with any words or sentences.
 2. Checkout to develop branch. Create base file (java) and add content inside (class with any name and one method “public int add(int a, int b)” with add operation implementation). Commit it to develop branch.
 3. Create otherOperation branch.

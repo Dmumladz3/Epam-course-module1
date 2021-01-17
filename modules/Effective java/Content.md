@@ -1,10 +1,24 @@
+**Topics:** 
+=======================
+- Build lifecycle
+- Build phases in Maven and Gradle
+- Implementation of build scripts in Maven and Gradle for typical projects
+- CI / CD implementation with Jenkins
+
+**Required time for the course:** 
+=======================
+Lectures: ~17h
+Tasks: ~10h mandatory + ~6h optional
+
 **Lectures:** 
 =======================
 
 **Course Links:**
 ======================= 
-* [Programming Foundations: Algorithms:](https://learn.epam.com/detailsPage?id=50c159e3-f910-4177-8eb9-d0c96d5cea81) 
-
+* [Programming Foundations: Algorithms:](https://learn.epam.com/detailsPage?id=50c159e3-f910-4177-8eb9-d0c96d5cea81) 1h 45m
+* [Effective Java presentation](https://epam.sharepoint.com/sites/CDP/java/Trainings/476/Effective%20Java%20Presentation%20Rafael%20Cassemiro%20Freire.pptx)
+* [Effective Java presentation 2](https://epam.sharepoint.com/sites/CDP/java/Trainings/476/Effective%20Java_presentation_Viktor%20M%C3%A1jer.pptx)
+* [Effective Java presentation 3](https://epam.sharepoint.com/sites/CDP/java/Trainings/476/Effective%20Java_presentation_Roman%20Rastiehaiev.pptx)
 
 
 **Code Examples / Workshop:**
@@ -22,8 +36,10 @@ Documentation: 
 =======================
 
 **Books**
+Must have
+* "Effective Java" Joshua Bloch 15h 00m
 
-* "Effective Java" Joshua Bloch 
+Optional:
 * "Algorithms" Jeff Erickson 
 * "Algorithms" by Robert Sedgewick (Author), Kevin Wayne (Author) 
 * "Getting Started with Google Guava" Bill Bejeck 

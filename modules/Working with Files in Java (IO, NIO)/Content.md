@@ -1,3 +1,13 @@
+Topics:
+=======================
+- Java IO/NIO
+
+**Required time for the course:** 
+=======================
+Lectures: ~10h
+Tasks: ~8h mandatory
+
+
 Lectures: 
 =======================
 

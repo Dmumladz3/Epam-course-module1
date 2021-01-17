@@ -1,10 +1,21 @@
+**Topics:** 
+=======================
+- Groovy basic features
+- Groovy in Gradle scripts
+- Scripts in Maven
+
+**Required time for the course:** 
+=======================
+Lectures: ~5h
+Tasks: ~8h mandatory
+
 **Lectures:** 
 =======================
 
 **Course Links:**
 ======================= 
-* [Gradle for java developers](https://learn.epam.com/detailsPage?id=994742a7-d4b2-463d-beb9-d400814f9353) 
-* [Maven] (https://learn.epam.com/detailsPage?id=aa2d5446-febd-4fe7-8c07-d9737ddc180b) 
+* [Gradle for java developers](https://learn.epam.com/detailsPage?id=994742a7-d4b2-463d-beb9-d400814f9353) 2h 30m
+* [Maven] (https://learn.epam.com/detailsPage?id=aa2d5446-febd-4fe7-8c07-d9737ddc180b) 2h
 
 **Code Examples / Workshop:**
 =======================

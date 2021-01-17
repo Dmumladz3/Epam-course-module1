@@ -1,3 +1,10 @@
+Topics:
+=======================
+
+**Required time for the course:** 
+=======================
+
+
 Module description:  [Required]
 =======================
 <!--- Short module overview. -->

@@ -1,18 +1,29 @@
+**Topics:** 
+=======================
+- Java8 new features: Optionals, Functional interfaces etc.
+- Stream API
+- JDK new features list
+
+**Required time for the course:** 
+=======================
+Lectures: ~5h
+Tasks: ~8h mandatory
+
 Lectures: 
 =======================
 
-[[RU] Java 8](https://videoportal.epam.com/video/noPwDqaX)
+[[RU] Java 8](https://videoportal.epam.com/video/noPwDqaX) 2h 00m
 
 
 Documentation: 
 =======================
 
-[[En] What's New in JDK 8](https://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html)
+[[En] What's New in JDK 8](https://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html) 1h 00m
 
 
 Additional EPAM Content: 
 =======================
-[[RU] Java 8 New Features](https://videoportal.epam.com/video/Lo95v5oD)
+[[RU] Java 8 New Features](https://videoportal.epam.com/video/Lo95v5oD) 1h 30m
 
 
 Additional Advanced Content: 

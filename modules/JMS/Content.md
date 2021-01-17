@@ -1,10 +1,24 @@
+**Topics:** 
+=======================
+- Streaming messages in java app: concept and tools 
+- JSM basics
+- JMS api
+- Work with JMS from beans
+
+**Required time for the course:** 
+=======================
+Lectures: ~5h
+Tasks: ~10h mandatory
+
 **Lectures:** 
 =======================
 
 
-* Backend JMS: [Part 1](https://videoportal.epam.com/video/na2kLVoY) [Part 2](https://videoportal.epam.com/video/nJQlV5Rr) 
-* [Stream-style messaging development with Rabbit, Active, ZeroMQ and Apache Kafka](https://videoportal.epam.com/video/1oxX0gor)
-* [TestNG/JUnit:](https://videoportal.epam.com/video/3a1AkKa9)
+* Backend JMS:
+ [Part 1](https://videoportal.epam.com/video/na2kLVoY)  40m
+ [Part 2](https://videoportal.epam.com/video/nJQlV5Rr)  45m
+* [Stream-style messaging development with Rabbit, Active, ZeroMQ and Apache Kafka](https://videoportal.epam.com/video/1oxX0gor) 1h 00m
+* [TestNG/JUnit:](https://videoportal.epam.com/video/3a1AkKa9) 2h 10m
 
 
 
