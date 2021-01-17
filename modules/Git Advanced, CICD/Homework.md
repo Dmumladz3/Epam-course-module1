@@ -1,6 +1,8 @@
+For this task you need your Groovy calculator task or any other homework you've done. Please clone it to your current branch. 
+
 1 GIT Advanced 
 
-1.1 Pulling commits from the middle of git history. For this task you need your Groovy calculator task. Please clone it to your current branch. 
+1.1 Pulling commits from the middle of git history. 
 
 1.1.1 Checkout to branch “task${number}-feature”. 
 
@@ -9,11 +11,6 @@
 1.1.2.1 Support large numbers in math operations (use BigInteger instead of Integer/int type) 
 
 1.1.2.2 Add Intermediate logging of math operation results. 
-Example of console output for “2+2*(5-7)”: 
-5-7=-2 
-2*(-2)=-4 
-2+(-4)=-2 
-result: -2 
 
 1.1.3 Now let’s imagine that customer wants changes regarding allowing large number (BigInteger support) in nearest patch. Try to pull these changes to the main branch of this task “task${number}” using git cherry-pick and git rebase commands. 
 
