@@ -62,7 +62,7 @@ Task 6 (Optional) - CRUD application: actuator
 Task 7 - CRUD application: testing
 ==========================
 
-**Cost**: ? points.
+**Cost**: 1 points.
 
 * In memory db must be used for testing purpose 
 * Implement repository testing
