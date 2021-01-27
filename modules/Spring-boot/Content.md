@@ -1,28 +1,33 @@
 Topics:
 =======================
 - Spring Boot
+- Plugins in build tools
+- Spring boot templates
+- Auto-dependency, auto-configuration, embedded servers
+- Real live code examples
+- Properties
+- Integration tests with SpringBoot
+- Spring actuator
+- Fat jars
+- Listeners
+- Security
 
 **Required time for the course:** 
 =======================
-Lectures: ~15h
-Tasks: ~8h mandatory
+Lectures: ~20h
+Tasks: ~10h mandatory
 
 Spring-boot magic - how auto-configuration works: 
 =======================
 
-[Ru] [Mentoring Program: Learning Modern Java with Frameworks #2 (part 7/8)](https://videoportal.epam.com/video/6Rn164or)
+[En] [Intro in Spring Boot](https://learn.epam.com/detailsPage?id=d806f913-4cdd-4a54-9eea-ce53096f7e0a) 1h 40m
 
-[En] [Spring Boot: Under the Hood / Nicolas Fränkel](https://www.youtube.com/watch?v=zSJFx0iyrq4)  
+[En] [Spring Boot: Under the Hood / Nicolas Fränkel](https://www.youtube.com/watch?v=zSJFx0iyrq4) 30m
 
-[Ru] [JUGLviv meetup: Spring Boot the Ripper](https://www.youtube.com/watch?v=8xa0RWMwAOE)
-
-[Ru] [Никита Липский — Нас Spring Boot, а мы крепчаем](https://www.youtube.com/watch?v=wUu2gVtNt1s) 
-
+[En] [Spring boot 2.0 new features (Optional)](https://learn.epam.com/detailsPage?id=1a5d6b23-b4b9-4942-bf64-a8e758d3ef01) 2h 00m
 
 Spring boot actuator: 
 =======================
-
-[Ru] [Введение в Spring Boot Actuator](https://habr.com/ru/company/otus/blog/452624/)
 
 [En] [Spring Boot Quick Start 33 - Spring Boot Actuator](https://www.youtube.com/watch?v=ojc_Jy_0EgI)
 
@@ -47,14 +52,13 @@ How to troubleshoot spring boot initialization issues: 
 Misc:
 =======================
 
-[Ru] [Test Driven Spring Boot applications, part 1 (Mikalai Alimenkou, Founder and Coach at XP Injection)](https://www.youtube.com/watch?v=CbI_EQ59Sy8)
+[En] [TDD in Spring Boot applications ](https://www.youtube.com/watch?v=s9vt6UJiHg4)
 
-[Ru] [Test Driven Spring Boot applications, part 2 (Mikalai Alimenkou, Founder and Coach at XP Injection)
-](https://www.youtube.com/watch?v=8QNPIrAIhTI)
+[En] [Test Driven Spring Boot applications](https://www.youtube.com/watch?v=E87XhgYBM-Y)
+
+[En] [Rest services with NoSQL in Spriing Boot](https://learn.epam.com/detailsPage?id=4e0a5e98-9b9e-46a1-97be-1a4d2186ca33)
 
 [En] [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
-
-[Ru] [Подключаем Spring Security и oAuth2. Spring Boot REST](https://www.youtube.com/watch?v=-ohlXEJeRX8)
 
 [En] [OAuth 2.0 Protocols and Patterns](https://github.com/jgrandja/oauth2-protocol-patterns)
 
