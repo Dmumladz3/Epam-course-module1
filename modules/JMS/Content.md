@@ -1,8 +1,9 @@
 **Topics:** 
 =======================
-- Streaming messages in java app: concept and tools 
+- Understanding message queues and servers 
 - JSM basics
-- JMS api
+- ActiveMQ
+- JMS api vs Spring JMS API
 - Work with JMS from beans
 
 **Required time for the course:** 
@@ -12,25 +13,16 @@ Tasks: ~10h mandatory
 
 **Lectures:** 
 =======================
-
-
-* Backend JMS:
- [Part 1](https://videoportal.epam.com/video/na2kLVoY)  40m
- [Part 2](https://videoportal.epam.com/video/nJQlV5Rr)  45m
-* [Stream-style messaging development with Rabbit, Active, ZeroMQ and Apache Kafka](https://videoportal.epam.com/video/1oxX0gor) 1h 00m
-* [TestNG/JUnit:](https://videoportal.epam.com/video/3a1AkKa9) 2h 10m
-
-
+[JMS API with Spring boot](https://learn.epam.com/detailsPage?id=f28babc2-cefd-4fc0-901c-43a0f2079c6d) 2h 30m
+[Messaging in Microservices](https://learn.epam.com/detailsPage?id=d5fd03e9-a3f6-43be-a11a-cf4f22e101da) 1h 45m
 
 **Code Examples / Workshop:**
 =======================
 
 
-
 Documentation: 
 =======================
-
-
+[JMS official test](https://docs.oracle.com/javaee/6/tutorial/doc/bncdq.html)
 
 
 
@@ -45,8 +37,7 @@ Documentation: 
 
 
 **Sites:**
-
-* [Java Message Service Concepts](https://javaee.github.io/tutorial/jms-concepts.html)
+[Java Message Service Concepts](https://javaee.github.io/tutorial/jms-concepts.html)
 
 
 **Additional links to conference presentation or popular education videos:**
