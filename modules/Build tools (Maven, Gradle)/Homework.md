@@ -2,7 +2,7 @@ Build tools & CI/CD task
 
  
 
-Part 1. Build tools 
+**Part 1. Build tools** 
 
 Download archive with sources of multi module project with the following structure: 
 
@@ -30,7 +30,7 @@ Task details:
 
  
 
-You can get 4 points for this part  
+You can get 3 points for this part  
 
  
 
@@ -38,7 +38,7 @@ Task will not be accepted if you generate scripts by any generation tools (for e
 
  
 
-Part 2 (Optional). CI/CD using Jenkins Home Work 
+**Part 2 (Optional). CI/CD using Jenkins Home Work** 
 
 Setup Jenkins locally 
 

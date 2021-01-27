@@ -1,11 +1,11 @@
-Topics:
+**Topics:**
 =======================
 - TDD, TestNG, JUnit
 
 **Required time for the course:** 
 =======================
-Lectures: ~6h
-Tasks: ~4h mandatory
+- Lectures: ~6h
+- Tasks: ~4h mandatory
 
 **Lectures:** 
 =======================
@@ -48,5 +48,5 @@ Documentation: 
 
 **Additional links to conference presentation or popular education videos:**
 =======================
-* [Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-Testingtechniques(TDD,BDD))
+* [Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-Testingtechniques(TDD,BDD)
 

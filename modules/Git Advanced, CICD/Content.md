@@ -5,8 +5,8 @@
 
 **Required time for the course:** 
 =======================
-Lectures: ~5h
-Tasks: ~8h mandatory
+- Lectures: ~5h
+- Tasks: ~8h mandatory
 
 **Lectures:** 
 =======================

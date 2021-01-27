@@ -1,11 +1,11 @@
-Topics:
+**Topics:**
 =======================
 - TDD, TestNG, JUnit
 
 **Required time for the course:** 
 =======================
-Lectures: ~6h
-Tasks: ~4h mandatory
+- Lectures: ~6h
+- Tasks: ~4h mandatory
 
 
 **Lectures:** 

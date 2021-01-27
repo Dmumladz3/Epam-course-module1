@@ -83,7 +83,7 @@ Task 5 - Stored Procedure
 Task 6 (Optional) - Pre-defined Stored Procedure
 =====================================
 
-**Cost**: 5 points.
+**Cost**: 2 points.
 
 If your database **\*** has pre-defined storage procedure, use a few of them to print out
 interesting information or maintain something in the database.

@@ -12,7 +12,7 @@ Lectures: ~11h
 Tasks: ~10h mandatory + ~6h optional
 
 
-Lectures: 
+**Lectures**: 
 =======================
 
 [Основы Hadoop, MapReduce, HDFS на JVM](https://www.youtube.com/watch?v=TtsBOBXJnyE) -- Translate

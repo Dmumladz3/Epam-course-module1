@@ -1,4 +1,4 @@
-Tasks 
+**Tasks** 
 
 Let's take as the base of our homework "Effective Java" book by Joshua Bloch. 
 

@@ -8,8 +8,8 @@
 
 **Required time for the course:** 
 =======================
-Lectures: ~5h
-Tasks: ~10h mandatory
+- Lectures: ~5h
+- Tasks: ~10h mandatory
 
 **Lectures:** 
 =======================
@@ -20,7 +20,7 @@ Tasks: ~10h mandatory
 =======================
 
 
-Documentation: 
+**Documentation:** 
 =======================
 [JMS official test](https://docs.oracle.com/javaee/6/tutorial/doc/bncdq.html)
 

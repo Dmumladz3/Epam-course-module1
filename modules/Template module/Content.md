@@ -1,4 +1,4 @@
-Topics:
+**Topics:**
 =======================
 
 **Required time for the course:** 

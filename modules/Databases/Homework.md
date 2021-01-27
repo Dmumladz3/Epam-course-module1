@@ -1,4 +1,4 @@
-Database task
+**Database task**
 
 1. Design database for CDP program. Your DB should store information about students (name, surname, date of birth, phone numbers, primary skill, created_datetime, updated_datetime etc.), subjects (subject name, tutor, etc.) and exam results (student, subject, mark).
 
@@ -14,7 +14,7 @@ b. 1K of subjects
 
 c. 1 million of marks
 
-Test queries:
+**Test queries:**
 
 a. Find user by name (exact match)
 
@@ -42,7 +42,7 @@ Add your investigations to separate document. (1 point)
 
 12. Extra point 2 (1 point). Implement immutable data trigger. Create new table student_address. Add several rows with test data and do not give acces to update any information inside it. Hint: you can create trigger that will reject any update operation for target table, but save new row with updated (merged with original) data into separate table.
 
-Other rules:
+**Other rules:**
 
 · Please, add your changes to GIT task by task. It will be better to check your result based on such kind of history
 

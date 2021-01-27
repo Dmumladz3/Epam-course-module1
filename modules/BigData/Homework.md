@@ -66,9 +66,6 @@ Each solution should:
 * print out a calculated result;
 * save the calculated result in the file.
 
-**Note**: 10 points for each solution.
-
-
 
 Task 5 - Spark and SMS
 ======================
@@ -77,8 +74,6 @@ Task 5 - Spark and SMS
 
 Find top 5 spam words are not contained in ham messages (use [smsData.txt](smsData.txt)).
 Implement your solution via one of approaches (RDD/DataFrames/SparkSQL). Java or Scala as you wish.
-
-+10 bonus points if it will be executed via Apache Zeppelin.
 
 
 

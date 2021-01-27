@@ -6,14 +6,59 @@
 
 **Required time for the course:** 
 =======================
-Lectures: ~6h
-Tasks: ~5h mandatory
+- Lectures: ~6h
+- Tasks: ~5h mandatory
 
 Lectures: 
 =======================
 
-[Elasticsearch](https://videoportal.epam.com/video/boMQ0NoV) 1h 00m
-[Elasticsearch](https://videoportal.epam.com/video/2Rd2kxad) 1h 10m
-[Elasticsearch](https://videoportal.epam.com/video/lajpy0RB) 1h 30m
-[Logstash](https://videoportal.epam.com/video/noZ7pMRq) 1h 20m
-[Kibana](https://videoportal.epam.com/video/6Rnd6nar) 1h 16m
+- [ElasticSearch](https://learn.epam.com/detailsPage?id=a6ef8596-bfdb-4ac3-a6cc-29d1d807ff9c) 2h 00m
+- [ELK in practice](https://learn.epam.com/detailsPage?id=a6ef8596-bfdb-4ac3-a6cc-29d1d807ff9c) 1h 45m
+- [ELK stack as one](https://learn.epam.com/detailsPage?id=51ad571f-462d-4f6c-ade7-29da2e9aea21) 2h 00m
+
+
+## References
+
+[Glossary](https://www.elastic.co/guide/en/elasticsearch/reference/current/glossary.html)
+
+[Documents APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html)
+
+[Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search.html)
+
+[Query DSL Range Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)
+
+
+[ElasticSearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+
+[Getting Started](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html)
+
+[Postman plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
+
+[Document API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html)
+
+
+[QUERY DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
+
+[Aggregations](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html)
+
+[Java API](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html)
+
+[Rest Java API](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/index.html)
+
+[BULK API](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-docs-bulk.html)
+
+[Downloads](https://www.elastic.co/downloads)
+
+[Logstash ](https://www.elastic.co/guide/en/logstash/current/index.html)
+
+[Logstash input plugins](https://www.elastic.co/guide/en/logstash/current/input-plugins.html)
+
+[Logstash output plugins](https://www.elastic.co/guide/en/logstash/current/output-plugins.html)
+
+[Logstash filters](https://www.elastic.co/guide/en/logstash/current/filter-plugins.html)
+
+[Logstash KV filter](https://www.elastic.co/guide/en/logstash/current/plugins-filters-kv.html)
+
+[Logstash mutate filter](https://www.elastic.co/guide/en/logstash/current/plugins-filters-mutate.html)
+
+[Logstash Grok filter](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html)

@@ -1,4 +1,4 @@
-Topics:
+**Topics:**
 =======================
 - ORM
 - Hibernate
@@ -6,13 +6,13 @@ Topics:
 
 **Required time for the course:** 
 =======================
-Lectures: ~4h
-Tasks: ~8h mandatory
+- Lectures: ~4h
+- Tasks: ~8h mandatory
 
 **Lectures:** 
 =======================
 
-** Course Links:**  
+**Course Links:**  
 =======================
 * [Hibernate](https://learn.epam.com/detailsPage?id=069adc0d-c5d8-4aaf-b717-c33485a76874)  1h 30m
 * [Spring Data](https://learn.epam.com/detailsPage?id=3374f018-bda4-4b86-8657-bffcdbbeb538) 1h 30m
@@ -23,7 +23,7 @@ Tasks: ~8h mandatory
 
 
 
-Documentation: 
+**Documentation:** 
 =======================
 
 

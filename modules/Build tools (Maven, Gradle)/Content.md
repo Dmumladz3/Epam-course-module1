@@ -7,16 +7,16 @@
 
 **Required time for the course:** 
 =======================
-Lectures: ~7h
-Tasks: ~6h mandatory + ~4h optional
+- Lectures: ~7h
+- Tasks: ~6h mandatory + ~4h optional
 
 **Lectures:** 
 =======================
 
-** Maven and Gradle:**
-*[part1](https://videoportal.epam.com/video/KR79Y0a4) 40m
-*[part2]([part1](https://videoportal.epam.com/video/gRN8mNab) 40m 
-*[part3](https://videoportal.epam.com/video/8JYwn6od) 20m
+- [Maven](https://learn.epam.com/detailsPage?id=d0621987-d93b-4ec6-bac6-bb2cfa8da317) 1h 30m
+- [Maven (from other point of view)](https://learn.epam.com/detailsPage?id=347c1ac4-b39b-40df-95c3-c2a6c28fda15) 1h 30m
+- [Gradle basics](https://learn.epam.com/detailsPage?id=bd45d15d-d2a9-4287-b012-cbb32d926ab9) 1h 00m
+- [Gradle in details](https://learn.epam.com/detailsPage?id=b5ef314c-7951-442d-99ce-8ce1631695bc)
 
 **Code Examples / Workshop:**
 =======================

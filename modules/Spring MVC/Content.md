@@ -1,12 +1,12 @@
-Topics:
+**Topics:**
 =======================
 - Spring MVC
 - Spring test
 
 **Required time for the course:** 
 =======================
-Lectures: ~8h
-Tasks: ~6h mandatory
+- Lectures: ~8h
+- Tasks: ~6h mandatory
 
 **Lectures:** 
 =======================

@@ -6,12 +6,9 @@
 
 **Required time for the course:** 
 =======================
-Lectures: ~11h
-Tasks: ~8h mandatory + ~4h optional
+- Lectures: ~11h
+- Tasks: ~8h mandatory + ~4h optional
 
-
-**Lectures:** 
-=======================
 
 **Course Links:**
 ======================= 
@@ -43,8 +40,8 @@ Documentation: 
 
 **Sites:**
 * [Java Message Service Concepts](https://javaee.github.io/tutorial/jms-concepts.html) 2h 00m
-* [SNS] (https://docs.aws.amazon.com/sns/latest/dg/welcome.html)  1h 00m
-* [SQS] (https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html) 1h 00m
+* [SNS](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)  1h 00m
+* [SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html) 1h 00m
 
 
 

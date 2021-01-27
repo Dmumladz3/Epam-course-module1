@@ -1,4 +1,4 @@
-Topics:
+**Topics:**
 =======================
 - Spring IoC
 - Spring core
@@ -7,14 +7,14 @@ Topics:
 
 **Required time for the course:** 
 =======================
-Lectures: ~6h
-Tasks: ~6h mandatory
+- Lectures: ~6h
+- Tasks: ~6h mandatory
 
 
 **Lectures:** 
 =======================
 
-** Course Links** 
+**Course Links** 
 =======================
 * [Spring core](https://www.linkedin.com/learning/spring-framework-in-depth-2/building-blocks-of-spring?u=2113185) 3h 00m
 * [New in Spring 5.0](https://learn.epam.com/detailsPage?id=1a5d6b23-b4b9-4942-bf64-a8e758d3ef01) 1h 14m
@@ -45,7 +45,7 @@ Documentation: 
 **Sites:**
 
 * [Core Technologies](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#spring-core) 
-* [Inversion of Control and Dependency Injection] (https://martinfowler.com/articles/injection.html) 
+* [Inversion of Control and Dependency Injection](https://martinfowler.com/articles/injection.html) 
 * [Testing](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#testing) 
 * [Logging](https://docs.spring.io/spring/docs/5.0.0.RC3/spring-framework-reference/overview.html#overview-logging) 
 * [Logging tutorial](https://www.tutorialspoint.com/spring/logging_with_log4j.htm) 
