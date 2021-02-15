@@ -51,8 +51,8 @@ References (Optional): 
 Additional links to conference presentation or popular education videos: 
 =======================
 
-[Java Fork Join example](https://github.com/albertattard/java-fork-join-example)
+[En] [Java Fork Join example](https://github.com/albertattard/java-fork-join-example)
 
-[CS 891 (2018) Introduction to Parallel Java Programming. Videos 11-18](https://www.youtube.com/playlist?list=PLZ9NgFYEMxp5ZOxpx_RVkkktBMd0S5B6Q)
+[En] [CS 891 (2018) Introduction to Parallel Java Programming. Videos 11-18](https://www.youtube.com/playlist?list=PLZ9NgFYEMxp5ZOxpx_RVkkktBMd0S5B6Q)
 
-[Functional Programming with Streams in Java 9](https://learn.epam.com/detailsPage?id=eabad190-3950-4132-9911-e9474f5b98d3)
+[En] [Functional Programming with Streams in Java 9](https://learn.epam.com/detailsPage?id=eabad190-3950-4132-9911-e9474f5b98d3)
