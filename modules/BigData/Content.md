@@ -1,28 +1,29 @@
 **Topics:** 
 =======================
 - What is Big in Data
-- Hadoop, Spark
+- Hadoop, Spark, Hive
 - MapReduce, HDFS
 - Solution design examples
-- Processing huge load with Kafka
 
 **Required time for the course:** 
 =======================
-Lectures: ~11h
+Lectures: ~17h
 Tasks: ~10h mandatory + ~6h optional
 
 
 **Lectures**: 
 =======================
 
-[Основы Hadoop, MapReduce, HDFS на JVM](https://www.youtube.com/watch?v=TtsBOBXJnyE) -- Translate
+[What's a big data](https://learn.epam.com/detailsPage?id=e407c7c0-7afe-4b8b-ad21-876b51801d3b) 1h
 
-[Architecture of High-Load/BigData Projects: Вебинар 1](https://videoportal.epam.com/video/AR58lMo4) -- Translate
+[Basics of Hadoop, Map Reduce, HDFS](https://learn.epam.com/detailsPage?id=48400935-c48a-4cf5-885d-25115128d0c6) 4h 6m
 
-[Architecture of High-Load/BigData Projects: Вебинар 2](https://videoportal.epam.com/video/BR08XQRl) -- Translate
+[Big Data: Hadoop, Hive, Spark](https://learn.epam.com/detailsPage?id=5162911a-fdc0-44cf-8872-0061193403d7) 11h
 
-[Spark Tutorial (Core, SQL, RDD, DataFrame, Tungsten)](https://www.youtube.com/playlist?list=PL972if8tX2vrEdnmGJVsLP0SZawmVQVzb) -- Translate
+[Big Data Analytics with Hadoop and Apache Spark](https://learn.epam.com/detailsPage?id=cf8a43f2-80b2-4334-a0e8-50bfe58b6e69) 2h
 
+(Optional)
+[Examples of real architecture](https://learn.epam.com/detailsPage?id=a63255e6-1674-4377-be47-6cf0e814b625) 
 
 Documentation: 
 =======================
@@ -42,31 +43,19 @@ References: 
 
 [En] [Installing Hadoop Cluster (Multi Node regime)](https://zaleslaw.blogspot.com/2015/01/installing-hadoop-cluster-multi-node.html)
 
- -- Translate
-[Ru] [Установка Spark](https://zaleslaw.gitbooks.io/data-processing-book/content/%D0%BA%D0%B0%D0%BA-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE-%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83-%D1%81%D0%BE-spark.html) 
+[En] [Spark installation](https://www.tutorialspoint.com/apache_spark/apache_spark_installation.htm) 
 
-[Ru] [Dataset API в Spark за 5 минут](https://zaleslaw.gitbooks.io/data-processing-book/content/intro-dataset-api-za-30-minut.html) 
+[En] [Introduction to Spark SQL and DataFrames](https://learn.epam.com/detailsPage?id=385d77ea-8ffe-4a51-bb4c-77e94746ddb8) 
 
-[Ru] [Работа с RDD](https://zaleslaw.gitbooks.io/data-processing-book/content/13-starie-dobrie-rdd.html)
+[En] [Apache Zeppelin installation on Ubuntu](https://www.vultr.com/docs/how-to-install-apache-zeppelin-on-ubuntu-16-04)
 
-[Ru] [Установка Apache Zeppelin](https://zaleslaw.gitbooks.io/data-processing-book/content/12-apache-zeppelin.html)
-
-[Ru] [10 причин раздражаться при использовании Apache Spark](https://zaleslaw.blogspot.com/2015/11/10-reasons-angry-about-spark.html)
-
-
-
-Additional EPAM Content: 
-=======================
-
-[EPAM Course по BigData ](https://videoportal.epam.com/playlist/YgRNQMob) 
+[En] [Apache Zeppelin installation on Windows](https://hernandezpaul.wordpress.com/2016/11/14/apache-zeppelin-installation-on-windows-10/)
 
 
 Additional links to conference presentation or popular education videos: 
 =======================
 
-[[Ru] Теория и терминология многопоточности](https://www.youtube.com/watch?v=mf4lC6TpclM)  
-
-[[Ru] Прикладная многопоточность](https://www.youtube.com/watch?v=8piqauDj2yo)  
+[Concurrent vs parallel](https://www.youtube.com/watch?v=eEecgNZHR9k)  
 
 [Java Memory Model Pragmatics (Aleksey Shipilёv), part 1](https://www.youtube.com/watch?v=noDnSV7NCtw) 
 
