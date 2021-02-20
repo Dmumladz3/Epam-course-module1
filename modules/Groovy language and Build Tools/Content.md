@@ -6,7 +6,7 @@
 
 **Required time for the course:** 
 =======================
-- Lectures: ~5h
+- Lectures: ~7h
 - Tasks: ~8h mandatory
 
 **Lectures:** 
@@ -14,7 +14,8 @@
 
 **Course Links:**
 ======================= 
-* [Gradle for java developers](https://learn.epam.com/detailsPage?id=994742a7-d4b2-463d-beb9-d400814f9353) 2h 30m
+* [Gradle for java developers 1](https://learn.epam.com/detailsPage?id=bd45d15d-d2a9-4287-b012-cbb32d926ab9) 2h
+* [Gradle for java developers 1](https://learn.epam.com/detailsPage?id=b5ef314c-7951-442d-99ce-8ce1631695bc) 2h 30m
 * [Maven] (https://learn.epam.com/detailsPage?id=aa2d5446-febd-4fe7-8c07-d9737ddc180b) 2h
 
 **Code Examples / Workshop:**

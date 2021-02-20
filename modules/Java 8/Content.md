@@ -12,19 +12,19 @@
 
 **Lectures**: 
 =======================
-- [En] [From Java 7 to Java 8](https://blog.allegro.tech/2014/12/How-to-migrate-to-Java-8.html) 1h 00m
-- [En] [Java 8 New Features](https://learn.epam.com/detailsPage?id=4f16bc85-65ef-4317-906e-75ebc493887d) 1h 30m
-- [En] [Java 8 Functional way on practice](https://www.youtube.com/watch?v=zolbIZS4SRQ) 2h 00m
+- [From Java 7 to Java 8](https://blog.allegro.tech/2014/12/How-to-migrate-to-Java-8.html) 1h 00m
+- [Java 8 New Features](https://learn.epam.com/detailsPage?id=4f16bc85-65ef-4317-906e-75ebc493887d) 1h 30m
+- [Java 8 Functional way on practice](https://www.youtube.com/watch?v=zolbIZS4SRQ) 2h 00m
 
 **Documentation**: 
 =======================
-[[En] What's New in JDK 8](https://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html) 1h 00m
+[What's New in JDK 8](https://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html) 1h 00m
 
 **Additional Advanced Content**: 
 =======================
-- [[En] Mastering Streams p1](https://www.youtube.com/watch?v=NEcA1JRT7pg) 7m
-- [[En] Mastering Streams p2](https://www.youtube.com/watch?v=7yKom_LjuXE) 7m
-- [[En] Mastering Streams p3](https://www.youtube.com/watch?v=TmzgxGKMwrk) 7m
+- [Mastering Streams p1](https://www.youtube.com/watch?v=NEcA1JRT7pg) 7m
+- [Mastering Streams p2](https://www.youtube.com/watch?v=7yKom_LjuXE) 7m
+- [Mastering Streams p3](https://www.youtube.com/watch?v=TmzgxGKMwrk) 7m
 
 **Books**: 
 =======================

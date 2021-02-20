@@ -39,8 +39,6 @@ Documentation: 
 **Sites:**
 * [Jenkins](https://www.tutorialspoint.com/jenkins/)
 * [Git Advanced](https://www.atlassian.com/git/tutorials/advanced-overview)
-* [[RU] Jenkins CI and CD video](https://videoportal.epam.com/video/8JYkNkod) 
-
 
 
 **Additional links:**

@@ -14,18 +14,22 @@ After completing the module the following knowledge is expected to occur:
 
 **Required time for the course:** 
 =======================
-- Lectures: ~7h
+- Lectures: ~10h
 - Tasks: ~4h mandatory
 
 **Lectures:**
 =======================
-* [[RU] Linux fudamentals 1/3](https://videoportal.epam.com/video/PJ6rKLJX) 1h 40m
-* [[RU] Linux fudamentals 2/3](https://videoportal.epam.com/video/na2kekoY) 1h 45m
-* [[RU] Linux fudamentals 3/3](https://videoportal.epam.com/video/VRg39GR2) 1h 10m
+* [Linux very basics](https://learn.epam.com/detailsPage?id=3b9ef487-450c-42e6-8293-191993ab0bd9) 1h
+* [Linux storage](https://learn.epam.com/detailsPage?id=431d4a12-a544-43b2-8947-0e714766da1c) 3h
+* [Linux files and permissions](https://learn.epam.com/detailsPage?id=4c6f9304-4612-4952-9d92-f39265f7e431) 2h 
+* [Learning Linux Command Line](https://learn.epam.com/detailsPage?id=68551049-e80d-4b6f-88e9-53503244fe7b) 2h
+
+Optional
+* [Linux network configuaration](https://learn.epam.com/detailsPage?id=3feea44c-4f38-4436-8975-70dcf2dacd9f) 3h
+* [Linux security management](https://learn.epam.com/detailsPage?id=5c173597-cc8d-4dbf-a071-ea44d4b1c814) 4h 15m
 
 **Course Links**
 =======================
-* [Learning Linux Command Line](https://learn.epam.com/detailsPage?id=68551049-e80d-4b6f-88e9-53503244fe7b)
 
 **Documentation:** 
 =======================
@@ -47,7 +51,5 @@ After completing the module the following knowledge is expected to occur:
 
 **Books:** 
 =======================
-* Командная строка Linux. Уильям Шоттс.
-* Ubuntu и Debian Linux для продвинутых. Кристофер Негус, Франсуа Каэн.
 * Linux from Scratch. Gerard Beekmans
-* Linux. Установка, настройка, администрирование (М. Кофлер) 
+* Linux : installation, configuration et administration (Kofler, Michael) 

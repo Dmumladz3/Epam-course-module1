@@ -1,10 +1,11 @@
 Lectures: 
 =======================
 
-[[En] Enterprise Search Introduction](https://videoportal.epam.com/video/ERrYGmo4)
+[Enterprise Search Introduction](https://videoportal.epam.com/video/ERrYGmo4)
 
-[[RU] ElasticSearch Training](https://videoportal.epam.com/playlist/BR0z07al/play/boMQ0NoV)
-
+[ElasticSearch Training](https://learn.epam.com/detailsPage?id=a6ef8596-bfdb-4ac3-a6cc-29d1d807ff9c)
+[Lucene in depth](https://www.youtube.com/watch?v=-f4eotVbuw4)
+[Solr + Lucene](https://www.youtube.com/watch?v=FK8G1mmzCug)
 
 Documentation: 
 =======================
@@ -15,10 +16,7 @@ Documentation: 
 
 [En] <https://lucene.apache.org/solr/resources.html#documentation>
 
-
-Additional EPAM Content: 
-=======================
-[[RU] Enterprise Search Competency](https://videoportal.epam.com/video/VRgglmR2)
+[En] [How twitter uses Solr and Lucene](https://lucidworks.com/post/how-twitter-uses-apache-lucene-for-real-time-search)
 
 
 Books: 

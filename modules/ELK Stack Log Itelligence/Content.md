@@ -12,7 +12,6 @@
 Lectures: 
 =======================
 
-- [ElasticSearch](https://learn.epam.com/detailsPage?id=a6ef8596-bfdb-4ac3-a6cc-29d1d807ff9c) 2h 00m
 - [ELK in practice](https://learn.epam.com/detailsPage?id=a6ef8596-bfdb-4ac3-a6cc-29d1d807ff9c) 1h 45m
 - [ELK stack as one](https://learn.epam.com/detailsPage?id=51ad571f-462d-4f6c-ade7-29da2e9aea21) 2h 00m
 
