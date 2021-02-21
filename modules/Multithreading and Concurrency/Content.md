@@ -18,47 +18,21 @@
 
 **Lectures:** 
 =======================
-
-- [Вебинар 1](https://videoportal.epam.com/video/Lo95BkoD) 2h 00m
-
-- [Вебинар 2](https://videoportal.epam.com/video/nRmp1bo9) 2h 10m
- 
+[Basics of multi-threading](https://videoportal.epam.com/video/6RnN3GRr) 1h 23m 35s
+[Advanced dive into multi-threading and concurrency](https://videoportal.epam.com/video/nRmWY1a9) 1h 33m 59s
+[Concurrency progression over the years](https://videoportal.epam.com/video/bYqdGBae) 45m 34s
 
 Documentation: 
 =======================
 
-[En] <https://docs.oracle.com/javase/tutorial/essential/concurrency/> 
+https://docs.oracle.com/javase/tutorial/essential/concurrency/
 
 
 **References:** 
 =======================
 
-- [[Ru] JMM от Шипилева](https://shipilev.net/blog/2014/jmm-pragmatics/) 
-
-- [[Ru] Короткая статья про JMM от Глеба Смирнова](https://habr.com/post/133981/)  
-
-- [Ru] Как работает многопоточность от Глеба Смирнова ([1](https://habr.com/post/143237/), [2](https://habr.com/post/209128/)) 
-
-- [[Ru] Милая статья от коллеги по цеху про Producer/Consumer](https://habr.com/post/352374/)  
-
-
-
-**Additional EPAM Content:** 
-=======================
-
-- [Материалы тренинга по многопоточности и лекции менторинга в одном плейлисте](https://videoportal.epam.com/playlist/LboM7MJV) 
-
-
-**Additional links to conference presentation or popular education videos:** 
-=======================
-
-- [[Ru] Теория и терминология многопоточности](https://www.youtube.com/watch?v=mf4lC6TpclM)  
-
-- [[Ru] Прикладная многопоточность](https://www.youtube.com/watch?v=8piqauDj2yo)  
-
-- [Java Memory Model Pragmatics (Aleksey Shipilёv), part 1](https://www.youtube.com/watch?v=noDnSV7NCtw) 
-
-- [Java Memory Model Pragmatics (Aleksey Shipilёv), part 2](https://www.youtube.com/watch?v=Ky1_5mabd18) 
+- [JMM](https://shipilev.net/blog/2014/jmm-pragmatics/) 
+- [Set of articles that cover most of the required topics](https://www.baeldung.com/java-concurrency)
 
 
 **Books:** 
