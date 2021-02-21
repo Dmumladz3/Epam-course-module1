@@ -1,6 +1,7 @@
 **Topics:**
 =======================
-- Java IO/NIO
+- Java Files, IO/NIO
+- XML, Json
 
 **Required time for the course:** 
 =======================
@@ -11,8 +12,13 @@
 **Lectures:**
 =======================
 
-[IO, NIO Intro](https://videoportal.epam.com/video/PaKx54o0) 
+[Working with files](https://www.youtube.com/watch?v=Jg-4XYOQmeM) 1h 00m and [Code for it](https://github.com/lspil/youtubechannel/tree/master/javafundamentals-e64)
 
+[IO vs NIO](https://www.baeldung.com/java-io-vs-nio)
+
+[NIO](https://www.youtube.com/watch?v=pO-AmBoQgRo) 1h 00m
+
+[XML with Java](https://learn.epam.com/detailsPage?id=d5204ec1-b2c4-4c4c-b9b3-9cb14ffa64c0) 5h 00m
 
 **Code Examples / Workshop:**
 =======================
@@ -36,28 +42,26 @@ The code is provided in sub-folder Code.
 **References:**
 =======================
 
-- [Ru] [Шутливая статья про FileWriter/File Reader ](https://vertex-academy.com/tutorials/ru/filewriter-i-filereader/) 
+- [Apache Commons IO Tutorial](https://www.tutorialspoint.com/commons_io/commons_io_ioutils.htm)
 
-- [Ru] [Apache Commons IO](https://o7planning.org/ru/10141/java-commons-io-tutorial)  
+- [Java NIO Tutorial](https://javapapers.com/java/java-nio-tutorial/)
 
-- [En] [Apache Commons IO Tutorial](https://www.tutorialspoint.com/commons_io/commons_io_ioutils.htm)
+- [Basic Json with java](https://www.baeldung.com/java-org-json)
 
-- [En] [Java NIO Tutorial](https://javapapers.com/java/java-nio-tutorial/)
+- [JSON schema](https://www.baeldung.com/introduction-to-json-schema-in-java)
 
 
 **Additional EPAM Content:**
 =======================
 
-- [Ru][[Евгений Меркурьев] JSON Schema, Jackson и другие слова на букву J ](https://videoportal.epam.com/video/PoAEy3o8) 
+- [Java IO. Serialization](https://videoportal.epam.com/video/8JOM7yoG) 
 
-- [En][Java IO. Serialization](https://videoportal.epam.com/video/8JOM7yoG) 
-
-- [En][Networking in Java with NIO and Netty](https://videoportal.epam.com/video/VRgpwkJ2) 
+- [Networking in Java with NIO and Netty](https://videoportal.epam.com/video/VRgpwkJ2) 
 
 
 **Additional links to conference presentation or popular education videos:**
 =======================
 
-- [Ru] [Дмитрий Говорухин — Эффективная работа с файлами для Java-разработчиков](https://www.youtube.com/watch?v=7GlMS630dt8)  
+- [En] [Json with SpringBoot](https://www.baeldung.com/spring-boot-json)  
 
 

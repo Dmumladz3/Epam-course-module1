@@ -11,20 +11,12 @@
 **Lectures:** 
 =======================
 
-
-* [Spring WEB](https://videoportal.epam.com/video/PaKXEGo0) 8h 00m
-
-
+* [Spring Boot app testing](https://www.youtube.com/watch?v=Wpz6b8ZEgcU) 1h 00m
+* [Spring with JUnit](https://learn.epam.com/detailsPage?id=4e3bf752-9800-4cd1-a36f-34bf61799ad8)  1h 00m
+* [JUnit 5 with Spring](https://www.youtube.com/watch?v=K7g2HUhWbNE)  1h 00m
 
 **Code Examples / Workshop:**
 =======================
-
-
-
-Documentation: 
-=======================
-
-
 
 
 
@@ -40,10 +32,6 @@ Documentation: 
 
 **Sites:**
 
+* [Example of testing with Spring](https://spring.io/guides/gs/testing-web/)
 * [Spring Testing Reference](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html)
 * [Spring Integration Testing ](http://www.baeldung.com/integration-testing-in-spring)
-
-**Additional links to conference presentation or popular education videos:**
-=======================
-* [Initial materials on KB](https://kb.epam.com/display/GDOKB/CDP+JaMP+-+Kharkiv+fall+2017#CDPJaMP-Kharkivfall2017-SpringTesting)
-

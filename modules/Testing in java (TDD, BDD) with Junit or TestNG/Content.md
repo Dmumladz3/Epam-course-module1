@@ -1,10 +1,14 @@
 Topics:
 =======================
-- TDD for Java with JUnit
+- TDD and BDD approaches
+- Testing best practices
+- Mocking and spying
+- TestNG or JUnit
+
 
 **Required time for the course:** 
 =======================
-Lectures: ~6h
+Lectures: ~20h
 Tasks: ~4h mandatory + 2h optional
 
 
@@ -14,13 +18,18 @@ Tasks: ~4h mandatory + 2h optional
 **Course Links:**
 ======================= 
 * [Practical Test-Driven Development for Java Programmers:](https://learn.epam.com/detailsPage?id=ba8efca6-d894-4efb-826f-0b2c762971a3 ) 4h 00m
-
-
+* [JUnit](https://dev.to/saiupadhyayula/junit-5-tutorial-for-beginners-o8a)
+* [TestNG P1](https://www.youtube.com/watch?v=0Gew2XOuum8)
+* [TestNG P2](https://www.youtube.com/watch?v=NqN3JNpZZiY)
+* [Mockito](https://www.youtube.com/watch?v=DJDBl0vURD4)
+* [Mockito vs Easymock](https://www.youtube.com/watch?v=g0x0fd4-zX0)
+* [PowerMock](https://www.youtube.com/watch?v=n4SwwF6WfQg)
+* [BDD](https://learn.epam.com/detailsPage?id=59788675-6857-49b9-a21b-df4ce51dcfe2)
 
 **Code Examples / Workshop:**
 =======================
 
-
+* [JUnit with IntellijIdea & Gradle](https://www.youtube.com/watch?v=we3zJE3hlWE)
 
 Documentation: 
 =======================
@@ -61,6 +70,17 @@ Documentation: 
 * [Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 * [Integration tests](http://softwaretestingfundamentals.com/integration-testing/ )
 
+* [JUnit User Guide](http://junit.org/junit5/docs/current/user-guide/)
+* [TestNG doc](http://testng.org/doc/)
+* [Mockito site](http://site.mockito.org/)
+* [EasyMock User Guide](http://easymock.org/user-guide.html)
+* [Powermock wiki](https://github.com/powermock/powermock/wiki)
+* [Mock aren't stubs by Fowler](https://martinfowler.com/articles/mocksArentStubs.html)
+
+* [TDD best practices](https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
+* [Cucumber User Guide](https://cucumber.io/docs/reference/jvm#java)
+* [JBehave introduction](http://jbehave.org/introduction.html)
+
 
 **Additional links:**
 =======================
@@ -72,3 +92,10 @@ Documentation: 
 * [Testing and Code coverage](http://pjcj.net/testing_and_code_coverage/paper.html)
 * [Coverage Criteria](https://en.wikipedia.org/wiki/Code_coverage#Coverage_criteria)
 * [Spock Framework](http://spockframework.org/spock/docs/1.1-rc-2/all_in_one.html )
+
+**Books**
+
+* Test Driven: Practical TDD (Lasse Koskela)
+* Test-Driven Java Development (Viktor Farcic)
+* The Cucumber for Java (Seb Rose)
+
