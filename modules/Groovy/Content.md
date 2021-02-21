@@ -8,16 +8,15 @@
 
 **Required time for the course:** 
 =======================
-- Lectures: ~4h
+- Lectures: 2h 09m 46s
 - Tasks: ~8h mandatory
 
 
 **Lectures:** 
 =======================
 
-* [Introduction to Groovy by Andrii Korkoshko](https://videoportal.epam.com/video/8JO6geRG) 1h 00m
-* [Groovy for Java developers](https://videoportal.epam.com/video/qaygB6Rl) 1h 00m
-* [Advanced Java Unit Testing with Spock](https://videoportal.epam.com/video/LoB6L0o9) 1h 45m
+* [Introduction to Groovy](https://youtu.be/B98jc8hdu9g) 1h 07m 22s
+* [Advanced Java Unit Testing with Spock](https://youtu.be/I1GENGpLpy8) 1h 02m 24s
 
 
 **References:**
@@ -32,6 +31,6 @@
 
 **Sites:**
 
-* [The Apache Groovy programming language](http://groovy-lang.org/)
-* [Groovy - викиучебник](https://ru.wikibooks.org/wiki/Groovy)
+* [Groovy documentation](https://groovy-lang.org/single-page-documentation.html)
+* [Groovy differences with Java](https://groovy-lang.org/differences.html)
 
