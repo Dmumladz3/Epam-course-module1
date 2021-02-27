@@ -1,28 +1,17 @@
-#### Хранение контента
+#### Storing the content
 
+1. Video - videoportal, learn, courses 
+2. Tests - any test platform, or in word (so we can migrate to ProgramStudio tests)
+3. All content will eventually be added to Learn through Program Studio, since this is a fundamental part of mentoring process
+
+#### Generating new content
+
+1. All content, including homework and links should be in git.epam.com 
+2. You can record your own webinars with any screesaver or GoToMeeting, that later has to be uploaded to videoportal. Yet, before you'll start recording - please check learn first, usually most of the topics are there already
+3. To start mentoring program run ypu'd need to move materials from git to program studio first, and only then create a run from the program 
+4. All texts and docs has to be in Markdown format, it makes migration to programstudio relatively less painful process
   
-
-1. Видео - на видеопортале (возможно, частично или полностью на courses) 
-2. Тесты - на любой тестовой платформе, например, classmarker 
-3. Ссылки на материалы размещаются в Learn через админку Program Studio (официальный инструмент ведения менторинга) 
-
-#### Разработка контента
-
-1. Тексты домашних заданий, ссылки на видео/статьи на git.epam.com (дубль на sharepoint) 
-2. Запись вебинаров может быть произведена при помощи любого screesaver или GoToMeeting с последующей конвертацией и загрузкой на видеопортал 
-3. Для того, чтобы запустить менторинг надо взять самую свежую релизную ветку материалов 
-4. Все доки/тексты/тесты в формате Markdown 
-  
-
-#### Бэкап контента
-
-  
-
-Полные материалы (видео + тексты) могут быть продублированы у ProgramOwners на L&D OneDrive/Sharepoint
-
-  
-
-#### Контент (требования к нему)
+#### Content requirements
 
   
 
