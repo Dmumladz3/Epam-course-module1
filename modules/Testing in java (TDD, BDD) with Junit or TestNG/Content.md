@@ -45,6 +45,7 @@ Documentation: 
 
 **References:**
 =======================
+Take a look on a real example of tests in Code Examples if you got stuck:  from unit to rest tests
 
 **Books**
 
