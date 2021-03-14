@@ -114,7 +114,6 @@ Make an application that contains business logic for making exchange operations 
 10. Log information about what is happening on different application levels and about conversion results. Use `Logger` for that.
 
 
-
 Task 6 (Optional)
 ======
 

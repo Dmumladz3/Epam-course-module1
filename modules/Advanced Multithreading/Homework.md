@@ -41,7 +41,7 @@ Of course, use Fork-Join Framework for implementation parallel scanning.
 Task 4 - Completable Future Helps to Build Open Salary Society
 ==============================================================
 
-**Cost**: 2 points.
+**Cost**: 1 points.
 
 Assume, we have REST endpoint that returns a list of hired `Employee`s.
 
@@ -55,9 +55,54 @@ upon completion of all these stages.
 Provide correct solution with CF usage and use appropriate CF operators instead `<special operation on CF>`.
 Why does the CF usage improve performance here in comparison with synchronous approach? Discuss it with mentor. How thread waiting is implemented in synchronous world?
 
+Task 5 (prodcons module: 
+===================================
+## Solve [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
+
+**Cost**: 1 points.
+
+Using:
+1. Semaphore
+1. BlockingQueue
+
+Task 6
+===================================
+
+**Cost**: 1 points.
+
+## RecursiveTask
+1. Give example from [`RecursiveTask`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/RecursiveTask.html) javadoc.
+1. Write `FibonacciTask` that implements `RecursiveTask`.
+1. Apply suggestion from javadoc to check minimum granularity size less or equal 10. And in that case use linear algorithm.
+1. Using unit test check that your code works correctly:
+
+```
+    assertEquals(1134903170L, new ForkJoinPool().invoke(new FibonacciTask(45)).longValue());
+```
+
+## RecursiveAction
+#### Sum of double squares
+1. Give last example from [`RecursiveAction`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/RecursiveAction.html) javadoc about calculation of sum of squares in `double[]` array.
+1. Use double array of half-billion size `500_000_000` filled by random doubles.
+1. Compare speed with direct linear calculation (you may use Stream API as well):
+
+```
+    double sum = 0;
+    for (double v : ARRAY) {
+        sum += v * v;
+    }
+```
+
+Task 7
+===================================
+**Cost**: 1 points.
+
+#### Blurring for Clarity (forkjoin module))
+Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
 
 
-Task 5 (Optional) - PC Assembly Line with Akka
+
+Task 8 (Optional) - PC Assembly Line with Akka
 ===================================
 
 **Cost**: 3 points + 1 points for bonus tasks.
