@@ -57,9 +57,7 @@ Additional links to conference presentation or popular education videos: 
 
 [Concurrent vs parallel](https://www.youtube.com/watch?v=eEecgNZHR9k)  
 
-[Java Memory Model Pragmatics (Aleksey Shipilёv), part 1](https://www.youtube.com/watch?v=noDnSV7NCtw) 
-
-[Java Memory Model Pragmatics (Aleksey Shipilёv), part 2](https://www.youtube.com/watch?v=Ky1_5mabd18) 
+[Java Memory Model](https://www.youtube.com/watch?v=LCSqZyjBwWA) 
 
 
 Books: 
@@ -68,5 +66,3 @@ Books: 
 [Hadoop in action](https://www.manning.com/books/hadoop-in-action ) 
 
 [Hadoop: The Definitive Guide, 4th Edition](http://shop.oreilly.com/product/0636920033448.do)
-
-[Gitbook по Spark](https://zaleslaw.gitbooks.io/data-processing-book/content/basic-structured-streaming-bistrii-strat.html)
