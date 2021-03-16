@@ -55,7 +55,7 @@
 **Additional EPAM Content:**
 =======================
 
-- [En] [Complex event processing with Cassandra and Spark](https://videoportal.epam.com/video/nJQkw7or) 
+- [En] [Complex event processing with Spark](https://www.youtube.com/watch?v=naCRk9wAd6g) 
 
 - [En] [Cassandra Overview](https://videoportal.epam.com/video/Lo9rBkRD) 
 
