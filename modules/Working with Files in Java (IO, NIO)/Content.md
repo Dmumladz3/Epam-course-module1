@@ -34,7 +34,7 @@ The code is provided in sub-folder Code.
 
 - [En] [JDOM](http://www.jdom.org/)
 
-- [En] [SAX](http://www.jdom.org/)
+- [En] [SAX](https://docs.oracle.com/javase/tutorial/jaxp/sax/parsing.html)
 
 - [En] [Walking the file tree](https://docs.oracle.com/javase/tutorial/essential/io/walk.html)
 
