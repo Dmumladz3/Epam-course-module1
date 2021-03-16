@@ -35,7 +35,7 @@ Optional
 =======================
 * [[En] Basic unix commands for java developers](https://javabeginnerstutorial.com/unix/basic-unix-command/)
 * [[En] 30 Essential Linux Basic Commands You Must Know](https://www.fromdev.com/2013/06/linux-basic-commands.html)
-* [[En] Must Know Linux Commands For Java Developers](http://www.techpages.org/java/linux-commands-java/2729/)
+* [[En] Must Know Linux Commands For Java Developers](https://javabeginnerstutorial.com/unix/basic-unix-command/)
 * [[En] UNIX / LINUX Tutorial](http://www.tutorialspoint.com/unix/)
 * [[En]Ryans Linux Tutorial](https://ryanstutorials.net/linuxtutorial/) 
 
