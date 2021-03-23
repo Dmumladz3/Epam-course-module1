@@ -15,16 +15,17 @@ List<Ticket> getBookedTickets(User user, int pageSize, int pageNum);
 Implement alternative controller, which will be mapped on header value "accept=application/pdf" and return PDF version of booked tickets list. (0.5 point) 
 
 5. Implement batch creation of ticket bookings from XML file. Source file example: 
+<code>
+&lt;tickets&gt; 
 
-<tickets> 
+  &lt;ticket user="..." event="..." category="..." place="..."/&gt; 
 
-  <ticket user="..." event="..." category="..." place="..."/> 
+  &lt;ticket user="..." event="..." category="..." place="..."/&gt;
 
-  <ticket user="..." event="..." category="..." place="..."/> 
+  &lt;ticket user="..." event="..." category="..." place="..."/&gt; 
 
-  <ticket user="..." event="..." category="..." place="..."/> 
-
-</tickets>  
+&lt;/tickets&gt; 
+</code>
 
   
 
