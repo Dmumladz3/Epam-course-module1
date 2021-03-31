@@ -56,18 +56,18 @@ Spring Boot 2
         String startDate;
 
 ##### 3.	Create UserController under jmp-service-rest module with following methods:
-    - createUser(SubscriptionRequestDto);
-    - updateUser(SubscriptionRequestDto);
+    - createUser(UserRequestDto);
+    - updateUser(UserRequestDto);
     - deleteUser(Long);
     - getUser(Long);
     - getAllUser();
 
 ##### 4.	Use id filed into UserRequestDto only for updating data.
 ##### 5.	Must be returned UserResponseDto from the following methods :
-    - createSubscription(SubscriptionRequestDto);
-    - updateSubscription(SubscriptionRequestDto);
-    - getSubscription(Long);
-    - getAllSubscription(); (as list)
+    - createUser(UserRequestDto);
+    - updateUser(UserRequestDto);
+    - getUser(Long);
+    - getAllUser();
 
 ##### 6.	Create ServiceController under jmp-service-rest module with following methods :
     - createSubscription(SubscriptionRequestDto);
