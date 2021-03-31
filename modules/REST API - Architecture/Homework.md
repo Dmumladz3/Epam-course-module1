@@ -87,7 +87,7 @@ Spring Boot 2
 ##### 10.	Implement interfaces/methods under jmp-service-api into jmp-cloud-service-impl.
 ##### 11.	UserController and ServiceController must provide REST API interfaces according to 2nd of REST API maturity.
 ##### 12.	You can use memory structures to store the data (List, Map..).
-##### 13.	Use jmp-cloud-service-impl to implenet UserController and ServiceController.
+##### 13.	Use jmp-cloud-service-impl to implement UserController and ServiceController.
 ##### 14.   Implement Application class with @SpringBootApplication annotation and main method.
 ##### 15.	Use lambdas and Java 8 features wherever it’s applicable.
 ##### 16.   Make sample requests to UserController and ServiceController, provide screenshots/responses.
