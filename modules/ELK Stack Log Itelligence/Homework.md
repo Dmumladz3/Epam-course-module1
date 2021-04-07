@@ -23,7 +23,7 @@
     * What is Term?
     * What is Text?
     * What is Type?
-## ElasticSearch CRUD Operations Practical Task
+## ElasticSearch CRUD Operations Practical Task: 3 points
 ##### 1.	Install ElasticSearch 6.5.x+.
 ##### 2.	Create JSON object that represents information about event. 
     Event object should include following fields: 
@@ -54,7 +54,7 @@
     Note: Serialize result documents back to Event Java instances.
 ##### 8.	Delete all events with title NNN (BULK API) in one request.
 
-## Filebeat, Logstash, Kibana Practical Task
+## Filebeat, Logstash, Kibana Practical Task: 1 points
 ##### 1.	Install ElasticSearch 6.5.x+.
 ##### 2.	Install Logstash 6.5.x+.
 ##### 3.	Install Kibana 6.5.x+.
@@ -63,7 +63,7 @@
 ##### 6.	Configure Logstash to read logs from the filebeat (beats input plugin) and send logs to Elasticsearch (elasticsearch logstash output plugin).
 ##### 7.	Look at result data in the ElasticSearch using Kibana. Task result: application, logstash and filebeat configuration files.
 
-## Logstash Filters Practical Task
+## Logstash Filters Practical Task: 1 point
 ##### 1.	Configure event-service Java application to use log4j and log messages using to the file on file system. Log messages should have the following pattern:
     ${MESSAGE_ID} [${UUID} key1="value1" key2="value2" key3="value3" keyN="ValueN"] ${PROCESS_ID} ${COMPONENT_NAME}: ${MESSAGE}
     Example:
