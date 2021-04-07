@@ -28,7 +28,7 @@ This task should be implemented in two ways:
 
     Simple Java (2 points) (Strategy: LFU) 
 
-    Guava (1 point) (Strategy: LRU) 
+    Guava (2 point) (Strategy: LRU) 
 
 Don't forget about good tests, checkstyle and other staff that already included into your build phase.  
 
