@@ -4,7 +4,7 @@
 3. Maven
 4. Java IDE
 
-### Task 1 - Connect Spring Boot with Couchbase and create first document
+### Task 1 - Connect Spring Boot with Couchbase and create first document (1 point)
 1. Create spring-boot maven project with at least following dependencies:
 ```
 spring-boot-starter-data-couchbase
@@ -30,7 +30,7 @@ spring-boot-starter-web
 6. Create new user via API method call
 7. Verify that created user accessible via API method call
    
-### Task 2 - Create index for searching by field
+### Task 2 - Create index for searching by field (1 point)
 1. Navigate to Couchbase Web Console, to Query tab and execute query to
    create an index for email field.
 2. Add method to User repository and service with ability to retrieve user by email
@@ -38,7 +38,7 @@ spring-boot-starter-web
    * ```GET /api/v1/user/email/{email}``` - to get user by email
 4. Verify that user available by email via API method call (do not forget about index)
 
-### Task 3 - Embedded objects
+### Task 3 - Embedded objects (1 point)
 1. Create Java Representation of Sport with fields:
 ```json
 {
@@ -53,7 +53,7 @@ spring-boot-starter-web
    * ```PUT /api/v1/user/{id}/sport```
 5. Verify that couchbase document updated after API method call
 
-### Task 4 - Search by embedded object fields
+### Task 4 - Search by embedded object fields (1 point)
 1. Create method in UserService with ability to search users by sport's name
 2. Add method for UserRepository with custom query to retrieve users by sport's name
 3. Do not forget to create index in couchbase
@@ -62,7 +62,7 @@ spring-boot-starter-web
 5. Verify that some users returned after method call    
 
 
-### Task 5* - Perform full-text search
+### Task 5* - Perform full-text search (1 point)
 1. Create search index via Couchbase Web Console
 2. Perform search request via Couchbase Web Console and make sure that you are able to see some 
    results
