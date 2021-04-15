@@ -1,30 +1,7 @@
 # ELK Stack Log Intelligence Module Practical Tasks 
 
-## Quiz
-##### Prepare answers to following questions:
-    * What is NoSQL?
-    * What is Lucene?
-    * What is ElasticSearch?
-    * What is Analysis?
-    * What is Cluster?
-    * What is Document?
-    * What is Document ID?
-    * What is Document Field?
-    * What is Filter?
-    * What is Index?
-    * What is Mapping?
-    * What is Node?
-    * What is Primary Shard?
-    * What is Query?
-    * What is Replica Shard?
-    * What is Routing?
-    * What is Shard?
-    * What is Source Field?
-    * What is Term?
-    * What is Text?
-    * What is Type?
 ## ElasticSearch CRUD Operations Practical Task: 3 points
-##### 1.	Install ElasticSearch 6.5.x+.
+##### 1.	Install ElasticSearch 7.1.x+.
 ##### 2.	Create JSON object that represents information about event. 
     Event object should include following fields: 
     *	title
@@ -40,8 +17,8 @@
     *	events with title XXX;
     *	events which were held after date xx-xx-xx and with title XXX;
     *	calculate amount of events for each event type using ElasticSearch aggregations. (Note: use field_name.keyword)
-##### 5.	Implement ElasticJavaApiDataProvider which uses Java API client for retrieval of events info.
-##### 6.	Implement ElasticJavaRestApiDataProvider which uses REST Service client for retrieval of events info.
+##### 5.	Implement Java Low Level REST Client for retrieval of events info.
+##### 6.	Implement Java High Level REST Client for retrieval of events info.
 ##### 7.	Do the following from java code (using both clients):
     *	create new index;
     *	apply new mapping to the previously created index;
@@ -55,9 +32,9 @@
 ##### 8.	Delete all events with title NNN (BULK API) in one request.
 
 ## Filebeat, Logstash, Kibana Practical Task: 1 points
-##### 1.	Install ElasticSearch 6.5.x+.
-##### 2.	Install Logstash 6.5.x+.
-##### 3.	Install Kibana 6.5.x+.
+##### 1.	Install ElasticSearch 7.1.x+.
+##### 2.	Install Logstash 7.1.x+.
+##### 3.	Install Kibana 7.1.x+.
 ##### 4.	Configure event-service Java application to use log4j and log messages using to the file on file system.
 ##### 5.	Configure Filebeat to read log file and send log messages into the Logstash.
 ##### 6.	Configure Logstash to read logs from the filebeat (beats input plugin) and send logs to Elasticsearch (elasticsearch logstash output plugin).
