@@ -1,9 +1,30 @@
 # Messaging Module Practical Task 
 
-## Quiz
-1. How to implement asynchronous `push` communication in REST?
-1. What are differences between _Topic_ and _Queue_ in JMS?
-1. What is analog of such _Queue_ in Kafka?
+## Prerequisits: "Event REST" application
+
+1. Create maven project with 4 modules:
+    * event-service-api
+    * event-service-dto
+    * event-service-impl
+    * event-service-rest
+1. `event-service-dto` module should contain `Event` class with following fields:
+    * eventId      : Long
+    * title        : String
+    * place        : String
+    * speaker      : String
+    * eventType    : enum (WORKSHOP, TECH_TALK)
+    * dateTime     : LocalDateTime
+1. `event-service-api` module should contain `EventService` interface with following methods:
+    * Event createEvent(Event event);
+    * Event updateEvent(Long id, Event event);
+    * Event getEvent(Long id);
+    * Event deleteEvent(Long id);
+    * List<Event> getAllEvents();
+1. `event-service-impl` module should contain `EventServiceImpl` which implements `EventService` interface.
+   Feel free to use any event storage (filesystem, any db, in memory db, nosql) up to your preference and choice.
+1. `event-service-rest` module should contain `EventServiceController` which provides REST API interface according to 2nd or 3rd level of REST API maturity.
+1. [Optional] Document methods in `EventServiceController` using Swagger 2 annotations.
+1. Implement `Application` class with `@SpringBootApplication` annotation and `main` method.
 
 ## Practical Task
 
@@ -35,10 +56,38 @@ Extend "Event REST" application to send messages to three different messaging sy
         1. `create-event-notification`
         1. `update-event-notification`
         1. `delete-event-notification`
+         ```plantuml
+         package "from EventService" {
+           component "Swagger UI" as swagger
+           component "EventServiceController" as controller
+           component "EventService\n    createEvent\n    updateEvent\n    deleteEvent" as service
+           component "Messaging System\n    create-event-notification\n    update-event-notification\n    delete-event-notification" as system
+           component "Console consumer\n    Kafka CLI\n    Rabbit MQ UI\n    Active MQ UI" as console
+         }
+         swagger -right-> controller : REST call
+         controller -right-> service
+         service -right-> system : "produce and\nsend message"
+         system -right-> console : "consume\nmessage"
+         ```
     * Three for listening from messaging systems and calling corresponding methods in EventService:
         1. `create-event-request`
         1. `update-event-request`
         1. `delete-event-request`
+         ```plantuml
+         package "to EventService" {
+           component "Console producer\n    Kafka CLI\n    Rabbit MQ UI\n    Active MQ UI" as console
+           component "Messaging System\n    create-event-request\n    update-event-request\n    delete-event-request" as system
+           component "EventConsumer\n    (@Listener)" as consumer
+           component "EventService" as service
+           component "EventServiceController" as controller
+           component "Swagger UI" as swagger
+         }
+         console -right-> system : "produce\nmessage"
+         system -right-> consumer : "@Listener consumes\nmessage"
+         consumer -right-> service
+         service <.right. controller
+         controller <.right. swagger : "REST call\nto check the change"
+         ```
 1. [Optional] Cover with unit tests all messaging code using unit testing libraries for Kafka, RabbitMQ and JMS.
 
 ### Kafka
