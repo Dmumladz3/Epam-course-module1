@@ -1,4 +1,4 @@
-# 3. Concurrency and Multi-threading Architecture
+# Concurrency and Multi-threading Architecture
 ---
 
 ## Quiz
@@ -12,7 +12,7 @@
 * Why do we call `start()` method which in turns calls `run()` method, why not we directly call `run()` method?
 * What is an immutable object? How does it help in writing a concurrent application?
 
-##### Extra part
+##### Necessary part
 * Which granularity size uses `java.util.Arrays` in its parallelSort set of methods to decide to parallelize or not?
 * You have thread T1, T2, and T3. How will you ensure that thread T2 is run after T1 and thread T3 after T2?
 * What is the advantage of the `Lock` interface over a synchronized block in Java? You need to implement a high-performance cache, which allows multiple readers, but how will you implement the single writer to keep the integrity?
@@ -25,12 +25,10 @@
 First of all, we should check class object and what we can see.
 1. Native `notify()` method. Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation. A thread waits on an object's monitor by calling one of the wait methods.
     ```
-    @IntrinsicCandidate
     public final native void notify();
     ```    
 2. Native `notifyAll()` method. Wakes up all threads that are waiting on this object's monitor. A thread waits on an object's monitor by calling one of the wait methods.
     ```
-    @IntrinsicCandidate
     public final native void notifyAll();
     ```    
 3. Three versions of `wait()` method. Causes the current thread to wait until it is awakened, typically by being notified or interrupted.  
@@ -48,7 +46,7 @@ First of all, we should check class object and what we can see.
 
 > More information is available here: [Class Object Java Oracle Docs](https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html).
 
-Java has a necessary opportunity to use all of those methods. We should use `synchronized()` block for it or `synchronized` keyword near our function. 
+Firstly, we can use all of those method in a special block of code or can mention an additional keyword for some methods.
 ```
 ...
     synchronized(LOCK) {
@@ -57,7 +55,7 @@ Java has a necessary opportunity to use all of those methods. We should use `syn
 ...
 ```
 Where `LOCK` is class Object (for example: Object LOCK = new Object()). 
-The second one condition for the keyword `synchronized` is a way to use with method:
+The second one condition for the keyword `synchronized` is a way to use with case:
 ```
 ...
     public int counter;
