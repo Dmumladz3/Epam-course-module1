@@ -79,42 +79,77 @@ public static native void sleep(long millis) throws InterruptedException
 > Q: What the differed between `wait()` and `sleep()`?  
 > A: `sleep()` is a method that is used to suspend the process for a few seconds or for the time we need. But in the case of the `wait()` method, the thread goes into a waiting state and will not return automatically until we call the `notify()` or `notifyAll()` function.
 
+### Thread or Runnable?  
+There are two ways to create a new thread of execution. One is to declare a class to be a subclass of Thread. This subclass should override the run method of class Thread. An instance of the subclass can then be allocated and started. For example, a thread that computes primes larger than a stated value could be written as follows:
+
+```
+ class PrimeThread extends Thread {
+         long minPrime;
+         PrimeThread(long minPrime) {
+             this.minPrime = minPrime;
+         }
+
+         public void run() {
+             // compute primes larger than minPrime
+              . . .
+         }
+     }
+```
+The following code would then create a thread and start it running:
+```
+    PrimeThread p = new PrimeThread(143);
+    p.start();
+```
+The other way to create a thread is to declare a class that implements the Runnable interface. That class then implements the run method. An instance of the class can then be allocated, passed as an argument when creating Thread, and started. The same example in this other style looks like the following:
+```
+  class PrimeRun implements Runnable {
+         long minPrime;
+         PrimeRun(long minPrime) {
+             this.minPrime = minPrime;
+         }
+
+         public void run() {
+             // compute primes larger than minPrime
+              . . .
+         }
+     }
+ 
+```
+The following code would then create a thread and start it running:
+```
+    PrimeRun p = new PrimeRun(143);
+    new Thread(p).start();
+```
+
+> More about Thread you can read here: [Oracle Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html#Thread%28%29)
+
+
 ## 1.1 Practice part.
 1. Create a new class and use wait(), notify(), notifyAll() methods with synchronized block.
 2. Create a new class and use Thread.sleep() in method, in synchronized block.
 
----
-## 2.1 One more time about `Threads` with `start()` and `run()`.
+
+## 2.1 Immutable object.`volatile` and `Atomic` variables. 
 // TODO
 ## 2.2 Practice part.
 // TODO
 
-## 3.1 Immutable object.
+## 3.1 Locks, `DeadLock`, Semaphore.
 // TODO
-## 3.2 Practice part.
-// TODO
-
-## 4.1 `volatile` and `Atomic` variables.
-// TODO
-## 4.2 Practice part.
+## 3.2 Practice task.
 // TODO
 
-## 5.1 Locks, `DeadLock`, Semaphore.
+## 4.1 RecursiveTask, RecursiveAction
+// TODO
+## 4.2 Practice task.
+// TODO
+
+## 5.1 CompletableFuture
 // TODO
 ## 5.2 Practice task.
 // TODO
 
-## 6.1 RecursiveTask, RecursiveAction
-// TODO
-## 6.2 Practice task.
-// TODO
-
-## 7.1 CompletableFuture
-// TODO
-## 7.2 Practice task.
-// TODO
-
-## 8.1 Blurring for Clarity ? (Join pool, ForkPool and etc)
+## 6.1 Blurring for Clarity? (Join pool, ForkPool and etc)
 // TODO 
-## 8.2 Practice part.
+## 6.2 Practice part.
 // TODO
