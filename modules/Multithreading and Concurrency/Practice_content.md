@@ -129,27 +129,142 @@ The following code would then create a thread and start it running:
 2. Create a new class and use Thread.sleep() in method, in synchronized block.
 
 
-## 2.1 Immutable object.`volatile` and `Atomic` variables. 
-// TODO
-## 2.2 Practice part.
-// TODO
+## 2.1 Immutable object.`volatile` and `Atomic` variables.   
 
+### Immutable classes  
+
+Immutable classes make concurrent programming easier. Immutable classes make sure that values are not changed in the middle of an operation without using synchronized blocks. By avoiding synchronization blocks, you avoid deadlocks. And since you are always working with an unchangeable consistent state, you avoid race conditions. In the following article, we will look at how to use immutable classes for concurrent programming in Java.
+
+```
+public class User {
+    private final String userName;
+    private final String password;
+    public ImmutableLogin(String userName, String password) {
+        super();
+        this.userName = userName;
+        this.password = password;
+    }
+    public String getUserName() {
+        return userName;
+    }
+    public String getPassword() {
+        return password;
+    }
+}
+```
+
+### volatile
+In programming, an atomic action is one that effectively happens all at once. An atomic action cannot stop in the middle: it either happens completely, or it doesn't happen at all. No side effects of an atomic action are visible until the action is complete.  
+
+In real case, we can see a code sample like this:
+
+```
+public class Singleton {
+    private static volatile Singleton instance;
+
+    private Singleton() {
+    }
+
+    public static Singleton getInstance() {
+        if (instance == null) {
+            synchronized(Singleton.class) {
+                if (instance == null)
+                    instance = new Singleton();
+            }
+        }
+        return instance;
+    }
+}
+```
+
+Atomic actions cannot be interleaved, so they can be used without fear of thread interference. However, this does not eliminate all need to synchronize atomic actions, because memory consistency errors are still possible. Using volatile variables reduces the risk of memory consistency errors, because any write to a volatile variable establishes a happens-before relationship with subsequent reads of that same variable. This means that changes to a volatile variable are always visible to other threads. What's more, it also means that when a thread reads a volatile variable, it sees not just the latest change to the volatile, but also the side effects of the code that led up the change.
+
+Using simple atomic variable access is more efficient than accessing these variables through synchronized code, but requires more care by the programmer to avoid memory consistency errors. Whether the extra effort is worthwhile depends on the size and complexity of the application.
+
+> Docs [Java Oracle documentation about volatile](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
+
+### Atomics
+The AtomicInteger class protects an underlying int value by providing methods that perform atomic operations on the value. It shall not be used as a replacement for an Integer class.
+
+The AtomicInteger class is part of the java.util.concurrent.atomic package since Java 1.5.
+
+The creation of AtomicInteger is straight forward by calling a constructor. The AtomicInteger provides two methods to get and set the values of it’s instances.
+```
+AtomicInteger atomicIntegerZero = new AtomicInteger();  //Initial value is 0
+AtomicInteger atomicIntegerTen = new AtomicInteger(10); //Initial value is 10
+int currentValue = atomicIntegerZero.get(); // 0
+atomicInteger.set(1); // set 1
+```
+
+In real life uses, we will need AtomicInteger in two cases:
+
+As an atomic counter which is being used by multiple threads concurrently.
+In compare-and-swap operations to implement non-blocking algorithms.
+
+A compare and swap operation compares the contents of a memory location to a given value and, only if they are the same, modifies the contents of that memory location to a given new value. This is done as a single atomic operation.
+
+The atomicity guarantees that the new value is calculated based on up-to-date information; if the value had been updated by another thread in the meantime, the write would fail.
+
+To support compare and swap operations, this class provides a method which atomically sets the value to the given updated value if the current value == the expected value.
+
+As discussed above, the primary use of AtomicInteger is when we are in multi-threaded context and we need to perform atomic operations on an int value without using synchronized keyword.
+
+Using the AtomicInteger is equally faster and more readable than performing the same using synchronization.
+
+> Original [Atomic integer on Java](https://howtodoinjava.com/java/multi-threading/atomicinteger-example/)
+
+
+## 2.2 Practice part.
+1. Create own immutable classes.
+2. Create a class with a counter which has the `volatile` modification.
+3. Create new class with AtomicInteger counter.
+
+---
 ## 3.1 Locks, `DeadLock`, Semaphore.
-// TODO
+
+### deadlock 
+
+Deadlock describes a situation where two or more threads are blocked forever, waiting for each other. 
+
+> More information about deadlock with example: [Oracle Documentation](https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html)
+
+### Solve [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
+Using:
+1. Semaphore
+1. BlockingQueue
+
+
+
+
+
 ## 3.2 Practice task.
-// TODO
+1. Solve [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
+Using:
+  1.1 Semaphore
+  1.2 BlockingQueue
+2. Write simplest code that will result in a deadlock.
+
+---
 
 ## 4.1 RecursiveTask, RecursiveAction
 // TODO
 ## 4.2 Practice task.
 // TODO
 
+---
+
 ## 5.1 CompletableFuture
-// TODO
+
+Watch video from Alexey Zinovyev with practical examples about `CompletableFuture`: [Concurrency and Multi-Threading Architecture (Part 2/2)](https://videoportal.epam.com/video/LoBYr2a9)
+
 ## 5.2 Practice task.
 // TODO
+
+---
 
 ## 6.1 Blurring for Clarity? (Join pool, ForkPool and etc)
 // TODO 
 ## 6.2 Practice part.
 // TODO
+
+---
