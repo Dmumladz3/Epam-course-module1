@@ -20,7 +20,7 @@
 * What is "Work Stealing" algorithm?
 
 ---
-## 1.1 Object, thread and monitor.
+# 1.1 Object, thread and monitor.
 
 First of all, we should check class object and what we can see.
 1. Native `notify()` method. Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation. A thread waits on an object's monitor by calling one of the wait methods.
@@ -79,7 +79,7 @@ public static native void sleep(long millis) throws InterruptedException
 > Q: What the differed between `wait()` and `sleep()`?  
 > A: `sleep()` is a method that is used to suspend the process for a few seconds or for the time we need. But in the case of the `wait()` method, the thread goes into a waiting state and will not return automatically until we call the `notify()` or `notifyAll()` function.
 
-### Thread or Runnable?  
+## Thread or Runnable?  
 There are two ways to create a new thread of execution. One is to declare a class to be a subclass of Thread. This subclass should override the run method of class Thread. An instance of the subclass can then be allocated and started. For example, a thread that computes primes larger than a stated value could be written as follows:
 
 ```
@@ -121,20 +121,21 @@ The following code would then create a thread and start it running:
     new Thread(p).start();
 ```
 
-> More about Thread you can read here: [Oracle Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html#Thread%28%29)
-
+> More about Thread you can read here: [Oracle Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html#Thread%28%29)  
+> Read more about [happens-before](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html)
 
 ## 1.1 Practice part.
 1. Create a new class and use wait(), notify(), notifyAll() methods with synchronized block.
 2. Create a new class and use Thread.sleep() in method, in synchronized block.
 
+---
+# 2.1 Immutable object.`volatile` and `Atomic` variables.   
 
-## 2.1 Immutable object.`volatile` and `Atomic` variables.   
-
-### Immutable classes  
+## Immutable classes  
 
 Immutable classes make concurrent programming easier. Immutable classes make sure that values are not changed in the middle of an operation without using synchronized blocks. By avoiding synchronization blocks, you avoid deadlocks. And since you are always working with an unchangeable consistent state, you avoid race conditions. In the following article, we will look at how to use immutable classes for concurrent programming in Java.
 
+Simple example:
 ```
 public class User {
     private final String userName;
@@ -153,7 +154,7 @@ public class User {
 }
 ```
 
-### volatile
+## Volatile variables
 In programming, an atomic action is one that effectively happens all at once. An atomic action cannot stop in the middle: it either happens completely, or it doesn't happen at all. No side effects of an atomic action are visible until the action is complete.  
 
 In real case, we can see a code sample like this:
@@ -181,9 +182,10 @@ Atomic actions cannot be interleaved, so they can be used without fear of thread
 
 Using simple atomic variable access is more efficient than accessing these variables through synchronized code, but requires more care by the programmer to avoid memory consistency errors. Whether the extra effort is worthwhile depends on the size and complexity of the application.
 
+> Read more about caches [Java volatile and caches](https://medium.com/@siddhusingh/volatile-visibility-in-jvm-3d2044da017c)  
 > Docs [Java Oracle documentation about volatile](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
 
-### Atomics
+## Atomics
 The AtomicInteger class protects an underlying int value by providing methods that perform atomic operations on the value. It shall not be used as a replacement for an Integer class.
 
 The AtomicInteger class is part of the java.util.concurrent.atomic package since Java 1.5.
@@ -220,21 +222,26 @@ Using the AtomicInteger is equally faster and more readable than performing the 
 3. Create new class with AtomicInteger counter.
 
 ---
-## 3.1 Locks, `DeadLock`, Semaphore.
+# 3.1 Locks, `DeadLock`, Semaphore.
 
-### deadlock 
+## Deadlock 
 
 Deadlock describes a situation where two or more threads are blocked forever, waiting for each other. 
 
 > More information about deadlock with example: [Oracle Documentation](https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html)
 
-### Solve [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
-Using:
-1. Semaphore
-1. BlockingQueue
+## Semaphore
 
+A counting semaphore. Conceptually, a semaphore maintains a set of permits. Each acquire() blocks if necessary until a permit is available, and then takes it. Each release() adds a permit, potentially releasing a blocking acquirer. However, no actual permit objects are used; the Semaphore just keeps a count of the number available and acts accordingly.
 
+> More information here: [Oracle documentation](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Semaphore.html)  
+> (?) Habr (Rus version) Semaphore guideline: [link](https://habr.com/ru/post/277669/)
 
+## BlockingQueue
+
+A Queue that additionally supports operations that wait for the queue to become non-empty when retrieving an element, and wait for space to become available in the queue when storing an element.
+
+> More [Oracle Documentation](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/BlockingQueue.html)
 
 
 ## 3.2 Practice task.
@@ -246,25 +253,61 @@ Using:
 
 ---
 
-## 4.1 RecursiveTask, RecursiveAction
-// TODO
-## 4.2 Practice task.
-// TODO
+## 4.1 Blurring for Clarity? (Join pool, ForkPool and etc)
+
+The fork/join framework is an implementation of the ExecutorService interface that helps you take advantage of multiple processors. It is designed for work that can be broken into smaller pieces recursively. The goal is to use all the available processing power to enhance the performance of your application.
+
+As with any ExecutorService implementation, the fork/join framework distributes tasks to worker threads in a thread pool. The fork/join framework is distinct because it uses a work-stealing algorithm. Worker threads that run out of things to do can steal tasks from other threads that are still busy.
+
+The center of the fork/join framework is the ForkJoinPool class, an extension of the AbstractExecutorService class. ForkJoinPool implements the core work-stealing algorithm and can execute ForkJoinTask processes.
+
+> See more: [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
+
+## 4.2 Practice part.
+Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
 
 ---
 
-## 5.1 CompletableFuture
-
-Watch video from Alexey Zinovyev with practical examples about `CompletableFuture`: [Concurrency and Multi-Threading Architecture (Part 2/2)](https://videoportal.epam.com/video/LoBYr2a9)
+## 5.1 RecursiveTask, RecursiveAction
+// TODO
 
 ## 5.2 Practice task.
-// TODO
+1. Give last example from [`RecursiveAction`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/RecursiveAction.html) javadoc about calculation of sum of squares in `double[]` array.
+2. Use double array of half-billion size `500_000_000` filled by random doubles.
+3. Compare speed with direct linear calculation (you may use Stream API as well):
+
+```
+    double sum = 0;
+    for (double v : ARRAY) {
+        sum += v * v;
+    }
+```
 
 ---
 
-## 6.1 Blurring for Clarity? (Join pool, ForkPool and etc)
-// TODO 
-## 6.2 Practice part.
-// TODO
+## 6.1 Future & CompletableFuture
 
+First of all, we should read about Future.
+
+`A Future represents the result of an asynchronous computation. Methods are provided to check if the computation is complete, to wait for its completion, and to retrieve the result of the computation. The result can only be retrieved using method get when the computation has completed, blocking if necessary until it is ready. Cancellation is performed by the cancel method. Additional methods are provided to determine if the task completed normally or was cancelled. Once a computation has completed, the computation cannot be cancelled. If you would like to use a Future for the sake of cancellability but not provide a usable result, you can declare types of the form Future<?> and return null as a result of the underlying task.`
+
+For example: 
+```
+ FutureTask<String> future =
+   new FutureTask<String>(new Callable<String>() {
+     public String call() {
+       return searcher.search(target);
+   }});
+ executor.execute(future);
+```
+
+A Future that may be explicitly completed (setting its value and status), and may be used as a CompletionStage, supporting dependent functions and actions that trigger upon its completion.
+When two or more threads attempt to complete, completeExceptionally, or cancel a CompletableFuture, only one of them succeeds.
+
+> Read more here: [Oracle documentation](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html)
+
+
+## 6.2 Practice task.
+1. Watch video from Alexey Zinovyev with practical examples about `CompletableFuture`: [Concurrency and Multi-Threading Architecture (Part 2/2)](https://videoportal.epam.com/video/LoBYr2a9)  
+2. (Optional) Create some task with CompletableFuture with reading/writing (NIO).
 ---
