@@ -15,7 +15,9 @@ public record FirstThread(Object resourceA, Object resourceB) implements Runnabl
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                System.out.println("resourceB has class:" + resourceB.getClass());
+                synchronized (resourceB) {
+                    System.out.println("resourceB has class:" + resourceB.getClass());
+                }
             }
         }
     }

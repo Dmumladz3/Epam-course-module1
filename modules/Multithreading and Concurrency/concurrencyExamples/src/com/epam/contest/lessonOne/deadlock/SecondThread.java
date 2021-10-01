@@ -15,7 +15,9 @@ public record SecondThread(Object resourceA, Object resourceB) implements Runnab
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                System.out.println("resourceA has class:" + resourceA.getClass());
+                synchronized (resourceA) {
+                    System.out.println("resourceA has class:" + resourceA.getClass());
+                }
             }
         }
     }
