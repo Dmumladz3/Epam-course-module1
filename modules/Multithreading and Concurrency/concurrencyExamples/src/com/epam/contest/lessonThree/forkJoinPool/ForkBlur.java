@@ -28,12 +28,11 @@
 * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-package com.epam.contest.lessonTwo.forkJoinPool;
+package com.epam.contest.lessonThree.forkJoinPool;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.net.URI;
 import java.net.URL;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;

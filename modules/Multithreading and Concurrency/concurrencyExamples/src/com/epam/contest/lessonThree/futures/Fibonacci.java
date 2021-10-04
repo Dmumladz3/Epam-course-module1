@@ -1,4 +1,4 @@
-package com.epam.contest.lessonTwo.futures;
+package com.epam.contest.lessonThree.futures;
 
 import java.util.ArrayList;
 import java.util.List;

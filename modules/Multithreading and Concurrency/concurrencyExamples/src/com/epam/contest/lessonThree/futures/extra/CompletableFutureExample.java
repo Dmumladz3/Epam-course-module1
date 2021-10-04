@@ -1,4 +1,4 @@
-package com.epam.contest.lessonTwo.futures.extra;
+package com.epam.contest.lessonThree.futures.extra;
 
 import java.util.concurrent.*;
 

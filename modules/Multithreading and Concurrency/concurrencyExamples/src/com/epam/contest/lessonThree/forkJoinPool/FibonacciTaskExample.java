@@ -1,9 +1,9 @@
-package com.epam.contest.lessonTwo.forkJoinPool;
+package com.epam.contest.lessonThree.forkJoinPool;
 
 import java.util.concurrent.ForkJoinPool;
 
-import static com.epam.contest.lessonTwo.forkJoinPool.FibonacciTask.fibLoop;
-import static com.epam.contest.lessonTwo.forkJoinPool.FibonacciTask.fibRecur;
+import static com.epam.contest.lessonThree.forkJoinPool.FibonacciTask.fibLoop;
+import static com.epam.contest.lessonThree.forkJoinPool.FibonacciTask.fibRecur;
 
 
 public class FibonacciTaskExample {

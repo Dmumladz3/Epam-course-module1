@@ -1,4 +1,4 @@
-package com.epam.contest.lessonTwo.forkJoinPool;
+package com.epam.contest.lessonThree.forkJoinPool;
 
 import java.util.Random;
 import java.util.concurrent.ForkJoinPool;
