@@ -1,151 +1,87 @@
 # Micro-services Module Practical Task 
 
-##### 1.	Download Java SE Development Kit 8 according to your OS and processor’s architecture.
-##### 2.	Install Java Development Kit according to JDK installation instructions (see also PATH and CLASSPATH).
-##### 3.	Download Apache Maven 3.6.0 according to your OS and processor’s architecture.
-##### 4.	Install Apache Maven according to installation instructions.
-##### 5.	Install Docker 8.x+ .
-##### 6.	Install Docker Compose 12.x+.
-##### 7.	Create micro-services maven project with business-services and platform-services modules:
-```
-    <groupId>com.epam.javacc.microservices</groupId>
-    <artifactId>microservices-parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+## Necessary Tools
 
-    <packaging>pom</packaging>
+Java Development Kit 11+
 
-    <modules>
-        <module>business-services</module>
-        <module>platform-services</module>
-    </modules>
-```
-##### 8.	Create platform-services maven project with discovery and apigateway modules:
-```
-    <parent>
-        <groupId>com.epam.javacc.microservices</groupId>
-        <artifactId>microservices-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
+Apache Maven 3.6.0+
 
-    <name>Java CC Micro-services Reference Example Parent</name>
+Git 2.24+
 
-    <artifactId>platform-services-parent</artifactId>
+Docker
 
-    <packaging>pom</packaging>
+Kubernetes
 
-    <modules>
-        <module>discovery</module>
-        <module>apigateway</module>
-    </modules>
-```
-##### 9.	Elaborate discovery module according to guide [Eureka Discovery Service](https://www.baeldung.com/spring-cloud-netflix-eureka).
-##### 10.	Elaborate apigateway module according to guide [Zuul Proxy Service](https://www.baeldung.com/spring-rest-with-zuul-proxy).
-##### 11.	Create business-services maven project with common, one, two and two-api modules:
-```
-    <parent>
-        <groupId>com.epam.javacc.microservices</groupId>
-        <artifactId>microservices-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
+##Task
 
-    <name>Java CC Microservices Reference Example Parent</name>
+(1 star)
 
-    <artifactId>business-services-parent</artifactId>
+##### 1. Create services: "micro-sender", "micro-recipient", "micro-collector"
+##### 2. Create "docker-compose.yml", with the following configuration:
+   - "micro-sender" should be in "sender" network
+   - "micro-recipient" should be in "recipient" network
+   - "rabbitmq" (you can find it into the docker-repository). This service should be in "sender" and "recipient" networks
+   - "micro-collector" should be in "recipient"
+   - Ports configuration
+##### 3. The "micro-sender" must be configured with the following requirements: 
+   - REST endpoint (POST "/notification") receives the following JSON request:
+     {
+     "user": "Name LastName",
+     "message": "String"
+     }
+   - POST "/notification" call should add the "message" value from JSON to queue into "rabbitmq" service
+   - POST "/notification" call should be logged by any Logger
+##### 4. The "micro-recipient" must be configured with the following requirements:
+   - Must receive messages from "rabbitmq" service and collect it to List<String> (you can use in-memory DB instead) every (N) second(-s) (use Spring Scheduler for it)
+   - REST endpoint (GET "/message") returns List<String> (or records from in-memory DB) and cleans it
+   - Scheduler should be logged by any Logger
+   - GET "/message" call should be logged by any Logger
+##### 5. The "micro-collector" must be configured with the following requirements:
+   - Must call GET "/message" from "micro-recipient" and log it every (M > N) second(-s). (use Spring Scheduler and ForeignClient)
+   - Scheduler should be logged by any Logger
 
-    <packaging>pom</packaging>
+(2 stars)
 
-    <modules>
-        <module>one</module>
-        <module>two</module>
-        <module>two-api</module>
-        <module>common</module>
-    </modules>
-```
-##### 12.	Elaborate common module according to guide [Archaius Configuration Service](https://www.baeldung.com/netflix-archaius-spring-cloud-integration).
-##### 13.	Elaborate one module as REST Service integrated with Servo according to guide [Servo Metrics Aggregation Service](https://www.baeldung.com/netflix-servo) (see also [Eureka Discovery Service](https://www.baeldung.com/spring-cloud-netflix-eureka)).
-##### 14.	Elaborate two module as REST Service integrated with Servo according to guide [Servo Metrics Aggregation Service](https://www.baeldung.com/netflix-servo) (see also [Eureka Discovery Service](https://www.baeldung.com/spring-cloud-netflix-eureka)).
-##### 15.	Integrate Docker file into all Spring Boot applications using template:
-```
-FROM java:8-jre-alpine
+##### 6. Update the "docker-compose.yml" with:
+   - "prometheus". (u)se the "prom/prometheus" docker image)
+   - "grafana" (use the "grafana/grafana" docker image)
+##### 7. Update the micro-sender, micro-recipient, micro-collector to collect all metrics on "/actuator/prometheus"
+##### 8. Add additional metrics (you can randomize it) to one of your services
+##### 9. Configure a "grafana" service to connect and visualize data from "prometheus"
+##### 10. Open a "grafana" UI and check results (make screenshot)
 
-VOLUME /tmp
+(3-4 stars)
 
-LABEL ${LABEL_GROUP}="${LABEL_ID}"
-LABEL description="${LABEL_DESCRIPTION}"
+##### 11. Migrate all services (with "grafana" and "prometheus") to Kubernetes
+##### 12. Configure a "deployment.yaml" for your services. Test it
+##### 13. Add a "postgres" service (use "postgres:latest" docker image)
+##### 14. Update the "micro-collector" to save data to "postgres"
+##### 15. Add a "micro-visualizer" service, with the following configuration:
+    - REST endpoint (GET "/saved-messages") returns data from "postgres" DB
+##### 16. Re-deploy a new version of "micro-collector" with one of the following deployment strategies (make screenshot):
+    - Canary deployments
+    - A/B testing
+    - Blue-green deployments
+##### 17. Configure the "prometheus" and the "micro-visualizer" to read metrics from the "micro-visualizer"
 
-COPY ${JAR_NAME_TO_RUN} /${JAR_NAME_TO_RUN}
+(5 stars)
 
-EXPOSE ${PORT_TO_EXPOSE}
+##### 18. Update the "micro-recipient" and the "micro-collector" to read only one message per call. Change Scheduler's time to (5*N) for the "micro-collector"
+##### 19. Re-deploy the "micro-recipient" and the "micro-collector" with one of the following deployment strategies (make screenshot):
+    - Canary deployments
+    - A/B testing
+    - Blue-green deployments
+##### 20. Add a few replication for the "micro-collector" service
+##### 21. Configure the "prometheus" service to collect "micro-collector" metrics (for each replication) into the single task
 
-ENTRYPOINT ["java", "-jar", "/${JAR_NAME_TO_RUN}"]
-```
-and maven plugin:
-```
-<plugin>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>build-helper-maven-plugin</artifactId>
-    <executions>
-        <execution>
-            <id>add-source</id>
-            <phase>generate-sources</phase>
-            <goals>
-                <goal>add-resource</goal>
-            </goals>
-            <configuration>
-                <resources>
-                    <resource>
-                        <directory>${base-path}/docker/springboot-app</directory>
-                        <targetPath>${project.build.directory}/docker</targetPath>
-                        <filtering>true</filtering>
-                    </resource>
-                </resources>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
-```
-##### 16.	Elaborate docker compose
-```
-zipkin:
-  image: openzipkin/zipkin
-  ports:
-    - "9411:9411"
-
-graphite:
-  image: graphiteapp/graphite-statsd
-  ports:
-    - "2003:2003"
-
-discovery:
-  build: ../platform-services/discovery/target/docker
-  ports:
-    - "8761:8761"
-
-apigateway:
-  build: ../platform-services/apigateway/target/docker
-  ports:
-    - "8765:8765"
-  links:
-    - discovery
-
-one:
-  build: ../business-services/one/target/docker
-  links:
-    - zipkin
-    - graphite
-    - discovery
-
-two:
-  build: ../business-services/two/target/docker
-  links:
-    - zipkin
-    - graphite
-    - discovery
-```
-##### 17.	Start services and demonstrate Discovery Service Registry, Requests via API Gateway, Zipkin Metrics and REST API requests  
+Create Pull Request with the solution's source code and screenshots
 
 ## References
-[Eureka Discovery Service](https://www.baeldung.com/spring-cloud-netflix-eureka)
-[Zuul Proxy Service](https://www.baeldung.com/spring-rest-with-zuul-proxy)
-[Archaius Configuration Service](https://www.baeldung.com/netflix-archaius-spring-cloud-integration)
-[Servo Metrics Aggregation Service](https://www.baeldung.com/netflix-servo)
+
+[Patterns](https://microservices.io/)
+
+[Prometheus](https://prometheus.io/docs/introduction/overview/)
+
+[Grafana](https://grafana.com/tutorials/)
+
+[Deployment Strategies](https://www.infoworld.com/article/3565750/4-deployment-strategies-for-resilient-microservices.html)
