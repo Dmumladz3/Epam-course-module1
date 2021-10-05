@@ -1,1 +1,1 @@
-[Siarhei Karpenka](Siarhei_Karpenka@epam.com)
+[Valery Mironenka](Valery_Mironenka@epam.com)
