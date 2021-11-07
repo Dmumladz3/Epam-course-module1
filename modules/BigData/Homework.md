@@ -15,8 +15,50 @@ Task 1 - Single-node Hadoop
 4. Make screenshot/screencast and share it with mentor.
 
 
+Task 2 - Run ClickHouse locally in Docker 
+===========================
+1. Run ClickHouse locally by colland (below is Mac example, you need to modify it for your OS):
+```
+    docker run -d -p 8123:8123 -p 9000:9000 \
+        -v $HOME/some_clickhouse_database:/var/lib/clickhouse/ \
+        -v $HOME/some_clickhouse_database/logs:/var/log/clickhouse-server/ \
+        -e CLICKHOUSE_DB=my_database -e CLICKHOUSE_USER=username \
+        -e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 -e CLICKHOUSE_PASSWORD=password \
+        --name some-clickhouse-server --ulimit nofile=262144:262144 clickhouse/clickhouse-server
+```
 
-Task 2 - Multi-node Hadoop
+2. Connect to ClickHouse using SQL manager. For example, using DataGrip:
+
+3. Create table ads_data using the following SQL in DataGrip (or any other suitable SQL Manager):
+
+```
+create table ads_data
+(
+    date                  Date,
+    time                  DateTime,
+    event                 LowCardinality(String),
+    platform              LowCardinality(String),
+    ad_id                 UInt32,
+    client_union_id       UInt32,
+    campaign_union_id     UInt32,
+    ad_cost_type          LowCardinality(String),
+    ad_cost               Float32,
+    has_video             Int8,
+    target_audience_count UInt64
+)
+    engine = MergeTree PARTITION BY date ORDER BY (time, ad_id) SAMPLE BY ad_id SETTINGS index_granularity = 8192;
+```
+
+4. Upload data file using DataGrip (or any other SQL Manager). Right click on table name and select Import Data from File.
+
+
+
+5. Calculate number of events per days, count of each ad displayed, number of clicks, number of unique ads and unique campaigns. 
+Hint: use the functions - countif, uniqExact. Use LIMIT key word to get less not important rows. 
+
+
+
+Task 2 (Optional) - Multi-node Hadoop
 ==========================
 
 **Cost**: 1 point.
