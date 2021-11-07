@@ -28,6 +28,7 @@ Task 2 - Run ClickHouse locally in Docker
 ```
 
 2. Connect to ClickHouse using SQL manager. For example, using DataGrip:
+![image-1.png](./image-1.png)
 
 3. Create table ads_data using the following SQL in DataGrip (or any other suitable SQL Manager):
 
@@ -50,6 +51,10 @@ create table ads_data
 ```
 
 4. Upload data file using DataGrip (or any other SQL Manager). Right click on table name and select Import Data from File.
+
+Use this data file for import: 
+
+![image.png](./image.png)
 
 
 
