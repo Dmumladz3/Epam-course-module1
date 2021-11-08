@@ -28,7 +28,8 @@ Task 2 - Run ClickHouse locally in Docker
 ```
 
 2. Connect to ClickHouse using SQL manager. For example, using DataGrip:
-![image-1.png](./image-1.png)
+![image-1.png](data/image-1.png)
+
 
 3. Create table ads_data using the following SQL in DataGrip (or any other suitable SQL Manager):
 
@@ -50,11 +51,12 @@ create table ads_data
     engine = MergeTree PARTITION BY date ORDER BY (time, ad_id) SAMPLE BY ad_id SETTINGS index_granularity = 8192;
 ```
 
-4. Upload data file using DataGrip (or any other SQL Manager). Right click on table name and select Import Data from File.
+4. Upload CSV data file using DataGrip (or any other SQL Manager) to the ads_data table. 
+   It can be done in DataGrip by right click on table name and select Import Data from File.
 
-Use this data file for import: ![default_ads_data.csv](./data/default_ads_data.csv)
+Use this data file for import: [default_ads_data.csv](data/default_ads_data.csv)
 
-![image.png](./image.png)
+![image.png](data/image.png)
 
 
 
