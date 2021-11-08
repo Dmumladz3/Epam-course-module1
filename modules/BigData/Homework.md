@@ -52,7 +52,7 @@ create table ads_data
 
 4. Upload data file using DataGrip (or any other SQL Manager). Right click on table name and select Import Data from File.
 
-Use this data file for import: 
+Use this data file for import: ![default_ads_data.csv](./data/default_ads_data.csv)
 
 ![image.png](./image.png)
 
