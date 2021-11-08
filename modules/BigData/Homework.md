@@ -17,6 +17,9 @@ Task 1 - Single-node Hadoop
 
 Task 2 - Run ClickHouse locally in Docker 
 ===========================
+
+**Cost**: 2 points.
+
 1. Run ClickHouse locally by colland (below is Mac example, you need to modify it for your OS):
 ```
     docker run -d -p 8123:8123 -p 9000:9000 \
@@ -57,7 +60,6 @@ create table ads_data
 Use this data file for import: [default_ads_data.csv](https://drive.google.com/file/d/1dnUrhf_Ae3_cDJCHYrPrdCTEwbqFoq6u/view?usp=sharing)
 
 ![image.png](data/image.png)
-
 
 
 5. Calculate number of events per days, count of each ad displayed, number of clicks, number of unique ads and unique campaigns. 
