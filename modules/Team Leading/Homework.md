@@ -25,78 +25,105 @@ Team:
 * Dean - scrum master, he is good at setting up of standard ceremonies, but don't expect something more from him 
 * Pavel - DevOps, trying to make fully automated CI / CD on the project
 
+#Evaluation
 
-Case 1 - New beginning (0.5 points)
+Each case can be rated up to **0.3** points, and you can receive up to **1 bonus** point for the whole story consistency.
+
+Case 1 - New beginning
 ==========================
+
+**Cost**: 0.3 points
 
 * You've just met your new team - what will be your first actions?
 
 
-Case 2 - Chose (0.5 points)
+Case 2 - Chose
 ==========================
+
+**Cost**: 0.3 points
 
 * In your work you need two frameworks, first is required from client's side. Second you and your team should choose. How will you do it? 
 
 
-Case 3 - Estimation (0.5 points)
+Case 3 - Estimation
 ==========================
+
+**Cost**: 0.3 points
 
 * Client asks you to estimate first epic with the list of stories. How will you do it, what instruments and practices will you use for it?
 * After estimation session Eva said that she doesn't understand how estimation works, for her is obvious, that she'll do same task as Adam for x100 times longer. What will you do with it.
 * PO thinks that your estimation is too big she thought that it will take less time or story points, what will you do?
 
 
-Case 4 - First conflicts (0.5 points)
+Case 4 - First conflicts
 ==========================
+
+**Cost**: 0.3 points
 
 * You and all the rest team can see that something bad going on between Adam and Bob, on the first weeks they were trying just ignore their differences, but now you all can see that every daily, estimation or even discussion on any question leads to conflicts. What will you do?
 
 
-Case 5 - Tests and testers (0.5 points)
+Case 5 - Tests and testers
 ==========================
+
+**Cost**: 0.3 points
 
 * Diana complains that after implementing of every feature something is breaking in features that was implemented before, he asks you to do something with it.
 * Whatever decision you make, in few weeks after, you can see that Bob is ignoring your decision and Eva is taking he's behavior as an example, what will be your actions?
 
 
-Case 6 - Bottleneck and bus factor (0.5 points)
+Case 6 - Bottleneck and bus factor
 ==========================
+
+**Cost**: 0.3 points
 
 * Bob starts to be a bottleneck - he's capacity isn't enough to solve all required issues, how can you solve it? 
 * After 6 moth from start of project Bob broke his arm, and he will not be able to work for 3 weeks. Are you ready for this situation? What should you do if you are ready, and what if you are not?
 
 
-Case 7 - Breaking of sprint (0.5 points)
+Case 7 - Breaking of sprint
 ==========================
+
+**Cost**: 0.3 points
 
 * Client asks your team to add ultrahigh priority task in the middle of current sprint. Adam doesn't think that this is a good idea, Mary thinks that we just have to do it anyway. What will you do and how will you convince your position or decision?
 
 
-Case 8 - Effort and impact (0.5 points)
+Case 8 - Effort and impact
 ==========================
+
+**Cost**: 0.3 points
 
 * User story contains several tasks, one of which has tiny functionality but at the same time require large efforts. How will you communicate it with PO / customer?
 
 
-Case 9 - Unclear requirements (0.5 points)
+Case 9 - Unclear requirements
 ==========================
+
+**Cost**: 0.3 points
 
 * Business Analyst create contradiction requirements unclear for developers. What will be your actions?
 
 
-Case 10 - Team lead (0.5 points)
+Case 10 - Team lead
 ==========================
+
+**Cost**: 0.3 points
 
 * Developer from your team want to lead your team for you (who is it depending on your previous decisions). What will you do?
 
 
-Case 11 - Demo (0.5 points)
+Case 11 - Demo
 ==========================
+
+**Cost**: 0.3 points
 
 * When 10 minutes prior to demo for customer you spotted that application / functionality you need to demonstrate does not work. 
 
 
-Case 12 - The end (0.5 points)
+Case 12 - The end
 ==========================
+
+**Cost**: 0.3 points
 
 * You did a very good job, customer is happy, team very like you and each other, team spirit is very-very high. But you know, that soon project will be over, the job is done. What should you think about it and what should you do?
