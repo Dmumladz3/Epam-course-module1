@@ -1,8 +1,12 @@
 **Topics:** 
 =======================
 - Software Architecture Foundations
-- Kibana as search tool
-- Logstash
+- Software Architecture: From Developer to Architect
+- Software Design: Modeling with UML
+- Software Architecture: Patterns for Developers
+- Software Design: From Requirements to Release
+- C4 Model
+- Data Flow Diagram
 
 **Required time for the course:** 
 =======================
