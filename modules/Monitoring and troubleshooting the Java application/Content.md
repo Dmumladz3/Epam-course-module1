@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Junior / Middle
+
 **Topics:**
 =======================
 - JVM utilities to monitor and troubleshoot java applications

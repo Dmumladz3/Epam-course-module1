@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Junior / Middle
+
 **Topics:** 
 =======================
 This module is intended for learning the Kotlin programming language.

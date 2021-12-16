@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Junior / Middle
+
 **Topics:** 
 =======================
 - JDBC queries, parameters, exceptions

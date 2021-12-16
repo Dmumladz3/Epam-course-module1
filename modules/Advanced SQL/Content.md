@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Middle / Senior / Lead
+
 **Topics:** 
 =======================
 * Query cost and optimisation

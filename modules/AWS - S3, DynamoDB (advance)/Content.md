@@ -1,3 +1,8 @@
+**Recommended level:** 
+=======================
+- Senior / Lead
+
+
 **Topics:** 
 =======================
 - AWS storages as managed services

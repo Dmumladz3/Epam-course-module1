@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Senior / Lead
+
 **Topics:** 
 =======================
 - Software Architecture Foundations

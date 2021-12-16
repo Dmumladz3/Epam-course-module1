@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Junior / Middle
+
 **Topics:** 
 =======================
 - Java8 new features: Optionals, Functional interfaces, Lambdas etc.

@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Junior / Middle
+
 **Topics:** 
 =======================
 - AWS S3 (Simple Storage Service)

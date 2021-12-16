@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Middle / Senior
+
 NoSQL:
 * Learning NoSQL Databases: https://www.linkedin.com/learning/learning-nosql-databases
 * NoSQL Data Modeling: https://www.linkedin.com/learning/nosql-data-modeling-essential-training/welcome?u=2113185

@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Middle / Senior
+
 **Module description:**
 =======================
 - This module provides a basic understanding of Apache Kafka is an open-source stream-processing software mainly focusing on practical tasks

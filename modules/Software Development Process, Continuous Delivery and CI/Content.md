@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Middle / Senior
+
 https://stackify.com/what-is-sdlc/ - What is SDLS
 https://www.jenkins.io/doc/book/installing/ - Jenkin Installation
 https://minikube.sigs.k8s.io/docs/start/ - Minikube Installation

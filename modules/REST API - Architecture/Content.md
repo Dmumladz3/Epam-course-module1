@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Middle / Senior
+
 **Topics:**
 =======================
 - REST API Architecture  overview

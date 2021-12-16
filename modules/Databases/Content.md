@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Middle / Senior
+
 **Topics:** 
 =======================
 * Relational database design 

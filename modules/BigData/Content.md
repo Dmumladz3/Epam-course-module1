@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Senior / Lead
+
 **Topics:** 
 =======================
 - What is Big in Data

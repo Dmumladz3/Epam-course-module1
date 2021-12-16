@@ -1,3 +1,7 @@
+**Recommended level:** 
+=======================
+- Junior / Middle
+
 Topics:
 =======================
 - TDD and BDD approaches

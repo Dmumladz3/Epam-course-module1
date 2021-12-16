@@ -1,3 +1,8 @@
+**Recommended level:** 
+=======================
+- Middle / Senior
+
+
 **Topics:** 
 =======================
 - Basics of AWS (VPC, IAM, EC2)
@@ -8,7 +13,7 @@
 **Required time for the course:** 
 =======================
 Lectures: ~12h
-Tasks: ~h mandatory + ~0h optional
+Tasks: ~5h mandatory + ~0h optional
 
 
 **Lectures:** 
