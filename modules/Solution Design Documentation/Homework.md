@@ -38,22 +38,19 @@ Use Amazon Web Services Cloud Provider deployment distributed between regions fo
     d.   Glossary
     e.   Functional requirements
     f.   Non-functional requirements
-    g.   Non-functional requirements
-    h.   Constraints
-    i.   Quality attributes
-    f.   Solution Options
+    g.   Constraints
+    h.   Quality attributes
+    i.   Solution Options
      ```
         - MySQL DB deployed to on-premis
         - AWS RDS Aurora MySQL DB
         - ElasticSearch NoSQL storage 
      ```
-    g.   Decision criteria
-    h.   Decision
-    i.   Decision
-    j.   Sources
-    k.   Tickets
-    l.   References
-    m.   References
+    j.   Decision criteria
+    k.   Decision
+    l.   Sources
+    m.   Tickets
+    n.   References
    
 Note: data storage options could be changed depending on mentors advice. The main goal is to have comparison.    
 
