@@ -10,8 +10,9 @@ This module is intended for learning the Scala programming language.
 **Prerequisites:** 
 =======================
 Before starting this module we recommend taking one of courses:
-- https://www.coursera.org/learn/progfun1
+- https://www.coursera.org/learn/scala2-functional-programming
 - https://academy.lightbend.com/courses/course-v1:lightbend+LSL-P-Scala-Language-Professional+v1/about
+  (instruction how to get free access to all courses on Lightbend academy for EPAM employees you can find here: https://kb.epam.com/display/EJAVACC/Lightbend)
 
 **Topics:** 
 =======================
@@ -78,3 +79,7 @@ Before starting this module we recommend taking one of courses:
 [Scala for the Impatient](https://horstmann.com/scala/index.html)
 
 [Programming in Scala](https://booksites.artima.com/programming_in_scala_4ed)
+
+**Video**:
+=======================
+- [Scala Ecosystem course](https://videoportal.epam.com/playlist/qYL063YX)
