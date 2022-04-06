@@ -60,7 +60,7 @@ Download and install classic ActiveMQ.
 
 ## Practical Task:
 
-I. Implement publish/subscribe interaction between two applications. Check durable vs non durable subscription.
+I. Implement publish/subscribe interaction between two applications. Check durable vs non-durable subscription.
 
 II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
 
