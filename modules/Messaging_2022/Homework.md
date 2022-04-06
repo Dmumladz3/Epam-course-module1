@@ -66,4 +66,9 @@ II. Implement request-reply interaction between two applications using a tempora
 
 III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
 
+## References
+
+1. [ActiveMQ Documentation](https://activemq.apache.org/components/classic/documentation)
+2. [Spring: Messaging with JMS](https://www.linkedin.com/learning/spring-messaging-with-jms)
+
 
