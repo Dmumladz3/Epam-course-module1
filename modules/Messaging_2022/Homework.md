@@ -33,6 +33,10 @@ Messages from one vehicle must be processed `sequentially`!
 
 # RabbitMQ
 
+## Prerequisits: 
+
+Download and install classic RabbitMQ.
+
 ## Practical Task:
 I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
 
@@ -48,5 +52,18 @@ I. Implement a Spring Boot application for sending notifications to customers ab
 
 
 # ActiveMQ
+
+## Prerequisits: 
+
+Download and install classic ActiveMQ.
+
+
+## Practical Task:
+
+I. Implement publish/subscribe interaction between two applications. Check durable vs non durable subscription.
+
+II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
+
+III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
 
 
