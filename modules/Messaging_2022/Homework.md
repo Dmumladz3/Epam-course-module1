@@ -1,26 +1,36 @@
 # Apache Kafka  
 
-## Prerequisits: 
+## Prerequisites: 
 
-Configure Kafka cluster using docker with the following parameters:
+Configure a Kafka cluster using Docker with the following parameters:
 * Number of brokers - 3 
 * Number of partitions - 3
 * Replication factor - 2
+* observe the Kafka broker logs to see how leaders/replicas for every partition are assigned
 
-![image info](./fundamentals.jpeg)
+Suggested options:
+* run the [Landoop Docker image](https://hub.docker.com/r/landoop/kafka-lenses-dev) (it will bring up 3 Kafka brokers 
+and Zookeeper out-of-box, need to manually create only the topic)
 
 ## Practical Task:
 
-I. Implement a Spring Boot application with `"at least once"` producer and  `"at most once"` consumer.
+I. Implement a pair of `"at least once"` producer and  `"at most once"` consumer.
 
-II. Implement a Spring Boot application with exactly-once delivery between producer and consumer applications through the Transactional API
+II. Implement another pair of producer and consumer with exactly-once delivery (use the Transactional API)
 
 III. Implement a taxi application using Spring Boot. The application should consist of three components:
    1. REST service fo sending taxi coordinates and car ID.
    2. Kafka broker. 
    3. Three consumers to calculate the distance traveled by a car.
+
+![image](./kafka-vehicle-monitor.jpg)
  
-Messages from one vehicle must be processed `sequentially`!
+###Important
+* Messages from every vehicle must be processed `sequentially`!
+
+###Tips
+* the first two subtasks may be done as integration tests (for example, using the
+[Embedded Kafka from Spring Boot](https://blog.knoldus.com/testing-spring-embedded-kafka-consumer-and-producer/))
 
 ## References
 
