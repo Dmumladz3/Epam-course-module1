@@ -1,3 +1,44 @@
+
+# ActiveMQ
+
+## Prerequisits: 
+
+Download and install classic ActiveMQ.
+
+
+## Practical Task:
+
+I. Implement publish/subscribe interaction between two applications. Check durable vs non-durable subscription.
+
+II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
+
+III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
+
+## References
+
+1. [ActiveMQ Documentation](https://activemq.apache.org/components/classic/documentation)
+2. [Spring: Messaging with JMS](https://www.linkedin.com/learning/spring-messaging-with-jms)
+
+
+
+
+# RabbitMQ
+
+## Prerequisits: 
+
+Download and install classic RabbitMQ.
+
+## Practical Task:
+I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
+
+![image info](./Reliable.png)
+
+## References
+
+1. [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html)
+2. [Spring. Messaging with RabbitMQ](https://spring.io/guides/gs/messaging-rabbitmq/)
+3. [Learning RabbitMQ](https://www.linkedin.com/learning/learning-rabbitmq)
+
 # Apache Kafka  
 
 ## Prerequisites: 
@@ -25,10 +66,10 @@ III. Implement a taxi application using Spring Boot. The application should cons
 
 ![image](./kafka-vehicle-monitor.jpg)
  
-###Important
+### Important
 * Messages from every vehicle must be processed `sequentially`!
 
-###Tips
+### Tips
 * the first two subtasks may be done as integration tests (for example, using the
 [Embedded Kafka from Spring Boot](https://blog.knoldus.com/testing-spring-embedded-kafka-consumer-and-producer/))
 
@@ -41,44 +82,8 @@ III. Implement a taxi application using Spring Boot. The application should cons
 
 
 
-# RabbitMQ
-
-## Prerequisits: 
-
-Download and install classic RabbitMQ.
-
-## Practical Task:
-I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
-
-![image info](./Reliable.png)
-
-## References
-
-1. [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html)
-2. [Spring. Messaging with RabbitMQ](https://spring.io/guides/gs/messaging-rabbitmq/)
-3. [Learning RabbitMQ](https://www.linkedin.com/learning/learning-rabbitmq)
 
 
 
-
-# ActiveMQ
-
-## Prerequisits: 
-
-Download and install classic ActiveMQ.
-
-
-## Practical Task:
-
-I. Implement publish/subscribe interaction between two applications. Check durable vs non-durable subscription.
-
-II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
-
-III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
-
-## References
-
-1. [ActiveMQ Documentation](https://activemq.apache.org/components/classic/documentation)
-2. [Spring: Messaging with JMS](https://www.linkedin.com/learning/spring-messaging-with-jms)
 
 
