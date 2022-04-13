@@ -10,9 +10,15 @@ Download and install classic ActiveMQ.
 
 I. Implement publish/subscribe interaction between two applications. Check durable vs non-durable subscription.
 
+![image info](./dur_non_dur.png)
+
 II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
 
+![image info](./request-reply.png)
+
 III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
+
+![image info](./virtual-topic.png)
 
 ## References
 
@@ -21,23 +27,28 @@ III. Implement subscriber scaling, i.e. create n subscribers to a topic with the
 
 
 
-
 # RabbitMQ
 
 ## Prerequisits: 
 
-Download and install classic RabbitMQ.
+Download and install RabbitMQ.
 
 ## Practical Task:
 I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
 
 ![image info](./Reliable.png)
 
+### Tips
+Dead letter channel/Invalid message channel
+![image](./DLQ_IMQ.png) 
+
 ## References
 
 1. [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html)
 2. [Spring. Messaging with RabbitMQ](https://spring.io/guides/gs/messaging-rabbitmq/)
 3. [Learning RabbitMQ](https://www.linkedin.com/learning/learning-rabbitmq)
+
+
 
 # Apache Kafka  
 
