@@ -60,9 +60,10 @@ Configure a Kafka cluster using Docker with the following parameters:
 * Replication factor - 2
 * observe the Kafka broker logs to see how leaders/replicas for every partition are assigned
 
-Suggested options:
-* run the [Landoop Docker image](https://hub.docker.com/r/landoop/kafka-lenses-dev) (it will bring up 3 Kafka brokers 
-and Zookeeper out-of-box, need to manually create only the topic)
+### Tips
+* if you're working on a machine with 16 Gb of RAM or less, you might need to fall back to just 2 brokers
+* an example of a Docker Compose for a 2-node cluster based on the official Confluent Kafka image, can be found 
+[here](https://www.baeldung.com/ops/kafka-docker-setup#kafka-cluster-setup)
 
 ## Practical Task:
 
