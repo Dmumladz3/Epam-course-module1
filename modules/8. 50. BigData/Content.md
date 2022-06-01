@@ -40,28 +40,28 @@ Tasks: ~10h mandatory + ~6h optional
 Documentation: 
 =======================
 
-[En] [Apache Hadoop](http://hadoop.apache.org/docs/current/) 
+[Apache Hadoop](http://hadoop.apache.org/docs/current/) 
 
-[En] [Apache Spark](https://spark.apache.org/docs/latest/) 
+[Apache Spark](https://spark.apache.org/docs/latest/) 
 
-[En] [Apache Hive](https://cwiki.apache.org/confluence/display/Hive/GettingStarted)
+[Apache Hive](https://cwiki.apache.org/confluence/display/Hive/GettingStarted)
 
 
 
 References: 
 =======================
 
-[En] [How to install Hadoop](https://zaleslaw.blogspot.com/2015/01/big-data-on-your-local-machine-how-to-install-hadoop.html) 
+[How to install Hadoop](https://zaleslaw.blogspot.com/2015/01/big-data-on-your-local-machine-how-to-install-hadoop.html) 
 
-[En] [Installing Hadoop Cluster (Multi Node regime)](https://zaleslaw.blogspot.com/2015/01/installing-hadoop-cluster-multi-node.html)
+[Installing Hadoop Cluster (Multi Node regime)](https://zaleslaw.blogspot.com/2015/01/installing-hadoop-cluster-multi-node.html)
 
-[En] [Spark installation](https://www.tutorialspoint.com/apache_spark/apache_spark_installation.htm) 
+[Spark installation](https://www.tutorialspoint.com/apache_spark/apache_spark_installation.htm) 
 
-[En] [Introduction to Spark SQL and DataFrames](https://learn.epam.com/detailsPage?id=385d77ea-8ffe-4a51-bb4c-77e94746ddb8) 
+[Introduction to Spark SQL and DataFrames](https://learn.epam.com/detailsPage?id=385d77ea-8ffe-4a51-bb4c-77e94746ddb8) 
 
-[En] [Apache Zeppelin installation on Ubuntu](https://www.vultr.com/docs/how-to-install-apache-zeppelin-on-ubuntu-16-04)
+[Apache Zeppelin installation on Ubuntu](https://www.vultr.com/docs/how-to-install-apache-zeppelin-on-ubuntu-16-04)
 
-[En] [Apache Zeppelin installation on Windows](https://hernandezpaul.wordpress.com/2016/11/14/apache-zeppelin-installation-on-windows-10/)
+[Apache Zeppelin installation on Windows](https://hernandezpaul.wordpress.com/2016/11/14/apache-zeppelin-installation-on-windows-10/)
 
 
 Additional links to conference presentation or popular education videos: 

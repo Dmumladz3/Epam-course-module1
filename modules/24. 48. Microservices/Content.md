@@ -27,6 +27,7 @@ Tasks: ~4h mandatory
 
 [Sync communication with Feign and Eureka](https://learn.epam.com/detailsPage?id=eb8ad9c6-27af-4018-8bb0-638edcad67c5)  1h 12m
 
+[Gateway with Zuul](https://www.youtube.com/watch?v=mHHHpxJuTAo)
 **References**:
 =======================
 
@@ -37,3 +38,7 @@ Tasks: ~4h mandatory
 [Grafana](https://grafana.com/tutorials/)
 
 [Deployment Strategies](https://www.infoworld.com/article/3565750/4-deployment-strategies-for-resilient-microservices.html)
+
+**Self-Paced cource***
+=======================
+[Microservices self-paced](https://learn.epam.com/detailsPage?id=c2b50b35-3dd7-4ce4-9a07-7786cac109c4&source=EXTERNAL_COURSE)

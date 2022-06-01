@@ -3,6 +3,7 @@
 - Middle / Senior
 
 NoSQL:
+* NoSQL essentials: https://www.linkedin.com/learning/nosql-essential-training/get-to-know-nosql?u=2113185
 * Learning NoSQL Databases: https://www.linkedin.com/learning/learning-nosql-databases
 * NoSQL Data Modeling: https://www.linkedin.com/learning/nosql-data-modeling-essential-training/welcome?u=2113185
 * Cassandra Data Modeling Essential	https://www.linkedin.com/learning/cassandra-data-modeling-essential-training/welcome

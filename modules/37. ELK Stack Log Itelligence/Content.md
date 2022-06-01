@@ -13,6 +13,10 @@
 - Lectures: ~6h
 - Tasks: ~5h mandatory
 
+**Self-paced**
+======================
+[ELK Stack Log Intelligence](https://learn.epam.com/detailsPage?id=a5e75983-4204-46f8-9508-2a7b64e884db&source=EXTERNAL_COURSE)
+
 Lectures: 
 =======================
 

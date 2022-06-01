@@ -1,20 +1,21 @@
 **Recommended level:** 
 =======================
-- Junior / Middle
+- Junior / Middle / Senior
 
-**Topics:** 
+**Topics:**:
 =======================
 - Code Quality Overview
-- Practise to improve Code Quality  
+- Practise to improve Code Quality
 - SonarQube Overview
 
-**Required time for the course:**
+**Required time for the course:**:
 =======================
-- Lectures: ~5.5h
-- Tasks: ~2h mandatory
+Lectures: ~10h
+Tasks: ~5h mandatory
 
-**Lectures**:
+**Lectures:**:
 =======================
+[Clean Code](https://learn.epam.com/detailsPage?id=1fc3a94c-56c5-424b-b355-aa436409d87e&source=PROGRAM)
 
 [Agile Software Development: Code Quality](https://www.linkedin.com/learning/agile-software-development-code-quality/why-code-quality-is-important?u=2113185)
 

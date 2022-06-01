@@ -1,4 +1,4 @@
-# 24. Database Migration Tools
+# Database Migration Tools
 
 ##### 1.	Open flyway
 ##### 2.	Review resources db/migration

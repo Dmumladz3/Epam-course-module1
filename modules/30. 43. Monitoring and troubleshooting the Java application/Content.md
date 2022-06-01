@@ -20,7 +20,7 @@ Homework: ~8h
 Here are two main articles you need to go through before jump into the homework
 [Java 8 Troubleshoot Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/)
 [Monitoring Tools](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html)
-
+[Latency and throughput](https://www.linkedin.com/learning/java-concurrency-troubleshooting-latency-and-throughput/welcome-to-high-performing-java-applications?u=2113185)
 Also, please, feel free to visit references in order to get more familiar with the tools
 
 **Prerequisites**
@@ -55,3 +55,6 @@ JFR saves data about the events in a single output file, `flight.jfr`.
 [Analyzing a Heap Dump Using OQL](https://visualvm.github.io/documentation.html)
 [Java Mission Control](https://github.com/openjdk/jmc)
 
+**Self-paced**
+=======================
+[Monitoring and Troubleshooting](https://learn.epam.com/detailsPage?id=19bdc071-ebc7-4c64-bb1b-035e398fbd86&source=EXTERNAL_COURSE)

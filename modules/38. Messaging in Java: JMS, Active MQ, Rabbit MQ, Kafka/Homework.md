@@ -1,7 +1,7 @@
 
 # ActiveMQ
 
-## Prerequisits: 
+## Prerequisits:
 
 Download and install classic ActiveMQ.
 
@@ -10,15 +10,15 @@ Download and install classic ActiveMQ.
 
 I. Implement publish/subscribe interaction between two applications. Check durable vs non-durable subscription.
 
-![image info](./dur_non_dur.png)
+![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/dur_non_dur.png)
 
 II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
 
-![image info](./request-reply.png)
+![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/request-reply.png)
 
 III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
 
-![image info](./virtual-topic.png)
+![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/virtual-topic.png)
 
 ## References
 
@@ -29,18 +29,18 @@ III. Implement subscriber scaling, i.e. create n subscribers to a topic with the
 
 # RabbitMQ
 
-## Prerequisits: 
+## Prerequisits:
 
 Download and install RabbitMQ.
 
 ## Practical Task:
 I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
 
-![image info](./Reliable.png)
+![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/Reliable.png)
 
 ### Tips
 Dead letter channel/Invalid message channel
-![image](./DLQ_IMQ.png) 
+![image](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/DLQ_IMQ.png)
 
 ## References
 
@@ -50,20 +50,20 @@ Dead letter channel/Invalid message channel
 
 
 
-# Apache Kafka  
+# Apache Kafka
 
-## Prerequisites: 
+## Prerequisites:
 
 Configure a Kafka cluster using Docker with the following parameters:
-* Number of brokers - 3 
+* Number of brokers - 3
 * Number of partitions - 3
 * Replication factor - 2
 * observe the Kafka broker logs to see how leaders/replicas for every partition are assigned
 
 ### Tips
 * if you're working on a machine with 16 Gb of RAM or less, you might need to fall back to just 2 brokers
-* an example of a Docker Compose for a 2-node cluster based on the official Confluent Kafka image, can be found 
-[here](https://www.baeldung.com/ops/kafka-docker-setup#kafka-cluster-setup)
+* an example of a Docker Compose for a 2-node cluster based on the official Confluent Kafka image, can be found
+  [here](https://www.baeldung.com/ops/kafka-docker-setup#kafka-cluster-setup)
 
 ## Practical Task:
 
@@ -72,18 +72,18 @@ I. Implement a pair of `"at least once"` producer and  `"at most once"` consumer
 II. Implement another pair of producer and consumer with exactly-once delivery (use the Transactional API)
 
 III. Implement a taxi application using Spring Boot. The application should consist of three components:
-   1. REST service fo sending taxi coordinates and car ID.
-   2. Kafka broker. 
-   3. Three consumers to calculate the distance traveled by a car.
+1. REST service fo sending taxi coordinates and car ID.
+2. Kafka broker.
+3. Three consumers to calculate the distance traveled by a car.
 
-![image](./kafka-vehicle-monitor.jpg)
- 
+![image](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/kafka-vehicle-monitor.jpg)
+
 ### Important
 * Messages from every vehicle must be processed `sequentially`!
 
 ### Tips
 * the first two subtasks may be done as integration tests (for example, using the
-[Embedded Kafka from Spring Boot](https://blog.knoldus.com/testing-spring-embedded-kafka-consumer-and-producer/))
+  [Embedded Kafka from Spring Boot](https://blog.knoldus.com/testing-spring-embedded-kafka-consumer-and-producer/))
 
 ## References
 
