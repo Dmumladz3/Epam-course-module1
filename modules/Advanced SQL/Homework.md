@@ -1,7 +1,7 @@
 **SQL task**
 
 
-Within database designed in previous task write the following queries:  
+Create a database from the attached sql script and write the following queries:  
 1. Select all primary skills that contain more than one word (please note that both ‘-‘ and ‘ ’ could be used as a separator) – 0.2 points. 
 2. Select all students who does not have second name (it is absent or consists from only one letter/letter with dot) – 0.2 points. 
 3. Select number of students passed exams for each subject and order result by number of student descending. – 0.2 points. 

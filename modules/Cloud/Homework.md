@@ -1,17 +1,5 @@
 # 10. Clouds - EPAM, Google Cloud, Amazon Web Services
 
-## EPAM Cloud
-
-1. Install [Maestro CLI](https://cloud.epam.com/site/develop/maestro_c=l=i).
-1. Check VMs on your personal account by the command `or2din -p PERSONAL -r EPAM-BY2`.
-1. Check available shapes by the command `or2-describe-shapes -p PERSONAL -r EPAM-BY2`.
-1. Check available images by the command `or2-describe-images -p PERSONAL -r EPAM-BY2`.
-1. Create your cloud VM instance by the following command `or2-run-instances -p PERSONAL -r EPAM-BY2 -s SMALL -i Ubuntu16.04_64-bit`. Shape and image select by yourself.
-1. Connect to the VM instance via SSH
-1. Copy via SCP `event-service` REST API application and run it.
-1. Send simple REST request outside of VM instance.
-1. Kill VM instance to cleanup resources using `or2kill` command.
-
 ## Google Cloud
 
 1. Check VMs on your personal account by the command `gcloud compute instances list`
@@ -40,8 +28,7 @@
 
 ## Practical task evaluation rules:
 
-* EPAM Cloud : 1 points
-* Google Cloud: 1.5 points
+* Google Cloud: 2.5 points
 * AWS Cloud: 2.5 points
 * AWS CloudFormation: 1 points [optional]
 
