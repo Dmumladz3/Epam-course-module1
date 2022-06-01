@@ -1,3 +1,0 @@
-Maksym Oleshchuk
-Oleksandr Ponikarov
-Roman Gordiienko
