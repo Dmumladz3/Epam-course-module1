@@ -41,13 +41,6 @@ Documentation: 
 
 
 **Sites:**
-* [AWS Documentation](https://docs.aws.amazon.com/) 
-* [Collection of short tutorials for specific topics](https://aws.amazon.com/getting-started/hands-on/)  
-* [IAM user guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html?icmpid=docs_iam_console) 
-* [VPC user guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) 
-* [EC2 user guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) 
-* [RDS user guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
-* [Create and connect to PostgreSQL DB](https://aws.amazon.com/getting-started/tutorials/create-connect-postgresql-db/) 
 
 
 
