@@ -11,3 +11,5 @@ We are willing to expose our platform capabilities across the globe providing ac
  - we would like to have some aggregated statistics (reporting) 
  - we want to give users recommendations based on their profile.
  - external users might have a way to login with their social network accounts. Administrator should be able to add new courses in a couple of clicks.
+
+ ![Existing Education Platform](./images/existing.drawio.png)
