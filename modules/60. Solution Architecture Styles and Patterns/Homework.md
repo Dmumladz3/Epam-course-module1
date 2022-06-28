@@ -18,7 +18,7 @@ We are willing to expose our platform capabilities across the globe providing ac
 
  ### Existing Solution
 
- ![Existing Education Platform](./images/existing.drawio.png)
+ ![Existing Education Platform](./images/existing_v2.drawio.png)
 
  Solution Architect made some notes related to legacy system:
  1. Monolith Java application being deployed in private data center.
