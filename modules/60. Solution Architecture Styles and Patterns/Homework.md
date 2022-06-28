@@ -12,4 +12,10 @@ We are willing to expose our platform capabilities across the globe providing ac
  - we want to give users recommendations based on their profile.
  - external users might have a way to login with their social network accounts. Administrator should be able to add new courses in a couple of clicks.
 
+ ## Discovery
+
+ Client hired external Solution Architect to come up with new proposal and migration plan. In the first place Solution Architect documented existing system.
+
  ![Existing Education Platform](./images/existing.drawio.png)
+
+ 
