@@ -32,11 +32,28 @@ We are willing to expose our platform capabilities across the globe providing ac
   - Data Access layer
  5. Education material is stored on file system.
  6. Transaction data is stored within MySQL database.
+ 7. API is available via REST endpoints.
 
  Spending a couple of days Solution Architect came up with draft version of new architecture for Education Platform.
 
  ### Proposed Solution
 
  ![Proposed Education Platform](./images/new.drawio.png)
+
+ Solution architect added some key notes highlighting taken decisions:
+
+ 1. Monolith application has been broken down to separated component/services that reflect main business entities.
+ 2. Each component/service has own database storage.
+ 3. Almost all inter-service communication is implemented via events being sent to central Message Broker.
+ 4. Components API is never exposed directly but through managed API Gateway being passed through Backend For Frontend components.
+ 5. New platform API is added iterativly via API Gateway routing rules, legacy platform keep beings in landscape. 
+ 6. Courses data being added to database of Courses Management Service also replicated to Courses Search Service (with Search Engine under the hood).
+ 7. Static content as well as cached materials are stored within content delivery network component (CDN).
+ 8. Authentication is delegated to Cloud Identity Provider, that under the hood is integrated with legacy AD as well as social networks providing different authentication experience for different types of consumers.  
+ 9. API Gateway has several configured policies:
+  - Policy that imposes limits on the rate at which other applications or services can access platform API (200 RPS per endpoint by default).
+  - Policy that enables an application to handle transient failures when it tries to connect to a service or network resource, by transparently retrying a failed operation.
+  - Policy that enables caching of rarely changing resources in separate cache component.
+
 
  
