@@ -9,7 +9,7 @@
 
 **Required time for the course:** 
 =======================
-- Lectures: ~8h
+- Lectures: ~4h
 - Tasks: ~15h mandatory
 
 
@@ -28,17 +28,5 @@
 - [En] [Architecture Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 
 
-
-**Additional EPAM Content:**
-=======================
-
-- [En] [Complex event processing with Spark](https://www.youtube.com/watch?v=naCRk9wAd6g) 
-
-- [En] [Cassandra Overview](https://videoportal.epam.com/video/Lo9rBkRD) 
-
-- [En] [SAS: Technology Domains - NoSQL (Real level is Intro)](https://videoportal.epam.com/video/GobmP3ay)
-
-
-**Additional links to conference presentation or popular education videos:**
 =======================
 
