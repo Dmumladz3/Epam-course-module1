@@ -55,7 +55,7 @@ We are willing to expose our platform capabilities across the globe providing ac
   - Policy that enables an application to handle transient failures when it tries to connect to a service or network resource, by transparently retrying a failed operation.
   - Policy that enables caching of rarely changing resources in separate cache component.
 
- ##Task
+ ## Task
  Look carefully on discovery artifacts and do the following:
  1. Try to identify architecture styles being used in legacy and proposed solutions. List benefits and limitations for each of the identified style.
  2. Try to figure out what architecture patterns has been applied within solution. List what are the problem given pattern is intended to solve.
