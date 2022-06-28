@@ -38,7 +38,7 @@ We are willing to expose our platform capabilities across the globe providing ac
 
  ### Proposed Solution
 
- ![Proposed Education Platform](./images/new.drawio.png)
+ ![Proposed Education Platform](./images/new_v2.drawio.png)
 
  Solution architect added some key notes highlighting taken decisions:
 
