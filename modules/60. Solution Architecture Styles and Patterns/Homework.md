@@ -14,8 +14,29 @@ We are willing to expose our platform capabilities across the globe providing ac
 
  ## Discovery
 
- Client hired external Solution Architect to come up with new proposal and migration plan. In the first place Solution Architect documented existing system.
+ Client hired external Solution Architect to come up with new proposal and migration plan. In the first place Solution Architect documented existing Education Platform architecture.
+
+ ### Existing Solution
 
  ![Existing Education Platform](./images/existing.drawio.png)
+
+ Solution Architect made some notes related to legacy system:
+ 1. Monolith Java application being deployed in private data center.
+ 2. There is Stand-By disaster recovery strategy applied by client.
+ 3. There is Load Balancer in front of application. The goals are:
+  - Switch over to healthy instance in case of any primary server failures.
+  - Host static content to be used by frontend side.
+ 4. Java application is segregated on several layers:
+  - Controllers layer
+  - Service layer
+  - Data Access layer
+ 5. Education material is stored on file system.
+ 6. Transaction data is stored within MySQL database.
+
+ Spending a couple of days Solution Architect came up with draft version of new architecture for Education Platform.
+
+ ### Proposed Solution
+
+ ![Proposed Education Platform](./images/new.drawio.png)
 
  
