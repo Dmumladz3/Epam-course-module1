@@ -16,19 +16,23 @@
 
 **Lectures:** 
 =======================
-
 - [Maven](https://learn.epam.com/detailsPage?id=d0621987-d93b-4ec6-bac6-bb2cfa8da317) 1h 30m
 - [Maven (from other point of view)](https://learn.epam.com/detailsPage?id=347c1ac4-b39b-40df-95c3-c2a6c28fda15) 1h 30m
+- [More Maven!](https://learn.epam.com/detailsPage?id=aa2d5446-febd-4fe7-8c07-d9737ddc180b) 2h
 - [Gradle basics](https://learn.epam.com/detailsPage?id=bd45d15d-d2a9-4287-b012-cbb32d926ab9) 1h 00m
 - [Gradle in details](https://learn.epam.com/detailsPage?id=b5ef314c-7951-442d-99ce-8ce1631695bc)
+- [Gradle for java developers 1](https://learn.epam.com/detailsPage?id=bd45d15d-d2a9-4287-b012-cbb32d926ab9) 2h
+- [Gradle for java developers 1](https://learn.epam.com/detailsPage?id=b5ef314c-7951-442d-99ce-8ce1631695bc) 2h 30m
 
 **Code Examples / Workshop:**
 =======================
 
-
-
 Documentation: 
 =======================
+* [Gradle User Guide](https://docs.gradle.org/4.2.1/userguide/userguide.html)
+* [Gradle Tutorials](https://gradle.org/guides/)
+* [Gradle Quick Guide](https://www.tutorialspoint.com/gradle/gradle_quick_guide.htm)
+* [Maven Getting Started](https://maven.apache.org/guides/getting-started/)
 
 
 

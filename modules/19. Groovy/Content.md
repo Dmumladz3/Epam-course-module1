@@ -23,8 +23,9 @@
 * [Advanced Java Unit Testing with Spock](https://youtu.be/I1GENGpLpy8) 1h 02m 24s
 
 
-**References:**
+Documentation: 
 =======================
+* [Groovy](http://groovy-lang.org/)
 
 **Books**
 

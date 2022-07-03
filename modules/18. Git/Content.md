@@ -18,6 +18,7 @@
 
 * [Version Control with Git](https://learn.epam.com/detailsPage?id=f517416c-0053-40d3-86fb-ca2c89f67b96)
 * [Git Intermediate Techniques](https://learn.epam.com/detailsPage?id=c0ecb185-f30d-417f-910d-e99a0a1c2690) 2h 54m
+* [Git Advanced](https://www.atlassian.com/git/tutorials/advanced-overview)
 
 **References:**
 =======================
