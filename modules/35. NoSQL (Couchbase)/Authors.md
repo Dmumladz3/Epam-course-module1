@@ -1,1 +1,0 @@
-[Aliaksandr Kalymaha](aliaksandr_kalymaha@epam.com)

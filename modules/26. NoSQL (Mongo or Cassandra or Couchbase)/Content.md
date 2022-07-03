@@ -5,36 +5,40 @@
 **Topics:**
 =======================
 - Basic principles of NoSQL
-- Mongo, Cassandra
+- Mongo, Cassandra, Couchbase
 
 **Required time for the course:** 
 =======================
-- Lectures: ~8h
+- Lectures: ~18h
 - Tasks: ~15h mandatory
 
 
 **Lectures:**
 =======================
 
-- [NoSQL basics](https://learn.epam.com/detailsPage?id=b6caac6b-afbc-4c0f-9f17-ebc862603cf3) 1h 00m
+- [NoSQL basics](https://learn.epam.com/detailsPage?id=b6caac6b-afbc-4c0f-9f17-ebc862603cf3)
+* [Learning NoSQL Databases](https://www.linkedin.com/learning/learning-nosql-databases)
+* [NoSQL Data Modeling](https://www.linkedin.com/learning/nosql-data-modeling-essential-training/welcome?u=2113185)
+- [NoSQL and clouds](https://learn.epam.com/detailsPage?id=a07a619f-701f-4e63-8fba-5b86086e85cd)
 
 - [Intro to MongoDB](https://learn.epam.com/detailsPage?id=20a1397a-9cfe-4e4c-9237-7a7a368b3940)
 - [Cassandra](https://learn.epam.com/detailsPage?id=53e64be1-5838-4613-a3d4-cbcdd8bea167)
+- [Cassandra Data Modeling Essential](https://www.linkedin.com/learning/cassandra-data-modeling-essential-training/welcome)
 
-- [NoSQL and clouds](https://learn.epam.com/detailsPage?id=a07a619f-701f-4e63-8fba-5b86086e85cd) 3h 00m
-- [NoSQL data modeling](https://learn.epam.com/detailsPage?id=24fd1c96-1900-4aec-b2aa-0eb72723a503) 1h 20m
- 
+- [Couchbase lecture](https://www.linkedin.com/learning/intro-to-couchbase-for-microsoft-sql-server-experts/comparing-couchbase-and-microsoft-sql-server)
+
+
 
 **Documentation:**
 =======================
-
-- [En] [Cassandra](http://cassandra.apache.org/doc/latest/)
-
-- [En] [Mongo](https://docs.mongodb.com/tutorials/)
-
-- [En] [NoSQL](http://nosql-database.org/)
-
-- [En] [Official Mongo courses](https://university.mongodb.com/)
+- [Cassandra](http://cassandra.apache.org/doc/latest/)
+- [Mongo](https://docs.mongodb.com/tutorials/)
+- [NoSQL](http://nosql-database.org/)
+- [Official Mongo courses](https://university.mongodb.com/)
+- [Couchbase Quick Install using docker](https://docs.couchbase.com/server/current/getting-started/do-a-quick-install.html)
+- [Couchbase installation for different OS](https://docs.couchbase.com/server/current/install/install-intro.html)
+- [Couchbase query tutorials](https://docs.couchbase.com/server/current/n1ql/tutorial.html)
+- [Couchbase creating FTS indexes](https://docs.couchbase.com/server/current/fts/fts-creating-indexes.html)
 
 
 **References:** 
