@@ -36,6 +36,7 @@ References:  
 - [EN] [Project Estimation Techniques Everyone Needs To Know](https://www.wrike.com/blog/project-estimation-techniques/)
 - [EN] [Top 8 Agile Estimation Techniques](https://www.netsolutions.com/insights/how-to-estimate-projects-in-agile/)
 - [EN] [Gantt Chart](https://www.projectmanager.com/guides/gantt-chart)
+- [EN] [Work Breakdown Structure](https://www.workbreakdownstructure.com/)
 - [EN] [When story points misfire](https://tech.xing.com/when-story-points-misfire-88b068bfc97c)
 - [EN] [Story Points: definition, how-to & why they matter](https://www.easyagile.com/blog/user-story-points/)
 
