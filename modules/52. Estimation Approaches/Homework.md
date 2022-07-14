@@ -21,9 +21,9 @@ Consider you want to have separate bedroom; walls should be painted except restr
 
 ###Tasks:
 
-* Create required WBSs (not less than 10) – 0.5 point
-* Estimate each WBS in days and assign required resources – 0.5 point
-* Define dependencies in WBS – 0.4 point
+* Create WBS (not less than 10 items) – 0.5 point
+* Estimate each item in WBS in days and assign required resources – 0.5 point
+* Define dependencies between items in WBS – 0.4 point
 * Identify critical path – 0.4 point
 * Draw Gantt chart and say when you could start living in your new flat – 0.5 point
 
