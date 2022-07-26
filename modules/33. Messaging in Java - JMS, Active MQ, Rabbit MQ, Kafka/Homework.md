@@ -1,4 +1,3 @@
-
 # ActiveMQ
 
 ## Prerequisits:
@@ -10,15 +9,15 @@ Download and install classic ActiveMQ.
 
 I. Implement publish/subscribe interaction between two applications. Check durable vs non-durable subscription.
 
-![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/dur_non_dur.png)
+![image info](./attachments/dur_non_dur.png)
 
 II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
 
-![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/request-reply.png)
+![image info](./attachments/request-reply.png)
 
 III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
 
-![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/virtual-topic.png)
+![image info](./attachments/virtual-topic.png)
 
 ## References
 
@@ -36,11 +35,11 @@ Download and install RabbitMQ.
 ## Practical Task:
 I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
 
-![image info](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/Reliable.png)
+![image info](./attachments/Reliable.png)
 
 ### Tips
 Dead letter channel/Invalid message channel
-![image](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/DLQ_IMQ.png)
+![image](./attachments/DLQ_IMQ.png)
 
 ## References
 
@@ -76,7 +75,7 @@ III. Implement a taxi application using Spring Boot. The application should cons
 2. Kafka broker.
 3. Three consumers to calculate the distance traveled by a car.
 
-![image](../38.%20Messaging%20in%20Java:%20JMS,%20Active%20MQ,%20Rabbit%20MQ,%20Kafka/attachments/kafka-vehicle-monitor.jpg)
+![image](./attachments/kafka-vehicle-monitor.jpg)
 
 ### Important
 * Messages from every vehicle must be processed `sequentially`!
