@@ -77,7 +77,7 @@ Git 2.24+
 ##### 17.	Demonstrate functionality of created classes.
 
 (3-4 stars)
-##### 18.	Add a new default method for Service interface, which uses getAllUsers. Use LocalDate.now(), ChronoUnit и mapToLong.
+##### 18.	Add a new default method for Service interface, which uses getAllUsers. Use LocalDate.now(), ChronoUnit and mapToLong.
     - double getAverageUsersAge();
 ##### 19.	Add a new static method for Service interface, which returns true, if the user is over 18 years old.
     - boolean isPayableUser(User);
