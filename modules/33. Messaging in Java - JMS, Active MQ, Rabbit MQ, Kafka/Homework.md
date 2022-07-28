@@ -1,6 +1,6 @@
 # ActiveMQ
 
-## Prerequisits:
+## Prerequisites:
 
 Download and install classic ActiveMQ.
 
@@ -28,7 +28,7 @@ III. Implement subscriber scaling, i.e. create n subscribers to a topic with the
 
 # RabbitMQ
 
-## Prerequisits:
+## Prerequisites:
 
 Download and install RabbitMQ.
 

@@ -63,7 +63,7 @@ Add five DBUnit tests to appropriate project (pet project) or another. Prepare t
 
 
 
-Task 6 (Optional) - Stored Procedure
+Task 5 (Optional) - Stored Procedure
 =========================
 
 **Cost**: 1 point.
@@ -80,7 +80,7 @@ Task 6 (Optional) - Stored Procedure
 
 
 
-Task 7 (Optional) - Pre-defined Stored Procedure
+Task 6 (Optional) - Pre-defined Stored Procedure
 =====================================
 
 **Cost**: 1 points.
@@ -92,7 +92,7 @@ interesting information or maintain something in the database.
 
 
 
-Task 8 - File Sharing
+Task 7 - File Sharing
 =====================
 
 **Cost**: 30 points.
@@ -121,7 +121,7 @@ Make demo via console interface or via special main method.
 
 
 
-Task 9 - JabaORM
+Task 8 - JabaORM
 ================
 
 **Cost**: 30 points.
