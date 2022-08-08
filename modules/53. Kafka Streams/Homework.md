@@ -82,11 +82,10 @@ then we push the data into two our topics: for long and short words, and after t
 same value, but only with a changed key). The key in new messages is their value's length
 - Then print to the console every message after it all
 - After it, split the current Stream into two with the common name "words-" and additional names "short" (for messages
-whose value's length is less than 10 symbols), 
-  and "long" (all the rest).
+whose value's length is less than 10 symbols), and "long" (all the rest).
 - Another Bean takes the final result of all actions above (it has to be "Map<String, KStream<Integer, String>> ...") 
   and filters out long and short messages by whether they contain the "a" letter or no
-- Finally, the results (two filtered Streams) get merged in a new Bean and every message gets printed to the console
+- Finally, the results (two filtered Streams) get merged within a new Bean and every message gets printed to the console
 
 #### Tips:
 - Use flatMap to create a few messages from one with your new key for messages (in our case it's their length), so the message
@@ -110,7 +109,7 @@ gets transformed into 3 messages:
   and only if a difference between time when they appeared/were_pushed isn't more than 1 minute. The value of joined
 messages has to be in the following format:
 >  left_value + <any_separator> + right_value
-- (Optional) In the JOIN add 30 seconds to JOIN records which can be out of order
+- In the JOIN add 30 seconds to join records which can be out of order
 - Print to the console every result of JOIN
 <br><br>
 
@@ -118,6 +117,7 @@ messages has to be in the following format:
 - Implement a custom SerDe to handle JSON (String) messages (transform from JSON to our entity) in the topic with 
   the following fields:
 >{"name":"John","company":"EPAM","position":"developer","experience":5}
+- Filter messages out to make sure that their value is not NULL
 - The read messages get printed to the console
 
 #### Tips:
@@ -134,8 +134,9 @@ spring.kafka.streams.properties.default.deserialization.exception.handler=org.ap
 ```
 <br>
 
-5. Write one unit test to any of the implemented functionalities (or their parts, i.e. test one Bean's logic): either for
-the 2nd or 4th task (1 point)
+5. Write unit tests for the implemented functionality in the 2nd and 4th task (1 point)
+- Write unit tests for the functionality in the 2nd task
+- Write unit tests for the functionality in the 4th task
 
 #### Tips:
 
