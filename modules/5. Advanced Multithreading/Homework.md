@@ -55,7 +55,7 @@ upon completion of all these stages.
 Provide correct solution with CF usage and use appropriate CF operators instead `<special operation on CF>`.
 Why does the CF usage improve performance here in comparison with synchronous approach? Discuss it with mentor. How thread waiting is implemented in synchronous world?
 
-Task 5 (prodcons module: 
+Task 5 (prodcons module): 
 ===================================
 ## Solve [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
 
@@ -97,7 +97,7 @@ Task 7
 ===================================
 **Cost**: 1 points.
 
-#### Blurring for Clarity (forkjoin module))
+#### Blurring for Clarity (forkjoin module)
 Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
 
 
