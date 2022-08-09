@@ -35,18 +35,35 @@ Download and install RabbitMQ.
 ## Practical Task:
 I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
 
-![image info](./attachments/Reliable.png)
+![image info](./attachments/Reliable-part1.png)
+
+### Notes:
+1. Failed Message Exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish failed messages.
+
+II. Update previous implementation and change retry mechanism from inprocess to retry exchange/queue. Retry queue should have ttl, after message expires it should be routed to the source queue.
+
+![image info](./attachments/Reliable-part2.png)
+
+### Notes:
+1. Retry exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish messages for retry. If retry limit reached message should be re-published to Failed Message Exchange instead.
+
+III. Update previous implementation, configure message ttl, max size and dlx attributes on consumer queues. Expired messages or during queue overflow messages should be sent to DLQ by broker.
+
+![image info](./attachments/Reliable-part3.png)
+
+### Notes:
+1. Dead Letter exchange should be specified as DLX attribute on source queues in addition to message TTL and max length attributes.
 
 ### Tips
-Dead letter channel/Invalid message channel
+1. Dead letter channel/Invalid message channel
 ![image](./attachments/DLQ_IMQ.png)
 
 ## References
 
 1. [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html)
 2. [Spring. Messaging with RabbitMQ](https://spring.io/guides/gs/messaging-rabbitmq/)
-3. [Learning RabbitMQ](https://www.linkedin.com/learning/learning-rabbitmq)
-
+3. [Spring Cloud Stream, RabbitMQ Binder](https://docs.spring.io/spring-cloud-stream-binder-rabbit/docs/current/reference/html/spring-cloud-stream-binder-rabbit.html)
+4. [Learning RabbitMQ](https://www.linkedin.com/learning/learning-rabbitmq)
 
 
 # Apache Kafka
