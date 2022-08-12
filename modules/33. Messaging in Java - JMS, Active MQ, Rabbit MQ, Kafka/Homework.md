@@ -9,15 +9,15 @@ Download and install classic ActiveMQ.
 
 I. Implement publish/subscribe interaction between two applications. Check durable vs non-durable subscription.
 
-![image info](./attachments/dur_non_dur.png)
+![image info](./Content/Attachments/dur_non_dur.png)
 
 II. Implement request-reply interaction between two applications using a temporary queue in ActiveMQ.
 
-![image info](./attachments/request-reply.png)
+![image info](./Content/Attachments/request-reply.png)
 
 III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
 
-![image info](./attachments/virtual-topic.png)
+![image info](./Content/Attachments/virtual-topic.png)
 
 ## References
 
@@ -35,28 +35,28 @@ Download and install RabbitMQ.
 ## Practical Task:
 I. Implement a Spring Boot application for sending notifications to customers about the receipt of goods based on the following architecture:
 
-![image info](./attachments/Reliable-part1.png)
+![image info](./Content/Attachments/Reliable-part1.png)
 
 ### Notes:
 1. Failed Message Exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish failed messages.
 
 II. Update previous implementation and change retry mechanism from inprocess to retry exchange/queue. Retry queue should have ttl, after message expires it should be routed to the source queue.
 
-![image info](./attachments/Reliable-part2.png)
+![image info](./Content/Attachments/Reliable-part2.png)
 
 ### Notes:
 1. Retry exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish messages for retry. If retry limit reached message should be re-published to Failed Message Exchange instead.
 
 III. Update previous implementation, configure message ttl, max size and dlx attributes on consumer queues. Expired messages or during queue overflow messages should be sent to DLQ by broker.
 
-![image info](./attachments/Reliable-part3.png)
+![image info](./Content/Attachments/Reliable-part3.png)
 
 ### Notes:
 1. Dead Letter exchange should be specified as DLX attribute on source queues in addition to message TTL and max length attributes.
 
 ### Tips
 1. Dead letter channel/Invalid message channel
-![image](./attachments/DLQ_IMQ.png)
+![image](./Content/Attachments/DLQ_IMQ.png)
 
 ## References
 
@@ -92,7 +92,7 @@ III. Implement a taxi application using Spring Boot. The application should cons
 2. Kafka broker.
 3. Three consumers to calculate the distance traveled by a car.
 
-![image](./attachments/kafka-vehicle-monitor.jpg)
+![image](./Content/Attachments/kafka-vehicle-monitor.jpg)
 
 ### Important
 * Messages from every vehicle must be processed `sequentially`!
