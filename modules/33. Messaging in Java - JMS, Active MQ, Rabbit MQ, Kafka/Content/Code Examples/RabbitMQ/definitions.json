@@ -35,6 +35,12 @@
     },
     {
       "name": "6-stream-function-ultimate"
+    },
+    {
+      "name": "7-amqp-rpc"
+    },
+    {
+      "name": "8-stream-function-queue-stream"
     }
   ],
   "permissions": [
@@ -83,6 +89,20 @@
     {
       "user": "guest",
       "vhost": "6-stream-function-ultimate",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    },
+    {
+      "user": "guest",
+      "vhost": "7-amqp-rpc",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    },
+    {
+      "user": "guest",
+      "vhost": "8-stream-function-queue-stream",
       "configure": ".*",
       "write": ".*",
       "read": ".*"

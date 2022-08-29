@@ -40,7 +40,7 @@ public class DemoVanillaApplication {
 				// declaration part end
 
 				// latch to hold the main thread until consumers received messages
-				final var latch = new CountDownLatch(2);
+				final var latch = new CountDownLatch(4);
 
 				final var autoAck = false;
 
@@ -98,15 +98,15 @@ public class DemoVanillaApplication {
 					", messageBody=" + messageBody);
 
 			// positive ack
-			getChannel().basicAck(deliveryTag, false);
+			//getChannel().basicAck(deliveryTag, false);
 
-			/*if (!redeliver) {
+			if (!redeliver) {
 				// nack with re-queue
 				getChannel().basicNack(deliveryTag, false, true);
 			} else {
 				// nack and discard
 				getChannel().basicNack(deliveryTag, false, false);
-			}*/
+			}
 
 			latch.countDown();
 		}

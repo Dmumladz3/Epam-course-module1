@@ -58,7 +58,7 @@ public class DemoAmqpApplication {
 		if (red != null && Boolean.TRUE.equals(red)) {
 			throw new AmqpRejectAndDontRequeueException("nack and discard");
 		}
-		throw new ImmediateRequeueAmqpException("nack with re-requeue");
+		throw new ImmediateRequeueAmqpException("nack with re-queue");
 	}
 
 }
