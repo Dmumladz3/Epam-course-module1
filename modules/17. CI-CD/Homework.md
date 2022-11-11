@@ -1,4 +1,4 @@
-For this task you need your Groovy calculator task or any other homework you've done. Please clone it to your current branch. 
+For this task you need some your homework you've done (eg Groovy calculator task). Please clone it to your current branch. 
 
 2.CI/CD using Jenkins Home Work 
 
