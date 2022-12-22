@@ -20,6 +20,7 @@
 * [Learning NoSQL Databases](https://www.linkedin.com/learning/learning-nosql-databases)
 * [NoSQL Data Modeling](https://www.linkedin.com/learning/nosql-data-modeling-essential-training/welcome?u=2113185)
 - [NoSQL and clouds](https://learn.epam.com/detailsPage?id=a07a619f-701f-4e63-8fba-5b86086e85cd)
+- [Database Clinic: MongoDB] (https://learn.epam.com/detailsPage?id=20a1397a-9cfe-4e4c-9237-7a7a368b3940)
 
 - [Intro to MongoDB](https://learn.epam.com/detailsPage?id=20a1397a-9cfe-4e4c-9237-7a7a368b3940)
 - [Cassandra](https://learn.epam.com/detailsPage?id=53e64be1-5838-4613-a3d4-cbcdd8bea167)
