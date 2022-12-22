@@ -4,10 +4,8 @@
 
 **Topics:** 
 =======================
-- Build lifecycle
-- Build phases in Maven and Gradle
-- Implementation of build scripts in Maven and Gradle for typical projects
-- CI / CD implementation with Jenkins
+- Effective code 
+- Algorithms
 
 **Required time for the course:** 
 =======================

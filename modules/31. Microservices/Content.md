@@ -27,7 +27,7 @@ Tasks: ~4h mandatory
 
 [Sync communication with Feign and Eureka](https://learn.epam.com/detailsPage?id=eb8ad9c6-27af-4018-8bb0-638edcad67c5)  1h 12m
 
-[Gateway with Zuul](https://www.youtube.com/watch?v=mHHHpxJuTAo)
+[Introduction to Testcontainers](https://www.youtube.com/watch?v=mHHHpxJuTAo)
 **References**:
 =======================
 
