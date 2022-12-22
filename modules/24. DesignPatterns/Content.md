@@ -11,7 +11,6 @@ Lectures: 
 
 Java Design Patterns
 
-(https://www.linkedin.com/learning/interaction-design-design-patterns-as-building-blocks/using-design-patterns?u=2113185)
 (https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1/improve-code-quality-with-behavioral-design-patterns?u=2113185)
 (https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1/improve-code-quality-with-behavioral-design-patterns?u=2113185)
 
