@@ -15,7 +15,8 @@
 
 **Lectures:**
 =======================
-- [Docker for Java Developers](https://learn.epam.com/detailsPage?id=9359ff87-719d-4299-ad56-6ce77533a7ad) 4 hrs 37 min
+- [Docker for Java Developers](https://learn.epam.com/detailsPage?id=60703ba8-8e05-4145-8aae-882493ffae70) 75 min
+- [Introduction to Docker for Java Developers] (https://learn.epam.com/detailsPage?id=0dfcc756-f006-4622-9dcd-49626b6411de) 82 min
 - [Kubernetes for Java Developers](https://learn.epam.com/detailsPage?id=d1494aa3-98da-44e4-911f-691a1e6be5b9) 2 hrs 25 min
 - [Kubernetes: Package Management with Helm](https://learn.epam.com/detailsPage?id=cbee2a56-a8be-4de1-a829-78ce304f9f8b) 49 min
 
@@ -27,3 +28,4 @@
 
 **References:** 
 =======================
+- [Docker Tutorial for Beginners | Full Course [2021]] (https://www.youtube.com/watch?v=p28piYY_wv8) 3 hrs
