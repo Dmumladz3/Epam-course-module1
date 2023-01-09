@@ -39,3 +39,8 @@
 
 # **Extra miles**
 **Ingress task**.
+Make your application from main task to be accessable from Ingress Controller. 
+  - Add to Helm chart ingress resource
+  - Deploy NGINX Ingress Controller to the claster
+  - Deploy an application 
+  - Access the application 
