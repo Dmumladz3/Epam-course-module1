@@ -26,7 +26,7 @@ Lectures: 
 
 ## References
 
-[Glossary](https://www.elastic.co/guide/en/elasticsearch/reference/current/glossary.html)
+[Glossary](https://www.elastic.co/guide/en/elastic-stack-glossary/current/terms.html)
 
 [Documents APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html)
 
@@ -43,16 +43,9 @@ Lectures: 
 
 [Document API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html)
 
-
 [QUERY DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
 
 [Aggregations](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html)
-
-[Java API](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html)
-
-[Rest Java API](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/index.html)
-
-[BULK API](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-docs-bulk.html)
 
 [Downloads](https://www.elastic.co/downloads)
 
