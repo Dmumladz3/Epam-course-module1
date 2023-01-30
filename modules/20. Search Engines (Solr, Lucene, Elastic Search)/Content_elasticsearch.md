@@ -44,7 +44,3 @@ References: 
 [Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/introduction.html)
 
 
-Books: 
-=======================
-[Elasticsearch: The Definitive Guide](https://www.oreilly.com/library/view/elasticsearch-the-definitive/9781449358532/)
-(attached)
