@@ -1,3 +1,5 @@
+# Lucene
+
 ### Prerequisites
 1. Java version 8+
 2. Maven
