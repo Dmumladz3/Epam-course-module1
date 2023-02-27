@@ -5,7 +5,7 @@
 1. Elasticsearch of version 8+. [Download](https://www.elastic.co/downloads/elasticsearch)
 2. Postman or some other tool to perform http requests to Elasticsearch
 3. [Optional] [Elasticsearch Head extension for Chrome](https://chrome.google.com/webstore/detail/multi-elasticsearch-head/cpmmilfkofbeimbmgiclohpodggeheim?hl=en-US)
-4. employees.json - sample dataset to upload to Elasticsearch
+4. [employees.json](./Content/employees.json) - sample dataset to upload to Elasticsearch
 
 ## Task 1 - Indexing and CRUD operations (1 Point)
 
@@ -17,7 +17,7 @@
     Check Elasticsearch health   GET http://localhost:9200/_cluster/health
     and Cluster stats            GET http://localhost:9200/_cluster/stats 
 ##### 2.	Create an index and populate it with data
-    Download file employees.json
+    Download file employees.jsos
     It's contains a fully prepared data for bulk loading to Elasticsearch. 
     Create your index named "employees". 
     For that in Postman run  PUT http://localhost:9200/employees/_bulk
