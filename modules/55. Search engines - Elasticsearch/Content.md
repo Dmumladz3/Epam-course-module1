@@ -8,7 +8,7 @@
 - [Elasticsearch Essential Training](https://learn.epam.com/detailsPage?id=4989ac1b-f0c2-4cd4-a99d-90ab6ac2b500) 1h 45m
 - [Enterprise Search Introduction](https://videoportal.epam.com/video/ERrYGmo4) 1h 10m
 - [ELK stack as one](https://learn.epam.com/detailsPage?id=51ad571f-462d-4f6c-ade7-29da2e9aea21) 2h 00m (Optional)
-- [Beginner's Crash Course to Elastic Stack](https://www.youtube.com/playlist?list=PL_mJOmq4zsHZYAyK606y7wjQtC0aoE6Es) 5h 11m (Consider it as a more detailed version of Elasticsearch Essential training, it’s obviously much longer, so it's optional)
+- [Beginner's Crash Course to Elastic Stack](https://www.youtube.com/playlist?list=PL_mJOmq4zsHZYAyK606y7wjQtC0aoE6Es) 5h 11m (Consider it as a more detailed version of Elasticsearch Essential training, it’s obviously much longer, so it's optional and you can watch it at your own pace)
 
 
 **Required time for the course:**
