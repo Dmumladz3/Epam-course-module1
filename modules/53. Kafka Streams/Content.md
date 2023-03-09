@@ -1,26 +1,33 @@
-**Recommended level:**
+**Recommended level**
 =======================
 - Middle+
 
-**Lectures:**
+
+**Lectures**
 =======================
-* [Kafka Streams](https://www.youtube.com/watch?v=gJUTErFyuY4&list=PLa7VYi0yPIH35IrbJ7Y0U2YLrR9u4QO-s)
+* [Kafka Streams 101](https://developer.confluent.io/learn-kafka/kafka-streams/get-started/)
 * [Kafka Streams Developer Guide. Streams DSL](https://kafka.apache.org/32/documentation/streams/developer-guide/dsl-api.html) 
 
 
-**Required time for the course:**
+**Required time for the course**
 =======================
 * Lectures: ~5h (~2.5 + ~2.5)
 * Tasks: ~3h mandatory + ~2h optional
 
 
-**Documentation:**
+**Documentation**
 =======================
-* [En] <https://kafka.apache.org/documentation/streams/> - official documentation for the newest version
-* [En] <https://docs.confluent.io/platform/current/streams/overview.html> - Confluent's documentation for the latest version Confluent supports at the moment
+* [Kafka Streams Official Documentation](https://kafka.apache.org/documentation/streams)
+* [Confluent's Documentation for Kafka Streams](https://docs.confluent.io/platform/current/streams/overview.html)
 
 
-**Books:**
+**Code Examples**
 =======================
-* [Kafka Streams in Action](https://www.manning.com/books/kafka-streams-in-action) - detailed, but for an old Streams' version that a few things are outdated
-* [Kafka: The Definitive Guide, 2nd Edition](https://www.oreilly.com/library/view/kafka-the-definitive/9781492043072/) - less detailed, but for not too old Streams' version
+* [Kafka Streams Examples](https://github.com/confluentinc/kafka-streams-examples)
+* [How to build your first Apache Kafka Streams application](https://developer.confluent.io/tutorials/creating-first-apache-kafka-streams-application/confluent.html)
+
+
+**Books**
+=======================
+* [Kafka Streams in Action](https://www.manning.com/books/kafka-streams-in-action) - detailed, but for an old version of Kafka Streams, so some things are outdated
+* [Kafka: The Definitive Guide, 2nd Edition](https://www.oreilly.com/library/view/kafka-the-definitive/9781492043072/) - less detailed, but for a newer version of Kafka Streams
