@@ -37,22 +37,19 @@ I. Implement a Spring Boot application for sending notifications to customers ab
 
 ![image info](./Content/Attachments/Reliable-part1.png)
 
-### Notes:
-1. Failed Message Exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish failed messages.
+> 💡 **NOTE**: Failed Message Exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish failed messages.
 
 II. Update previous implementation and change retry mechanism from inprocess to retry exchange/queue. Retry queue should have ttl, after message expires it should be routed to the source queue.
 
 ![image info](./Content/Attachments/Reliable-part2.png)
 
-### Notes:
-1. Retry exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish messages for retry. If retry limit reached message should be re-published to Failed Message Exchange instead.
+> 💡 **NOTE**: Retry exchange is not configured as DLX for the source queues. Consumer is responsible to re-publish messages for retry. If retry limit reached message should be re-published to Failed Message Exchange instead.
 
 III. Update previous implementation, configure message ttl, max size and dlx attributes on consumer queues. Expired messages or during queue overflow messages should be sent to DLQ by broker.
 
 ![image info](./Content/Attachments/Reliable-part3.png)
 
-### Notes:
-1. Dead Letter exchange should be specified as DLX attribute on source queues in addition to message TTL and max length attributes.
+> 💡 **NOTE**: Dead Letter exchange should be specified as DLX attribute on source queues in addition to message TTL and max length attributes.
 
 ### Tips
 1. Dead letter channel/Invalid message channel
@@ -77,8 +74,8 @@ Configure a Kafka cluster using Docker with the following parameters:
 * observe the Kafka broker logs to see how leaders/replicas for every partition are assigned
 
 ### Tips
-* if you're working on a machine with 8 Gb of RAM or less, you might need to fall back to just 2 brokers
-* an example of a Docker Compose for a 2-node cluster based on the official Confluent Kafka image, can be found
+* If you're working on a machine with 8 Gb of RAM or less, you might need to fall back to just 2 brokers
+* An example of a Docker Compose for a 2-node cluster based on the official Confluent Kafka image, can be found
   [here](https://www.baeldung.com/ops/kafka-docker-setup#kafka-cluster-setup)
 
 ## Practical Task:
