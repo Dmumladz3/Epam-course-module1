@@ -3,7 +3,7 @@
 ## Read following resources
 
 1. [Redis overview](https://redis.io/docs/about/)
-2. [Redis threading model](https://developpaper.com/redis-thread-model/)
+2. [System Design: Why is single-threaded Redis so fast?](https://www.youtube.com/watch?v=5TRFpFBccQM)
 3. [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
 4. [Atomic Operation](https://en.wikipedia.org/wiki/Atomicity_(database_systems))
 5. [4 Rate Limit Algorithms Every Developer Should Know](https://betterprogramming.pub/4-rate-limit-algorithms-every-developer-should-know-7472cb482f48)
