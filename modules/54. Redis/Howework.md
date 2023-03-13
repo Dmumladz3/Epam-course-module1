@@ -5,6 +5,7 @@
 2. Read about [HTTP 429 response code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429)
 3. Read about rate limiting algorithms - [Rate limiting algorithms](https://betterprogramming.pub/4-rate-limit-algorithms-every-developer-should-know-7472cb482f48)
 4. Read about [Redis key expiration](https://redis.io/commands/expire/).
+5. Read about Bucket4J [How to Create a Rate Limiter using Bucket4J and Redis](https://www.freecodecamp.org/news/rate-limiting-with-bucket4j-and-redis/)
 
 ## Problem definition
 Your goal is to design and implement simple Rate Limit Server using Redis Cluster.
