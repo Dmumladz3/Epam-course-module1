@@ -5,7 +5,7 @@ This document contains homework tasks for `Advanced Multithreading: Fork-Join Po
 Task 1 (Optional) - Factorial via FJP
 ==========================
 
-**Cost**: 1 point.
+**Cost**: 0.5 point.
 
 Use FJP to calculate factorial. Compare with the sequential implementation. Use `BigInteger` to keep values.
 
@@ -14,7 +14,7 @@ Use FJP to calculate factorial. Compare with the sequential implementation. Use 
 Task 2 - Multithreading Sorting via FJP
 =======================================
 
-**Cost**: 1 points.
+**Cost**: 0.5 points.
 
 Implement Merge Sort or Quick Sort algorithm that sorts huge array of integers in parallel using Fork/Join framework.
 
@@ -23,7 +23,7 @@ Implement Merge Sort or Quick Sort algorithm that sorts huge array of integers i
 Task 3 - File Scanner via FJP
 =============================
 
-**Cost**: 1 points.
+**Cost**: 0.5 points.
 
 Create CLI application that scans a specified folder and provides detailed statistics:
 
@@ -41,7 +41,7 @@ Of course, use Fork-Join Framework for implementation parallel scanning.
 Task 4 - Completable Future Helps to Build Open Salary Society
 ==============================================================
 
-**Cost**: 1 points.
+**Cost**: 0.5 points.
 
 Assume, we have REST endpoint that returns a list of hired `Employee`s.
 
@@ -105,8 +105,6 @@ Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle
 Task 8 (Optional) - PC Assembly Line with Akka
 ===================================
 
-**Cost**: 3 points + 1 points for bonus tasks.
-
 Automatize PC assembly line with Akka Framework (use Java API).
 
 Requirements:
@@ -118,10 +116,8 @@ Requirements:
 * Provide client code to call Service layer methods (your choice).
 * Try with different dispatchers and pick one for your solution.
 * Tune ForkJoin executor for your environment (change configuration).
-* The choice should be based on performance tests **\***
-* Throughput of assembly line should be more than `100 000` assembled PCs per second **\***
-* Throughput of assembly line should be more than `1 000 000` assembled PCs per second **\***
-
-**\*** - optional points (5 points per subtask).
+* The choice should be based on performance tests 
+* Throughput of assembly line should be more than `100 000` assembled PCs per second 
+* Throughput of assembly line should be more than `1 000 000` assembled PCs per second 
 
 An example of actions is described in [this paper](http://techreport.com/review/23624/how-to-build-a-pc-the-tech-report-guide).
