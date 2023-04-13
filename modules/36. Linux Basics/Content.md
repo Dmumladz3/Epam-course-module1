@@ -26,7 +26,7 @@ After completing the module the following knowledge is expected to occur:
 * [Linux very basics](https://learn.epam.com/detailsPage?id=3b9ef487-450c-42e6-8293-191993ab0bd9) 1h
 * [Linux storage](https://learn.epam.com/detailsPage?id=431d4a12-a544-43b2-8947-0e714766da1c) 3h
 * [Linux files and permissions](https://learn.epam.com/detailsPage?id=4c6f9304-4612-4952-9d92-f39265f7e431) 2h 
-* [Learning Linux Command Line](https://learn.epam.com/detailsPage?id=68551049-e80d-4b6f-88e9-53503244fe7b) 2h
+* [Learning Linux Command Line](learn.epam.com/detailsPage?id=e14000df-dd3a-43da-8fe2-f189e08a1a08) 3h
 
 Optional
 * [Linux network configuaration](https://learn.epam.com/detailsPage?id=3feea44c-4f38-4436-8975-70dcf2dacd9f) 3h
