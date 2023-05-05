@@ -37,6 +37,13 @@ https://docs.oracle.com/javase/tutorial/essential/concurrency/
 
 - [JMM](https://shipilev.net/blog/2014/jmm-pragmatics/) 
 - [Set of articles that cover most of the required topics](https://www.baeldung.com/java-concurrency)
+- [An Introduction to Thread in Java](https://www.simplilearn.com/tutorials/java-tutorial/thread-in-java)
+- [ExecutorService Internal Working in Java](https://medium.com/codex/executorservice-internal-working-in-java-7b286882f54e)
+- [Deadlock: What It Is, How to Detect, Handle and Prevent?](https://www.baeldung.com/cs/os-deadlock)
+- [Synchronization in Java](https://www.mygreatlearning.com/blog/synchronization-in-java/)
+- [CyclicBarrier in Java](https://www.baeldung.com/java-cyclic-barrier)
+- [Java CompletableFuture Tutorial with Examples](https://www.callicoder.com/java-8-completablefuture-tutorial/)
+- [A Guide to ConcurrentMap](https://www.baeldung.com/java-concurrent-map)
 
 
 **Books:** 
