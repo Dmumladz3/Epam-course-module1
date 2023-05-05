@@ -54,6 +54,10 @@ JFR saves data about the events in a single output file, `flight.jfr`.
 [VisualVM Standalone](https://visualvm.github.io/)
 [Analyzing a Heap Dump Using OQL](https://visualvm.github.io/documentation.html)
 [Java Mission Control](https://github.com/openjdk/jmc)
+[Creating and Analyzing Java Heap Dumps](https://reflectoring.io/create-analyze-heapdump/)
+[Java Heap Dump Analyzer](https://dzone.com/articles/java-heap-dump-analyzer-1)
+[Understanding Memory Leaks in Java](https://www.baeldung.com/java-memory-leaks)
+
 
 **Self-paced**
 =======================
