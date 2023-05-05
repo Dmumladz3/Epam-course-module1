@@ -27,3 +27,12 @@ Tasks: ~5h mandatory
 [11 Best Practices and Tools to Improve the Java Code Quality](https://www.romexsoft.com/blog/improve-java-code-quality/)
 
 [S.O.L.I.D](https://www.baeldung.com/solid-principles)
+[OCP](https://www.baeldung.com/java-open-closed-principle)
+[Liskov](https://www.baeldung.com/java-liskov-substitution-principle)
+[SRP](https://www.baeldung.com/java-single-responsibility-principle)
+[IS](https://www.baeldung.com/java-interface-segregation)
+[DI](https://www.baeldung.com/java-dependency-inversion-principle)
+
+[Clean Coding in Java](https://www.baeldung.com/java-clean-code)
+
+[Understanding the DRY Principle](https://www.plutora.com/blog/understanding-the-dry-dont-repeat-yourself-principle)
