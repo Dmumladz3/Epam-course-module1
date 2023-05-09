@@ -21,7 +21,7 @@
 **Course Links** 
 =======================
 * [Spring core](https://www.linkedin.com/learning/spring-framework-in-depth-2/building-blocks-of-spring?u=2113185) 3h 00m
-* [New in Spring 5.0](https://learn.epam.com/detailsPage?id=1a5d6b23-b4b9-4942-bf64-a8e758d3ef01) 1h 14m
+* [New in Spring 5.0](https://www.linkedin.com/learning/spring-5-0-and-spring-boot-2-0-new-features/next-steps?autoplay=true) 1h 14m
 * [Testing](https://learn.epam.com/detailsPage?id=4e3bf752-9800-4cd1-a36f-34bf61799ad8) 1h 15m
 
 
