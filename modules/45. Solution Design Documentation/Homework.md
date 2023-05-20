@@ -47,6 +47,7 @@ Take into account the following:
 * Choose technologies/frameworks for every component/tier/layer from the decomposition and **log the rationale** behind the choice
   * 1-2 sentences is enough
   * include links to any docs/product sites/articles you feel relevant
+* **Discuss** the choices with your peer or mentor.
 
 ### Sub-task 1.3 - define a flow
 **Plan**
