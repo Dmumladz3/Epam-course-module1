@@ -20,8 +20,8 @@ Mandatory self-study materials: 
 - choose either (but both are highly recommended)
   - [Notations, views, best practices (video)](https://videoportal.epam.com/video/nJLWyXR9) 1h
   - OR Notations, views, best practices 1-2h
-    - [Lecture 1](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/blob/master/modules/45.%20Solution%20Design%20Documentation/Lecture%201.pptx)
-    - [Lecture 2](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/blob/master/modules/45.%20Solution%20Design%20Documentation/Lecture%202.pptx) - 1-2h
+    - [Lecture 1](Lecture%201.pptx)
+    - [Lecture 2](Lecture%202.pptx)
 - [Managing decision log with Strukturizr (video)](https://wearecommunity.io/events/diagram-as-code-approach-to-c4-model) - 1h
 
 
