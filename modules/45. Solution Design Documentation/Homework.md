@@ -1,37 +1,17 @@
 # Solution Architecture Documenting Practical Task
 
 ## Overview
-The task below requires you to design and document a solution using an iterative approach:
-* The documentation will include **4 views** and a **decision log**.
-* Whenever you create a view 
-  * make sure to add a diagram which will carry most of the useful information, keep text to a minimum
-  * add a brief comment which describes its purpose - e.g., decompose the system, plan development tasks, plan infrastructure, clarify tech details about component X, etc
-  * list the key elements (components) of the view
-* Add **decision log records** about any decisions like reference architecture choice, pattern choice, tech choice, etc
-* Every decision log record must be created using the template below (but irrelevant parts might be left as N/A)
-```
-    a.   Title
-    b.   Status
-    c.   Background
-    d.   Glossary
-    e.   Functional requirements
-    f.   Non-functional requirements
-    g.   Constraints
-    h.   Quality attributes
-    i.   Solution Options
-     ```
-        - MySQL DB deployed to on-premis
-        - AWS RDS Aurora MySQL DB
-        - ElasticSearch NoSQL storage 
-     ```
-  j.   Decision criteria
-  k.   Decision
-  l.   Sources
-  m.   Tickets
-  n.   References
-```
+The purpose of this module is to practise:
+* decomposing design documentation into **views**
+* maximising the value and maintainability of design using **decision log**
 
-## Business requirements
+## Task 1 - initial design
+### Sub-task 1.1 - analyse requirements
+**Plan**:
+* Read the requirements below.
+* Build a list of any gaps/unclear requirements.
+
+**Requirements**
 Development team is going to elaborate REST Service manipulating Event resource.
 
 Event entity contains following fields:
@@ -42,63 +22,72 @@ Event entity contains following fields:
 * eventType;
 * dateTime.
 
-Team leader should choos the most suitable data storage implementation for REST Service providing following functionality:
+Team leader should choose the most suitable data storage implementation for REST Service providing following functionality:
 * CRUD operations
 * Filtering
 * Search
 * Sorting
 * Aggregation by specified field value
 
-Data storage for REST service should provide support multi-tenant content storage.
-Instance of storage service should host several independent databases with tenant specific content.
-Data Storage should be provide calculation of query against 100 000 000 entries within ~700ms.
-Data storage for Legal Analytics service should provide automated data backup every 30 days.
-Event Model to Data Storage Schema mapping complexity should be minimized.
-Cloud provider should be consistent.
-Data storage should provide detailed logging for troubleshooting and process verification.
-Hosting and maintenance pricing should be optimal.
+Take into account the following:
+* Data storage for REST service should provide support multi-tenant content storage.
+* Data Storage should scale so that:
+  * up to 100 000 000 of records are stored
+  * CRUD operations and typical search queries should execute within 1 second
+* Data storage should support automated data backup every 30 days.
+* Event Model for Data Storage Schema mapping complexity should be minimized.
+* Data storage should support detailed logging for troubleshooting.
+* The infrastructure should support two European regions: east and west.
 
-Use Amazon Web Services Cloud Provider deployment distributed between regions following regions: eu-west, eu-east.
+### Sub-task 1.2 - define components
+**Plan**
+* Based on those requirements you see as most important, decompose your solution into components, or tiers, or layers.
+* **Note** that it's not necessary to account for all the non-functional requirements at this point.
+* Visualise the decomposition (UML class/package/component diagram or an informal diagram with a legend is recommended).
+* Choose technologies/frameworks for every component/tier/layer from the decomposition and **log the rationale** behind the choice
+  * 1-2 sentences is enough
+  * include links to any docs/product sites/articles you feel relevant
+* **Discuss** the choices with your peer or mentor.
 
-## Task 1 - context view - 1 point
-**RECOMMENDATIONS**
-* the systems and actors that interact with the solution
-* C4 context diagram is recommended
-* no decision log records are expected for this view
+### Sub-task 1.3 - define a flow
+**Plan**
+* Based on the decomposition from task 1.2, pick any major use case from the requirements.
+* Visualise the use case (UML sequence/activity or BPMN diagram is recommended).
 
-## Task 2 - initial design
-**RECOMMENDATIONS**
-* the sub-tasks below may be done in any order
-* but you should start with either a process (C&C) view or a modules (decomposition) view to define the major components and concerns in your solution
-* the deployment view is recommended to be done last since you cannot make quality decisions about infrastructure without knowing what’s in your system
+## Task 2 - DB choice
+**Plan**
+* On your projects, you might need to make major decisions that affect both functions and quality of the system.
+Here, you need to choose a DB for the underlying storage.
+* Pick any 3 DB options you have experience with, but make sure they are different enough 
+(cloud-managed service vs self-hosted, SQL vs NoSQL, search engine vs DB, or else).
+* Compare the DB options and choose one using the following decision log template:
+```
+  a.   Title
+  b.   Status
+  c.   Background
+  d.   Glossary
+  e.   Functional requirements
+  f.   Non-functional requirements
+  g.   Constraints
+  h.   Quality attributes
+  i.   Solution Options
+  j.   Decision criteria
+  k.   Decision
+  l.   Sources
+  m.   Tickets
+  n.   References
+```
 
-### Sub-task 2.1 - modules view - 3 points
-**RECOMMENDATIONS**
-* packages, data models, layers or whatever comprises the internal structure of the application
-* UML class/package/component diagram or an informal diagram with a legend is recommended
-* whenever you find that the **business requirements are not precise enough**, keep a list of such gaps - it will be **required for task 2**
-* you may keep a decision log per view or have a centralised one
-* **optional** - include a decision log record regarding the rationale behind choosing the components and patterns shown on the view
+## (Optional) Task 2 - context view
+**Plan**
+* Oftentimes, especially when you have to work with developing brand-new services or major components, it's useful
+to define the context shared across all the docs/decisions you make for the solution.
+* Prepare a C4 context view describing the relationships of your system with external systems and users.
 
-### Sub-task 2.2 - process view - 3 points
-**RECOMMENDATIONS**
-* a high-level description of the essential data flow through the application
-* UML sequence/activity or BPMN diagram is recommended
-
-### Sub-task 2.2 - deployment view - 3 points
-**RECOMMENDATIONS**
-* a high-level description of the infrastructure required to deploy the application in production
-* an informal AWS diagram is recommended
-* optional - add a decision log record(s) explaining the infrastructure choices made
-
-## Task 3 - design refinement
-### Sub-task 3.1 - covering gaps - 3 points
-Given the list of **requirements gaps** obtained while doing task 1
-* make your own best guesses about these gaps and document them in the decision log
-* just 1-2 sentences with any useful links (case studies, external documentation, articles) are enough per decision
-
-### Sub-task 3.2 - DB choice - 3 points
-Add a decision log record which is dedicated to the choice of a DB for your solution
-* MySQL DB deployed to on-premises
-* AWS RDS (Aurora or MySQL)
-* ElasticSearch
+## (Advanced) Task 3 - infrastructure view
+**Plan**
+* Pick a cloud provider you feel most comfortable with.
+* Define a deployment diagram for your solution (e.g. using AWS diagram).
+* Make as many decisions related to the non-functional requirements above as possible and log them
+  * 1-2 sentences is enough
+  * include links to any docs/product sites/articles you feel relevant
