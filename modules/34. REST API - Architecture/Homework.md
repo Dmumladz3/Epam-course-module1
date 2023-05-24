@@ -16,13 +16,14 @@ Spring Boot 2
 
 (1-2 stars)
 
-##### 1.	Create maven project with 4 modules :
+##### 1.	Create maven project with 5 modules :
+    - jmp-domain
     - jmp-dto
     - jmp-service-api
     - jmp-cloud-service-impl
     - jmp-service-rest
 
-##### 2.	Create the fallowing classes under jmp-dto module :
+##### 2.	Create the fallowing classes under jmp-domain module :
     - [User]
         Long id;
         String name;
@@ -34,6 +35,7 @@ Spring Boot 2
         User user;
         LocalDate startDate;
 
+##### 3.	Create the fallowing classes under jmp-dto module :
     - [UserRequestDto]
         Long id;
         String name;
@@ -55,59 +57,59 @@ Spring Boot 2
         Long userId;
         String startDate;
 
-##### 3.	Create UserController under jmp-service-rest module with following methods:
+##### 4.	Create UserController under jmp-service-rest module with following methods:
     - createUser(UserRequestDto);
     - updateUser(UserRequestDto);
     - deleteUser(Long);
     - getUser(Long);
     - getAllUser();
 
-##### 4.	Use id filed into UserRequestDto only for updating data.
-##### 5.	Must be returned UserResponseDto from the following methods :
+##### 5.	Use id filed into UserRequestDto only for updating data.
+##### 6.	Must be returned UserResponseDto from the following methods :
     - createUser(UserRequestDto);
     - updateUser(UserRequestDto);
     - getUser(Long);
     - getAllUser();
 
-##### 6.	Create ServiceController under jmp-service-rest module with following methods :
+##### 7.	Create ServiceController under jmp-service-rest module with following methods :
     - createSubscription(SubscriptionRequestDto);
     - updateSubscription(SubscriptionRequestDto);
     - deleteSubscription(Long);
     - getSubscription(Long);
     - getAllSubscription();
 
-##### 7.	Use id filed into SubscriptionRequestDto only for updating data.
-##### 8.	Must be returned SubscriptionResponseDto from the following methods :
+##### 8.	Use id filed into SubscriptionRequestDto only for updating data.
+##### 9.	Must be returned SubscriptionResponseDto from the following methods :
     - createSubscription(SubscriptionRequestDto);
     - updateSubscription(SubscriptionRequestDto);
     - getSubscription(Long);
     - getAllSubscription(); (as list)
 
-##### 9.	Add necessary interfaces/methods to jmp-service-api.
-##### 10.	Implement interfaces/methods under jmp-service-api into jmp-cloud-service-impl.
-##### 11.	UserController and ServiceController must provide REST API interfaces according to 2nd of REST API maturity.
-##### 12.	You can use memory structures to store the data (List, Map..).
-##### 13.	Use jmp-cloud-service-impl to implement UserController and ServiceController.
-##### 14.   Implement Application class with @SpringBootApplication annotation and main method.
-##### 15.	Use lambdas and Java 8 features wherever it’s applicable.
-##### 16.   Make sample requests to UserController and ServiceController, provide screenshots/responses.
+##### 10.	Add necessary interfaces/methods to jmp-service-api.
+##### 11.	Implement interfaces/methods under jmp-service-api into jmp-cloud-service-impl.
+##### 12.	UserController and ServiceController must provide REST API interfaces according to 2nd of REST API maturity.
+##### 13.	You can use memory structures to store the data (List, Map..).
+##### 14.	Use jmp-cloud-service-impl to implement UserController and ServiceController.
+##### 15.   Implement Application class with @SpringBootApplication annotation and main method.
+##### 16.	Use lambdas and Java 8 features wherever it’s applicable.
+##### 17.   Make sample requests to UserController and ServiceController, provide screenshots/responses.
 
 (3-4 stars)
-##### 17.	Use a DB to store the data (List, Map..).
-##### 18.	Use spring boot data jpa module to access data.
-##### 19.	Use spring converters to convert :
+##### 18.	Use a DB to store the data (List, Map..).
+##### 19.	Use spring boot data jpa module to access data.
+##### 20.	Use spring converters to convert :
     - UserRequestDto to User
     - User to UserResponseDto
     - SubscriptionRequestDto to Subscription
     - Subscription to SubscriptionResponseDto
 
-##### 20.	Document methods in UserController and ServiceController using Swagger 2 annotations.
-##### 21.   Make sample requests to UserController and ServiceController via Swagger UI, provide screenshots.
+##### 21.	Document methods in UserController and ServiceController using Swagger 2 annotations.
+##### 22.   Make sample requests to UserController and ServiceController via Swagger UI, provide screenshots.
 
 (5 stars)
-##### 22.	Use Java 9 modules wherever it’s applicable.
-##### 23.   Implement REST APIs according to all Richardson Maturity Level (0 - 3).
-##### 24.   Make sample requests to UserController and ServiceController, provide screenshots/responses.
+##### 23.	Use Java 9 modules wherever it’s applicable.
+##### 24.   Implement REST APIs according to all Richardson Maturity Level (0 - 3).
+##### 25.   Make sample requests to UserController and ServiceController, provide screenshots/responses.
 
 ## References
 
