@@ -6,7 +6,7 @@ Please read this cases and write what will you do to solve them.
 #Recommendations
 Try to look at every situation in 3 types of perspective:
 * from many sides and point of views in the current moment
-* in progress - how did we come to this situation and what will be effects in future
+* in progress - how did we come to this situation and what results will we face in future
 * in collision - how does this situation affects other workers and processes
 
 Remember that every problem has a several solutions, and each solution has its long term effect: solution that was good in short term can have a very bad results in the future of there can be an opposite situation.
@@ -17,12 +17,13 @@ All of these cases are happening in your one team so consider your previous deci
 So you've just become a team lead of new team that will work on new project. 
 
 Team:
-* Adam - key developer with a huge experience, more interested in technical staff
-* Bob - strong middle developer with specific experience, which is required for this project - also he very likes his previous team and it's lead, and he doesn't believe that this one can be half as good as previous 
-* Eva - junior superstar developer, like to learn - interested in everything
+Team:
+* Adam - key senior developer with a huge experience, more interested in technical staff
+* Bob - strong middle+ developer with specific experience, which is required for this project - also he very likes his previous team and its lead, and he doesn't believe that this team can be half as good as previous
+* Eva - junior superstar developer, likes to learn and is interested in everything new
 * Diana - tester, wants to grow in test automation
-* Mary - PO + business analytic from client's side, owns most of the communications with the customer
-* Dean - scrum master, he is good at setting up of standard ceremonies, but don't expect something more from him 
+* Mary - PO + BA from client's side, owns most of the communications with the customer
+* Dean - scrum master, he is good at setting up of standard ceremonies, but don't expect more from him
 * Pavel - DevOps, trying to make fully automated CI / CD on the project
 
 #Evaluation
@@ -37,12 +38,12 @@ Case 1 - New beginning
 * You've just met your new team - what will be your first actions?
 
 
-Case 2 - Chose
+Case 2 - Choice
 ==========================
 
 **Cost**: 0.3 points
 
-* In your work you need two frameworks, first is required from client's side. Second you and your team should choose. How will you do it? 
+* In your work you need two frameworks, the first is required from client's side. The second you and your team should choose. How will you do it? 
 
 
 Case 3 - Estimation
@@ -86,7 +87,7 @@ Case 7 - Breaking of sprint
 
 **Cost**: 0.3 points
 
-* Client asks your team to add ultrahigh priority task in the middle of current sprint. Adam doesn't think that this is a good idea, Mary thinks that we just have to do it anyway. What will you do and how will you convince your position or decision?
+* Client asks your team to add ultra high priority task in the middle of current sprint. Adam doesn't think that this is a good idea, Mary thinks that we just have to do it anyway. What will you do and how will you convince your position or decision?
 
 
 Case 8 - Effort and impact
@@ -94,7 +95,7 @@ Case 8 - Effort and impact
 
 **Cost**: 0.3 points
 
-* User story contains several tasks, one of which has tiny functionality but at the same time require large efforts. How will you communicate it with PO / customer?
+* User story contains several tasks, one of which has tiny functionality but at the same time requires a large efforts. How will you communicate it with PO / customer?
 
 
 Case 9 - Unclear requirements
@@ -102,7 +103,7 @@ Case 9 - Unclear requirements
 
 **Cost**: 0.3 points
 
-* Business Analyst create contradiction requirements unclear for developers. What will be your actions?
+* Business Analyst creates contradiction requirements unclear for developers. What will be your actions?
 
 
 Case 10 - Team lead
@@ -110,7 +111,7 @@ Case 10 - Team lead
 
 **Cost**: 0.3 points
 
-* Developer from your team want to lead your team for you (who is it depending on your previous decisions). What will you do?
+* Developer from your team wants to become a teamlead (who is it depending on your previous decisions). What will you do?
 
 
 Case 11 - Demo
@@ -118,7 +119,7 @@ Case 11 - Demo
 
 **Cost**: 0.3 points
 
-* When 10 minutes prior to demo for customer you spotted that application / functionality you need to demonstrate does not work. 
+* 10 minutes before the customer demo, you notice that the app/feature you want to demo isn't working. What will you do?
 
 
 Case 12 - The end
@@ -126,4 +127,4 @@ Case 12 - The end
 
 **Cost**: 0.3 points
 
-* You did a very good job, customer is happy, team very like you and each other, team spirit is very-very high. But you know, that soon project will be over, the job is done. What should you think about it and what should you do?
+* You did a very good job, customer is happy, team very likes you and each other, team spirit is very-very high. But you know, that soon project will be over, the job is done. What should you think about it and what should you do?

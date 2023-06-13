@@ -44,12 +44,14 @@
 
 - [En] [Story points and estimation](https://www.atlassian.com/agile/project-management/estimation)
 - [En] [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development)
+- [En] [TUCKMAN'S STAGES OF GROUP DEVELOPMENT](https://www.wcupa.edu/coral/tuckmanStagesGroupDelvelopment.aspx)
 - [En] [Kolb's Learning Styles and Experiential Learning Cycle](https://www.simplypsychology.org/learning-kolb.html)
+- [En] [The Discipline of Teams](https://hbr.org/1993/03/the-discipline-of-teams-2)
 
 
 **Books:**
 =======================
-- [En] How To Read Books by Sergey Povarnin
+- [Ru] Как читать книги Сергей Поварнин
 - [En] [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 - [En] The Clean Coder: A Code Of Conduct For Professional Programmers by Robert C. Martin
 - [En] Clean Agile: Back to Basics by Robert C. Martin
