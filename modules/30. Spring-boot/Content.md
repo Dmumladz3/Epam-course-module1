@@ -28,7 +28,7 @@
 
 - [En] [Spring Boot: Under the Hood / Nicolas Fränkel](https://www.youtube.com/watch?v=zSJFx0iyrq4) 30m
 
-- [En] [Spring boot 2.0 new features (Optional)](https://learn.epam.com/detailsPage?id=1a5d6b23-b4b9-4942-bf64-a8e758d3ef01) 2h 00m
+- [En] [Spring boot 2.0 new features (Optional)](https://www.linkedin.com/learning/spring-5-0-and-spring-boot-2-0-new-features/next-steps) 2h 00m
 
 **Spring boot actuator:**
 =======================
