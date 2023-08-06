@@ -15,9 +15,10 @@ Tasks: ~5h mandatory
 
 **Lectures:**:
 =======================
-[Clean Code](https://learn.epam.com/detailsPage?id=b45c7606-48e2-4317-89cd-9b36e740c76e)
-
+[Clean Code](https://learn.epam.com/detailsPage?id=ddcdfb17-9e0c-432f-b944-ff0383dd9096)
+[Clean Code Advanced (Optional)](https://learn.epam.com/detailsPage?id=c2b5b99d-a338-4a77-b198-720dc210711e)
 [Agile Software Development: Code Quality](https://www.linkedin.com/learning/agile-software-development-code-quality/why-code-quality-is-important?u=2113185)
+
 
 **References**:
 =======================
