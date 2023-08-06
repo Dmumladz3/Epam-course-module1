@@ -102,9 +102,9 @@
 
      8. Get employees younger then 1,Jan,2000 using Range query.
      
-     9. Perform Wildcard search, for example "address.town":{"value": "h*m"}.
+     9. Perform Wildcard search, for example "address.town":{"value": "b*y"}.
 
-     10. Replace it by Regexp to get only "Hailsham".
+     10. Replace it by Regexp to get only "Batley".
 
      11. Investigate how Fuzzy query works. Make two spelling mistakes in the town, set "fuzziness": "2",  and check you get the town in the response anyway. 
 
@@ -187,7 +187,7 @@ PUT post-comments/_doc/B?routing=1
 }
 ```
 ```json
-PUT localhost:9200/blog/_doc/C?routing=2
+PUT post-comments/_doc/C?routing=2
 {
 "_join_type": {
 "name": "comment",
@@ -198,7 +198,7 @@ PUT localhost:9200/blog/_doc/C?routing=2
 }
 ```
 ```json
-PUT localhost:9200/blog/_doc/D?routing=2
+PUT post-comments/_doc/D?routing=2
 {
 "_join_type": {
 "name": "comment",
