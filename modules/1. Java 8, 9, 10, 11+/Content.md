@@ -4,7 +4,7 @@
 
 **Topics:** 
 =======================
-- Java 8 features: Optionals, Functional interfaces, Lambdas etc....
+- Java 8 features: Optionals, Functional interfaces, Lambdas etc.
 - Java 9 features
 - Java 10 features
 - Java 11 features
