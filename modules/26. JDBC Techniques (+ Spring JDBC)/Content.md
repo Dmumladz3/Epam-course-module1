@@ -17,7 +17,7 @@
 **Lectures**: 
 =======================
 
-[JDBC Intro](https://learn.epam.com/detailsPage?id=5806341b-5753-4dd9-b9ba-40275580fd0f) 2h 51m
+[JDBC Intro](https://learn.epam.com/detailsPage?id=c3cfe8e9-f306-4e17-92c8-86fee97adbbc) 2h 12m
 
 [Spring JDBC](https://spring.io/guides/gs/relational-data-access/) 30m
 
