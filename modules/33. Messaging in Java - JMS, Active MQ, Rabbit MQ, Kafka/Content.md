@@ -43,5 +43,5 @@
 =======================
 * [ActiveMQ in Action](https://www.manning.com/books/activemq-in-action)
 * [RabbitMQ in Action](https://www.manning.com/books/rabbitmq-in-action)
-* [Kafka: The Definitive Guide: Real-Time Data and Stream Processing at Scale](https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing-ebook/dp/B0758ZYVVN)
+* [Kafka: The Definitive Guide: Real-Time Data and Stream Processing at Scale](https://www.confluent.io/resources/kafka-the-definitive-guide)
 * [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](https://www.amazon.com/o/asin/0321200683/ref=nosim/enterpriseint-20)
