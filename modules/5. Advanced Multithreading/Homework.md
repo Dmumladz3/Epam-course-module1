@@ -5,7 +5,7 @@ This document contains homework tasks for `Advanced Multithreading: Fork-Join Po
 Task 1 (Optional) - Factorial via FJP
 ==========================
 
-**Cost**: 0.5 point.
+**Cost**: 10 point.
 
 Use FJP to calculate factorial. Compare with the sequential implementation. Use `BigInteger` to keep values.
 
@@ -14,7 +14,7 @@ Use FJP to calculate factorial. Compare with the sequential implementation. Use 
 Task 2 - Multithreading Sorting via FJP
 =======================================
 
-**Cost**: 0.5 points.
+**Cost**: 10 points.
 
 Implement Merge Sort or Quick Sort algorithm that sorts huge array of integers in parallel using Fork/Join framework.
 
@@ -23,7 +23,7 @@ Implement Merge Sort or Quick Sort algorithm that sorts huge array of integers i
 Task 3 - File Scanner via FJP
 =============================
 
-**Cost**: 0.5 points.
+**Cost**: 10 points.
 
 Create CLI application that scans a specified folder and provides detailed statistics:
 
@@ -41,7 +41,7 @@ Of course, use Fork-Join Framework for implementation parallel scanning.
 Task 4 - Completable Future Helps to Build Open Salary Society
 ==============================================================
 
-**Cost**: 0.5 points.
+**Cost**: 20 points.
 
 Assume, we have REST endpoint that returns a list of hired `Employee`s.
 
@@ -59,7 +59,7 @@ Task 5 (prodcons module):
 ===================================
 ## Solve [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
 
-**Cost**: 1 points.
+**Cost**: 20 points.
 
 Using:
 1. Semaphore
@@ -68,7 +68,7 @@ Using:
 Task 6
 ===================================
 
-**Cost**: 1 points.
+**Cost**: 20 points.
 
 ## RecursiveTask
 1. Give example from [`RecursiveTask`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/RecursiveTask.html) javadoc.
@@ -95,7 +95,7 @@ Task 6
 
 Task 7
 ===================================
-**Cost**: 1 points.
+**Cost**: 20 points.
 
 #### Blurring for Clarity (forkjoin module)
 Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
@@ -104,6 +104,7 @@ Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle
 
 Task 8 (Optional) - PC Assembly Line with Akka
 ===================================
+**Cost**: 20 point.
 
 Automatize PC assembly line with Akka Framework (use Java API).
 
