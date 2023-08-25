@@ -28,27 +28,27 @@ Tasks:
 
 1) You should create tests for Messenger with the following condition (In scope of this task you can create more than one test to cover the same functionality):  
 
-    TDD approach – (2 points)  
+    TDD approach – (40 points)  
 
-    @Parameterized runner  and Dynamic tests (0.3 points)  
+    @Parameterized runner  and Dynamic tests (6 points)  
 
-    Implement meta annotations and filtering (0.3 points) 
+    Implement meta annotations and filtering (6 points) 
 
-    TemporaryFolder rule (0.3 points)  
+    TemporaryFolder rule (6 points)  
 
-    Mock reading from file/console (0.3 points)  
+    Mock reading from file/console (6 points)  
 
-    Use partial mock (0.3 points)  
+    Use partial mock (6 points)  
 
-    Use spy (0.3 points)  
+    Use spy (6 points)  
 
-    Create custom extension (jUnit5) to output test execution information to file (0.3 points)  
+    Create custom extension (jUnit5) to output test execution information to file (6 points)  
 
-    Using ExpectedException rule to check exceptions + Assertion mechanism (0.3 points)  
+    Using ExpectedException rule to check exceptions + Assertion mechanism (6 points)  
 
-    Implement Disabling test on condition (0.1 points) 
+    Implement Disabling test on condition (2 points) 
 
-    Test quality and adequate coverage will be assessed as (0.5 points) 
+    Test quality and adequate coverage will be assessed as (10 points) 
 
 Don't forget about good tests, checkstyle and other staff that already included into your build phase 
 
@@ -56,6 +56,6 @@ Don't forget about good tests, checkstyle and other staff that already included 
 
 Extra mile: 
 
-Write BDD tests for messenger. You may use any BDD framework (Spock, JBehave, Cucumber,…). Negotiate framework with your mentor – (2 points) 
+Write BDD tests for messenger. You may use any BDD framework (Spock, JBehave, Cucumber,…). Negotiate framework with your mentor – (40 points) 
 
  
