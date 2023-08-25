@@ -26,13 +26,13 @@ Your cache service should fit next requirements:
 
 This task should be implemented in two ways: 
 
-    Simple Java (3 points) (Strategy: LFU) 
+    Simple Java (60 points) (Strategy: LFU) 
 
-    Guava (2 point) (Strategy: LRU) 
+    Guava (40 point) (Strategy: LRU) 
 
 Don't forget about good tests, checkstyle and other staff that already included into your build phase.  
 
-Total mark for it is 5 points
+Total mark for it is 100 points
 
 Extramile: 
 2) Implement binary search algorithm: 
