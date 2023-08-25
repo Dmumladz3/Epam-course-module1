@@ -10,7 +10,7 @@ Git 2.24+
 
 ##Task
 
-Tasks 1-17 weight 40 points
+Tasks 1-17 weight: 40 points
 
 ##### 1.	Create maven project with 5 modules (see Java 9 modules) :
 	- jmp-bank-api
@@ -76,14 +76,14 @@ Tasks 1-17 weight 40 points
     - requires jmp.dto;
 ##### 17.	Demonstrate functionality of created classes.
 
-Tasks 18-20 weight 40 points
+Tasks 18-20 weight: 40 points
 ##### 18.	Add a new default method for Service interface, which uses getAllUsers. Use LocalDate.now(), ChronoUnit and mapToLong.
     - double getAverageUsersAge();
 ##### 19.	Add a new static method for Service interface, which returns true, if the user is over 18 years old.
     - boolean isPayableUser(User);
 ##### 20.	Use Collectors.toUnmodifiableList() and method reference it’s applicable.
 
-Tasks 21-25 weight 20 points
+Tasks 21-25 weight: 20 points
 
 ##### 21.	Create Exception class which will be used into orElseThrow for Optional from getSubscriptionByBankCardNumber().
 ##### 22.	Add a new method for Service interface and implement it. Demonstrate this method ino application module:
