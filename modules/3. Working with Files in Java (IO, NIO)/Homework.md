@@ -4,7 +4,7 @@ NOTE: Don't forget using try-with-resources for all home tasks.
 Task 1 - Serialization
 ========================================
 
-**Cost**: 1 point.
+**Cost**: 15 point.
 
 Add the ability to serialize / deserialize for the hierarchy of objects from another homework. 
 However, all numerical fields should not be serialized.
@@ -15,7 +15,7 @@ the serialization/deserialization operation.
 Task 2 - DiskAnalyzer
 ======================================
 
-**Cost**: 1 point.
+**Cost**: 15 point.
 
 Write the DiskAnalyzer utility command line, which accepts a path to the input (for example, C: \) and a function number, 
 correctly processes incorrect paths or function numbers. 
@@ -33,7 +33,7 @@ Required functionality:
 Task 3 - FastFileMover
 ===================================
 
-**Cost**: 1 point.
+**Cost**: 20 point.
 
 Write several versions of the FastFileMover utility, which moves a file from one directory to another directory. 
 It takes both file paths as a command line parameters. 
@@ -57,7 +57,7 @@ On each file, run 1000 times, get the average time.
 Task 4 - Play the Game with DBUnit
 ==================================
 
-**Cost**: 1 point.
+**Cost**: 15 point.
 
 Add five DBUnit tests to appropriate project (pet project) or another. Prepare test datasets if it is required.
 
@@ -66,7 +66,7 @@ Add five DBUnit tests to appropriate project (pet project) or another. Prepare t
 Task 5 (Optional) - Stored Procedure
 =========================
 
-**Cost**: 1 point.
+**Cost**: 15 point.
 
 1. Take the existing (or write from zero) JDBC solution with a few CRUD operations and more complex SQL (for simple report generation) and migrate it to stored procedures. **\***
 2. Write SQL script to create those stored procedures with Java style parameters and specific external names. **\*\***
@@ -83,7 +83,7 @@ Task 5 (Optional) - Stored Procedure
 Task 6 (Optional) - Pre-defined Stored Procedure
 =====================================
 
-**Cost**: 1 points.
+**Cost**: 15 points.
 
 If your database **\*** has pre-defined storage procedure, use a few of them to print out
 interesting information or maintain something in the database.
@@ -95,7 +95,7 @@ interesting information or maintain something in the database.
 Task 7 - File Sharing
 =====================
 
-**Cost**: 30 points.
+**Cost**: 20 points.
 
 Implement the next use cases of File Share application:
 
@@ -124,7 +124,7 @@ Make demo via console interface or via special main method.
 Task 8 - JabaORM
 ================
 
-**Cost**: 30 points.
+**Cost**: 15 points.
 
 Write your own annotation-based or XML-based JabaORM that parses specific class and
 generates SQL-queries for CRUD (or SCRUD) operations.
@@ -148,8 +148,8 @@ Implement all actions via `RowSet` if it is possible.
 Penalties
 =========
 
-* `-5` points for the missed subtask;
-* `-5` points if table populating algorithm is trivial and ugly (using simple counters without the fantasy flight);
-* `-3` points if mentee doesn't use `try-with-resources` if it's possible;
-* `-2` points if connection parameters are not stored in property file;
-* `-5` points for each task if mentee ignores Java Code Conventions.
+* `0` points for the missed subtask;
+* `-10` points if table populating algorithm is trivial and ugly (using simple counters without the fantasy flight);
+* `-7` points if mentee doesn't use `try-with-resources` if it's possible;
+* `-5` points if connection parameters are not stored in property file;
+* `-10` points for each task if mentee ignores Java Code Conventions.
