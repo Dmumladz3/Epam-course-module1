@@ -14,7 +14,7 @@ Kubernetes
 
 ##Task
 
-(1 star)
+(20 points)
 
 ##### 1. Create services: "micro-sender", "micro-recipient", "micro-collector"
 ##### 2. Create "docker-compose.yml", with the following configuration:
@@ -40,7 +40,7 @@ Kubernetes
    - Must call GET "/message" from "micro-recipient" and log it every (M > N) second(-s). (use Spring Scheduler and ForeignClient)
    - Scheduler should be logged by any Logger
 
-(2 stars)
+(40 points)
 
 ##### 6. Update the "docker-compose.yml" with:
    - "prometheus". (u)se the "prom/prometheus" docker image)
@@ -50,7 +50,7 @@ Kubernetes
 ##### 9. Configure a "grafana" service to connect and visualize data from "prometheus"
 ##### 10. Open a "grafana" UI and check results (make screenshot)
 
-(3-4 stars)
+(20 points)
 
 ##### 11. Migrate all services (with "grafana" and "prometheus") to Kubernetes
 ##### 12. Configure a "deployment.yaml" for your services. Test it
@@ -64,7 +64,7 @@ Kubernetes
     - Blue-green deployments
 ##### 17. Configure the "prometheus" and the "micro-visualizer" to read metrics from the "micro-visualizer"
 
-(5 stars)
+(20 points)
 
 ##### 18. Update the "micro-recipient" and the "micro-collector" to read only one message per call. Change Scheduler's time to (5*N) for the "micro-collector"
 ##### 19. Re-deploy the "micro-recipient" and the "micro-collector" with one of the following deployment strategies (make screenshot):
