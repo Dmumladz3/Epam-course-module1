@@ -140,15 +140,15 @@ As mandatory assignement, you should provide your own implementation of `fixed w
 You should insert your implementation inside `JedisRateLimitService` class to override default one.
 The task is done, when all tests from `FixedWindowRateLimitControllerTest` are passed.
 
-**You gain 5 points, when you successfully finish mandatory task**.
+**You gain 100 points, when you successfully finish mandatory task**.
 
 
 ### Optional Tasks:
 * Usually, Rate Limit Server should be high-throughput low-latency application. Implement the same Rate Limit Server
-using Spring WebFlux and Lettuce Redis driver library. (2 additional points)
-* Sliding window rate limit is more precise, add support for sliding window rate limit. (1 additional point)
-* Lettuce driver support for pipelining, try to use pipelining, where applicable. (1 additional point)
+using Spring WebFlux and Lettuce Redis driver library. (40 additional points)
+* Sliding window rate limit is more precise, add support for sliding window rate limit. (20 additional points)
+* Lettuce driver support for pipelining, try to use pipelining, where applicable. (20 additional points)
 * Usually, distributed systems have observability requirement. Try to implement counter of number of total and blocked
 requests for each Rate Limit Rule. You should gather stats for each day with one-hour resolution. You may find Redis
 [Bitfield](https://redis.io/docs/data-types/bitfields/) datatype useful for such counter implementation.
-Redis [Set](https://redis.io/docs/data-types/sets/) structure can help you to store Rate Limit Rules available for each day.(1 additional point)
+Redis [Set](https://redis.io/docs/data-types/sets/) structure can help you to store Rate Limit Rules available for each day.(20 additional points)
