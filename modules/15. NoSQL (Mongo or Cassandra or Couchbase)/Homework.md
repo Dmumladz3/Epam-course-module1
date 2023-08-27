@@ -4,7 +4,7 @@ Couchbase (`>= 7.1`).
 Task 1: Backend Database Migration
 ===================================
 
-**Cost**: 2 points.
+**Cost**: 50 points.
 
 Move one of your pet applications/mentoring projects with DAO and simple CRUD to MongoDB.
 In case you don't have such projects you can use the sample project attached ([ticket-booking.zip](./Content/ticket-booking.zip))
@@ -112,7 +112,7 @@ Couchbase
 3. Maven
 4. Java IDE
 
-### Task 1: Connect Spring Boot with Couchbase and create first document (1 point)
+### Task 1: Connect Spring Boot with Couchbase and create first document (10 points)
 
 1. Create a spring-boot maven project with at least the following dependencies:
 
@@ -143,7 +143,7 @@ spring-boot-starter-web
 6. Create a new user via API method call
 7. Verify that the created user is accessible via API method call
 
-### Task 2: Create index for searching by field (1 point)
+### Task 2: Create index for searching by field (10 points)
 
 1. Navigate to Couchbase Web Console, to Query tab and execute a query to
    create an index for email field.
@@ -152,7 +152,7 @@ spring-boot-starter-web
     * ```GET /api/v1/user/email/{email}``` - to get a user by email
 4. Verify that the user is available by email via API method call (do not forget about index)
 
-### Task 3: Embedded objects (1 point)
+### Task 3: Embedded objects (10 points)
 
 1. Create a Java Representation of Sport with the following fields:
 
@@ -170,7 +170,7 @@ spring-boot-starter-web
     * ```PUT /api/v1/user/{id}/sport```
 5. Verify that the Couchbase document is updated after the API method call
 
-### Task 4: Search by embedded object fields (1 point)
+### Task 4: Search by embedded object fields (10 points)
 
 1. Create a method in UserService with the ability to search users by sportName
 2. Add a method for UserRepository with custom query to retrieve users by sportName
@@ -179,7 +179,7 @@ spring-boot-starter-web
     * ```GET /api/v1/user/sport/{sportName}```
 5. Verify that some users are returned after the method call
 
-### Task 5: Perform full-text search (1 point)
+### Task 5: Perform full-text search (10 points)
 
 1. Create a search index via Couchbase Web Console
 2. Perform a search request via Couchbase Web Console and make sure that you are able to see some
