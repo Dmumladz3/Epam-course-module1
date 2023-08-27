@@ -7,7 +7,7 @@ This document contains homework tasks for `BigData`.
 Task 1 - Single-node Hadoop
 ===========================
 
-**Cost**: 1 point.
+**Cost**: 20 points.
 
 1. Download latest Hadoop release and set it up manually.
 2. Run Hadoop in Single Node regime.
@@ -18,7 +18,7 @@ Task 1 - Single-node Hadoop
 Task 2 - Run ClickHouse locally in Docker 
 ===========================
 
-**Cost**: 2 points.
+**Cost**: 40 points.
 
 1. Run ClickHouse locally by colland (below is Mac example, you need to modify it for your OS):
 ```
@@ -70,7 +70,7 @@ Hint: use the functions - countif, uniqExact. Use LIMIT key word to get less not
 Task 2 (Optional) - Multi-node Hadoop
 ==========================
 
-**Cost**: 1 point.
+**Cost**: 20 points.
 
 1. Configure cluster with 4 machines with the same Hadoop version.
 2. Run Hadoop on 4 machines in Multi-Node regime.
@@ -82,7 +82,7 @@ Task 2 (Optional) - Multi-node Hadoop
 Task 3 (Optional) - Hadoop WordCount with Optimizations
 ============================================
 
-**Cost**: 2 points.
+**Cost**: 40 points.
 
 1. Find your favorite Shakespeare poem and put it into HDFS.
 2. Write MapReduce WordCount **\*** program, make JAR and run it via Hadoop (Single Node or cluster, your choice).
@@ -102,7 +102,7 @@ P.S. Look [at this](https://github.com/zaleslaw/Spark-Tutorial/tree/master/Hadoo
 Task 4 (Optional) - Spark WordCount
 ========================
 
-**Cost**: 2 points.
+**Cost**: 40 points.
 
 Write Spark program in Java or Scala for WordCount problem from the previous task.
 
@@ -121,7 +121,7 @@ Each solution should:
 Task 5 - Spark and SMS
 ======================
 
-**Cost**: 1 points.
+**Cost**: 20 points.
 
 Find top 5 spam words are not contained in ham messages (use [smsData.txt](smsData.txt)).
 Implement your solution via one of approaches (RDD/DataFrames/SparkSQL). Java or Scala as you wish.
@@ -131,7 +131,7 @@ Implement your solution via one of approaches (RDD/DataFrames/SparkSQL). Java or
 Task 6 - Kafka
 ==============
 
-**Cost**: 2 points.
+**Cost**: 40 points.
 
 1. Install Kafka.
 2. Create topic `EPAM Secret Messages`.
