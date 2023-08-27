@@ -178,8 +178,8 @@ Print system properties and command-line flags that were used to start the JVM.
 ```
 
 ## Practical task evaluation rules:
-* OOM errors troubleshooting : 1.5 points
-* Deadlock troubleshooting : 1.5 points
-* Remote JVM profiling : 1 point
-* FlightRecorder : 1 point
+* OOM errors troubleshooting : 30 points
+* Deadlock troubleshooting : 30 points
+* Remote JVM profiling : 20 points
+* FlightRecorder : 20 points
 
