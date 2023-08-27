@@ -30,7 +30,7 @@ Task details:
 
  
 
-You can get 3 points for this part  
+You can get 100 points for this part  
 
  
 
@@ -94,4 +94,4 @@ Create PipeLine (delivery_pipeline)
 
  If deployment is successful  deploy on cloud (deploy_cloud) 
 
- You can get 3 points for this part  
+ You can get 60 points for this part  
