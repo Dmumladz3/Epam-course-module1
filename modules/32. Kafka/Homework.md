@@ -4,12 +4,12 @@ Task description
 See HW.pdf
 
 Point distribution
-Producers and consumers are implements - 3 points
-Topics are partitioned - 1 point
-Non-functional requirements are met - 1 point
+Producers and consumers are implements - 60 points
+Topics are partitioned - 20 points
+Non-functional requirements are met - 20 points
 
 Extra mile 
-Intergation tests - 2 poins
+Intergation tests - 40 poins
 
 
 
