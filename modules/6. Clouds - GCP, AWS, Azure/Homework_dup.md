@@ -28,9 +28,9 @@
 
 ## Practical task evaluation rules:
 
-* Google Cloud: 2.5 points
-* AWS Cloud: 2.5 points
-* AWS CloudFormation: 1 points [optional]
+* Google Cloud: 50 points
+* AWS Cloud: 50 points
+* AWS CloudFormation: 20 points [optional]
 
 ## References
 
