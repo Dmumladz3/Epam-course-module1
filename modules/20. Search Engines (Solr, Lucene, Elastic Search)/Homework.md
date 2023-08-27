@@ -4,7 +4,7 @@
 3. Maven
 4. Java IDE
 
-### Task 1 - Indexing (2 Points)
+### Task 1 - Indexing (40 Points)
 1. Find collection of the books in English language. It is better to use epub format.
 2. Implement indexing process of these books. 
 3. Document should have the following fields:
@@ -25,7 +25,7 @@
 GET /api/v1/book/{id}
 ```
 
-### Task 2 - Search book by query (2 points)
+### Task 2 - Search book by query (40 points)
 1. Implement API endpoint with following request:
 ```json
 {
@@ -67,7 +67,7 @@ The response structure is:
 ```
 2. Using *org.springframework.data.solr.core.SolrTemplate * implement search request to Solr using parameters from response
 
-### Task 3 - Implement autosuggestions (1 Point)
+### Task 3 - Implement autosuggestions (20 Point)
 1. Implement API endpoint which is returning array of suggestions:
 ```
  GET api/v1/book/suggest?query=
