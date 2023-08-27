@@ -4,7 +4,7 @@
 
 2. Please add appropriate constraints (primary keys, foreign keys, indexes, etc.)
 
-3. Design such kind of database for PostrgeSQL. Show your design in some suitable way (PDF, PNG, etc). (1 point)
+3. Design such kind of database for PostrgeSQL. Show your design in some suitable way (PDF, PNG, etc). (20 point)
 
 4. Try different kind of indexes (B-tree, Hash, GIN, GIST) for your fields. Analyze performance for each of the indexes (use ANALYZE and EXPLAIN). Check the size of the index. Try to set index before inserting test data and after. What was the time? Test data:
 
@@ -24,23 +24,23 @@ c. Find user by phone number (partial match)
 
 d. Find user with marks by user surname (partial match)
 
-Add your investigations to separate document. (1 point)
+Add your investigations to separate document. (20 point)
 
-5. Add trigger that will update column updated_datetime to current date in case of updating any of student. (0.3 point)
+5. Add trigger that will update column updated_datetime to current date in case of updating any of student. (10 point)
 
-6. Add validation on DB level that will check username on special characters (reject student name with next characters '@', '#', '$') (0.3 point)
+6. Add validation on DB level that will check username on special characters (reject student name with next characters '@', '#', '$') (10 point)
 
-7. Create snapshot that will contain next data: student name, student surname, subject name, mark (snapshot means that in case of changing some data in source table – your snapshot should not change) (0.3 point)
+7. Create snapshot that will contain next data: student name, student surname, subject name, mark (snapshot means that in case of changing some data in source table – your snapshot should not change) (10 point)
 
-8. Create function that will return average mark for input user (0.3 point)
+8. Create function that will return average mark for input user (10 point)
 
-9. Create function that will return avarage mark for input subject name (0.3 point)
+9. Create function that will return avarage mark for input subject name (10 point)
 
-10. Create function that will return student at "red zone" (red zone means at least 2 marks <=3) (0.3 point)
+10. Create function that will return student at "red zone" (red zone means at least 2 marks <=3) (10 point)
 
-11. Extra point (1 point). Show in tests (java application) transaction isolation phenomena. Describe what kind of phenomena is it and how did you achieve it.
+11. Extra point (20 point). Show in tests (java application) transaction isolation phenomena. Describe what kind of phenomena is it and how did you achieve it.
 
-12. Extra point 2 (1 point). Implement immutable data trigger. Create new table student_address. Add several rows with test data and do not give acces to update any information inside it. Hint: you can create trigger that will reject any update operation for target table, but save new row with updated (merged with original) data into separate table.
+12. Extra point 2 (20 point). Implement immutable data trigger. Create new table student_address. Add several rows with test data and do not give acces to update any information inside it. Hint: you can create trigger that will reject any update operation for target table, but save new row with updated (merged with original) data into separate table.
 
 **Other rules:**
 
