@@ -109,11 +109,11 @@ logging.level.root=WARN
 
 ## Practical Tasks
 
-1. We push any text data to the `task1-1` topic (via the command above) and expect to get the same data in the `task1-2` topic (1 point)
+1. We push any text data to the `task1-1` topic (via the command above) and expect to get the same data in the `task1-2` topic (20 points)
    - Implement functionality to read data from the topic `task1-1` and then transfer all data from the topic to the topic `task1-2`. The read data from the topic `task1-1` gets returned as a Stream.
    - When a Spring Application gets stopped, the application gracefully shutdowns Kafka Streams.
 
-2. We push text data to `task2` (via the command above). Every message represents some sentence. We split the sentence into words, then we push the data into two our topics: for long and short words, and after that we merge the topics (1 point)
+2. We push text data to `task2` (via the command above). Every message represents some sentence. We split the sentence into words, then we push the data into two our topics: for long and short words, and after that we merge the topics (20 points)
    - Implement functionality to read data from the topic `task2`
    - Then filter the data by value that the value is not `null`
    - After it, make several messages out of one if the source message is a sentence (otherwise we have a similar message: same value, but only with a changed key). The key in new messages is their value's length
@@ -140,7 +140,7 @@ logging.level.root=WARN
     >
     > It doesn't matter what regex you pick to split sentences into words. We focus on Kafka Streams. The regex can be taken from, e.g, the FlatMap example on the link in the Lectures block.
 
-3. Read data from two topics and then JOIN them with each other based on our Long key. Data in two topics is in the format `number:text`. The number is used as the Key to join messages from two topics. (1 point)
+3. Read data from two topics and then JOIN them with each other based on our Long key. Data in two topics is in the format `number:text`. The number is used as the Key to join messages from two topics. (20 points)
    - Implement functionality to read from both topics `task3-1` and `task3-2`
    - Once the data is read, it's (data from both topics) filtered out that the value is not null and value contains `:` (colon)
    - Then Streams with filtered data get a new key: the Long key. The key is formed from the value: we take the number from the value in the format `number:text` (i.e.: value = "1:hello world text", so "1" will form the key)
@@ -149,7 +149,7 @@ logging.level.root=WARN
    - In the JOIN add 30 seconds to join records which can be out of order
    - Print to the console every result of JOIN
 
-4. Create a custom SerDe to handle messages with JSON data in the topic `task4` (1 point)
+4. Create a custom SerDe to handle messages with JSON data in the topic `task4` (20 points)
    - Implement a custom SerDe to handle JSON (String) messages (transform from JSON to our entity) in the topic with the following fields: 
       
       ```json
@@ -170,7 +170,7 @@ logging.level.root=WARN
     > spring.kafka.streams.properties.default.deserialization.exception.handler=org.apache.kafka.streams.errors.LogAndContinueExceptionHandler
     > ```
 
-5. Write unit tests for the implemented functionality in the 2nd and 4th tasks (1 point)
+5. Write unit tests for the implemented functionality in the 2nd and 4th tasks (20 points)
    - Write unit tests for the functionality in the 2nd task
    - Write unit tests for the functionality in the 4th task
 
@@ -249,12 +249,12 @@ or some other. It depends on what libraries you want to use for unit tests and t
 
 ## Optional Tasks:
 
-1. Learning topology and optimizing Kafka Streams application (1 bonus point)
+1. Learning topology and optimizing Kafka Streams application (20 bonus points)
    - Print Kafka Streams topology and enable Kafka logs to find the number of tasks created with your topology
    - Based on the topology and number of tasks set an optimal number of threads for your application
    - Optimize your topology with some built-in option
 
-2. Monitoring of Kafka Streams application with Prometheus (1 bonus point)
+2. Monitoring of Kafka Streams application with Prometheus (20 bonus points)
    - Add required typical dependencies for metrics:
 
       ```
