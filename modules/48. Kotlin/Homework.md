@@ -1,6 +1,6 @@
 **Calculator on Kotlin**
 
-Implement Calculator Using Kotlin programming language. - 5 points 
+Implement Calculator Using Kotlin programming language. - 100 points 
 
 **Input Parameter**: String to be calculated. It contains numbers, operators and parentheses.
 * Support operations +,- with two arguments `1+2`
