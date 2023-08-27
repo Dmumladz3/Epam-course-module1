@@ -7,12 +7,12 @@ On the main page you should see all products (50 per page). You should be able t
 
 ###Tasks:
 
-* Split all work on EPICs – 0.3 point
-* Estimate all Epics using T-Shirt sizes technique – 0.4 point
-* Create User Stories for each EPIC – 0.5 point
-* Estimate all User Stories with proper approach considering you have a new team – 0.5 point
-* Estimate all User Stories with proper approach considering you have established team – 0.5 point
-* Estimate how many Sprints your team may need to deliver the work, explain why – 0.5 point
+* Split all work on EPICs – 6 points
+* Estimate all Epics using T-Shirt sizes technique – 8 points
+* Create User Stories for each EPIC – 10 points
+* Estimate all User Stories with proper approach considering you have a new team – 10 points
+* Estimate all User Stories with proper approach considering you have established team – 10 points
+* Estimate how many Sprints your team may need to deliver the work, explain why – 10 points
 
 #Case 2
 Imagine that you bought a new flat without walls inside (open plan).  
@@ -21,11 +21,11 @@ Consider you want to have separate bedroom; walls should be painted except restr
 
 ###Tasks:
 
-* Create WBS (not less than 10 items) – 0.5 point
-* Estimate each item in WBS in days and assign required resources – 0.5 point
-* Define dependencies between items in WBS – 0.4 point
-* Identify critical path – 0.4 point
-* Draw Gantt chart and say when you could start living in your new flat – 0.5 point
+* Create WBS (not less than 10 items) – 10 points
+* Estimate each item in WBS in days and assign required resources – 10 points
+* Define dependencies between items in WBS – 8 points
+* Identify critical path – 8 points
+* Draw Gantt chart and say when you could start living in your new flat – 10 points
 
 
 #Homework output
