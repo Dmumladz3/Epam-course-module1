@@ -8,7 +8,7 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
 2.3 Use names for job described in brackets (name: $nameOfJob) 
 
-2.4 Create build job (name: release) - 0.5 points 
+2.4 Create build job (name: release) - 20 points 
 
 2.4.1 Should build when SCM has changes 
 
@@ -20,17 +20,17 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
         2.4.3.2 Second stars should be applied manually (Prod) 
 
-   2.5 Create continuous Job (name: continuous) - 0.5 points 
+   2.5 Create continuous Job (name: continuous) - 20 points 
 
 2.5.1 Should build every night at 2:00 AM 
 
-   2.6 Create Deploy Job (name: deploy) - 0.5 points 
+   2.6 Create Deploy Job (name: deploy) - 20 points 
 
  2.6.1 Should be parameterized with artifacts prompted with QA star 
 
 2.6.2 Use Container Deploy plugin 
 
-2.7 Setup machine on cloud.epam.com - 0.5 points 
+2.7 Setup machine on cloud.epam.com - 10 points 
 
 2.7.1 Setup additional user for Jenkins 
 
@@ -38,7 +38,7 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
 2.7.3.    Setup cloud machine as slave on Jenkins 
 
-2.8. Create deploy job (name: deploy_cloud) - 0.5 points 
+2.8. Create deploy job (name: deploy_cloud) - 10 points 
 
 2.8.1.    Should deploy on cloud machine 
 
@@ -46,7 +46,7 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
 2.8.3.    Use Container Deploy plugin 
 
-2.9. Create PipeLine (delivery_pipeline) - 0.5 points 
+2.9. Create PipeLine (delivery_pipeline) - 20 points 
 
 2.9.1.    Job should be parameterized with maven or gradle (user should be able to choose it in job parameter) 
 
@@ -56,7 +56,7 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
 2.9.4.    Check using curl that deployment is successful (https://curl.haxx.se/download.html) if deployment is successful deploy on cloud (deploy_cloud) 
 
- 2.10. Extra mile: 1 point 
+ 2.10. Extra mile: 40 points 
 
 2.10.1. Customize version generation in following way 
 
@@ -70,4 +70,4 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
  
 
-Total mark is 7.    5 points for regular homework and 2 points for extra mile. 
+Total mark is 100.    100 points for regular homework and 40 points for extra mile. 
