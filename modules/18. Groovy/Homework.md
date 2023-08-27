@@ -1,6 +1,6 @@
 **Calculator on Groovy**
 
-1. Implement Calculator Using Groovy programming language.  (4 points)
+1. Implement Calculator Using Groovy programming language.  (100 points)
 
 **Input Parameter**: String to be calculated. It contains numbers, operators and parentheses.
 * Support operations +,- with two arguments (1+2) 
@@ -13,7 +13,7 @@
 * Use Groovy closures 
 
 Business logic should be covered by unit tests on groovy with 100%. 
-Extra mile (1 point): 
+Extra mile (20 points): 
 * Use Spock test framework 
 
 Other comments: 
