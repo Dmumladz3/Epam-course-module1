@@ -14,7 +14,7 @@ Spring Boot 2
 
 ##Task
 
-(1-2 stars)
+(40 points)
 
 ##### 1.	Create maven project with 5 modules :
     - jmp-domain
@@ -94,7 +94,7 @@ Spring Boot 2
 ##### 16.	Use lambdas and Java 8 features wherever it’s applicable.
 ##### 17.   Make sample requests to UserController and ServiceController, provide screenshots/responses.
 
-(3-4 stars)
+(40 points)
 ##### 18.	Use a DB to store the data (List, Map..).
 ##### 19.	Use spring boot data jpa module to access data.
 ##### 20.	Use spring converters to convert :
@@ -106,7 +106,7 @@ Spring Boot 2
 ##### 21.	Document methods in UserController and ServiceController using Swagger 2 annotations.
 ##### 22.   Make sample requests to UserController and ServiceController via Swagger UI, provide screenshots.
 
-(5 stars)
+(20 points)
 ##### 23.	Use Java 9 modules wherever it’s applicable.
 ##### 24.   Implement REST APIs according to all Richardson Maturity Level (0 - 3).
 ##### 25.   Make sample requests to UserController and ServiceController, provide screenshots/responses.
