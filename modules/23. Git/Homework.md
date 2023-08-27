@@ -1,6 +1,6 @@
 **GIT task**
 
-*Part 1. Basic (2 points)*
+*Part 1. Basic (40 points)*
 1. Change your system, global and repository config (add some values). Inspect how it is override.
 2. Add some aliases in your own opinion.
 3. Make init commit.
@@ -19,7 +19,7 @@
 16. Try to inspect your repository with git log command. Use different options with this command (git log --help)
 17. Push all your changes with all your branches to remote repository.
 
-*Part 2. Advanced (3 points)*
+*Part 2. Advanced (60 points)*
 1. Checkout to master branch. Commit README document with any words or sentences.
 2. Checkout to develop branch. Create base file (java) and add content inside (class with any name and one method “public int add(int a, int b)” with add operation implementation). Commit it to develop branch.
 3. Create otherOperation branch.
@@ -55,8 +55,8 @@ Part 3 (Optional) Advanced
 1.1.2.2 Add mult (multiplication) implementation.
 1.1.3 Now let’s imagine that customer wants changes div(division) in nearest patch. Try to pull these changes to the main branch of this task “task${number}” using git cherry-pick and git rebase commands.
 1.2 Investigate changes in files in GIT repository by git blame command.
-1.3 Max mark for this part – 2 points
-1.4 Extra mile: 1 point
+1.3 Max mark for this part – 40 points
+1.4 Extra mile: 20 point
 
 1.4.1 Git `hook`s
 1.4.1.1 Specify template of commit message and provide it for developer.
