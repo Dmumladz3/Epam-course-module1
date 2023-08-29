@@ -29,7 +29,7 @@ After completing the module the following knowledge is expected to occur:
 **Courses:**  
 =======================
 
-[Learn Apache Kafka for Beginners](https://www.linkedin.com/learning/learn-apache-kafka-for-beginners/intro-to-apache-kafka)
+[Learn Apache Kafka for Beginners](https://www.linkedin.com/learning/learn-apache-kafka-for-beginners-22305582/kafka-course-introduction)
 [Async patterns](https://learn.epam.com/detailsPage?id=0f8b899f-192b-42a8-b3d9-75151577e21b)
 
 **Videos:**
