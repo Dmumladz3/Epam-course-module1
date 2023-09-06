@@ -16,6 +16,7 @@ II. Implement request-reply interaction between two applications using a tempora
 ![image info](./Content/Attachments/request-reply.png)
 
 III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
+Note. Implement the subscriber as a standalone application and show how it works when we add or remove subscribers.
 
 ![image info](./Content/Attachments/virtual-topic.png)
 
