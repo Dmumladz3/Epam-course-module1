@@ -20,7 +20,7 @@
 
 [REST API Architecture](https://www.linkedin.com/learning/designing-restful-apis/design-a-restful-api-for-your-organization?u=2113185) 
 
-[Creating RESTful Spring Boot Microservice](https://www.linkedin.com/learning/creating-your-first-restful-spring-boot-microservice-with-jpa-2016/welcome?u=2113185)
+[Creating RESTful Spring Boot Microservice](https://www.linkedin.com/learning/creating-your-first-spring-boot-microservice/build-a-microservice-with-spring-boot?dApp=53239054&leis=LAA&u=2113185)
 
 [Learning REST APIs](https://www.linkedin.com/learning/learning-rest-apis/welcome?u=2113185)
 
