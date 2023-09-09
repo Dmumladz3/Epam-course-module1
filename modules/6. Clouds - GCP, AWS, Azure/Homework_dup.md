@@ -30,7 +30,6 @@
 
 * Google Cloud: 50 points
 * AWS Cloud: 50 points
-* AWS CloudFormation: 20 points [optional]
 
 ## References
 
