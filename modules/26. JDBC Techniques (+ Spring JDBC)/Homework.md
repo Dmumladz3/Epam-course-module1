@@ -39,8 +39,6 @@ Discuss with mentor how to improve performance of suggested solution.
 Task 3 (Optional) - Database Copy Console Tool
 ===================================
 
-**Cost**: 20 points.
-
 Create a Database Copy Console Tool that copies the database (URL/Name are command line parameters) step-by-step (table by table).
 
 Required functionality:
@@ -56,8 +54,6 @@ Required functionality:
 
 Task 4 (Optional)- Play the Game with DBUnit
 ==================================
-
-**Cost**: 20 points.
 
 Add five DBUnit tests to appropriate project (pet project) or another. Prepare test datasets if it is required.
 
@@ -82,8 +78,6 @@ Task 5 - Stored Procedure
 
 Task 6 (Optional) - Pre-defined Stored Procedure
 =====================================
-
-**Cost**: 40 points.
 
 If your database **\*** has pre-defined storage procedure, use a few of them to print out
 interesting information or maintain something in the database.
@@ -123,8 +117,6 @@ Make demo via console interface or via special main method.
 
 Task 8 (Optional) - JabaORM
 ================
-
-**Cost**: 20 points.
 
 Write your own annotation-based or XML-based JabaORM that parses specific class and
 generates SQL-queries for CRUD (or SCRUD) operations.
