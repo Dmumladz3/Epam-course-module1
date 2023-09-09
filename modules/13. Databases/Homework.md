@@ -38,9 +38,9 @@ Add your investigations to separate document. (20 point)
 
 10. Create function that will return student at "red zone" (red zone means at least 2 marks <=3) (10 point)
 
-11. Extra point (20 point). Show in tests (java application) transaction isolation phenomena. Describe what kind of phenomena is it and how did you achieve it.
+11. Extra point. Show in tests (java application) transaction isolation phenomena. Describe what kind of phenomena is it and how did you achieve it.
 
-12. Extra point 2 (20 point). Implement immutable data trigger. Create new table student_address. Add several rows with test data and do not give acces to update any information inside it. Hint: you can create trigger that will reject any update operation for target table, but save new row with updated (merged with original) data into separate table.
+12. Extra point 2. Implement immutable data trigger. Create new table student_address. Add several rows with test data and do not give acces to update any information inside it. Hint: you can create trigger that will reject any update operation for target table, but save new row with updated (merged with original) data into separate table.
 
 **Other rules:**
 
