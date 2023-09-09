@@ -14,9 +14,9 @@ Install MongoDB and use the corresponding Java driver.
 * Define the data model for MongoDB (direct table-collection mapping is not the best idea).
 * Write data migration job (via SQL and MongoDriver operations).
 * Use an aggregation mechanism to get grouped results from the database.
-* (Optional, +5 bonus points) Run this job in one transaction for the SQL database and in one multi-document transaction for MongoDB.
-* (Optional, +5 bonus points) Use appropriate indices to improve query performance.
-* (Optional, +10 bonus points) Make a replica set with 1 primary and 2 secondary nodes, and execute your tests/client code over the MongoDB cluster.
+* (Optional) Run this job in one transaction for the SQL database and in one multi-document transaction for MongoDB.
+* (Optional) Use appropriate indices to improve query performance.
+* (Optional) Make a replica set with 1 primary and 2 secondary nodes, and execute your tests/client code over the MongoDB cluster.
 
 Task 2: Choose one (either MongoDB, Cassandra, or Couchbase) database and complete the appropriate tasks
 ===================================
@@ -63,9 +63,9 @@ Provide simple reporting based on MongoDB Aggregation Framework:
 
 Play with different data models, do not fear to experiment with denormalization.
 
-Optionally (+5 bonus points) use appropriate indices to improve query performance.
+Optionally use appropriate indices to improve query performance.
 
-Optionally (+10 bonus points) make a replica-set with 1 primary and 2 secondary nodes, execute your tests/client code
+Optionally make a replica-set with 1 primary and 2 secondary nodes, execute your tests/client code
 over the MongoDB cluster.
 
 
@@ -94,11 +94,11 @@ Discuss with mentor, what solution is better for this data-case?
 
 Optional sub-tasks:
 
-* (+5 bonus points) use appropriate indices to improve query performance;
-* (+5 bonus points) build Cassandra cluster with 4 nodes;
-* (+5 bonus points) balance the cluster and distribute keys;
-* (+5 bonus points) tune commitlog/memtable properties to reach better performance of your insert or select operations;
-* (+5 bonus points) measure performance of a query execution and prepare a simple performance report.
+* use appropriate indices to improve query performance;
+* build Cassandra cluster with 4 nodes;
+* balance the cluster and distribute keys;
+* tune commitlog/memtable properties to reach better performance of your insert or select operations;
+* measure performance of a query execution and prepare a simple performance report.
 
 Read [this](https://cassandra.apache.org/doc/latest/cassandra/configuration/) to configure Cassandara.
 
