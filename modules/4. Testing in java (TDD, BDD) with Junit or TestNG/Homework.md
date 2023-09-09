@@ -56,6 +56,6 @@ Don't forget about good tests, checkstyle and other staff that already included 
 
 Extra mile: 
 
-Write BDD tests for messenger. You may use any BDD framework (Spock, JBehave, Cucumber,…). Negotiate framework with your mentor – (40 points) 
+Write BDD tests for messenger. You may use any BDD framework (Spock, JBehave, Cucumber,…). Negotiate framework with your mentor
 
  
