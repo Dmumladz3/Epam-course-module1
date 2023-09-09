@@ -34,10 +34,10 @@ E.g. {"ticket:12345" à {"id" : 12345, "place" : 23, ......}}
 
 8. Create several integration tests that instantiate the Application Context directly, lookup facade bean and perform some real-life scenario (e.g. create user, then create event, then book ticket for this event for the user, then cancel it). (10 points) 
  
-Extra mile (optional, should be done when previous items are complete) (40 points):   
+Extra mile (optional, should be done when previous items are complete):   
 
     Use "p" namespace to define properties   
 
     Use SLF4J API for logging, configure Spring to use SLF4J and add some Spring logging output to common application log. 
 
-Page BreakTotal mark is 100.   100 points for regular homework and 40 points for extra mile. 
+Page BreakTotal mark is 100. 
