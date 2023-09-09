@@ -56,7 +56,7 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
 2.9.4.    Check using curl that deployment is successful (https://curl.haxx.se/download.html) if deployment is successful deploy on cloud (deploy_cloud) 
 
- 2.10. Extra mile: 40 points 
+ 2.10. Extra mile: 
 
 2.10.1. Customize version generation in following way 
 
@@ -70,4 +70,4 @@ For this task you need some your homework you've done (eg Groovy calculator task
 
  
 
-Total mark is 100.    100 points for regular homework and 40 points for extra mile. 
+Total mark is 100. 
