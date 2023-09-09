@@ -12,7 +12,7 @@ Docker
 
 ##Task
 
-(1 star)
+(20 points)
 
 ##### 1.	Run Sonarqube docker container
     - Instruction: https://docs.sonarqube.org/latest/
@@ -29,7 +29,7 @@ Docker
 
 ##### 6.	Prepare .doc report with screenshot for every step
 
-(2-3 stars)
+(40 points)
 
 ##### 7.	Configure a new project with token 
 ##### 8.	Create a new maven project with a few (10+) issues, e.x. :
@@ -40,7 +40,7 @@ Docker
 ##### 10.	Try to skip all issues with @SuppressWarnings
 ##### 11.	Prepare .doc report with screenshot for every step
 
-(4 stars)
+(20 points)
 
 ##### 12.	Remove @SuppressWarnings for project from previous section
 ##### 13.	Create a new Sonar java profile (copy it from default java profile)
@@ -49,7 +49,7 @@ Docker
 ##### 16.	Analyse your project
 ##### 17.	Prepare .doc report with screenshot for every step
 
-(5 stars)
+(20 points)
 
 ##### 18.	Create a new Quality Gate with:
     - Duplicated code (> 10)
