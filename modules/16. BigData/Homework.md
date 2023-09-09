@@ -18,7 +18,7 @@ Task 1 - Single-node Hadoop
 Task 2 - Run ClickHouse locally in Docker 
 ===========================
 
-**Cost**: 40 points.
+**Cost**: 30 points.
 
 1. Run ClickHouse locally by colland (below is Mac example, you need to modify it for your OS):
 ```
@@ -70,8 +70,6 @@ Hint: use the functions - countif, uniqExact. Use LIMIT key word to get less not
 Task 2 (Optional) - Multi-node Hadoop
 ==========================
 
-**Cost**: 20 points.
-
 1. Configure cluster with 4 machines with the same Hadoop version.
 2. Run Hadoop on 4 machines in Multi-Node regime.
 3. Rerun Pi example from the previous task.
@@ -81,8 +79,6 @@ Task 2 (Optional) - Multi-node Hadoop
 
 Task 3 (Optional) - Hadoop WordCount with Optimizations
 ============================================
-
-**Cost**: 40 points.
 
 1. Find your favorite Shakespeare poem and put it into HDFS.
 2. Write MapReduce WordCount **\*** program, make JAR and run it via Hadoop (Single Node or cluster, your choice).
@@ -101,8 +97,6 @@ P.S. Look [at this](https://github.com/zaleslaw/Spark-Tutorial/tree/master/Hadoo
 
 Task 4 (Optional) - Spark WordCount
 ========================
-
-**Cost**: 40 points.
 
 Write Spark program in Java or Scala for WordCount problem from the previous task.
 
@@ -131,7 +125,7 @@ Implement your solution via one of approaches (RDD/DataFrames/SparkSQL). Java or
 Task 6 - Kafka
 ==============
 
-**Cost**: 40 points.
+**Cost**: 30 points.
 
 1. Install Kafka.
 2. Create topic `EPAM Secret Messages`.
