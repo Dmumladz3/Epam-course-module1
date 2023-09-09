@@ -5,8 +5,6 @@ This document contains homework tasks for `Advanced Multithreading: Fork-Join Po
 Task 1 (Optional) - Factorial via FJP
 ==========================
 
-**Cost**: 10 point.
-
 Use FJP to calculate factorial. Compare with the sequential implementation. Use `BigInteger` to keep values.
 
 
@@ -104,7 +102,6 @@ Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle
 
 Task 8 (Optional) - PC Assembly Line with Akka
 ===================================
-**Cost**: 20 point.
 
 Automatize PC assembly line with Akka Framework (use Java API).
 
