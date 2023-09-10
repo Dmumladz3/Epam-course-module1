@@ -27,4 +27,4 @@ Based on the codebase created during Spring Web module
 
 Extra mile(optional, should be done when previous items are complete): 
 
-Add Hibernate caching to all getById() methods. Add query caching. Show that you caches are really working in tests (cache hits count, cache miss count) Hint: org.hibernate.stat.Statistic. (40 points)  
+Add Hibernate caching to all getById() methods. Add query caching. Show that you caches are really working in tests (cache hits count, cache miss count) Hint: org.hibernate.stat.Statistic.  
