@@ -145,10 +145,10 @@ The task is done, when all tests from `FixedWindowRateLimitControllerTest` are p
 
 ### Optional Tasks:
 * Usually, Rate Limit Server should be high-throughput low-latency application. Implement the same Rate Limit Server
-using Spring WebFlux and Lettuce Redis driver library. (40 additional points)
-* Sliding window rate limit is more precise, add support for sliding window rate limit. (20 additional points)
-* Lettuce driver support for pipelining, try to use pipelining, where applicable. (20 additional points)
+using Spring WebFlux and Lettuce Redis driver library. 
+* Sliding window rate limit is more precise, add support for sliding window rate limit. 
+* Lettuce driver support for pipelining, try to use pipelining, where applicable. 
 * Usually, distributed systems have observability requirement. Try to implement counter of number of total and blocked
 requests for each Rate Limit Rule. You should gather stats for each day with one-hour resolution. You may find Redis
 [Bitfield](https://redis.io/docs/data-types/bitfields/) datatype useful for such counter implementation.
-Redis [Set](https://redis.io/docs/data-types/sets/) structure can help you to store Rate Limit Rules available for each day.(20 additional points)
+Redis [Set](https://redis.io/docs/data-types/sets/) structure can help you to store Rate Limit Rules available for each day.
