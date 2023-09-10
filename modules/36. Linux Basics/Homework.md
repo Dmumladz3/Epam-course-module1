@@ -52,4 +52,4 @@
 
 Try to run this script asynchronously (read about nohup). Try to look into a file in runtime while numbers generation (read about tail). Try to kill this process in the middle of numbers generation (read about kill).  
 
->**Just to think**...*What will you do if source file size will be 20GB? Is your Java application ready for this?*  *(40 points)*
+>**Just to think**...*What will you do if source file size will be 20GB? Is your Java application ready for this?*
