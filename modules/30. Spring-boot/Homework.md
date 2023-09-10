@@ -35,8 +35,6 @@ Task 3 - CRUD application: security
 Task 4 (Optional) - CRUD application: externalized configuration
 ==========================
 
-**Cost**: 20 points.
-
 * Should support different environments - local, dev, stg, prod
 * Spring profiles
 * Each environment - different db properties
@@ -52,8 +50,6 @@ Task 5 - CRUD application: data migrating
 
 Task 6 (Optional) - CRUD application: actuator
 ==========================
-
-**Cost**: 20 points.
 
 * Enable actuator
 * Implement a few custom health indicators
