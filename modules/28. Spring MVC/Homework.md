@@ -40,7 +40,7 @@ Add a method public void preloadTickets() to facade that will load this file fro
 8. Implement integration tests for Booking service controllers using  MockMVC framework. (10 points) 
 
 
-Extra mile(optional, should be done when previous items are complete) (40 points):  
+Extra mile(optional, should be done when previous items are complete):  
 
     Update your application using spring boot instead of the current implementation.  
 
