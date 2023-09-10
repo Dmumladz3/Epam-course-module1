@@ -117,8 +117,6 @@ Make an application that contains business logic for making exchange operations 
 Task 6 (Optional)
 ======
 
-**Cost**: 20 points.
-
 Create a multi-threading console application that starts two threads for producer and consumer respectively.
 It does not matter what kind of data it produces/consumes (e.g. producer could generate random numbers and consumer could calculate their total average).
 There must be a graceful shutdown (use `Runtime.getRuntime().addShutdownHook()`, `Object`'s `join()`/`interrupt()` methods) to allow threads to correctly finish their work.
