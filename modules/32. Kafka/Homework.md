@@ -9,7 +9,7 @@ Topics are partitioned - 20 points
 Non-functional requirements are met - 20 points
 
 Extra mile 
-Intergation tests - 40 poins
+Intergation tests
 
 
 
