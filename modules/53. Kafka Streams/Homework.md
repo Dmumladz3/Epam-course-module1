@@ -249,12 +249,12 @@ or some other. It depends on what libraries you want to use for unit tests and t
 
 ## Optional Tasks:
 
-1. Learning topology and optimizing Kafka Streams application (20 bonus points)
+1. Learning topology and optimizing Kafka Streams application
    - Print Kafka Streams topology and enable Kafka logs to find the number of tasks created with your topology
    - Based on the topology and number of tasks set an optimal number of threads for your application
    - Optimize your topology with some built-in option
 
-2. Monitoring of Kafka Streams application with Prometheus (20 bonus points)
+2. Monitoring of Kafka Streams application with Prometheus
    - Add required typical dependencies for metrics:
 
       ```
