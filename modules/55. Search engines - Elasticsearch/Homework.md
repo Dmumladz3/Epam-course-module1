@@ -7,7 +7,7 @@
 3. [Optional] [Elasticsearch Head extension for Chrome](https://chrome.google.com/webstore/detail/multi-elasticsearch-head/cpmmilfkofbeimbmgiclohpodggeheim?hl=en-US)
 4. [employees.json](./Content/employees.json) - sample dataset to upload to Elasticsearch
 
-## Task 1 - Indexing and CRUD operations (1 Point)
+## Task 1 - Indexing and CRUD operations (20 Points)
 
 
 ##### 1.	Start Elasticsearch
@@ -71,7 +71,7 @@
     
     7. Delete one of employees by its id.
 
-## Task 2 - Querying and aggregating data (2 Point)  
+## Task 2 - Querying and aggregating data (40 Points)  
 
 [Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)\
 [Aggregations](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html)\
@@ -226,7 +226,7 @@ PUT post-comments/_doc/D?routing=2
     
 
 
-## Task 3 - Implement Java Low Level REST Client for retrieval of employees info (1 Point)
+## Task 3 - Implement Java Low Level REST Client for retrieval of employees info (20 Points )
 
 [Java Low Level REST Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/java-rest-low.html)
 
@@ -255,7 +255,7 @@ PUT post-comments/_doc/D?routing=2
     * Make screenshots of some requests/responses performed.
 
 
-## Task 4 - Implement Java API Client for retrieval of employees info (1 Point)
+## Task 4 - Implement Java API Client for retrieval of employees info (20 Points)
 
 [Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/introduction.html)
 
