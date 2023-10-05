@@ -18,7 +18,7 @@
 
 - [En] [Building a Reactive App with Angular and Spring Boot 2](https://www.linkedin.com/learning/building-a-reactive-app-with-angular-and-spring-boot-2/zero-to-full-stack-app-with-angular-and-spring-boot?u=2113185)
 
-- [Ru] [Spring Boot WebFlux](https://www.youtube.com/watch?v=pmzeobajr4o&list=PLU2ftbIeotGpGXRr8FHAjJrQoimWox2Uj)
+- [En] [Spring Boot WebFlux](https://spring.io/guides/gs/reactive-rest-service/)
 
 **Documentation:**
 =======================
