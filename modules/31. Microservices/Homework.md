@@ -2,9 +2,9 @@
 
 ## Necessary Tools
 
-Java Development Kit 11+
+Java Development Kit 17+
 
-Apache Maven 3.6.0+
+Gradle 8.0+
 
 Git 2.24+
 
