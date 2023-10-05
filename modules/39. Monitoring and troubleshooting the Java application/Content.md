@@ -18,10 +18,11 @@ Homework: ~8h
 [Troubleshooting Memory Problems in Java Applications](https://www.youtube.com/watch?v=iixQAYnBnJw)
 
 Here are two main articles you need to go through before jump into the homework
-[Java 8 Troubleshoot Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/)
 [Monitoring Tools](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html)
 [Latency and throughput](https://www.linkedin.com/learning/java-concurrency-troubleshooting-latency-and-throughput/welcome-to-high-performing-java-applications?u=2113185)
 Also, please, feel free to visit references in order to get more familiar with the tools
+[Java 8 Troubleshoot Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/)
+
 
 **Prerequisites**
 ======================
