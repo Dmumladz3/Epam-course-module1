@@ -12,10 +12,6 @@
 **Content:**
 =======================
 
-- [En] [Intro in Spring Boot](https://learn.epam.com/detailsPage?id=d806f913-4cdd-4a54-9eea-ce53096f7e0a)
-
-- [En] [From Zero to Hero with Spring Boot - Brian Clozel](https://www.youtube.com/watch?v=aA4tfBGY6jY)
-
 - [En] [Building a Reactive App with Angular and Spring Boot 2](https://www.linkedin.com/learning/building-a-reactive-app-with-angular-and-spring-boot-2/zero-to-full-stack-app-with-angular-and-spring-boot?u=2113185)
 
 - [En] [Spring Boot WebFlux](https://spring.io/guides/gs/reactive-rest-service/)
