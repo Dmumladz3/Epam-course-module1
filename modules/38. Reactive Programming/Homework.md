@@ -1,7 +1,7 @@
 ### Prerequisites
 1. Installed database from list of available: https://spring.io/projects/spring-data-r2dbc#overview
-2. Java version 8+
-3. Maven
+2. Java version 17+
+3. Gradle
 4. Java IDE
  
 ### Task 1 - ETL process (40 Points)
