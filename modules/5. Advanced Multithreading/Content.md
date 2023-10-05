@@ -26,10 +26,6 @@ Courses: 
 
 [CS 891 (2020) Concurrent Object-Oriented Programming with Java and Android](https://www.youtube.com/playlist?list=PLZ9NgFYEMxp6IM0Cddzr_qjqfiGC2pq1a)
 
-[Parallel Programming in Java](https://www.coursera.org/learn/parallel-programming-in-java)
-
-[Concurrent Programming in Java](https://www.coursera.org/learn/concurrent-programming-in-java)
-
 
 Code Examples / Workshop: 
 =======================
@@ -53,6 +49,10 @@ FJK: [Oracle Paper](http://www.oracle.com/technetwork/articles/java/fork-join-4
 
 References (Optional): 
 =======================
+
+[Parallel Programming in Java](https://www.coursera.org/learn/parallel-programming-in-java)
+
+[Concurrent Programming in Java](https://www.coursera.org/learn/concurrent-programming-in-java)
 
 [Blog: Tomasz Nurkiewicz around Java and concurrency](https://www.nurkiewicz.com/search/label/CompletableFuture) 
 
