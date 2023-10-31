@@ -61,7 +61,7 @@ Tasks 1-17 weight: 40 points
 ##### 10.	Add module-info.java which :
     - requires jmp-dto
     - export Service interface
-##### 11.	Implement Service into jmp-cloud-service-impl. User Stream API, You can use Memory/DB for data storing :
+##### 11.	Implement Service into jmp-cloud-service-impl. Use Stream API, You can use Memory/DB for data storing :
 ##### 12.	Add module-info.java which :
     - requires transitive module with Service interface
     - requires jmp-dto
