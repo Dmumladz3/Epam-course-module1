@@ -10,9 +10,12 @@ Lectures: 
 =======================
 
 Java Design Patterns
-
-(https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1/improve-code-quality-with-behavioral-design-patterns?u=2113185)
-(https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1/improve-code-quality-with-behavioral-design-patterns?u=2113185)
+1. Behavioral patterns:
+https://www.linkedin.com/learning/java-design-patterns-behavioral-part-1/improve-code-quality-with-behavioral-design-patterns?u=2113185
+2. Structural patterns:
+https://www.linkedin.com/learning/java-design-patterns-structural 
+3. Creational patterns
+https://www.linkedin.com/learning/java-design-patterns-creational
 
 
 
