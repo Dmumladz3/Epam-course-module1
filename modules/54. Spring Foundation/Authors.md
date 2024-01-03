@@ -1,2 +1,3 @@
 - [Manish Kumar](mailto:manish_kumar2@epam.com)
-- [Maksim Sardyka](mailto:maksim_sardyka@epam.com)
+- [Maksim Sardyka](mailto:maksim_sardyka@epam.com).
+- [Anton Darashenka](mailto:anton_darashenka@epam.com)
