@@ -21,7 +21,7 @@
 
 * Database design: [Overall](https://learn.epam.com/detailsPage?id=eb5a27e9-c682-4922-b4a0-7366169f913d) 2 hrs 7 min  [Scalable design for high load](https://learn.epam.com/detailsPage?id=44a6c487-bcf9-4108-a808-6c1afc88ce3b) 2 hrs 39 min
 * Basic SQL: [SQL basics with Oracle RDBMS](https://learn.epam.com/detailsPage?id=56dad214-9215-40f3-9199-6dddad57c04d) 3 hrs 28 min
-* [Advanced SQL for Query Tuning and Performance Optimization](https://learn.epam.com/detailsPage?id=cf3d74d6-e934-4398-a971-334f29fd728b) 1 hr 44 min
+* [Advanced SQL for Query Tuning and Performance Optimization](https://www.linkedin.com/learning/advanced-sql-for-query-tuning-and-performance-optimization-2019) 1 hr 44 min
 * [NoSQL (Mongo, Cassandra):][Intro MongoDB](https://www.linkedin.com/learning/learning-mongodb-17360744/modern-database-and-application-design-with-mongodb) 2h 52m [Intro to Cassandra](https://www.linkedin.com/learning/introduction-to-cassandra) 1h 7m
 * [Neo4J][intro](https://www.youtube.com/watch?v=U8ZGVx1NmQg) [cypher](https://www.youtube.com/watch?v=1TSBXZMv6tc)
 
