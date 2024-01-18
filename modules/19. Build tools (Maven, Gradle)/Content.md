@@ -16,7 +16,7 @@
 
 **Lectures:** 
 =======================
-- [Maven](www.linkedin.com/learning/java-build-automation-with-maven/maven-lifecycle?autoplay=true) 1h 30m
+- [Maven](https://www.linkedin.com/learning/java-build-automation-with-maven/maven-lifecycle?autoplay=true) 1h 30m
 - [Maven (from other point of view)](https://learn.epam.com/detailsPage?id=347c1ac4-b39b-40df-95c3-c2a6c28fda15) 1h 30m
 - [More Maven!](https://learn.epam.com/detailsPage?id=aa2d5446-febd-4fe7-8c07-d9737ddc180b) 2h
 - [Gradle basics](https://learn.epam.com/detailsPage?id=bd45d15d-d2a9-4287-b012-cbb32d926ab9) 1h 00m
