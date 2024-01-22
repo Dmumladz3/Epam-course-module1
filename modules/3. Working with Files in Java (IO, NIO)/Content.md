@@ -22,7 +22,7 @@
 
 [NIO](https://www.youtube.com/watch?v=pO-AmBoQgRo) 1h 00m
 
-[XML with Java](https://learn.epam.com/detailsPage?id=d5204ec1-b2c4-4c4c-b9b3-9cb14ffa64c0) 5h 00m
+[XML with Java](https://www.linkedin.com/learning/java-xml-integration/welcome?u=2113185) 5h 00m
 
 **Code Examples / Workshop:**
 =======================
