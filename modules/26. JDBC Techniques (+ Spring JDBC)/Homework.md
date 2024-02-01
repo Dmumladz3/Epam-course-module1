@@ -28,7 +28,7 @@ Create a Highload Writing Console Tool that populates the database (URL/Name are
 Required functionality:
 
 1. It creates **N** random tables with random unique name (or names from dictionary) and **K** random columns with type taken from **Z** random types.
-2. It creates **m** random rows for the **i**-th table, where **m** is an **i**-th element of **M**. **M** is an **N**-dimensional array predefined by a user of this tool.
+2. It creates **m** random rows for the **i**-th table, where **m** is an **i**-th element of **M**. **M** is an **N**-length array predefined by a user of this tool and each element in the array by itself is array with follow structure [K, Z, m].
 3. It supports the table creation/populating via **L** concurrent connections (from different threads or from a few instances of classes running simultaneously).
 4. All settings are located in a configuration file; the path to this file is a parameter of `main()` function.
 
