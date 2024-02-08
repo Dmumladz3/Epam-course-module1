@@ -23,7 +23,7 @@
 
 **Course Links:**
 ======================= 
-* [AWS Essential Training for Developers ](https://learn.epam.com/detailsPage?id=1841e875-a3a7-4809-9852-6c13d466c523) 
+* [AWS Essential Training for Developers ](https://www.linkedin.com/learning/aws-essential-training-for-developers-2019/) 
 
 
 
