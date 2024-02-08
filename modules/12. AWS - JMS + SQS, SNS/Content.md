@@ -16,7 +16,7 @@
 
 **Course Links:**
 ======================= 
-* [AWS Essential Training for Developers ](https://learn.epam.com/detailsPage?id=1841e875-a3a7-4809-9852-6c13d466c523) 3h 17m
+* [AWS Essential Training for Developers ](https://www.linkedin.com/learning/aws-essential-training-for-developers-2019/) 3h 17m
 * [Spring: Messaging with JMS](https://learn.epam.com/detailsPage?id=f28babc2-cefd-4fc0-901c-43a0f2079c6d) 2h 21m
 * [AWS Essential Training for Developers ](https://learn.epam.com/detailsPage?id=1841e875-a3a7-4809-9852-6c13d466c523)
 
