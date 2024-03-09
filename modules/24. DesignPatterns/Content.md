@@ -28,8 +28,7 @@ https://www.javacodegeeks.com/2015/09/java-design-patterns.html
 
 Additional EPAM Content: 
 =======================
-https://learn.epam.com/explore?filter=~(search~%27Java*20design*20patterns)&search=Java%20design%20patterns&sorting=~(~(field~%27createdAtForSorting~direction~%27DESC))&tab=materials
-
+https://learn.epam.com/study/explore?filter=~(isUserContent~false)&search=java%20design%20patterns&sorting=~(~(field~%27RATING~direction~%27desc))&tab=catalog
 
 
 Books: 
