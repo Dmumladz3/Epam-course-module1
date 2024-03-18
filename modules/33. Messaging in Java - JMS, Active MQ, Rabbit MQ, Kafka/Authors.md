@@ -1,4 +1,0 @@
-- [Viktor Letunovskyi](mailto:Viktor_Letunovskyi@epam.com)
-- [Viktor Shevliagin](mailto:Viktor_Shevliagin@epam.com)
-- [Artyom Gabeev](mailto:Artyom_Gabeev@epam.com)
-- [Siarhei Svila](mailto:Siarhei_Svila@epam.com)

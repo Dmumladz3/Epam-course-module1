@@ -1,62 +1,45 @@
-**Recommended level:** 
+**Recommended level** 
 =======================
-- Middle / Senior
-
-**Module description:**
-=======================
-- This module provides a basic understanding of Apache Kafka is an open-source stream-processing software mainly focusing on practical tasks
-which would be most likely encountered by any Apache Kafka novice right at the beginning
-
-**Required time for the course**
-=======================
-- Lectures: ~11h mandatory + ~4h optional
-- Homework: ~12h mandatory + ~5h optional
-
-**Module agenda:**
-=======================
-After completing the module the following knowledge is expected to occur:
-- Kafka theory and architecture
-- Setting up Kafka to run on Mac, Linux, and Windows
-- Working with the Kafka CLI
-- Creating and configuring topics
-- Writing Kafka producers and consumers in Java
-- Working with Kafka APIs: Kafka Connect, Streams, and Schema Registry
-- Kafka monitoring and security
-- Advanced Kafka configuration
-- Starting Kafka using binaries, Docker, and remote machines
+- Middle+
 
 
-**Courses:**  
+**Lectures**
 =======================
 
-[Learn Apache Kafka for Beginners](https://www.linkedin.com/learning/learn-apache-kafka-for-beginners-22305582/kafka-course-introduction)
-[Async patterns](https://learn.epam.com/detailsPage?id=0f8b899f-192b-42a8-b3d9-75151577e21b)
+**Event-Driven Architectures**
 
-**Videos:**
+* [Event-Driven Architectures](https://www.youtube.com/watch?v=A_mstzRGfIE) 50m
+
+
+**Kafka**
+
+* [Learn Apache Kafka for Beginners](https://learn.epam.com/detailsPage?id=3da38584-75a3-4db0-b479-bdd09f33dda0) 7h 32m
+
+* [Apache Kafka Internal Architecture](https://developer.confluent.io/courses/architecture/get-started/) 2h 31m
+
+* [Spring Framework and Apache Kafka](https://developer.confluent.io/courses/spring/apache-kafka-intro/) 1h 32m
+
+***Optional***
+
+* [Kafka 101](https://developer.confluent.io/courses/apache-kafka/events/) 1h 22m
+
+* [Event Sourcing and Event Storage with Apache Kafka](https://developer.confluent.io/courses/event-sourcing/event-driven-vs-state-based/) 33m
+
+* [Apache Kafka® Security](https://developer.confluent.io/courses/security/intro/) 1h 9m
+
+**Articles**
 =======================
-[Apache Kafka vs. Integration Middleware (MQ, ETL, ESB) - Friends, Enemies or Frenemies?](https://www.youtube.com/watch?v=6yG2myKcMQE)
 
-**Documentation:** 
-=======================
-[The Apache Software Foundation](https://kafka.apache.org/documentation/)
+* [Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper](https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/)
 
-[Spring for Apache Kafka documentaion](https://spring.io/projects/spring-kafka#overview)
 
-[Intro to Apache Kafka with Spring](https://www.baeldung.com/spring-kafka)
-
-[Kafka Containers](https://www.testcontainers.org/modules/kafka/)
-
-**Books:** 
+**Documentation**
 =======================
 
-https://kafka.apache.org/books-and-papers
+* [Kafka Documentation](https://kafka.apache.org/documentation/)
 
-**References:**
+
+**Books**
 =======================
-[Testing Kafka based applications](https://medium.com/test-kafka-based-applications/https-medium-com-testing-kafka-based-applications-85d8951cec43)
 
-[Spring Boot and Kafka – Practical Example](https://thepracticaldeveloper.com/spring-boot-kafka-config/)
-
-[Intro to Apache Kafka with Spring. Tutorial](https://www.baeldung.com/spring-kafka)
-
-[RabbitMQ vs Kafka Series Introduction](https://jack-vanlightly.com/blog/2017/12/3/rabbitmq-vs-kafka-series-introduction)
+* [Kafka: The Definitive Guide, 2nd Edition](https://www.oreilly.com/library/view/kafka-the-definitive/9781492043072/)
