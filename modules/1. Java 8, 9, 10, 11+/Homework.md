@@ -2,7 +2,7 @@
 
 ## Necessary Tools
 
-Java Development Kit 17
+Java Development Kit 11+
 
 Apache Maven 3.6.0+
 
@@ -10,40 +10,88 @@ Git 2.24+
 
 ##Task
 
-Tasks 1-6 weight: 40 points
+Tasks 1-17 weight: 40 points
 
-##### 1. Please use [jmp-parent](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/tree/master/modules/1.%20Java%208%2C%209%2C%2010%2C%2011%2B/jmp-parent) as base code for this task.
+##### 1.	Create maven project with 5 modules (see Java 9 modules) :
+	- jmp-bank-api
+    - jmp-service-api
+    - jmp-cloud-bank-impl
+    - jmp-cloud-service-impl
+    - jmp-dto
 
-##### 2.Implement ```BankCard createBankCard(User user, BankCardType cardType)``` method in jmp-cloud-bank-impl module. Method should return object CreditBankCard/DebitBankCard depending on the BankCardType.
+##### 2.	Create the fallowing classes under jmp-dto module :
+    - [User]
+        String name;
+        String surname;
+        LocalDate birthday;
 
-##### 3	Add implementation for ServiceImpl  into jmp-cloud-service-impl. Use Stream API, You can use Memory/DB for data storing.
-##### 3.1 Use var for definition of local variables wherever it’s applicable.
-##### 3.2 Use lambdas and Java 8 features wherever it’s applicable.
+
+    - [BankCard]
+        String number;
+        User user;
 
 
-##### 4.	Create application module.
-##### 5.	Add module-info.java which :
+    - [Subscription]
+        String bankcard;
+        LocalDate startDate;
+
+##### 3.	Extend BankCard class with :
+    - CreditBankCard
+    - DebitBankCard
+
+##### 4.	Create enum :
+    - [BankCardType]
+        CREDIT
+        DEBIT
+
+##### 5.	Add Bank interface to jmp-bank-api with :
+    - BankCard createBankCard(User, BankCardType);
+##### 6.	Add module-info.java which :
+    - requires jmp-dto
+    - export Bank interface
+##### 7.	Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type:
+##### 8.	Add module-info.java which :
+    - requires transitive module with Bank interface
+    - requires jmp-dto
+    - exports implementation of Bank interface
+##### 9.	Add Service interface to jmp-service-api with :
+    - void subscribe(BankCard)
+ 	- Optional<Subscription> getSubscriptionByBankCardNumber(String)
+    - List<User> getAllUsers();
+##### 10.	Add module-info.java which :
+    - requires jmp-dto
+    - export Service interface
+##### 11.	Implement Service into jmp-cloud-service-impl. Use Stream API, You can use Memory/DB for data storing :
+##### 12.	Add module-info.java which :
+    - requires transitive module with Service interface
+    - requires jmp-dto
+    - exports implementation of Service interface
+##### 13.	Use var for definition of local variables wherever it’s applicable.
+##### 14.	Use lambdas and Java 8 features wherever it’s applicable.
+##### 15.	Create application module.
+##### 16.	Add module-info.java which :
     - use interfaces
     - requires module with Bank implementation
     - requires module with Service implementation
     - requires jmp.dto;
-##### 6.	Demonstrate functionality of created classes.
+##### 17.	Demonstrate functionality of created classes.
 
-Tasks 7-9 weight: 40 points
-##### 7.	Add a new default method for Service interface, which uses getAllUsers method. Use LocalDate.now(), ChronoUnit and mapToDouble.
+Tasks 18-20 weight: 40 points
+##### 18.	Add a new default method for Service interface, which uses getAllUsers. Use LocalDate.now(), ChronoUnit and mapToLong.
     - double getAverageUsersAge();
-##### 8.	Add a new static method for Service interface, which returns true, if the user is over 18 years old.
+##### 19.	Add a new static method for Service interface, which returns true, if the user is over 18 years old.
     - boolean isPayableUser(User);
-##### 9.	Use Collectors.toUnmodifiableList() and method reference where it’s applicable.
+##### 20.	Use Collectors.toUnmodifiableList() and method reference it’s applicable.
 
-Tasks 10-12 weight: 20 points
+Tasks 21-25 weight: 20 points
 
-##### 10.	Create an Exception class to handle scenarios where a subscription is not found, specifically for use with the orElseThrow method on Optional within the getSubscriptionByBankCardNumber method.
-    - Class Name:`SubscriptionNotFoundException`, extend the class from RuntimeException
-    - Usage: Implement this exception to be thrown when orElseThrow is invoked on an Optional that does not contain a subscription.
-##### 11.	Add a new method for Service interface and implement it. Demonstrate this method ino application module:
+##### 21.	Create Exception class which will be used into orElseThrow for Optional from getSubscriptionByBankCardNumber().
+##### 22.	Add a new method for Service interface and implement it. Demonstrate this method ino application module:
     - List<Subscription> getAllSubscriptionsByCondition(Predicate<Subscription>);
-##### 12.	Reimplement createBankCard with method reference (ex: CreditBankCard::new).
+##### 23.	Reimplement createBankCard with method reference (ex: CreditBankCard::new).
+##### 24.	Add to module-info jar for each implementation module :
+    - provides [interface] with [implementation]
+##### 25.	Add a module with Service implementation. Try to use ServiceLoader.load() for module loading.
 
 ## References
 
