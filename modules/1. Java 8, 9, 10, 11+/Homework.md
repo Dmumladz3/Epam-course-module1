@@ -50,6 +50,9 @@ Tasks 1-17 weight: 40 points
     - requires jmp-dto
     - export Bank interface
 ##### 7.	Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type:
+    - RetailBank
+    - InvestmentBank 
+    - CentralBank
 ##### 8.	Add module-info.java which :
     - requires transitive module with Bank interface
     - requires jmp-dto
