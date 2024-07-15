@@ -32,7 +32,7 @@ Tasks 1-17 weight: 40 points
 
 
     - [Subscription]
-        String bankcard;
+        String bankcardNumber;
         LocalDate startDate;
 
 ##### 3.	Extend BankCard class with :
