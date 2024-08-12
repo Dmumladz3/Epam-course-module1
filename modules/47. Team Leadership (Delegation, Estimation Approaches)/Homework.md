@@ -5,9 +5,9 @@ Please read this cases and write what will you do to solve them.
 
 #Recommendations
 Try to look at every situation in 3 types of perspective:
-* from many sides and point of views in the current moment
-* in progress - how did we come to this situation and what results will we face in future
-* in collision - how does this situation affects other workers and processes
+* Multiple Points of View: Look at the situation from various perspectives to understand the current context.
+* Historical Context: Analyze the factors that led to the situation and predict potential future outcomes.
+* Interconnections: Evaluate the impact of the situation on other team members and ongoing processes.
 
 Remember that every problem has a several solutions, and each solution has its long term effect: solution that was good in short term can have a very bad results in the future of there can be an opposite situation.
 
@@ -17,114 +17,112 @@ All of these cases are happening in your one team so consider your previous deci
 So you've just become a team lead of new team that will work on new project. 
 
 Team:
-Team:
-* Adam - key senior developer with a huge experience, more interested in technical staff
-* Bob - strong middle+ developer with specific experience, which is required for this project - also he very likes his previous team and its lead, and he doesn't believe that this team can be half as good as previous
-* Eva - junior superstar developer, likes to learn and is interested in everything new
-* Diana - tester, wants to grow in test automation
-* Mary - PO + BA from client's side, owns most of the communications with the customer
-* Dean - scrum master, he is good at setting up of standard ceremonies, but don't expect more from him
-* Pavel - DevOps, trying to make fully automated CI / CD on the project
+* Adam: A highly experienced senior developer, primarily focused on the technical aspects of projects.
+* Bob: A strong middle+ developer and has specific skills crucial to this project. Loyal to his former team and skeptical about the new team's potential.
+* Eva: A promising junior developer eager to learn and explore new technologies.
+* Diana: A tester with aspirations to advance in test automation. Expressed concerns about maintaining feature stability as new updates are implemented.
+* Mary: The product owner and business analyst, acting as the primary liaison between the team and the client.
+* Dean: A scrum master experienced in facilitating standard agile ceremonies but offers limited additional contributions.
+* Pavel: A DevOps engineer focused on achieving a fully automated CI/CD pipeline for the project.
 
 #Evaluation
 
-Each case can be rated up to **7** points, and you can receive up to **16 bonus** points for the whole story consistency.
+Each case can be rated up to **0.3** points, and you can receive up to **1 bonus** point for the whole story consistency.
 
-Case 1 - New beginning
+Case 1 - Initial Team Engagement
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* You've just met your new team - what will be your first actions?
+* You've just met your new team. What are your first actions to establish rapport and set expectations?
 
 
-Case 2 - Choice
+Case 2 - Framework Decision-Making
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* In your work you need two frameworks, the first is required from client's side. The second you and your team should choose. How will you do it? 
+* A client requires a specific framework, and another needs to be selected by your team. How will you facilitate this decision?
 
 
-Case 3 - Estimation
+Case 3 - Epic Estimation Process
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* Client asks you to estimate first epic with the list of stories. How will you do it, what instruments and practices will you use for it?
-* After estimation session Eva said that she doesn't understand how estimation works, for her is obvious, that she'll do same task as Adam for x100 times longer. What will you do with it.
-* PO thinks that your estimation is too big she thought that it will take less time or story points, what will you do?
+* The client asks for an estimation of the first epic comprised of several stories. Describe your approach and tools used for effective estimation.
+* During the estimation session, Eva expresses confusion about the process, worried about her speed relative to Adam, it's obvious to her, that she'll work on the same task much longer. How will you address her concerns and ensure she understands the estimation process?
+* The Product Owner believes your team's estimation is too high. How will you handle this disagreement?
 
 
-Case 4 - First conflicts
+Case 4 - Conflict Resolution Among Team Members
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* You and all the rest team can see that something bad going on between Adam and Bob, on the first weeks they were trying just ignore their differences, but now you all can see that every daily, estimation or even discussion on any question leads to conflicts. What will you do?
+* You and all the rest team can see that something bad going on between Adam and Bob, on the first weeks they were trying just ignore their differences, but now you all can see that every daily, estimation or even discussion on any question leads to conflicts. How will you intervene and address the underlying issues?
 
 
-Case 5 - Tests and testers
+Case 5 - Quality Assurance Adaptations
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* Diana complains that after implementing of every feature something is breaking in features that was implemented before, he asks you to do something with it.
-* Whatever decision you make, in few weeks after, you can see that Bob is ignoring your decision and Eva is taking he's behavior as an example, what will be your actions?
+* Diana reports recurrent issues with features breaking after updates. What strategies will you implement to tackle this?
+* Despite agreed-upon quality measures, Bob disregards these guidelines, influencing Eva to follow suit. How will you realign their actions with team protocols?
 
 
 Case 6 - Bottleneck and bus factor
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* Bob starts to be a bottleneck - he's capacity isn't enough to solve all required issues, how can you solve it? 
-* After 6 moth from start of project Bob broke his arm, and he will not be able to work for 3 weeks. Are you ready for this situation? What should you do if you are ready, and what if you are not?
+* Bob is overwhelmed and becoming a bottleneck. What steps will you take to distribute the workload more effectively?
+* After 6 moth from start of project Bob suffers an injury, sidelining him for 3 weeks. How will your team manage in his absence initially, and what long-term strategies will you consider?
 
 
-Case 7 - Breaking of sprint
+Case 7 - Sprint Interruption by Client Request
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* Client asks your team to add ultra high priority task in the middle of current sprint. Adam doesn't think that this is a good idea, Mary thinks that we just have to do it anyway. What will you do and how will you convince your position or decision?
+* The client demands the incorporation of a high-priority task mid-sprint, causing disagreement among team members. How do you assess and communicate your decision?
 
-
-Case 8 - Effort and impact
+Case 8 - Effort vs. Impact Communication
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* User story contains several tasks, one of which has tiny functionality but at the same time requires a large efforts. How will you communicate it with PO / customer?
+* User story contains several tasks, one of which has tiny functionality but at the same time require large efforts. How do you discuss this with PO / Customer?
 
 
-Case 9 - Unclear requirements
+Case 9 - Clarifying Ambiguous Requirements
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* Business Analyst creates contradiction requirements unclear for developers. What will be your actions?
+* Business Analyst create contradiction requirements unclear for developers. What will be your actions?
 
 
-Case 10 - Team lead
+Case 10 - Aspiring Team Leader Development
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* Developer from your team wants to become a teamlead (who is it depending on your previous decisions). What will you do?
+* A team member expresses interest in becoming a team lead. How will you mentor and prepare them for leadership responsibilities?
 
 
-Case 11 - Demo
+Case 11 - Pre-Demo Crisis Management
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* 10 minutes before the customer demo, you notice that the app/feature you want to demo isn't working. What will you do?
+* Minutes before a crucial demo to the client, a key feature fails. What immediate actions do you take to salvage the presentation?
 
 
-Case 12 - The end
+Case 12 - Project Closure and Transition Planning
 ==========================
 
-**Cost**: 7 points
+**Cost**: 0.3 points
 
-* You did a very good job, customer is happy, team very likes you and each other, team spirit is very-very high. But you know, that soon project will be over, the job is done. What should you think about it and what should you do?
+* With the project nearing completion and high team morale, what steps do you take to ensure a smooth transition or redeployment for team members?
