@@ -1,93 +1,91 @@
-# Solution Architecture Documenting Practical Task
+# Summary
+In this task you're going to create a lightweight set of documentation.
 
-## Overview
-The purpose of this module is to practise:
-* decomposing design documentation into **views**
-* maximising the value and maintainability of design using **decision log**
+Overall steps:
+1. familiarise with the business requirements: context, data properties, flows, non-functional requirements
+2. choose at least one case to document:
+    1. either choose from the list of suggested cases
+    2. or use your imagination and design a new one based on the requirements
+3. provide two documentation views (structural and process) for the chosen case(s) and write down some lightweight ADRs
 
-## Task 1 - initial design
-### Sub-task 1.1 - analyse requirements
-**Plan**:
-* Read the requirements below.
-* Build a list of any gaps/unclear requirements.
+# Business requirements
+We’re building a system for managing online events (e.g. conferences).
 
-**Requirements**
-Development team is going to elaborate REST Service manipulating Event resource.
+We already have a 3rd party video streaming service purchased, but the rest of the software and infrastructure should be built from scratch.
 
-Event entity contains following fields:
-* id;
-* title;
-* place;
-* speaker;
-* eventType;
-* dateTime.
+The video streaming service provides us with the following API
+- create and dispose virtual rooms - the environment for holding the events
+- issue time-limited tokens for accessing a virtual room (as a streamer or a spectator)
+- creating a video stream by token - returns a stream id
+- connecting to a stream as a spectator by token and stream id
+- starting/stopping a video stream by token and stream id
+- retrieving a video record by stream id
 
-Team leader should choose the most suitable data storage implementation for REST Service providing following functionality:
-* CRUD operations
-* Filtering
-* Search
-* Sorting
-* Aggregation by specified field value
+Thus, we have users who can
+- register using their email
+- enroll as a spectator for an event
+- request an event as a speaker - this leads to allocating a virtual room for a certain time slot
 
-Take into account the following:
-* Data storage for REST service should provide support multi-tenant content storage.
-* Data Storage should scale so that:
-  * up to 100 000 000 of records are stored
-  * CRUD operations and typical search queries should execute within 1 second
-* Data storage should support automated data backup every 30 days.
-* Event Model for Data Storage Schema mapping complexity should be minimized.
-* Data storage should support detailed logging for troubleshooting.
-* The infrastructure should support two European regions: east and west.
+An event request includes
+- the speaker id
+- expected duration
+- content plan - free-form text
+- topic tags
 
-### Sub-task 1.2 - define components
-**Plan**
-* Based on those requirements you see as most important, decompose your solution into components, or tiers, or layers.
-* **Note** that it's not necessary to account for all the non-functional requirements at this point.
-* Visualise the decomposition (UML class/package/component diagram or an informal diagram with a legend is recommended).
-* Choose technologies/frameworks for every component/tier/layer from the decomposition and **log the rationale** behind the choice
-  * 1-2 sentences is enough
-  * include links to any docs/product sites/articles you feel relevant
-* **Discuss** the choices with your peer or mentor.
+Event requests are handled by moderators
+- they monitor pending event requests
+- may ask to correct the content plan/topic tags
+- may refuse event requests
+- speakers should be notified via email about what’s going on with their event requests
 
-### Sub-task 1.3 - define a flow
-**Plan**
-* Based on the decomposition from task 1.2, pick any major use case from the requirements.
-* Visualise the use case (UML sequence/activity or BPMN diagram is recommended).
+Users may subscribe to a newsletter about upcoming events by specific tags.
 
-## Task 2 - DB choice
-**Plan**
-* On your projects, you might need to make major decisions that affect both functions and quality of the system.
-Here, you need to choose a DB for the underlying storage.
-* Pick any 3 DB options you have experience with, but make sure they are different enough 
-(cloud-managed service vs self-hosted, SQL vs NoSQL, search engine vs DB, or else).
-* Compare the DB options and choose one using the following decision log template:
-```
-  a.   Title
-  b.   Status
-  c.   Background
-  d.   Glossary
-  e.   Functional requirements
-  f.   Non-functional requirements
-  g.   Constraints
-  h.   Quality attributes
-  i.   Solution Options
-  j.   Decision criteria
-  k.   Decision
-  l.   Sources
-  m.   Tickets
-  n.   References
-```
+Once an event is complete, its recording may be published on YouTube based upon the speakers’ decision.
 
-## (Optional) Task 2 - context view
-**Plan**
-* Oftentimes, especially when you have to work with developing brand-new services or major components, it's useful
-to define the context shared across all the docs/decisions you make for the solution.
-* Prepare a C4 context view describing the relationships of your system with external systems and users.
+We would like to build a vendor-agnostic solution in the cloud.
+We plan to launch in specific countries only.
+We plan to start with an audience of about 10000 watchers, 2000 speakers, and 500 events a week.
 
-## (Advanced) Task 3 - infrastructure view
-**Plan**
-* Pick a cloud provider you feel most comfortable with.
-* Define a deployment diagram for your solution (e.g. using AWS diagram).
-* Make as many decisions related to the non-functional requirements above as possible and log them
-  * 1-2 sentences is enough
-  * include links to any docs/product sites/articles you feel relevant
+# Acceptance criteria
+
+Acceptance criteria for each sub-task
+- at least one diagram
+    - use a well-known notation (e.g. UML or BPMN) or include a key for informal notation
+    - follow the rules of sound documentation (no ambiguity, alignment, no duplication, etc)
+- text
+    - the purpose of the diagram - 1-2 sentences
+    - key elements - a bullet/numbered list with 1-sentence comment per item
+    - (optional) tech choice for one or more elements (e.g. “We choose Spring Boot because …”)
+
+Overall acceptance criteria
+- at least mandatory (non-optional/non-advanced) sub-tasks are complete
+- all the documents/diagrams are related to the same use case and are logically coherent
+
+# Suggested cases to document
+
+Choose from one of the following use cases or use your imagination and develop a new one
+- event registration (may include validation: speaker exists, the date is not in the past, no overlapping events for the same time for the same speaker, etc)
+- event moderation (may include approval or rejection; notify the speaker; publish the event to media channels)
+- newsletter subscription.
+- User registration flow.
+- Events REST API internals (include a read through/write through cache, multiple application instances for high availability, load balancer, API gateway for authorisation and rate limiting, circuit breaker inside the app for DB calls)
+- CI/CD pipeline for an application (environments like Dev, QA, Prod; repository, job manager like Jenkins/AWS CodePipeline, stages for building/testing/integration testing/deploying to one or more environments)
+
+# Sub-task 1 - Process view
+
+- must be of complexity comparable to the process view from the workshop example
+- may have one or more diagrams
+- decision log
+    - at least 2 records
+    - may be related to non-functional requirements and design pattern choices
+
+# Sub-task 2 - Structural view requirements
+
+- options
+    - a - model the data going through the flow from sub-task 1
+    - b - create components that cover all the steps from sub-task 1
+- may have one or more diagrams
+- decision log
+- at least 2 decision log records
+    - option a (data model): may be related to the efficiency of persistence data structures, DB choice, and access patterns
+    - option b (component decomposition): may be related to framework choices, non-functional requirements, and design pattern choices
