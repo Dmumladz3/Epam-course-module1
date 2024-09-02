@@ -1,24 +1,40 @@
 # Java 8 and 9, 10, 11+ Module Practical Task
 
 ## Necessary Tools
+- Java Development Kit 17+
+- Apache Maven
+- Git
 
-Java Development Kit 17
+## Environment
+- **Operating System:** macOS Sonoma (aarch64) or any compatible OS
+- **IDE:** IntelliJ IDEA 2024.2.1 Ultimate Edition
+- **Build Tool:** Apache Maven
+- **Version Control:** Git
+- **Testing Framework:** JUnit 5
 
-Apache Maven 3.6.0+
+## Task
+Each task weight: 20 points
 
-Git 2.24+
+### Task List
 
-##Task
+1. Please use [jmp-parent](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/tree/master/modules/1.%20Java%208%2C%209%2C%2010%2C%2011%2B/jmp-parent) as base code for this task.
 
-Tasks 1-6 weight: 40 points
+2. Implement `BankCard createBankCard(User user, BankCardType cardType)` method in `jmp-cloud-bank-impl` module. The method should return an object of `CreditBankCard` or `DebitBankCard` depending on the `BankCardType`.
 
-##### 1. Please use [jmp-parent](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/tree/master/modules/1.%20Java%208%2C%209%2C%2010%2C%2011%2B/jmp-parent) as base code for this task.
+3. Add implementation for `ServiceImpl` into `jmp-cloud-service-impl`.
 
-##### 2.Implement ```BankCard createBankCard(User user, BankCardType cardType)``` method in jmp-cloud-bank-impl module. Method should return object CreditBankCard/DebitBankCard depending on the BankCardType.
+4. Use `var` for the definition of local variables wherever it’s applicable.
 
-##### 3	Add implementation for ServiceImpl  into jmp-cloud-service-impl. Use Stream API, You can use Memory/DB for data storing.
-##### 3.1 Use var for definition of local variables wherever it’s applicable.
-##### 3.2 Use lambdas and Java 8 features wherever it’s applicable.
+5. Use lambdas and Java new features wherever it’s applicable.
+
+## Evaluation Criteria
+- **Code Quality :** Code should follow clean code principles and be well-structured.
+- **Correctness :** The implementation should meet all task requirements and function correctly.
+- **Use of Java Features :** Appropriate use of Java Stream API, lambdas, and other new features.
+- **Testing :** Sufficient unit tests should be provided to cover key functionalities.
+
+---
+
 
 
 ##### 4.	Create application module.
