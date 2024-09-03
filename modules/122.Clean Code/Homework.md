@@ -34,7 +34,7 @@ Refactor and optimize the book lending process in a library management system by
     - Renovate old code by splitting large methods, using meaningful naming, and removing any duplicate code.
     - Enhance error handling to manage exceptions gracefully and provide clear error messages.
 
-4. **Implement Advanced Features (Optional):**
+4. **Implement Advanced Features:**
     - Add the ability for users to reserve books if they are currently loaned out.
     - Implement a system to track and handle overdue books, issuing fines accordingly.
 
