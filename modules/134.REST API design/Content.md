@@ -348,7 +348,7 @@ Resources can be represented in different formats. The choice of representation 
 
 - **Purpose**: Allows clients to discover actions dynamically, reducing hardcoding of URIs and making the API more adaptable to changes.
 - **Example**:
-``````
+```json
 {
   "id": 123,
   "name": "John Doe",
@@ -358,7 +358,7 @@ Resources can be represented in different formats. The choice of representation 
     { "rel": "update", "href": "/users/123", "method": "PUT" }
   ]
 }
-``````
+```
 - **Implementation**:
     - Provide links in the response that direct the client to related resources or actions.
     - Use the rel attribute to describe the relationship (e.g., "self", "next", "previous").
@@ -511,7 +511,7 @@ Content-Type: application/json
    -  Document all potential error codes that an API might return, along with messages and descriptions.
    -  Example:
 
-```
+```json
 {
   "error": {
       "code": 400,
@@ -560,7 +560,7 @@ Authentication verifies the identity of a user or service accessing your API, wh
 
 **Example: Basic Auth in Java (Spring Boot):**
 
-```
+```java
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -582,7 +582,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 **Example: Token-Based Auth in Java (Spring Boot using JWT):**
 
-```
+```java
 @RestController
 @RequestMapping("/api")
 public class AuthController {
@@ -601,7 +601,7 @@ public class AuthController {
 
 **Example: OAuth 2.0 with Java (Spring Boot):**
 
-```
+```java
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -622,7 +622,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 **Example: JWT Authentication in Java (Spring Boot):**
 
-```
+```java
 @Component
 public class JwtTokenProvider {
 
@@ -658,15 +658,15 @@ public class JwtTokenProvider {
     1. Use rate limiting to protect your API from abuse and prevent denial-of-service (DoS) attacks. Define the maximum number of requests a client can make in a certain period.
 
 **Example: Rate Limiting in Java (Spring Boot):**
-```
+```java
 @Service
 public class RateLimiterService {
     private final Map<String, Integer> requestCounts = new ConcurrentHashMap<>();
-    private final int MAX\_REQUESTS\_PER\_MINUTE = 100;
+    private final int MAX_REQUESTS_PER_MINUTE = 100;
     
     public boolean isRateLimitExceeded(String clientId) {
         int requests = requestCounts.getOrDefault(clientId, 0);
-        if (requests >= MAX\_REQUESTS\_PER\_MINUTE) {
+        if (requests >= MAX_REQUESTS_PER_MINUTE) {
             return true;
         }
         
@@ -694,14 +694,14 @@ Role-Based Access Control (RBAC) restricts access based on the user's role withi
 1. **Define Roles and Permissions:**
    - Create an enum for roles:
 
-```
+```java
 public enum Role {
     ADMIN, USER, MANAGER;
 }
 ```
 - Annotate methods with roles and permissions:
 
-```
+```java
 @PreAuthorize("hasRole('ADMIN')")
 @GetMapping("/admin")
 public String adminOnlyEndpoint() {
@@ -710,7 +710,7 @@ public String adminOnlyEndpoint() {
 ```
 1. **Configure Role-Based Access in Security Configuration:**
 
-```
+```java
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -789,7 +789,7 @@ Consistent error messages improve the usability of your API by providing develop
    -  Define a consistent format for all error messages. A common format includes an error code, a message, and additional details.
 
 **Example Error Message Structure:**
-```
+```json
 {
   "timestamp": "2024-09-07T12:34:56Z",
   "status": 400,
@@ -822,62 +822,63 @@ Consistent error messages improve the usability of your API by providing develop
 **1. Global Exception Handling with Spring Boot:** Spring Boot provides an easy way to handle errors globally using @ControllerAdvice and @ExceptionHandler.
 
 **Example: Global Exception Handler**
-```
+```java
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleResourceNotFoundException(ResourceNotFoundException ex) {
         ErrorResponse error = new ErrorResponse(
-            HttpStatus.NOT\_FOUND.value(),
-            "Resource Not Found",
-            ex.getMessage(),
-            LocalDateTime.now(),
-            "/path/to/endpoint"
+                HttpStatus.NOT_FOUND.value(),
+                "Resource Not Found",
+                ex.getMessage(),
+                LocalDateTime.now(),
+                "/path/to/endpoint"
         );
 
-        return new ResponseEntity<>(error, HttpStatus.NOT\_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleValidationException(MethodArgumentNotValidException ex) {
-        List<String> errors = 
-            ex.getBindingResult()
-            .getFieldErrors()
-            .stream()
-            .map(DefaultMessageSourceResolvable::getDefaultMessage)
-            .collect(Collectors.toList());
+        List<String> errors =
+                ex.getBindingResult()
+                        .getFieldErrors()
+                        .stream()
+                        .map(DefaultMessageSourceResolvable::getDefaultMessage)
+                        .collect(Collectors.toList());
 
         ErrorResponse error = new ErrorResponse(
-            HttpStatus.BAD\_REQUEST.value(),
-            "Validation Failed",
-            String.join(", ", errors),
-            LocalDateTime.now(),
-            "/path/to/endpoint"
+                HttpStatus.BAD_REQUEST.value(),
+                "Validation Failed",
+                String.join(", ", errors),
+                LocalDateTime.now(),
+                "/path/to/endpoint"
         );
 
-        return new ResponseEntity<>(error, HttpStatus.BAD\_REQUEST);
+        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGenericException(Exception ex) {
         ErrorResponse error = new ErrorResponse(
-            HttpStatus.INTERNAL\_SERVER\_ERROR.value(),
-            "Internal Server Error",
-            ex.getMessage(),
-            LocalDateTime.now(),
-            "/path/to/endpoint"
+                HttpStatus.INTERNAL_SERVER_ERROR.value(),
+                "Internal Server Error",
+                ex.getMessage(),
+                LocalDateTime.now(),
+                "/path/to/endpoint"
         );
 
-        return new ResponseEntity<>(error, HttpStatus.INTERNAL\_SERVER\_ERROR);
+        return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
     }
+}
 ```
 
 **2. Custom Error Response Class:** Create a class to represent error responses in a consistent format.
 
 **Example: ErrorResponse Class**
 
-```
+```java
 public class ErrorResponse {
 
     private int status;
@@ -900,7 +901,7 @@ public class ErrorResponse {
 
 **Example: Controller with Error Handling**
 
-```
+```java
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -951,7 +952,7 @@ Pagination breaks down a large set of results into smaller, manageable pages. Th
 **Java Example: Implementing Pagination with Spring Boot**
 
 
-```
+```java
 @RestController
 @RequestMapping("/users")
 
@@ -983,7 +984,7 @@ Sorting allows clients to specify the order in which they want the data returned
 
 **Java Example: Adding Sorting with Spring Boot**
 
-```
+```java
 @GetMapping
 public ResponseEntity<Page<User>> getAllUsers(
     @RequestParam(defaultValue = "0") int page,
@@ -1016,7 +1017,7 @@ Filtering allows clients to specify conditions to narrow down the results. You c
    -  Use @Query annotations or method naming conventions in Spring Data to define custom filtering.
 1. **Example Controller with Filtering:**
 
-```
+```java
 @GetMapping
 public ResponseEntity<List<User>> getAllUsers(
 
@@ -1039,7 +1040,7 @@ public ResponseEntity<List<User>> getAllUsers(
 }
 ```
 **Custom Repository Methods:**
-```
+```java
 public interface UserRepository extends JpaRepository<User, Long> {
 
     List<User> findByName(String name);
@@ -1064,7 +1065,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 **Example of Pagination Response with HATEOAS:**
 
-```
+```json
 {
   "data": [
     { "id": 1, "name": "John Doe" },
@@ -1074,7 +1075,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
   "size": 10,
   "totalPages": 5,
   "totalElements": 50,
-  "\_links": {
+  "_links": {
     "self": { "href": "/users?page=0&size=10" },
     "next": { "href": "/users?page=1&size=10" },
     "prev": { "href": "/users?page=0&size=10" }
@@ -1119,7 +1120,7 @@ There are several strategies for API versioning, each with its advantages and di
 
 **Java Example: URI Versioning with Spring Boot**
 
-```
+```java
 @RestController
 @RequestMapping("/api/v1/users")
 public class UserControllerV1 {
@@ -1157,7 +1158,7 @@ public class UserControllerV2 {
 
 **Java Example: Header Versioning with Spring Boot**
 
-```
+```java
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -1190,7 +1191,7 @@ public class UserController {
 
 **Java Example: Query Parameter Versioning with Spring Boot**
 
-```
+```java
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -1202,7 +1203,7 @@ public class UserController {
         } else if ("2".equals(version)) {
             return ResponseEntity.ok(userService.getAllUsersWithEnhancedFeatures());
         } else {
-            return ResponseEntity.status(HttpStatus.BAD\_REQUEST).body(null);
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
     }
 }
@@ -1219,7 +1220,7 @@ public class UserController {
 
 **Java Example: Media Type Versioning with Spring Boot**
 
-```
+```java
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -1264,7 +1265,7 @@ Sunset: Wed, 01 Dec 2024 12:00:00 GMT
 
 **Example: Using Deprecation Headers in Java (Spring Boot)**
 
-```
+```java
 @RestController
 @RequestMapping("/api/v1/users")
 public class UserControllerV1 {
@@ -1309,7 +1310,7 @@ Caching involves storing copies of responses to reduce the need for repeated req
 
 **Java Example: Setting Cache-Control Header in Spring Boot**
 
-```
+```java
 @GetMapping("/products")
 public ResponseEntity<List<Product>> getProducts() {
 
@@ -1327,7 +1328,7 @@ public ResponseEntity<List<Product>> getProducts() {
 
 **Java Example: Implementing ETag in Spring Boot**
 
-```
+```java
 @GetMapping("/products/{id}")
 public ResponseEntity<Product> getProduct(@PathVariable Long id,
     @RequestHeader(value = "If-None-Match", 
@@ -1337,7 +1338,7 @@ public ResponseEntity<Product> getProduct(@PathVariable Long id,
 
     String eTag = Integer.toHexString(product.hashCode());
     if (eTag.equals(ifNoneMatch)) {
-        return ResponseEntity.status(HttpStatus.NOT\_MODIFIED).eTag(eTag).build();
+        return ResponseEntity.status(HttpStatus.NOT_MODIFIED).eTag(eTag).build();
     }
 
     return ResponseEntity.ok().eTag(eTag).body(product);
@@ -1369,8 +1370,8 @@ server.compression.min-response-size=1024
 
 **Java Example: JSON Optimization with Jackson**
 
-```
-@JsonInclude(JsonInclude.Include.NON\_NULL) // Exclude null fields
+```java
+@JsonInclude(JsonInclude.Include.NON_NULL) // Exclude null fields
 @JsonPropertyOrder({"id", "name", "price"}) // Specify field order
 public class Product {
     private Long id;
@@ -1399,7 +1400,7 @@ Efficient database queries and proper indexing are vital for minimizing response
 
 **SQL Example: Creating an Index**
 
-`CREATE INDEX idx\_product\_name ON products(name);`
+`CREATE INDEX idx_product_name ON products(name);`
 
 **4. Using Content Delivery Networks (CDN) for API Distribution**
 
@@ -1508,7 +1509,7 @@ Logging is a critical component of monitoring, providing detailed information ab
 **Example: JSON Log Entry**
 
 
-```
+```json
 {
   "timestamp": "2024-09-07T12:34:56Z",
   "level": "ERROR",
@@ -1532,7 +1533,7 @@ Logging is a critical component of monitoring, providing detailed information ab
 
 **Java Example: Logging with Spring Boot and SLF4J**
 
-```
+```java
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -1554,7 +1555,7 @@ public class UserController {
              return users;
         } catch (Exception e) {
              logger.error("Failed to fetch users: {}", e.getMessage());
-             throw new ResponseStatusException(HttpStatus.INTERNAL\_SERVER\_ERROR, "Unable to fetch users");
+             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Unable to fetch users");
         }
     }
 }

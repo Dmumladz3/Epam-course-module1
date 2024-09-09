@@ -1,14 +1,61 @@
 # REST API Architecture Module Practical Task
 
-## Necessary Tools
+## Overall Evaluation Criteria:
+- Task 1 carries a maximum of 75 points for completeness.
+- Task 2 carries a maximum of 25 points for completeness.
 
-Java Development Kit 11+
+## Necessary Tools:
+- Java Development Kit 17+
+- Apache Maven 3.6.0+, Gradle
+- Spring Boot 3.x
 
-Apache Maven 3.6.0+, Gradle
+## TASK 1. BUILDING A REST API
 
-## Task 1.
+### 1. Set Up the Project Environment _(step 1-3 = 55 points)_
+- **Create a New Spring Boot Project:**
+    - Use Spring Initializr or your favorite IDE to create a new Spring Boot project.
+    - Choose the following dependencies:
+        - Spring Web: For building web applications.
+        - Spring Data JPA: For data persistence.
+        - Spring Boot Security: For authentication and authorization.
+        - H2 Database: For an in-memory database (or use MySQL/PostgreSQL for a production-like environment).
+        - Spring Boot Actuator: For monitoring and management.
+
+- **Configure the Application Properties:**
+    - Open application.properties or application.yml and configure the following:
+
+### 2. Define the Data Model _(5 points)_
+- **Create a User Entity:**
+    - Define a User entity to represent the user data in the database.
+- **Create a User Repository:**
+    - Create a repository interface for the User entity.
+
+### 3. Implement CRUD Operations _(50 points)_
+- **Create a User Service:**
+    - Implement a service class to handle the business logic for the User entity.
+- **Create a User Controller:**
+    - Implement a controller class to handle HTTP requests and map them to the service methods.
+
+### 4. Implement Authentication and Authorization _(5 points)_
+- **Configure Security:**
+    - Create a security configuration class to set up basic authentication.
+
+### 5. Implement Error Handling _(5 points)_
+- **Create a Global Exception Handler:**
+    - Use @ControllerAdvice to handle exceptions globally.
+- **Define Error Response Structure:**
+    - Create an ErrorResponse class to structure error messages.
+
+### 6. Implement Versioning _(5 points)_
+- **Use URI Versioning:**
+    - Implement versioning by creating different versions of the controllers.
+
+### 7. Implement Pagination _(5 points)_
+- **Add Pagination to the User Controller:**
+    - Modify the getUsers method to support pagination.
+## Task 2.
 Please make a code review. 
-```
+```java
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -66,7 +113,7 @@ public class UserController {
             }
         }
 
-        this.DB_URL = "jdbc:mysql://localhost:3306/anotherdb"; // Intentional bad practice
+        this.DB_URL = "jdbc:mysql://localhost:3306/anotherdb";
 
         if (username == null || username.isEmpty() || password == null || password.isEmpty()) {
             resp.setStatus(500); 
@@ -84,59 +131,6 @@ public class UserController {
     }
 }
 ```
-
-## TASK 2.
-**Hands-on Project: Building a REST API**
-
-**Step 1: Set Up the Project Environment**
-
-1. **Create a New Spring Boot Project:**
-    1. Use Spring Initializr or your favorite IDE to create a new Spring Boot project.
-    1. Choose the following dependencies:
-        1. **Spring Web**: For building web applications.
-        1. **Spring Data JPA**: For data persistence.
-        1. **Spring Boot Security**: For authentication and authorization.
-        1. **H2 Database**: For an in-memory database (or use MySQL/PostgreSQL for a production-like environment).
-        1. **Spring Boot Actuator**: For monitoring and management.
-1. **Configure the Application Properties:**
-    1. Open application.properties or application.yml and configure the following:
-
-**Step 2: Define the Data Model**
-
-1. **Create a User Entity:**
-    1. Define a User entity to represent the user data in the database.
-1. **Create a User Repository:**
-    1. Create a repository interface for the User entity.
-
-**Step 3: Implement CRUD Operations**
-
-1. **Create a User Service:**
-    1. Implement a service class to handle the business logic for the User entity.
-1. **Create a User Controller:**
-    1. Implement a controller class to handle HTTP requests and map them to the service methods.
-
-**Step 4: Implement Authentication and Authorization**
-
-1. **Configure Security:**
-    1. Create a security configuration class to set up basic authentication.
-
-**Step 5: Implement Error Handling**
-
-1. **Create a Global Exception Handler:**
-    1. Use @ControllerAdvice to handle exceptions globally.
-1. **Define Error Response Structure:**
-    1. Create an ErrorResponse class to structure error messages.
-
-**Step 6: Implement Versioning**
-
-1. **Use URI Versioning:**
-    1. Implement versioning by creating different versions of the controllers.
-
-**Step 7: Implement Pagination**
-
-1. **Add Pagination to the User Controller:**
-    1. Modify the getUsers method to support pagination
-
 
 
 
