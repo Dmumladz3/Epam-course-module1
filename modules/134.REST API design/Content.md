@@ -26,8 +26,8 @@
 
 **Required time for the course:** 
 =======================
-- Lectures: ~4h
-- Tasks: ~2h mandatory
+- Lectures: ~5h
+- Tasks: ~8h mandatory
 
 
 **Lectures**:
@@ -1572,4 +1572,11 @@ Effective monitoring and logging are essential for maintaining API performance, 
 **References**:
 =======================
 [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
+
+[http spec](https://httpwg.org/specs/)
+[Spring Boot REST service](https://spring.io/guides/gs/rest-service)
+[Spring Boot OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2)
+[OpenAPI](https://spec.openapis.org/oas/v3.1.0.html)
+
+
   
