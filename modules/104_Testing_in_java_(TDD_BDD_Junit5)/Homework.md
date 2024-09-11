@@ -1,8 +1,7 @@
 # Testing Module Practical Task
 
 ## Environment
-- **IDE:** IntelliJ IDEA 2024.2.1 Ultimate Edition
-- **Build Tool:** Gradle
+- **Build Tool:** Gradle/Maven
 - **Version Control:** Git
 - **Testing Framework:** JUnit 5
 
