@@ -4,13 +4,21 @@
 
 **Topics:**
 =======================
-- Java memory model
+- [Java memory model](https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html#jls-17.4)
 - Concurrency vs parallelism vs multithreading
-- Thread API
-- Synchronization & Locks
+    + [Concurrency](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html)
+    + [Processes and Threads](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html)
+- [Thread API](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html)
+- [Synchronization & Locks](https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html#jls-17.1)
 - Volatile, Atomics & AtomicReference
+    + [volatile Keyword](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.3.1.4)
+    + [Atomics](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/concurrent/atomic/package-summary.html)
+    + [AtomicReference](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/concurrent/atomic/AtomicReference.html)
 - Thread pools & executors
-- Other concurrent package possibilities 
+  + [Thread pools](https://docs.oracle.com/javase/tutorial/essential/concurrency/pools.html)
+  + [Executors](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/concurrent/Executors.html)
+- Other features:
+  + [Java Concurrent Animated](https://sourceforge.net/projects/javaconcurrenta/): Animations that show usage of concurrency features.
 
 **Required time for the course:** 
 =======================
@@ -49,3 +57,7 @@ https://docs.oracle.com/javase/tutorial/essential/concurrency/
 - [Java-Concurrency-Practice-Brian-Goetz](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601) 
 
 - [Art-Multiprocessor-Programming](https://www.amazon.com/Art-Multiprocessor-Programming-Revised-Reprint/dp/0123973376)
+- Concurrent Programming in Java: Design Principles and Pattern (2nd Edition) by Doug Lea. A comprehensive work by a leading expert, who's also the architect of the Java platform's concurrency framework.
+- Java Concurrency in Practice by Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, and Doug Lea. A practical guide designed to be accessible to the novice.
+- Effective Java Programming Language Guide (2nd Edition) by Joshua Bloch. Though this is a general programming guide, its chapter on threads contains essential "best practices" for concurrent programming.
+- Concurrency: State Models & Java Programs (2nd Edition), by Jeff Magee and Jeff Kramer. An introduction to concurrent programming through a combination of modeling and practical examples.
