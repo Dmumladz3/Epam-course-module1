@@ -27,6 +27,14 @@
 * [TDD best practices](https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
 * [Article: Mocks are not Stubs](http://martinfowler.com/articles/mocksArentStubs.html)
 * [Article: Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+* [Testing pyramid](https://martinfowler.com/bliki/TestPyramid.html)
+* [Mocks Fakes Stubs and Dummy](http://xunitpatterns.com/Mocks,%20Fakes,%20Stubs%20and%20Dummies.html)
+* [JUnit User Guide](http://junit.org/junit5/docs/current/user-guide/)
+* [EasyMock User Guide](http://easymock.org/user-guide.html)
+* [Testing and Code coverage](http://pjcj.net/testing_and_code_coverage/paper.html)
+* [Spock Framework](http://spockframework.org/spock/docs/1.1-rc-2/all_in_one.html )
+* [Effective unit testing](https://www.youtube.com/watch?v=fr1E9aVnBxw )
+
 _______________________________________________
 #### Documentation: 
 * [jUnit5](https://junit.org/junit5/docs/current/user-guide/#overview)
