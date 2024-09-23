@@ -1,21 +1,8 @@
 ** Question 1 **
-=====================
-<problem>
-<multiplechoiceresponse>
-  <p>Which of this (these) Functional Interface(-s) included to standard packages?.</p>
-<choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-</problem>
-
-
-** Question 1 **
 ========================
 <problem>
 <choiceresponse>
-  <p>Which of this (these) Functional Interface(-s) included to standard packages? </p>
+  <p>Which of this (these) Functional Interface(-s) included to standard packages?</p>
 <checkboxgroup>
     <choice correct="true">BiPredicate</choice>
     <choice correct="true">Supplier</choice>
@@ -23,4 +10,200 @@
     <choice correct="false">Mapper</choice>
   </checkboxgroup>
 </choiceresponse>
+</problem>
+
+** Question 2 **
+========================
+<problem>
+<choiceresponse>
+  <p>What is (are) the correct way(-s) to create Optional<T>?</p>
+<checkboxgroup>
+    <choice correct="true">Optional.of()</choice>
+    <choice correct="false">Optionals.create()</choice>
+    <choice correct="false">Option.ofEmpty()</choice>
+    <choice correct="true">Optional.ofNullable()</choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>
+
+** Question 3 **
+========================
+<problem>
+<choiceresponse>
+  <p>What is (are) true about the functional interface?</p>
+<checkboxgroup>
+    <choice correct="false">Functional Interface can contain only one not implemented method</choice>
+    <choice correct="false">Functional Interface can't be extended</choice>
+    <choice correct="true">Functional Interface used to implement lambdas</choice>
+    <choice correct="false">Functional Interface must be marked with @FunctionalInterface</choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>
+
+** Question 4 **
+========================
+<problem>
+<choiceresponse>
+  <p>Which of this (these) Stream's method(-s) is (are) terminal method(-s)?</p>
+<checkboxgroup>
+    <choice correct="false">map()</choice>
+    <choice correct="true">foreach()</choice>
+    <choice correct="true">collect()</choice>
+    <choice correct="false">filter()</choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>
+
+** Question 5 **
+========================
+<problem>
+<choiceresponse>
+  <p>What is (are) the correct way(-s) to create Stream<T>?</p>
+<checkboxgroup>
+    <choice correct="false">Stream.from()</choice>
+    <choice correct="false">Stream.create()</choice>
+    <choice correct="false">Collections.toStream()</choice>
+    <choice correct="true">Stream.of()</choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>
+
+** Question 6 **
+========================
+<problem>
+<choiceresponse>
+  <p>What is (are) the correct lambdas' definition(-s)?</p>
+<checkboxgroup>
+    <choice correct="false">(String x) -> return 5;</choice>
+    <choice correct="true">x-> x;</choice>
+    <choice correct="false">x, y -> { return x + y; };</choice>
+    <choice correct="true">x-> { return x+5; };</choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>
+
+** Question 7 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>Which method is used to convert a Stream into a List?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">streamToList()</choice>
+    <choice correct="true">collect(Collectors.toList())</choice>
+    <choice correct="false">convertToList()</choice>
+    <choice correct="false">toList()</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 8 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>What does the filter() method in Stream API return?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">A filtered List</choice>
+    <choice correct="true">A filtered Stream</choice>
+    <choice correct="false">A boolean value</choice>
+    <choice correct="false">A Predicate</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 9 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>How do you apply a transformation to each element in a stream?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">filter()</choice>
+    <choice correct="false">forEach()</choice>
+    <choice correct="true">map()</choice>
+    <choice correct="false">transform()</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 10 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>Which of the following is a functional interface in Java?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">Runnable</choice>
+    <choice correct="false">Comparable</choice>
+    <choice correct="false">ActionListener</choice>
+    <choice correct="true">All of the above</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 11 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>How many abstract methods can a functional interface have?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">Zero</choice>
+    <choice correct="true">One</choice>
+    <choice correct="false">Two</choice>
+    <choice correct="false">Unlimited</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 12 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>Which functional interface represents a function that takes one argument and returns a value?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">Supplier<T></choice>
+    <choice correct="false">Consumer<T></choice>
+    <choice correct="false">Predicate<T></choice>
+    <choice correct="true">Function<T, R></choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 13 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>What is the target type of a lambda expression?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">Any class</choice>
+    <choice correct="true">Any functional interface</choice>
+    <choice correct="false">Any abstract class</choice>
+    <choice correct="false">Any concrete class</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 14 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>How many parameters can a lambda expression have in Java?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">One</choice>
+    <choice correct="false">Two</choice>
+    <choice correct="false">None</choice>
+    <choice correct="true">Any number of parameters</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>
+
+** Question 15 **
+=====================
+<problem>
+<multiplechoiceresponse>
+  <p>HWhich statement about lambda expressions and scope is true?</p>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">Lambda expressions cannot access local variables.</choice>
+    <choice correct="false">Lambda expressions can modify local variables directly.</choice>
+    <choice correct="true">Lambda expressions can access final or effectively final variables.</choice>
+    <choice correct="false">Lambda expressions are always static.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
 </problem>
