@@ -1,327 +1,179 @@
 # Concurrency and Multi-threading Architecture
 
-## Quiz
-#### Prepare answers to following questions
-* What are differences between `wait` and `sleep` methods in Java?
-* What is an atomic operation? What are atomic operations in Java?
-* What is a `volatile` keyword in Java? How do you use it? How is it different from the synchronized method in Java?
-* What is a race condition? How will you find and solve race condition?
-* Why do we call `start()` method which in turns calls `run()` method, why not we directly call `run()` method?
-* What is an immutable object? How does it help in writing a concurrent application?
-* Which granularity size uses `java.util.Arrays` in its parallelSort set of methods to decide to parallelize or not?
-* You have thread T1, T2, and T3. How will you ensure that thread T2 is run after T1 and thread T3 after T2?
-* What is the advantage of the `Lock` interface over a synchronized block in Java? You need to implement a high-performance cache, which allows multiple readers, but how will you implement the single writer to keep the integrity?
-* What is the difference between `CyclicBarrier` and `CountdownLatch` in Java?
-* What is "Work Stealing" algorithm?
+# 1.  Understanding Threads and ExecutorService (25 points)
+## Task Overview
+You are tasked with developing a Java console application to process multiple text files concurrently, first using basic threads and then refactoring the implementation to use `ExecutorService`. This step-by-step progression will help you understand the advantages of using `ExecutorService` over traditional threads for managing concurrent tasks more efficiently.
 
----
-# 1.1 Object, thread and monitor.
+## Part 1: Using Plain Java Threads (15 points)
+### Objectives
+1. Learn how to create and manage threads manually.
+2. Understand thread lifecycle and basic synchronization mechanisms.
+### Project Setup
+- Create a standard Java project with appropriate directory structure.
+### Implementation
+1. **Create a `FileProcessor` class**:
+    - Implements `Runnable`.
+    - Constructor takes a `String filePath`.
+    - `run()` method reads the file line by line, processes each line (e.g., converts it to uppercase), and prints it.
+2. **Main Application**:
+    - Identify all text files to be processed (placed in a specific directory).
+    - For each file, create a new `Thread` instance wrapping a `FileProcessor`.
+    - Start each thread.
+    - Use `join()` on each thread to ensure that the main thread waits for all threads to complete before exiting.
+### Points of Learning
+- Handling multiple threads and understanding the challenges such as race conditions.
+- Using synchronization tools like `join()` to control thread execution order.
 
-*First of all, we should check `Object` class and what we can see there.*
+## Part 2: Refactoring to Use ExecutorService (10 points)
+### Objectives
+1. Replace manual thread management with `ExecutorService`.
+2. Explore advanced threading features provided by the Java Concurrency API.
+### Refactoring Steps
+1. **Modify the Main Application**:
+    - Replace the manual array of `Thread` objects with an `ExecutorService`.
+    - Use `Executors.newFixedThreadPool()` to limit the number of threads.
+    - Submit instances of `FileProcessor` to the executor.
+    - After all tasks are submitted, shut down the executor using `shutdown()`.
+    - Call `awaitTermination()` to block the main thread until all tasks complete.
+2. **Enhance `FileProcessor`**:
+    - Optionally manage exceptions within each task more cleanly.
+    - Refactor long-running or complex processing code to be more interruptible.
+### Points of Learning
+- Benefits of using `ExecutorService` such as thread pooling, lifecycle management, and task scheduling.
+- Handling graceful shutdown and ensuring all tasks complete using `ExecutorService` methods.
+### Deliverables for Both Parts
+- Source code files.
+- A README file providing instructions on how to build and run the application, as well as brief notes on the implementation strategy for both parts.
+  This task sequence is designed to provide a hands-on learning experience with Java multi-threading both with and without using `ExecutorService`. It aims to illustrate the evolution from managing threads manually to adopting a modern, robust, and scalable approach with `ExecutorService`.
 
-1. *Native `notify()` method. Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation. A thread waits on an object's monitor by calling one of the wait methods.*
-    ```
-    public final native void notify();
-    ```    
-2. *Native `notifyAll()` method. Wakes up all threads that are waiting on this object's monitor. A thread waits on an object's monitor by calling one of the wait methods.*
-    ```
-    public final native void notifyAll();
-    ```    
-3. *Three versions of `wait()` method. Causes the current thread to wait until it is awakened, typically by being notified or interrupted.*  
-    ```
-        public final void wait() throws InterruptedException {
-            wait(0L);
+
+# 2. Task: Implementing a Java Thread Interruption Handling Example (25 points)
+## Description
+Create a small Java console application that demonstrates the use and handling of interrupted exceptions when working with threads. This exercise will help you understand how to properly use thread interruptions to manage stopping threads gracefully.
+## Objectives
+1. Understand how the interruption mechanism in Java threads works.
+2. Implement correct handling of `InterruptedException`.
+## Requirements
+- Java 8 or above.
+## Task Details
+### 1. Setup Project Structure
+- Create a Java project and set up a suitable package structure, e.g., `com.example.threadinterruption`.
+### 2. Creating the `InterruptibleTask` Class
+- This class will implement the `Runnable` interface.
+- The `run` method should contain a loop that performs a time-consuming operation, such as counting up to a large number or simulating a time-consuming computational algorithm.
+- Inside the loop, add a check to see if the thread has been interrupted (`Thread.currentThread().isInterrupted()`). If interrupted, break the loop, clean up necessary resources if any, and exit.
+- Log messages to the console to demonstrate the task startup, interruption notice, and task shutdown.
+### 3. Main Application Class
+- In the `main` method, start a thread using the `InterruptibleTask`.
+- Sleep the main thread for a short duration sufficient to allow the task to start executing (e.g., 1000 milliseconds).
+- Interrupt the thread running the `InterruptibleTask`.
+- Ensure the application waits for the thread to finish using the `Thread.join()` method.
+### 4. Testing Different Scenarios
+- Test by interrupting the thread at different stages of its execution to observe the behavior.
+- Optionally, modify the `InterruptibleTask` to include waiting or sleeping states using `Thread.sleep()`, and check how the task handles `InterruptedException`.
+## Expected Output
+- The console should clearly show the thread starting, handling interruption, and then terminating gracefully.
+## Steps to Run
+- Provide precise commands to compile and run the application, detailing any required environment setup.
+## Deliverables
+- Java source code files.
+- A README file explaining the implementation, how to run the test cases, and any assumptions made.
+  This task is designed to help you understand effective thread management, focusing on correctly handling interruptions to ensure that threads do not leave the system in an inconsistent state. This is fundamental for developing robust multi-threaded applications in Java.
+
+
+
+# 3. Task: Refactor a Java Service to Be Stateless for Multithreading Environment (25 points)
+## Description
+Convert a stateful Java service into a stateless service to ensure its safe usage in a multithreading environment. This task will help you understand the importance of statelessness in services that are accessed by multiple threads concurrently.
+## Objective
+- Identify and refactor statefulness in a service to ensure thread safety.
+## Requirements
+- Java 8 or above.
+- Basic understanding of Java concurrency and state management.
+## Background
+In multi-threaded environments, stateful services (services that maintain state across method calls or store data in fields) can lead to issues such as race conditions or data inconsistencies. Transforming a service to be stateless (not maintaining any shared state) ensures that it is free from such concerns.
+## Initial Setup
+You are provided with a class `UserProfileProcessor` that currently maintains a cache of user profiles as state:
+```java
+public class UserProfileProcessor {
+    private Map<String, UserProfile> cache = new HashMap<>();
+    public UserProfile getUserProfile(String userId) {
+        if (cache.containsKey(userId)) {
+            return cache.get(userId);
         }
-
-        public final native void wait(long timeoutMillis) throws InterruptedException;
-
-        public final void wait(long timeoutMillis, int nanos) throws InterruptedException {
-            ...
-        }
-    ```
-
-> More information is available here: [Class Object Java Oracle Docs](https://docs.oracle.com/javase/10/docs/api/java/lang/Object.html).
-
-*Firstly, we can use all of those method in a special block of code or can mention an additional keyword for some methods.*
-```
-...
-    synchronized(LOCK) {
-        LOCK.wait(); // LOCK is not held
+        UserProfile profile = fetchProfileFromDatabase(userId);
+        cache.put(userId, profile);
+        return profile;
     }
-...
-```
-
-*Where `LOCK` is class Object (for example: Object LOCK = new Object()). 
-The second one condition for the keyword `synchronized` is a way to use with case:*
-```
-...
-    public int counter;
-
-    public synchronized int getCounter() {
-            return counter;
-        }
-...
-```
-
-*Where can we see a `sleep()` method? Of course, the Object class doesn't have this one. Just open `Thread` class and check this method:*  
-```
-public static native void sleep(long millis) throws InterruptedException
-```
-#### Description:   
-**"Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds, subject to the precision and accuracy of system timers and schedulers. The thread does not lose ownership of any monitors..."**
-> More information is available here: [Class Thread Java Oracle Docs](https://docs.oracle.com/javase/10/docs/api/java/lang/Thread.html). 
-> [Sleep method](https://docs.oracle.com/javase/10/docs/api/java/lang/Thread.html#sleep(long))
-
-#### Extra:
-> Q: What the differed between `wait()` and `sleep()`?  
-> A: `sleep()` is a method that is used to suspend the process for a few seconds or for the time we need. But in the case of the `wait()` method, the thread goes into a waiting state and will not return automatically until we call the `notify()` or `notifyAll()` function.
-
-## Thread or Runnable?  
-*There are two ways to create a new thread of execution. One is to declare a class to be a subclass of Thread. This subclass should override the run method of class Thread. An instance of the subclass can then be allocated and started. For example, a thread that computes primes larger than a stated value could be written as follows:*
-
-```
- class PrimeThread extends Thread {
-         long minPrime;
-         PrimeThread(long minPrime) {
-             this.minPrime = minPrime;
-         }
-
-         public void run() {
-             // compute primes larger than minPrime
-              . . .
-         }
-     }
-```
-*The following code would then create a thread and start it running:*
-```
-    PrimeThread p = new PrimeThread(143);
-    p.start();
-```
-*The other way to create a thread is to declare a class that implements the Runnable interface. That class then implements the run method. An instance of the class can then be allocated, passed as an argument when creating Thread, and started. The same example in this other style looks like the following:*
-```
-  class PrimeRun implements Runnable {
-         long minPrime;
-         PrimeRun(long minPrime) {
-             this.minPrime = minPrime;
-         }
-
-         public void run() {
-             // compute primes larger than minPrime
-              . . .
-         }
-     }
- 
-```
-*The following code would then create a thread and start it running:*
-```
-    PrimeRun p = new PrimeRun(143);
-    new Thread(p).start();
-```
-
-> More about Thread you can read here: [Oracle Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html#Thread%28%29)  
-> Read more about [happens-before](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html)
-
-## 1.1 Practice part.
-1. Create a new class and use wait(), notify(), notifyAll() methods with synchronized block.
-2. Create a new class and use Thread.sleep() in method, in synchronized block.
-
----
-# 2.1 Immutable object.`volatile` and `Atomic` variables.   
-
-## Immutable classes  
-
-*Why we need immutable classes? What about the main reason?*
-
-**Immutable classes make concurrent programming easier. Immutable classes make sure that values are not changed in the middle of an operation without using synchronized blocks. By avoiding synchronization blocks, you avoid deadlocks. And since you are always working with an unchangeable consistent state, you avoid race conditions. In the following article, we will look at how to use immutable classes for concurrent programming in Java.**
-
-*Simple example:*
-```
-public class User {
-
-    private final String userName;
-    private final String password;
-
-    public ImmutableLogin(String userName, String password) {
-        super();
-        this.userName = userName;
-        this.password = password;
-    }
-    public String getUserName() {
-        return userName;
-    }
-    public String getPassword() {
-        return password;
+    private UserProfile fetchProfileFromDatabase(String userId) {
+        // Simulates fetching from the database
+        return new UserProfile(userId, "Name_" + userId);
     }
 }
 ```
-
-## Volatile variables
-**In programming, an atomic action is one that effectively happens all at once. An atomic action cannot stop in the middle: it either happens completely, or it doesn't happen at all. No side effects of an atomic action are visible until the action is complete.**  
-
-*In real case, we can see a code sample like this:*
-
-```
-public class Singleton {
-    private static volatile Singleton instance;
-
-    private Singleton() {
-    }
-
-    public static Singleton getInstance() {
-        if (instance == null) {
-            synchronized(Singleton.class) {
-                if (instance == null)
-                    instance = new Singleton();
-            }
-        }
-        return instance;
-    }
-}
-```
-
-**Atomic actions cannot be interleaved, so they can be used without fear of thread interference. However, this does not eliminate all need to synchronize atomic actions, because memory consistency errors are still possible. Using volatile variables reduces the risk of memory consistency errors, because any write to a volatile variable establishes a happens-before relationship with subsequent reads of that same variable. This means that changes to a volatile variable are always visible to other threads. What's more, it also means that when a thread reads a volatile variable, it sees not just the latest change to the volatile, but also the side effects of the code that led up the change.**
-
-**Using simple atomic variable access is more efficient than accessing these variables through synchronized code, but requires more care by the programmer to avoid memory consistency errors. Whether the extra effort is worthwhile depends on the size and complexity of the application.**
-
-> Read more about caches [Java volatile and caches](https://medium.com/@siddhusingh/volatile-visibility-in-jvm-3d2044da017c)  
-> Docs [Java Oracle documentation about volatile](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
-
-## Atomics
-*The AtomicInteger class protects an underlying int value by providing methods that perform atomic operations on the value. It shall not be used as a replacement for an Integer class.*
-*The AtomicInteger class is part of the java.util.concurrent.atomic package since Java 1.5.*
-
-*The creation of AtomicInteger is straight forward by calling a constructor. The AtomicInteger provides two methods to get and set the values of it’s instances.*
-```
-AtomicInteger atomicIntegerZero = new AtomicInteger();  //Initial value is 0
-AtomicInteger atomicIntegerTen = new AtomicInteger(10); //Initial value is 10
-int currentValue = atomicIntegerZero.get(); // 0
-atomicInteger.set(1); // set 1
-```
-
-*In real life uses, we will need AtomicInteger in two cases:*
-
-- As an atomic counter which is being used by multiple threads concurrently.
-- In compare-and-swap operations to implement non-blocking algorithms.
-
-*A compare and swap operation compares the contents of a memory location to a given value and, only if they are the same, modifies the contents of that memory location to a given new value. This is done as a single atomic operation. The atomicity guarantees that the new value is calculated based on up-to-date information; if the value had been updated by another thread in the meantime, the write would fail. To support compare and swap operations, this class provides a method which atomically sets the value to the given updated value if the current value == the expected value.*
-
-*As discussed above, the primary use of AtomicInteger is when we are in multi-threaded context and we need to perform atomic operations on an int value without using synchronized keyword.Using the AtomicInteger is equally faster and more readable than performing the same using synchronization.*
-
-> Original [Atomic integer on Java](https://howtodoinjava.com/java/multi-threading/atomicinteger-example/)
+## Task Details
+#### Part 1: Analyze the Current Service
+Identify why the UserProfileProcessor is considered stateful and why this can be problematic in a multithreading environment.
+Part 2: Design a Stateless Solution
+Outline a plan to refactor the UserProfileProcessor to be stateless. Consider:
+Removing or altering how the shared state is managed.
+Ensuring that methods do not rely on shared mutable states.
+Part 3: Write Tests
+Draft test scenarios that ensure the refactored service can handle concurrent accesses correctly. These tests should aim to uncover any data inconsistencies or race conditions.
+Expected Outcome
+The refactored UserProfileProcessor should:
+Not maintain any shared state.
+Handle concurrent requests without running into race conditions or data inconsistency issues.
+Deliverables
+A refactoring plan: Detailed outline on changes that will be made to make UserProfileProcessor stateless.
+Test scenarios: Descriptions of tests that will validate the thread safety of the refactored service.
+Conclusion
+Refactoring this service to be stateless will make it robust and reliable when accessed in multi-threaded contexts. This task will enhance your understanding of state management and its impact on application behavior in concurrent settings.
 
 
-## 2.2 Practice part.
-1. Create own immutable classes.
-2. Create a class with a counter which has the `volatile` modification.
-3. Create new class with AtomicInteger counter.
 
----
-# 3.1 Locks, `DeadLock`, Semaphore.
+# 4. Task: Exploring Java Concurrency with Atomic Variables and Concurrent Collections (25 points)
+## Description
+In this task, you will create a Java application to demonstrate the use and benefits of atomic variables and concurrent collections. This task will help you understand how to manage concurrency in Java effectively using these tools, which are designed to prevent thread interference and memory consistency errors.
+## Objectives
+1. Gain practical experience with atomic variables.
+2. Explore the functionality and benefits of concurrent collections.
+3. Understand and apply thread safety principles in a concurrent Java environment.
+## Requirements
+- Java 8 or above.
+- IDE of choice (e.g., IntelliJ, Eclipse).
+- Basic knowledge of Java threading and collections.
+## Background
+Java provides a rich set of synchronization tools, including atomic variables in the `java.util.concurrent.atomic` package and thread-safe collections in the `java.util.concurrent` package. These utilities are designed for cases where locks (synchronized methods or blocks) would be overly cumbersome or performance-impaired.
+## Task Details
+### Part 1: Working with Atomic Variables (10 points)
+#### Task
+Create a counter service that uses `AtomicInteger` and compare it with a non-synchronized integer counter in terms of thread safety and performance.
+#### Implementation
+1. Define a basic counter class using a plain integer with increment and get methods.
+2. Define another counter class using `AtomicInteger`.
+3. Create multiple threads to increment each counter a large number of times (e.g., 100,000 increments per thread, with at least 10 threads).
+4. Measure and compare the final values of each counter after all threads complete, and note any discrepancies.
+5. Measure the time taken for each approach.
+### Part 2: Exploring Concurrent Collections (15 points)
+#### Task
+Demonstrate the use of `ConcurrentHashMap` by implementing a simple caching mechanism.
+#### Implementation
+1. Create a service that fetches a numeric value for a key, simulating a delay (e.g., using `Thread.sleep`) to mimic a time-consuming computation.
+2. Cache the results using `ConcurrentHashMap` where keys are string identifiers and values are the computed numbers.
+3. Access this service concurrently from multiple threads, ensuring that each thread tries to fetch values for the same set of keys, and check the consistency of the data returned.
+### Part 3: Testing and Documentation
+#### Testing
+Write tests to ensure both components work as expected under concurrent access. For the atomic variable, ensure the counter's final count is as expected. For the concurrent collection, ensure no repeated computations for the same key and data consistency.
+#### Documentation
+Document the implementations and findings. Detail how atomic variables and concurrent collections help manage data consistency and concurrency.
+## Deliverables
+- Java source code for the counter service and caching service.
+- A test suite that confirms the functionality and thread safety of both services.
+- A comprehensive report on the performance comparisons and benefits of using atomic variables and concurrent collections.
+## Expected Outcomes
+- Improved understanding of atomic operations and their necessity in certain concurrent scenarios.
+- Insights into how concurrent collections can simplify coding for concurrent scenarios while maintaining performance and correctness.
+## Conclusion
+This practical task is designed to strengthen your understanding of handling concurrency in Java using atomic classes and concurrent collections. By comparing these tools with non-synchronized approaches, you'll learn about both the potential pitfalls of improper synchronization and the performance implications of various synchronization techniques.
 
-## Deadlock 
-
-*Deadlock describes a situation where two or more threads are blocked forever, waiting for each other.*
-
-- Classic example:  
- There're two threads and two resources.
- Thread 1 is locking `resource A` and try to get `resource B`, but Thread 2 is locking `resource B` and try to get `resource A`.
-
-
-> More information about deadlock with example: [Oracle Documentation](https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html)
-
-## Semaphore
-
-**A counting semaphore. Conceptually, a semaphore maintains a set of permits. Each acquire() blocks if necessary until a permit is available, and then takes it. Each release() adds a permit, potentially releasing a blocking acquirer. However, no actual permit objects are used; the Semaphore just keeps a count of the number available and acts accordingly.**
-
-> More information here: [Oracle documentation](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Semaphore.html)  
-> Habr (Rus) Semaphore guideline: [link](https://habr.com/ru/post/277669/)
-
-## BlockingQueue
-
-**A Queue that additionally supports operations that wait for the queue to become non-empty when retrieving an element, and wait for space to become available in the queue when storing an element.**
-
-> More [Oracle Documentation](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/BlockingQueue.html)
-
-
-## 3.2 Practice task.
-1. Solve [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
-Using:
-  1.1 Semaphore
-  1.2 BlockingQueue
-2. Write simplest code that will result in a deadlock.
-
----
-
-## 4.1 Blurring for Clarity? (Join pool, ForkPool and etc)
-
-**The fork/join framework is an implementation of the ExecutorService interface that helps you take advantage of multiple processors. It is designed for work that can be broken into smaller pieces recursively. The goal is to use all the available processing power to enhance the performance of your application.**
-
-**As with any ExecutorService implementation, the fork/join framework distributes tasks to worker threads in a thread pool. The fork/join framework is distinct because it uses a work-stealing algorithm. Worker threads that run out of things to do can steal tasks from other threads that are still busy.**
-
-**The center of the fork/join framework is the ForkJoinPool class, an extension of the AbstractExecutorService class. ForkJoinPool implements the core work-stealing algorithm and can execute ForkJoinTask processes.**
-
-> See more: [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
-
-## 4.2 Practice part.
-Execute `ForkBlur` example from [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
-
----
-
-## 5.1 RecursiveTask, RecursiveAction
-**A recursive resultless ForkJoinTask. This class establishes conventions to parameterize resultless actions as Void ForkJoinTasks. Because null is the only valid value of type Void, methods such as join always return null upon completion.**
-
-## 5.2 Practice task.
-1. Give last example from [`RecursiveAction`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/RecursiveAction.html) javadoc about calculation of sum of squares in `double[]` array.
-2. Use double array of half-billion size `500_000_000` filled by random doubles.
-3. Compare speed with direct linear calculation (you may use Stream API as well):
-
-```
-    double sum = 0;
-    for (double v : ARRAY) {
-        sum += v * v;
-    }
-```
-
----
-
-## 6.1 Future & CompletableFuture
-
-First of all, we should read about Future.
-
-`A Future represents the result of an asynchronous computation. Methods are provided to check if the computation is complete, to wait for its completion, and to retrieve the result of the computation. The result can only be retrieved using method get when the computation has completed, blocking if necessary until it is ready. Cancellation is performed by the cancel method. Additional methods are provided to determine if the task completed normally or was cancelled. Once a computation has completed, the computation cannot be cancelled. If you would like to use a Future for the sake of cancellability but not provide a usable result, you can declare types of the form Future<?> and return null as a result of the underlying task.`
-
-For example: 
-```
- FutureTask<String> future =
-   new FutureTask<String>(new Callable<String>() {
-     public String call() {
-       return searcher.search(target);
-   }});
- executor.execute(future);
-```
-
-**A Future that may be explicitly completed (setting its value and status), and may be used as a CompletionStage, supporting dependent functions and actions that trigger upon its completion.
-When two or more threads attempt to complete, completeExceptionally, or cancel a CompletableFuture, only one of them succeeds.**
-
-> Read more here: [Oracle documentation](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html)
-
-## 6.2 Practice task.
-1. Watch video from Alexey Zinovyev with practical examples about `CompletableFuture`: [Concurrency and Multi-Threading Architecture (Part 2/2)](https://videoportal.epam.com/video/LoBYr2a9)  
-2. (Optional) Create some task with CompletableFuture with reading/writing (NIO).
----
-
-
-## Practical task evaluation rules
-* Deadlock simulation : 1 point
-* Producer-consumer problem : 1 point
-* FibonacciTask : 1 point
-* Sum of double squares : 0.5 points
-* Blurring for Clarity : 0.5 points
-* CompletableFuture examples : 1 point
-
-## References
-1. [java.util.concurrent (Java Platform SE 8 )](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html)
-1. [Java SE High Level Concurrency tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/highlevel.html)
-1. [Java SE Fork/Join tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html)
-1. [Concurrency Models](http://tutorials.jenkov.com/java-concurrency/concurrency-models.html)
-1. [Java EE Concurrency and Multithreading](https://www.linkedin.com/comm/learning/java-ee-concurrency-and-multithreading)
