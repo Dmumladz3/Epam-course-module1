@@ -10,7 +10,7 @@
 - **Testing Framework:** JUnit 5
 
 ### Task List
-1. Please use [jmp-parent](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/tree/master/modules/1.%20Java%208%2C%209%2C%2010%2C%2011%2B/jmp-parent) as base code for this task.
+1. Please use [jmp-parent](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/tree/master/modules/101_Java_8_and_upper/jmp-parent?ref_type=heads) as base code for this task.
 2. Implement `BankCard createBankCard(User user, BankCardType cardType)` method in `jmp-cloud-bank-impl` module. The method should return an object of `CreditBankCard` or `DebitBankCard` depending on the `BankCardType`.
 3. Add implementation for `ServiceImpl` into `jmp-cloud-service-impl`.
 4. Use `var` for the definition of local variables wherever it’s applicable.
