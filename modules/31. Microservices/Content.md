@@ -25,7 +25,7 @@ Tasks: ~4h mandatory
 
 [Async communication in microservices](https://learn.epam.com/detailsPage?id=d5fd03e9-a3f6-43be-a11a-cf4f22e101da) 1h 45m
 
-[Sync communication with Feign and Eureka](https://learn.epam.com/detailsPage?id=eb8ad9c6-27af-4018-8bb0-638edcad67c5)  1h 12m
+[Sync communication with Feign and Eureka](https://www.linkedin.com/learning/spring-cloud-cloud-native-architecture-and-distributed-systems/spring-to-the-cloud)  1h 12m
 
 [Introduction to Testcontainers](https://www.youtube.com/watch?v=mHHHpxJuTAo)
 **References**:
