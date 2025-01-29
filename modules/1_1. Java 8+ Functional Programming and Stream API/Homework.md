@@ -18,7 +18,7 @@ The following value record class defined somewhere:
 
 Write a Java function `Stream<Prop> generate(int n)` that and produces stream of `n` items with randomly generated id's and incremental values, starting from 0. 
 
-##### Flatening (7 points)
+##### Flatening (5 points)
 
 Write a Java function `Stream<UUID> toIds(List<List<Prop>>)` that returns a stream of all `id` property values of all Prop objects in the supplied structure. 
 
@@ -36,7 +36,7 @@ For the purpose of this task, the word is defined as sequence of 1 or more non-w
 Write a Java function that takes `Stream<Prop>` and returns a `Stream<String>`.
 The result stream should contains all non-null properties of the objects (e.g. `id`, `name` and `value`).
 
-##### Sorting (10 points)
+##### Sorting (7 points)
 
 Write a Java function that takes `Stream<Prop>` and returns a `List<Prop>` sorted by `value` property first then by `name`. 
 
@@ -58,7 +58,7 @@ Write a Java function that takes `Stream<Prop>` and returns information about na
 Name conflict is defined as having multiple items with same names but different id's.
 Feel free to pick the resulting data structure as you see fit. 
 
-##### Stateful Collectors (10 points)
+##### Stateful Collectors (15 points)
 
 Write a Java function that takes `Stream<Prop>` and returns `Map<String, Integer>`. 
 Keys in the returned map are taken from `name` property and values are sum of the `value` properties  
