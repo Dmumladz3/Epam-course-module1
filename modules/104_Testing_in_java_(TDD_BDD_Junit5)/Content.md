@@ -11,7 +11,7 @@
 - Testing best practices
 
 ### Theory:
-* [TDD](https://learn.epam.com/detailsPage?id=ba8efca6-d894-4efb-826f-0b2c762971a3 )
+* [TDD](https://www.linkedin.com/learning/practical-test-driven-development-for-java-programmers/welcome?dApp=53239054&leis=LAA&u=2113185)
 * [JUnit](https://dev.to/saiupadhyayula/junit-5-tutorial-for-beginners-o8a)
 * [PowerMock](https://java2blog.com/powermock-tutorial)
 * [BDD](https://learn.epam.com/detailsPage?id=59788675-6857-49b9-a21b-df4ce51dcfe2)
