@@ -19,8 +19,8 @@ public class Sender {
     private KafkaTemplate<String, Object> kafkaTemplate;
 
     public void send(Object user) {
-        LOGGER.info("sending user='{}'", user.toString());
-        LOGGER.info(String.format("#### -> Producing message -> %s", user.toString()));
+        LOGGER.info("Sending user='{}'", user.toString());
+        LOGGER.info("#### -> Producing message -> {}", user.toString());
         kafkaTemplate.send(avroTopic, user);
     }
 }
