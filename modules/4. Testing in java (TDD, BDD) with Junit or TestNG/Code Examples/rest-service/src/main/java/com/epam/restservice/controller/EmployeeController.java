@@ -1,7 +1,6 @@
 package com.epam.restservice.controller;
 
 import com.epam.restservice.jpa.Employee;
-import com.epam.restservice.jpa.EmployeeRepository;
 import com.epam.restservice.services.EmployeeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -14,7 +13,7 @@ import java.util.List;
  * Controller class
  */
 @RestController
-@Api(value = "Employee CRUD service", description = "Employee CRUD service")
+@Api(value = "Employee CRUD service")
 public class EmployeeController {
 
     /**
@@ -57,7 +56,6 @@ public class EmployeeController {
      * Update Employee
      * @param newEmployee <code>Employee</code> newEmployee
      * @param id <code>Long</code> Id of Employee
-     * @return
      */
     @PutMapping("/employees/{id}")
     Employee updateEmployee(@RequestBody Employee newEmployee, @PathVariable Long id) {
@@ -75,7 +73,7 @@ public class EmployeeController {
     }
 
     /**
-     * Delete all employee
+     * Delete all employees
      */
     @DeleteMapping("/employees")
     void deleteAll(){
