@@ -1,8 +1,8 @@
-># **Preparation**
+# Preparation
 >- In the first task, you will need to write a gRPC client in any other language you like, so you probably need to install some dependencies.
 >- You need to install Kafka for the second task (or Docker if you want to run it in a container)
 
-# **Main**
+# Main
 1. **gRPC part** *(40 points)*
     - Create a simple gRPC server application that listens on port 8080 for a request like this (feel free to add more fields)
       ``` json

@@ -12,11 +12,11 @@ import org.springframework.kafka.core.ProducerFactory;
 public class SenderConfig {
     @Bean
     public ProducerFactory<String, Object> producerFactory(KafkaProperties kafkaProperties) {
-        return new DefaultKafkaProducerFactory<String, Object>(CastUtil.castMap(kafkaProperties.getProducer()));
+        return new DefaultKafkaProducerFactory<>(CastUtil.castMap(kafkaProperties.getProducer()));
     }
 
     @Bean
     public KafkaTemplate<String, Object> kafkaTemplate(KafkaProperties kafkaProperties) {
-        return new KafkaTemplate<String, Object>(producerFactory(kafkaProperties));
+        return new KafkaTemplate<>(producerFactory(kafkaProperties));
     }
 }
