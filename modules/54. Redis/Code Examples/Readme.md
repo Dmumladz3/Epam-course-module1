@@ -2,7 +2,7 @@
 
 ## Environment prerequisites
 1. Docker installed
-2. JDK 8+
+2. JDK 21+
 3. Update `C:\Windows\System32\drivers\etc\hosts` file on Windows (you should use notepad in Administrator access mode)
 or `/etc/hosts` on Linux, add following entries:
 ```
@@ -13,7 +13,7 @@ or `/etc/hosts` on Linux, add following entries:
 
 ## Environment check
 
-Open terminal in `src/test/resource/redis` folder
+Open terminal in the project's root folder
 
 1. Try to start redis cluster with docker compose (detached mode)
 ```shell
