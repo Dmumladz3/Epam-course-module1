@@ -17,7 +17,7 @@
 **Lectures:** 
 =======================
 
-* [Advanced SQL for Query Tuning and Performance Optimization](https://learn.epam.com/detailsPage?id=cf3d74d6-e934-4398-a971-334f29fd728b) 1 hr 44 min
+* [Advanced SQL for Query Tuning and Performance Optimization](https://learn.epam.com/catalog/detailsPage?id=98e73e99-4197-4906-8d16-fa14aa4a6084) 2 hr 9 min
 * [Advanced SQL: Logical Query Processing, Part 1](https://learn.epam.com/detailsPage?id=ea8c0ff2-6cc8-467e-bc63-31f94509edf5) 1 hr 40 min 
 * [Advanced SQL: Logical Query Processing, Part 2](https://learn.epam.com/detailsPage?id=223b9d4a-836b-4c62-ac18-2f2a6cb7a439) 2 hrs 2 min
 (Optional)
