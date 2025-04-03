@@ -22,8 +22,8 @@
 =======================
 - [Elasticsearch Official documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
 - [Useful Elasticsearch Example Queries](https://dzone.com/articles/23-useful-elasticsearch-example-queries)
-- [Part I: How Elasticsearch Works Internally](https://buildatscale.tech/how-elasticsearch-works-internally/)
-- [Part II: How Elasticsearch Works Internally](https://buildatscale.tech/elasticsearch-internals/)
+- ~~Part I: How Elasticsearch Works Internally~~
+- ~~Part II: How Elasticsearch Works Internally~~
 - [How does Elasticsearch work?](https://hub.packtpub.com/how-does-elasticsearch-work-tutorial/)
 - [Breaking down Elasticsearch in Real-time](https://www.skedler.com/blog/elastic-search-101/)
 - [ELK short overview](https://dev.to/lisahjung/beginner-s-guide-to-elasticsearch-4j2k)
