@@ -1,29 +1,27 @@
 plugins {
     id 'java'
-    id "org.springframework.boot" version "2.7.0"
+    id 'org.springframework.boot' version '3.4.2'
 }
 
-group 'org.example'
+apply plugin: 'io.spring.dependency-management'
+
+group 'com.epam.examlpe.amq'
 version '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = '21'
+}
 
 repositories {
     mavenCentral()
 }
 
-def springVersion = '2.7.0'
-
 dependencies {
-    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: springVersion
-    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: springVersion
-    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-activemq
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-activemq', version: springVersion
-    // https://mvnrepository.com/artifact/org.projectlombok/lombok
-    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
-    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
-}
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-activemq'
 
-test {
-    useJUnitPlatform()
+    compileOnly 'org.projectlombok:lombok:1.18.36'
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.36'
 }

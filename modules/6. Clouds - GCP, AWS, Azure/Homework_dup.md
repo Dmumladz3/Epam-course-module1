@@ -33,7 +33,6 @@
 
 ## References
 
-* [Personal Projects](https://kb.epam.com/display/EPMCITFAQ/Personal+Projects) in EPAM Cloud
 * [Maestro CLI Commands](https://cloud.epam.com/site/learn/documentation)
 * [AWS Technical Essentials](https://aws.amazon.com/training/course-descriptions/essentials/)
 * [Building Scalable Java Microservices with Spring Boot and Spring Cloud](https://www.coursera.org/learn/google-cloud-java-spring)

@@ -17,7 +17,7 @@ Tasks: ~10h mandatory + ~6h optional
 
 **Course Links:**
 ======================= 
-* [Programming Foundations: Algorithms:](https://learn.epam.com/detailsPage?id=50c159e3-f910-4177-8eb9-d0c96d5cea81) 1h 45m
+* [Programming Foundations: Algorithms:](https://www.linkedin.com/learning/programming-foundations-algorithms-22973142/algorithms-power-the-world?u=2113185) 1h 45m
 * [Effective Java presentation](https://epam.sharepoint.com/sites/CDP/java/Trainings/476/Effective%20Java%20Presentation%20Rafael%20Cassemiro%20Freire.pptx)
 * [Effective Java presentation 2](https://epam.sharepoint.com/sites/CDP/java/Trainings/476/Effective%20Java_presentation_Viktor%20M%C3%A1jer.pptx)
 * [Effective Java presentation 3](https://epam.sharepoint.com/sites/CDP/java/Trainings/476/Effective%20Java_presentation_Roman%20Rastiehaiev.pptx)

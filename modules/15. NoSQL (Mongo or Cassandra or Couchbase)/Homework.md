@@ -37,14 +37,14 @@ Create simple task manager console app. Your tasks should have the following fie
 
 Provide the following operations:
 
-1. Display on console all tasks.
-2. Display overdue tasks.
-3. Display all tasks with a specific category (query parameter).
-4. Display all subtasks related to tasks with a specific category (query parameter).
-5. Perform insert/update/delete of the task.
-6. Perform insert/update/delete all subtasks of a given task (query parameter).
-7. Support full-text search by word in the task description.
-8. Support full-text search by a sub-task name.
+1. Display on console all tasks. 5 points
+2. Display overdue tasks. 5 points
+3. Display all tasks with a specific category (query parameter). 5 points
+4. Display all subtasks related to tasks with a specific category (query parameter). 5 points
+5. Perform insert/update/delete of the task. 5 points 
+6. Perform insert/update/delete all subtasks of a given task (query parameter). 10 points
+7. Support full-text search by word in the task description. 10 points
+8. Support full-text search by a sub-task name. 5 points 
 
 For the highest score, you can try to implement DAO with any ORM solution for MongoDB (+10 bonus points).
 

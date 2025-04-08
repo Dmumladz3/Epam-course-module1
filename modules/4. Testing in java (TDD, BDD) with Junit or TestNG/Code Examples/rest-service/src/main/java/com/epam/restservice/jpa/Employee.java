@@ -1,6 +1,6 @@
 package com.epam.restservice.jpa;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 /**
  * Employee model

@@ -13,13 +13,12 @@ import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 public class ReceiverConfig {
     @Bean
     public ConsumerFactory<String, Object> consumerFactory(KafkaProperties kafkaProperties) {
-        return new DefaultKafkaConsumerFactory<String, Object>(CastUtil.castMap(kafkaProperties.getConsumer()));
+        return new DefaultKafkaConsumerFactory<>(CastUtil.castMap(kafkaProperties.getConsumer()));
     }
 
     @Bean
     public ConcurrentKafkaListenerContainerFactory<String, Object> kafkaListenerContainerFactory(KafkaProperties kafkaProperties) {
-        ConcurrentKafkaListenerContainerFactory<String, Object> factory =
-                new ConcurrentKafkaListenerContainerFactory<>();
+        var factory = new ConcurrentKafkaListenerContainerFactory<String, Object>();
         factory.setConsumerFactory(consumerFactory(kafkaProperties));
 
         return factory;

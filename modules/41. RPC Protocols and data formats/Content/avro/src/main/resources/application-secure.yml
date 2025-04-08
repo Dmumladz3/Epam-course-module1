@@ -1,0 +1,39 @@
+# This file declares settings that should be used while connecting to remote Kafka services.
+spring:
+  kafka:
+    properties:
+      security:
+        protocol: SASL_SSL
+      sasl:
+        mechanism: PLAIN
+        jaas:
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required username="${KAFKA_USER}" password="${KAFKA_PASSWORD}";
+      basic:
+        auth:
+          credentials.source: USER_INFO
+          user.info: ${KAFKA_REGISTRY_USER}:${KAFKA_REGISTRY_PASSWORD}
+    consumer:
+      security:
+        protocol: SASL_SSL
+      sasl:
+        mechanism: PLAIN
+        jaas:
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required username="${KAFKA_USER}" password="${KAFKA_PASSWORD}";
+      basic:
+        auth:
+          credentials.source: USER_INFO
+          user.info: ${KAFKA_REGISTRY_USER}:${KAFKA_REGISTRY_PASSWORD}
+      specific:
+        avro:
+          reader: true
+    producer:
+      security:
+        protocol: SASL_SSL
+      sasl:
+        mechanism: PLAIN
+        jaas:
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required username="${KAFKA_USER}" password="${KAFKA_PASSWORD}";
+      basic:
+        auth:
+          credentials.source: USER_INFO
+          user.info: ${KAFKA_REGISTRY_USER}:${KAFKA_REGISTRY_PASSWORD}
