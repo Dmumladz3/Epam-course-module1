@@ -7,7 +7,7 @@
 [Minikube Installation](https://minikube.sigs.k8s.io/docs/start/) 
 [Deploying to Kubernetes cluster using Jenkins](https://www.youtube.com/watch?v=V4kYbHlQYHg)
 [Deploying to Kubernetes cluster using Jenkins](https://faun.pub/ci-cd-pipeline-using-jenkins-to-deploy-on-kubernetes-cf2fd5e185b8)
-[Jenkins Essential Training](https://learn.epam.com/detailsPage?id=b22370a3-e602-48eb-b951-fc668b67f584)
+[Jenkins Essential Training](https://www.linkedin.com/learning/jenkins-essential-training-17420152)
 [Continuous Integration](https://learn.epam.com/detailsPage?id=379ac5a0-cffb-4b5b-b040-c3e8933e8f31)
 
 **Self-paced**
