@@ -1,2 +1,0 @@
-Serhii Honchar
-Roman Gordiienko

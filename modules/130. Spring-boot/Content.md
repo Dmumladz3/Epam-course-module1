@@ -24,11 +24,9 @@
 **Spring-boot magic - how auto-configuration works:**
 =======================
 
-- [En] [Intro in Spring Boot](https://learn.epam.com/detailsPage?id=d806f913-4cdd-4a54-9eea-ce53096f7e0a) 1h 40m
+- [En] [Intro in Spring Boot](https://learn.epam.com/catalog/detailsPage?id=7d557261-043e-4e36-9454-dca952979de0) 1h 40m
 
 - [En] [Spring Boot: Under the Hood / Nicolas Fränkel](https://www.youtube.com/watch?v=zSJFx0iyrq4) 30m
-
-- [En] [Spring boot 2.0 new features (Optional)](https://www.linkedin.com/learning/spring-5-0-and-spring-boot-2-0-new-features/next-steps) 2h 00m
 
 **Spring boot actuator:**
 =======================
