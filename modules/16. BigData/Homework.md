@@ -57,7 +57,7 @@ create table ads_data
 4. Upload CSV data file using DataGrip (or any other SQL Manager) to the ads_data table. 
    It can be done in DataGrip by right click on table name and select Import Data from File.
 
-Use this data file for import: [default_ads_data.csv](https://drive.google.com/file/d/1dnUrhf_Ae3_cDJCHYrPrdCTEwbqFoq6u/view?usp=sharing)
+Use this data file for import: [default_ads_data.csv](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/blob/master/modules/16.%20BigData/default_ads_data.csv)
 
 ![image.png](data/image.png)
 
