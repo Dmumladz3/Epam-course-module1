@@ -117,7 +117,7 @@ Task 5 - Spark and SMS
 
 **Cost**: 20 points.
 
-Find top 5 spam words are not contained in ham messages (use [smsData.txt](smsData.txt)).
+Find top 5 spam words are not contained in ham messages (use [smsData.txt](https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/blob/master/modules/16.%20BigData/data/smsData.txt)).
 Implement your solution via one of approaches (RDD/DataFrames/SparkSQL). Java or Scala as you wish.
 
 
