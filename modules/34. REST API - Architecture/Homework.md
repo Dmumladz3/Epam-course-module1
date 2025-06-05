@@ -10,7 +10,7 @@ Git 2.24+
 
 ## Necessary Knowledge
 
-Spring Boot 2
+Spring Boot 2 / Spring Boot 3.X 
 
 ##Task
 
@@ -103,7 +103,7 @@ Spring Boot 2
     - SubscriptionRequestDto to Subscription
     - Subscription to SubscriptionResponseDto
 
-##### 21.	Document methods in UserController and ServiceController using Swagger 2 annotations.
+##### 21.	Document methods in UserController and ServiceController using Swagger 2 / OpenAPI annotations.
 ##### 22.   Make sample requests to UserController and ServiceController via Swagger UI, provide screenshots.
 
 (20 points)
