@@ -4,7 +4,7 @@ Build tools & CI/CD task
 
 **Part 1. Build tools** 
 
-Download archive with sources of multi module project with the following structure: 
+Download archive (build tools) with sources of multi module project with the following structure: 
 
 	builders\ 
 		admin\ 
