@@ -6,7 +6,7 @@ Build tools & CI/CD task
 
 Download archive with sources of multi module project with the following structure: 
 
-	- builders\ 
+	builders\ 
 		admin\ 
 		services\
 		utils\
