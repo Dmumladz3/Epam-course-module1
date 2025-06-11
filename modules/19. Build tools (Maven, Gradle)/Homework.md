@@ -7,10 +7,10 @@ Build tools & CI/CD task
 Download archive with sources of multi module project with the following structure: 
 
 builders\ 
-	admin\ 
-	services\
-	utils\
-	web\  
+---admin\ 
+---services\
+---utils\
+---web\  
 Create Ant+Ivy (Optional), Maven and Gradle build scripts to build the project. Two artifacts – war (for web module) and jar (for admin module) should be generated as a result of script running. Also you need to create README file with build instructions. 
 
 Task details: 
