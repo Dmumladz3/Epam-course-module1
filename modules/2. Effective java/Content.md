@@ -51,8 +51,8 @@ Optional:
 * [Cache management](https://www.tutorialspoint.com/Cache-Management)
 * [Design patterns](https://www.tutorialspoint.com/design_pattern/index.htm)
 * [Data structures and algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm )
-* [Collections in Java](https://www.javatpoint.com/collections-in-java)
-* [Fail Fast and Fail Safe Iterator in Java](https://www.javatpoint.com/fail-fast-and-fail-safe-iterator-in-java)
+* [Collections in Java](https://www.tpointtech.com/collections-in-java)
+* [Fail Fast and Fail Safe Iterator in Java](https://www.geeksforgeeks.org/java/fail-fast-fail-safe-iterators-java/)
 
 
 
