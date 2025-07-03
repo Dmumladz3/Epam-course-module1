@@ -3,7 +3,7 @@
 *Part 1. Basic (40 points)*
 1. Change your system, global and repository config (add some values). Inspect how it is override.
 2. Add some aliases in your own opinion.
-3. Make init commit.
+3. Make an empty git repository by using the git init command.
 4. Create develop branch. Checkout on it.
 5. Create index.html empty file. Commit.
 6. Create branch with any name. Checkout on it. Add some images folder with images inside it. Commit.
@@ -11,7 +11,7 @@
 8. Go back to develop branch.
 9. Create branch with any name. Checkout on it. Add some styles folder with styles source inside it. Commit.
 10. Change your index.html. Add some styles inside it. Commit.
-11. Go to develop branch.
+11. Go to develop branch and add some text on the index.html file. 
 12. Merge two new branches into develop using git merge command.
 13. Don’t delete two new branches!
 14. Merge develop into master
