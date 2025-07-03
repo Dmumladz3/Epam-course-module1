@@ -1,69 +1,106 @@
-# Testing Module Practical Task
+# TDD Exercises for Java Developers
 
-## Environment
-- **Build Tool:** Gradle/Maven
-- **Version Control:** Git
-- **Testing Framework:** JUnit 5
+## **Test-Driven Development (TDD) Overview**
 
-## Task description
-Messenger. 
+Test-Driven Development (TDD) is a software development approach that emphasizes writing tests **before** implementing the code. It follows a structured **Red-Green-Refactor** cycle:
 
-Using scratch project (/source/messenger.zip), it is necessary to create messenger that will pretend to send emails using custom template generator.  
+1. **Red**: Write a failing test for new functionality.
+2. **Green**: Implement the minimal code to make the test pass.
+3. **Refactor**: Optimize the code for maintainability and readability while keeping tests passing.
 
-The implementation of the template generator should be your own. You are not allowed to use any third-parties libraries. Use TDD approach for template generator. Each step should be a separate commit.  
+### Benefits of TDD:
+- Improves code quality and design.
+- Reduces debugging efforts.
+- Encourages modular, testable code.
 
-Set of requirements for the mail template generator, you should create list of TDD tests for these requirements: 
+---
 
-    The system replaces variable placeholders like #{subject} from a template with values provided at runtime. 
+## **TDD Exercises**
 
-    If at least for one placeholder value is not provided at runtime – template generator should throw an exception 
+### **Exercise 1: FizzBuzz**
+**Objective**: Write a method that takes an integer input and returns the following:
+- `"Fizz"` if the number is divisible by 3.
+- `"Buzz"` if the number is divisible by 5.
+- `"FizzBuzz"` if the number is divisible by both 3 and 5.
+- The number itself (as a `String`) if it’s not divisible by 3 or 5.
 
-    Template generator ignores values for variables provided at runtime that aren’t found from the template. 
+**Steps**:
+1. Write tests for expected input-output combinations (e.g., 3 → `"Fizz"`, 5 → `"Buzz"`).
+2. Implement the function incrementally and run all tests.
 
-    System should support values passed in runtime with #{…}. E.g. template is  “Some text: #{value}” and  at runtime #{value} passed as  #{tag}. Output should be “Some text: #{tag}”. 
+---
 
-    The system supports the full Latin-1 character set in templates and in variables. 
+### **Exercise 2: Leap Year Calculator**
+**Objective**: Write a method to determine if a year is a leap year.
+- A year is a leap year if:
+    - It is divisible by 4.
+    - But not divisible by 100, unless it is divisible by 400.
 
-Messenger should work in two modes: console and file mode.  
+**Steps**:
+1. Write tests for cases such as `2000` (leap year) and `1900` (non-leap year).
+2. Implement the method step by step while verifying all tests pass.
 
-- In console mode the application takes expression from console and prints result to console. No application parameters should be specified to use this mode.  
+---
 
-- In file mode application takes expression from file and output results to file. To use this mode user should specify input and output file names as application parameters.  
+### **Exercise 3: String Calculator**
+**Objective**: Write a method `add(String numbers)` that takes a comma-separated string of numbers and returns their sum.
 
- 
+**Requirements**:
+1. An empty string should return `0`.
+2. Numbers are separated by commas and can include newline characters (`\n`).
+3. The function must handle these edge cases incrementally while adhering to TDD principles.
 
-## Tasks:  
+---
 
-You should create tests for Messenger with the following condition (In scope of this task you can create more than one test to cover the same functionality):  
+### **Exercise 4: Prime Number Checker**
+**Objective**: Implement a method to check if a number is prime.
+- Prime numbers are greater than 1 and divisible only by 1 and the number itself.
 
-    1. TDD approach – (40 points)  
+**Steps**:
+1. Write test cases for numbers like 2, 3, 5 (prime) and 1 or -1 (not prime).
+2. Implement edge case handling for invalid inputs.
 
-    2. @Parameterized runner  and Dynamic tests (6 points)  
+---
 
-    3. Implement meta annotations and filtering (6 points) 
+### **Exercise 5: Password Validator**
+**Objective**: Create a method to validate passwords based on the following criteria:
+1. A minimum length of 8 characters.
+2. At least one uppercase letter, one lowercase letter, and one digit.
 
-    4. TemporaryFolder rule (6 points)  
+**Steps**:
+1. Develop individual tests for each rule (e.g., check length first, then special characters).
+2. Combine all validation criteria and refactor the code as needed.
 
-    5. Mock reading from file/console (6 points)  
+---
 
-    6. Use partial mock (6 points)  
+### **Exercise 6: Roman Numeral Converter**
+**Objective**: Write a method that converts integers into Roman numerals. For example:
+- `1` → `"I"`, `4` → `"IV"`, `9` → `"IX"`, `58` → `"LVIII"`.
 
-    7. Use spy (6 points)  
+**Steps**:
+1. Start small with simple mappings (1 → I, 5 → V).
+2. Gradually expand to account for more complex cases.
 
-    8. Create custom extension (jUnit5) to output test execution information to file (6 points)  
+---
 
-    9. Using ExpectedException rule to check exceptions + Assertion mechanism (6 points)  
+### **Exercise 7: Bowling Game Scorer (Advanced)**
+**Objective**: Build a scoring system for a bowling game based on the following rules:
+1. A **strike** scores 10 points plus the sum of the next two rolls.
+2. A **spare** scores 10 points plus the next single roll.
+3. Otherwise, the score is the sum of the pins knocked down.
+4. A perfect game (12 strikes) scores 300.
 
-    10. Implement Disabling test on condition (2 points) 
+**Steps**:
+- Write test cases for simple frames, spares, strikes, and perfect games.
+- Implement scoring logic and refactor iteratively.
 
-    11. Test quality and adequate coverage will be assessed as (10 points) 
+---
 
-Don't forget about good tests, checkstyle and other staff that already included into your build phase 
+## **Tips for Practicing TDD**
+- **Start Small**: Write tests for basic scenarios first, then expand to edge cases and complex cases.
+- **Red-Green-Refactor**: Stick to the cycle for each new functionality.
+- **Focus on Test Coverage**: Ensure all paths in the code are tested thoroughly.
+- **Use Frameworks**: Leverage tools like JUnit for clean, maintainable tests.
+- **Refactor Aggressively**: Improve design or performance as long as tests assure correctness.
 
- 
-
-### Extra mile: 
-
-Write BDD tests for messenger. You may use any BDD framework (Spock, JBehave, Cucumber,…). Negotiate framework with your mentor
-
- 
+By practicing progressively more difficult exercises, developers can master both writing and refactoring testable code!
