@@ -16,7 +16,7 @@
 =======================
 
 * [Spring Boot app testing](https://www.youtube.com/watch?v=Wpz6b8ZEgcU) 1h 00m
-* [Spring with JUnit](https://learn.epam.com/detailsPage?id=4e3bf752-9800-4cd1-a36f-34bf61799ad8)  1h 00m
+* [Spring with JUnit](https://www.linkedin.com/learning/test-driven-development-in-spring-boot-with-junit-and-mockito/test-driven-development-in-spring-boot)  1h 00m
 * [JUnit 5 with Spring](https://www.youtube.com/watch?v=K7g2HUhWbNE)  1h 00m
 
 **Code Examples / Workshop:**
