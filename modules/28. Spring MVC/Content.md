@@ -17,8 +17,9 @@
 
 ** Course Links** 
 =======================
-* [Spring MVC](https://learn.epam.com/detailsPage?id=ad8811ba-d538-45f9-825e-0d5ffa6cc66a) 5h 30m
-* [Testing](https://learn.epam.com/detailsPage?id=4e3bf752-9800-4cd1-a36f-34bf61799ad8) 1h 15m
+* [Spring MVC 6](https://www.linkedin.com/learning/spring-web-mvc-6/effortless-development-with-spring-web-mvc-6) 5h 30m
+*[Spring MVC Essentials](https://www.linkedin.com/learning/complete-guide-to-spring-mvc/spring-mvc-essentials)
+* [Testing](https://www.linkedin.com/learning/test-driven-development-in-spring-boot-with-junit-and-mockito/introduction-to-tdd-in-spring-boot?autoSkip=true&resume=false) 1h 15m
 
 
 
