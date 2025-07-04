@@ -18,7 +18,7 @@
 ** Course Links** 
 =======================
 * [Spring MVC 6](https://www.linkedin.com/learning/spring-web-mvc-6/effortless-development-with-spring-web-mvc-6) 5h 30m
-*[Spring MVC Essentials](https://www.linkedin.com/learning/complete-guide-to-spring-mvc/spring-mvc-essentials)
+* [Spring MVC Essentials](https://www.linkedin.com/learning/complete-guide-to-spring-mvc/spring-mvc-essentials)
 * [Testing](https://www.linkedin.com/learning/test-driven-development-in-spring-boot-with-junit-and-mockito/introduction-to-tdd-in-spring-boot?autoSkip=true&resume=false) 1h 15m
 
 
