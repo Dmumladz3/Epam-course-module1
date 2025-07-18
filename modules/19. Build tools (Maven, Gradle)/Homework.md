@@ -2,35 +2,37 @@ Build tools & CI/CD task
 
  
 
-**Part 1. Build tools** 
+**Part 1. Build tools**
 
-Download archive (build tools) with sources of multi module project with the following structure: 
+Download archive (build tools) from [here](<https://git.epam.com/epm-cdp/global-java-foundation-program/java-modules/-/blob/master/modules/19.%20Build%20tools%20(Maven,%20Gradle)/build%20tools.zip>) which contains sources of multi module project with the following structure:
 
-	builders\ 
-		admin\ 
-		services\
-		utils\
-		web\  
-Create Ant+Ivy (Optional), Maven and Gradle build scripts to build the project. Two artifacts – war (for web module) and jar (for admin module) should be generated as a result of script running. Also you need to create README file with build instructions. 
+    builders\
+    	admin\
+    	services\
+    	utils\
+    	web\
 
-Task details: 
+The modules contains only the code without build script. Your homework is to correct configure the build system for the codebase.
 
-- Only one project should be in your repository. Build scripts for different build tools should be in the root directory of the project. 
+1. Choose any of the build system:
 
-- Repository MUST not contain result artifacts (jar, war).  
+   - Ant+Ivy (Optional),
+   - Maven
+   - Gradle
 
-- README file should contain instructions to build project via Ant, Maven, Gradle tools. Instructions must contain command line to start build project. 
+   to build the project.
 
-- Build script should allow test running. Details about how to run tests should be written in README. 
+2. Two artifacts – war (for web module) and jar (for admin module) should be generated as a result of script running.
 
- 
+3. `builder` parent build script should be able to create child projects.
 
-You can get 100 points for this part  
+4. Add the target folders in the `.gitignore` folder.
 
- 
+5. Add `README` file that contain instructions to build project via Ant, Maven, Gradle tools. Instructions must contain command line to start build project.
 
-Task will not be accepted if you generate scripts by any generation tools (for example, Ant and Gradle from Maven script). 
+6. Build script should allow test running. Details about how to run tests should be written in README.
 
+You will get 100 points for this part.
  
 
 **Part 2 (Optional). CI/CD using Jenkins Home Work** 
