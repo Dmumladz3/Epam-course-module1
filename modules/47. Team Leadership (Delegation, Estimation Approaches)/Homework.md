@@ -27,12 +27,12 @@ Team:
 
 #Evaluation
 
-Each case can be rated up to **0.3** points, and you can receive up to **1 bonus** point for the whole story consistency.
+Each case can be rated up to **7** points, and you can receive up to **16 bonus** points for the whole story consistency.
 
 Case 1 - Initial Team Engagement
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * You've just met your new team. What are your first actions to establish rapport and set expectations?
 
@@ -40,7 +40,7 @@ Case 1 - Initial Team Engagement
 Case 2 - Framework Decision-Making
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * A client requires a specific framework, and another needs to be selected by your team. How will you facilitate this decision?
 
@@ -48,7 +48,7 @@ Case 2 - Framework Decision-Making
 Case 3 - Epic Estimation Process
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * The client asks for an estimation of the first epic comprised of several stories. Describe your approach and tools used for effective estimation.
 * During the estimation session, Eva expresses confusion about the process, worried about her speed relative to Adam, it's obvious to her, that she'll work on the same task much longer. How will you address her concerns and ensure she understands the estimation process?
@@ -58,7 +58,7 @@ Case 3 - Epic Estimation Process
 Case 4 - Conflict Resolution Among Team Members
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * You and all the rest team can see that something bad going on between Adam and Bob, on the first weeks they were trying just ignore their differences, but now you all can see that every daily, estimation or even discussion on any question leads to conflicts. How will you intervene and address the underlying issues?
 
@@ -66,7 +66,7 @@ Case 4 - Conflict Resolution Among Team Members
 Case 5 - Quality Assurance Adaptations
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * Diana reports recurrent issues with features breaking after updates. What strategies will you implement to tackle this?
 * Despite agreed-upon quality measures, Bob disregards these guidelines, influencing Eva to follow suit. How will you realign their actions with team protocols?
@@ -75,7 +75,7 @@ Case 5 - Quality Assurance Adaptations
 Case 6 - Bottleneck and bus factor
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * Bob is overwhelmed and becoming a bottleneck. What steps will you take to distribute the workload more effectively?
 * After 6 moth from start of project Bob suffers an injury, sidelining him for 3 weeks. How will your team manage in his absence initially, and what long-term strategies will you consider?
@@ -84,14 +84,14 @@ Case 6 - Bottleneck and bus factor
 Case 7 - Sprint Interruption by Client Request
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * The client demands the incorporation of a high-priority task mid-sprint, causing disagreement among team members. How do you assess and communicate your decision?
 
 Case 8 - Effort vs. Impact Communication
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * User story contains several tasks, one of which has tiny functionality but at the same time require large efforts. How do you discuss this with PO / Customer?
 
@@ -99,7 +99,7 @@ Case 8 - Effort vs. Impact Communication
 Case 9 - Clarifying Ambiguous Requirements
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * Business Analyst create contradiction requirements unclear for developers. What will be your actions?
 
@@ -107,7 +107,7 @@ Case 9 - Clarifying Ambiguous Requirements
 Case 10 - Aspiring Team Leader Development
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * A team member expresses interest in becoming a team lead. How will you mentor and prepare them for leadership responsibilities?
 
@@ -115,7 +115,7 @@ Case 10 - Aspiring Team Leader Development
 Case 11 - Pre-Demo Crisis Management
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * Minutes before a crucial demo to the client, a key feature fails. What immediate actions do you take to salvage the presentation?
 
@@ -123,6 +123,6 @@ Case 11 - Pre-Demo Crisis Management
 Case 12 - Project Closure and Transition Planning
 ==========================
 
-**Cost**: 0.3 points
+**Cost**: 7 points
 
 * With the project nearing completion and high team morale, what steps do you take to ensure a smooth transition or redeployment for team members?
