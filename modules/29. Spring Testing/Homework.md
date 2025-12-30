@@ -6,7 +6,9 @@ Spring Testing homework
 
 3. Configure Spring JMS infrastructure (10 point)
 
-4. Create integration tests that verify asynchronous booking, mock JMS provider using at least 2 of the approaches shown during last Spring Test lecture. (30 points)
+4. Create integration tests that verify asynchronous booking, mock JMS provider using 2 different approaches 
+    a) Mockito\@MockBean JMS тест 
+    b) Embedded in-memory JMS. (30 points)
 
 Extra mile:
 
