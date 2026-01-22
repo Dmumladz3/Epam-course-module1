@@ -1,2 +1,0 @@
-- [Siarhei Svila](mailto:Siarhei_Svila@epam.com)
-- [Viktor Shevliagin](mailto:Viktor_Shevliagin@epam.com)
